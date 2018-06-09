@@ -1,24 +1,25 @@
 package lmbenossi.Crawler;
 
-public class CrawlerThreads implements CrawlerCatalogo {
+public class CrawlerThreads {
 	private CrawlersProduto crawlers;
 	private Produtos produtos;
-	private Thread[] threads;
+	private int n;
 	
 	public CrawlerThreads(CrawlersProduto crawlers, int n) {
 		this.crawlers = crawlers;
-		this.threads = new Thread[n];
+		this.n = n;
 	}
 	
 	public Produtos crawl() {
 		produtos = new Produtos();
+		Thread[] threads = new Thread[this.n];
 		
-		for(int i = 0; i < threads.length; i++) {
+		for(int i = 0; i < this.n; i++) {
 			threads[i] = new Thread(new CrawlerRunnable());
 			threads[i].start();
 		}
 		
-		for(int i = 0; i < threads.length; i++) {
+		for(int i = 0; i < this.n; i++) {
 			try {
 				threads[i].join();
 			} catch (InterruptedException e) {

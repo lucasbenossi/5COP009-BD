@@ -1,34 +1,23 @@
 package lmbenossi.Crawler.Pichau;
 
-import java.io.IOException;
 import java.math.BigDecimal;
 
-import org.jsoup.Connection;
-import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 
 import lmbenossi.Crawler.CrawlerProduto;
+import lmbenossi.Crawler.HtmlDoc;
 import lmbenossi.Crawler.Loja;
 import lmbenossi.Crawler.Produto;
 
-public class PichauProduto implements CrawlerProduto {
-	private String url;
-	
+public class PichauProduto extends CrawlerProduto {
 	public PichauProduto(String url) {
-		this.url = url;
+		super(url);
 	}
 
 	@Override
 	public Produto crawl() {
-		Connection connection = Jsoup.connect(url);
-		Document htmlDoc = null;
-		try {
-			htmlDoc = connection.get();
-		} catch (IOException e) {
-			e.printStackTrace();
-			return null;
-		}
+		Document htmlDoc = HtmlDoc.getHtmlDoc(super.url);
 		
 		Element infosProduto = htmlDoc.body().selectFirst("#content-main > article.wrapper > div.product-details.clearfix > div.col-right");
 		String nome = infosProduto.select("h2").text();
