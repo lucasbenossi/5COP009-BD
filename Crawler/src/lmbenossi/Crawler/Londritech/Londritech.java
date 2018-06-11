@@ -6,13 +6,11 @@ import org.jsoup.select.Elements;
 
 import lmbenossi.Crawler.Crawler;
 import lmbenossi.Crawler.CrawlerThreads;
-import lmbenossi.Crawler.Crawlers;
 import lmbenossi.Crawler.HtmlDoc;
 import lmbenossi.Crawler.Produto;
-import lmbenossi.Crawler.Produtos;
 import lmbenossi.Crawler.SyncList;
 
-public class Londritech implements Crawler<Produtos> {
+public class Londritech implements Crawler<SyncList<Produto>> {
 	private String url;
 	
 	public Londritech() {
@@ -20,7 +18,7 @@ public class Londritech implements Crawler<Produtos> {
 	}
 	
 	@Override
-	public Produtos crawl() {
+	public SyncList<Produto> crawl() {
 		SyncList<String> urlsCaralogo = new SyncList<>();
 		Document htmlDoc = HtmlDoc.getHtmlDoc(this.url);
 		Elements items = htmlDoc.select("#navbar-collapse-target > ul > li.nav-main__item.nav-main__item_all.dropdown.pull-left > div > div > div > ul > li > a");
@@ -30,19 +28,18 @@ public class Londritech implements Crawler<Produtos> {
 			urlsCaralogo.add(href);
 		}
 		
-		Crawlers<Void> crawlersCatalogo = new Crawlers<>();
+		SyncList<Crawler<Void>> crawlersCatalogo = new SyncList<>();
 		SyncList<String> urlsProduto = new SyncList<>();
 		for(String url : urlsCaralogo) {
 			crawlersCatalogo.add(new LondritechCatalogo(url, urlsProduto));
 		}
 		new CrawlerThreads<>(crawlersCatalogo, 8).crawl();
 		
-		Crawlers<Produto> crawlersProduto = new Crawlers<>();
+		SyncList<Crawler<Produto>> crawlersProduto = new SyncList<>();
 		for(String url : urlsProduto) {
 			crawlersProduto.add(new LondritechProduto(url));
 		}
-		Produtos produtos = new Produtos(new CrawlerThreads<>(crawlersProduto, 32).crawl());
-		
-		return produtos;
+
+		return new SyncList<>(new CrawlerThreads<>(crawlersProduto, 32).crawl());
 	}
 }

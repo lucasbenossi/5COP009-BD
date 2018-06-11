@@ -1,11 +1,11 @@
 package lmbenossi.Crawler;
 
 public class CrawlerThreads<T> {
-	private Crawlers<T> crawlers;
+	private SyncList<Crawler<T>> crawlers;
 	private SyncList<T> list;
 	private int n;
 	
-	public CrawlerThreads(Crawlers<T> crawlers, int n) {
+	public CrawlerThreads(SyncList<Crawler<T>> crawlers, int n) {
 		this.crawlers = crawlers;
 		this.n = n;
 	}

@@ -2,12 +2,10 @@ package lmbenossi.Crawler.Pichau;
 
 import lmbenossi.Crawler.Crawler;
 import lmbenossi.Crawler.CrawlerThreads;
-import lmbenossi.Crawler.Crawlers;
 import lmbenossi.Crawler.Produto;
-import lmbenossi.Crawler.Produtos;
 import lmbenossi.Crawler.SyncList;
 
-public class Pichau implements Crawler<Produtos> {
+public class Pichau implements Crawler<SyncList<Produto>> {
 	private String url;
 	
 	public Pichau() {
@@ -15,15 +13,15 @@ public class Pichau implements Crawler<Produtos> {
 	}
 
 	@Override
-	public Produtos crawl() {
+	public SyncList<Produto> crawl() {
 		SyncList<String> urlsProduto = new SyncList<>();
 		new PichauCatalogo(url, urlsProduto).crawl();
 		
-		Crawlers<Produto> crawlersProduto = new Crawlers<>();
+		SyncList<Crawler<Produto>> crawlersProduto = new SyncList<>();
 		for(String url : urlsProduto) {
 			crawlersProduto.add(new PichauProduto(url));
 		}
-		Produtos produtos = new Produtos(new CrawlerThreads<Produto>(crawlersProduto, 32).crawl());
+		SyncList<Produto> produtos = new SyncList<>(new CrawlerThreads<Produto>(crawlersProduto, 32).crawl());
 		
 		return produtos;
 	}

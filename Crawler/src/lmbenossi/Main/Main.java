@@ -9,7 +9,7 @@ import com.google.gson.JsonArray;
 
 import lmbenossi.Crawler.Produto;
 import lmbenossi.Crawler.ProdutoAdapter;
-import lmbenossi.Crawler.Produtos;
+import lmbenossi.Crawler.SyncList;
 import lmbenossi.Crawler.Londritech.Londritech;
 import lmbenossi.Crawler.Pichau.Pichau;
 
@@ -18,7 +18,7 @@ public class Main {
 		try {
 			PrintWriter writer;
 			JsonArray array;
-			Produtos produtos;
+			SyncList<Produto> produtos;
 			Gson gson = new GsonBuilder().setPrettyPrinting().registerTypeAdapter(Produto.class, new ProdutoAdapter()).create();
 			
 			Pichau pichau = new Pichau();
