@@ -1,7 +1,8 @@
 package lmbenossi.Crawler;
 
 public enum Loja {
-	PICHAU("Pichau");
+	PICHAU("Pichau"),
+	LONDRITECH("Londritech");
 	
 	private String nome;
 	
