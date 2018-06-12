@@ -1,21 +1,11 @@
 package lmbenossi.Crawler;
 
-import java.util.Iterator;
-import java.util.LinkedList;
-
-public class Produtos implements Iterable<Produto>{
-	private LinkedList<Produto> produtos;
-	
+public class Produtos extends SyncList<Produto>{
 	public Produtos() {
-		this.produtos = new LinkedList<>();
+		super();
 	}
 	
-	public synchronized void add(Produto produto) {
-		this.produtos.add(produto);
-	}
-
-	@Override
-	public Iterator<Produto> iterator() {
-		return this.produtos.iterator();
+	public Produtos(SyncList<Produto> syncList) {
+		super(syncList);
 	}
 }

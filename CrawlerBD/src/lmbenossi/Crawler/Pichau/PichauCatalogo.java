@@ -5,35 +5,30 @@ import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
 import lmbenossi.Crawler.CrawlerCatalogo;
-import lmbenossi.Crawler.CrawlersProduto;
 import lmbenossi.Crawler.HtmlDoc;
+import lmbenossi.Crawler.SyncList;
 
 public class PichauCatalogo extends CrawlerCatalogo {
-	public PichauCatalogo(String url) {
-		super(url);
+	public PichauCatalogo(String url, SyncList<String> urls) {
+		super(url, urls);
 	}
 
 	@Override
-	protected CrawlersProduto crawlPagesCatalogo() {
-		CrawlersProduto crawlers = new CrawlersProduto();
-		
+	protected void crawlPagesCatalogo() {
 		String url = super.url;
 		while(url != null) {
 			Document htmlDoc = HtmlDoc.getHtmlDoc(url);
-			
 			Element body = htmlDoc.body();
 			Element boxProdutos = body.selectFirst("#content-main > div.wrapper.clearfix > div.col-right > article > section");
 			Elements hrefs = boxProdutos.select("ul.clearfix.linha-produtos > li.item > h4.title > a");
 			for(Element href : hrefs) {
 				String value = href.attr("href");
-				crawlers.add(new PichauProduto(value));
+				super.urls.add(value);
 				System.out.println(value);
 			}
 			
 			url = getNextPage(htmlDoc);
 		}
-		
-		return crawlers;
 	}
 
 	@Override

@@ -1,17 +1,17 @@
 package lmbenossi.Crawler;
 
-public class CrawlerThreads {
-	private CrawlersProduto crawlers;
-	private Produtos produtos;
+public class CrawlerThreads<T> {
+	private Crawlers<T> crawlers;
+	private SyncList<T> objs;
 	private int n;
 	
-	public CrawlerThreads(CrawlersProduto crawlers, int n) {
+	public CrawlerThreads(Crawlers<T> crawlers, int n) {
 		this.crawlers = crawlers;
 		this.n = n;
 	}
 	
-	public Produtos crawl() {
-		produtos = new Produtos();
+	public SyncList<T> crawl() {
+		objs = new SyncList<>();
 		Thread[] threads = new Thread[this.n];
 		
 		for(int i = 0; i < this.n; i++) {
@@ -27,20 +27,20 @@ public class CrawlerThreads {
 			}
 		}
 		
-		return produtos;
+		return objs;
 	}
 	
 	private class CrawlerRunnable implements Runnable {
 		@Override
 		public void run() {
 			while(true) {
-				CrawlerProduto crawler = crawlers.next();
+				Crawler<T> crawler = crawlers.next();
 				
 				if(crawler == null) {
 					break;
 				}
 				
-				produtos.add(crawler.crawl());
+				objs.add(crawler.crawl());
 			}
 		}
 	}

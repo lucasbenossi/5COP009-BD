@@ -20,28 +20,41 @@ public class LondritechProduto extends CrawlerProduto {
 		Document htmlDoc = HtmlDoc.getHtmlDoc(super.url);
 		Element body = htmlDoc.body();
 		
-		Element campoProduto = body
-				.selectFirst("body > div.wrap > div > div.row > div.col-sm-12 > div.product-main > article.product");
+		Produto produto = null;
 		
-		String nome = campoProduto
-				.selectFirst("header.product-header").text().trim();
-		
-		BigDecimal preco = Produto.parsePreco(campoProduto
-				.selectFirst("div > div.row > div > div > div.product-price > div.product-price-primary").text().trim());
-		
-		int parcelas = 10;
-		
-		BigDecimal valorParcela = Produto.parsePreco(campoProduto
-				.selectFirst("div > div.row > div > div > div.product-price > div.product-price-secondary > p > small").text().trim());
-		
-		boolean disponivel = false;
-		if(campoProduto.selectFirst("div > div.row > div > div > div.product-stock > p > span").text().equals("Em estoque")) {
-			disponivel = true;
+		try {
+			Element articleProduto = body.selectFirst("body > div.wrap > div > div.row > div > div > article.product");
+			
+			String nome = articleProduto.selectFirst("header.product-header").text().trim();
+			
+			Element elementPreco = articleProduto.selectFirst("div > div.row > div > div > div.product-price > div.product-price-primary");
+			BigDecimal preco = null;
+			if(elementPreco != null) {
+				preco = Produto.parsePreco(elementPreco.text().trim());
+			}
+			else {
+				elementPreco = articleProduto.selectFirst("div > div.row > div > div > div.product-price > div.showcase-prices-unavailable");
+				if(elementPreco.text().trim().equals("Sob consulta")) {
+					throw new Exception("Produto sob consulta");
+				}
+			}
+			
+			int parcelas = 10;
+			BigDecimal valorParcela = Produto.parsePreco(articleProduto.selectFirst("div > div.row > div > div > div.product-price > div.product-price-secondary > p > small").text().trim());
+			
+			boolean disponivel = true;
+			String disponibilidade = articleProduto.selectFirst("div > div.row > div > div > div.product-stock > p > span").text().trim();
+			if(disponibilidade.equals("Em estoque")) {
+				disponivel = true;
+			}
+			
+			produto = new Produto(nome, preco, parcelas, valorParcela, disponivel, Loja.LONDRITECH);
+			
+			System.out.println(nome);
+		} catch (Exception e) {
+			System.err.println("ERRO: " + super.url + " " + e);
 		}
 		
-		System.out.println(nome);
-		
-		return new Produto(nome, preco, parcelas, valorParcela, disponivel, Loja.LONDRITECH);
+		return produto;
 	}
-
 }

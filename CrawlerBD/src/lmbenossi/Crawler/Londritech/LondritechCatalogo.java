@@ -5,34 +5,30 @@ import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
 import lmbenossi.Crawler.CrawlerCatalogo;
-import lmbenossi.Crawler.CrawlersProduto;
 import lmbenossi.Crawler.HtmlDoc;
+import lmbenossi.Crawler.SyncList;
 
 public class LondritechCatalogo extends CrawlerCatalogo {
-	public LondritechCatalogo(String url) {
-		super(url);
+	public LondritechCatalogo(String url, SyncList<String> urls) {
+		super(url, urls);
 	}
 
 	@Override
-	protected CrawlersProduto crawlPagesCatalogo() {
-		CrawlersProduto crawlers = new CrawlersProduto();
-		
+	protected void crawlPagesCatalogo() {
 		String url = super.url;
 		while(url != null) {
 			Document htmlDoc = HtmlDoc.getHtmlDoc(url);
 			
-			Elements hrefs = htmlDoc.body()
-					.select("body > div.wrap > div > div > div> div > section > div > div > div > article > header > a.showcase-product__link_title");
+			Elements divsProductResult = htmlDoc.body().select("body > div.wrap > div.container > div.row > div.search-content > div.product-main.search-results > section > div > div > div.product-result");
+			Elements hrefs = divsProductResult.select("a.showcase-product__link_title");
 			for(Element href : hrefs) {
 				String value = "http://londritech.com.br" + href.attr("href");
-				crawlers.add(new LondritechProduto(value));
+				super.urls.add(value);
 				System.out.println(value);
 			}
 			
 			url = getNextPage(htmlDoc);
 		}
-		
-		return crawlers;
 	}
 
 	@Override
