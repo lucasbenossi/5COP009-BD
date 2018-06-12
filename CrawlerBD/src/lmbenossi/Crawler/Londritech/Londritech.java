@@ -21,22 +21,21 @@ public class Londritech implements Crawler<Produtos> {
 	
 	@Override
 	public Produtos crawl() {
-		SyncList<String> urlsCategoria = new SyncList<>();
-		
+		SyncList<String> urlsCaralogo = new SyncList<>();
 		Document htmlDoc = HtmlDoc.getHtmlDoc(this.url);
 		Elements items = htmlDoc.select("#navbar-collapse-target > ul > li.nav-main__item.nav-main__item_all.dropdown.pull-left > div > div > div > ul > li > a");
 		for(Element a : items) {
 			String href = "https://www.londritech.com.br/" + a.attr("href");
 			System.out.println(href);
-			urlsCategoria.add(href);
+			urlsCaralogo.add(href);
 		}
 		
-		Crawlers<Void> crawlersCategoria = new Crawlers<>();
+		Crawlers<Void> crawlersCatalogo = new Crawlers<>();
 		SyncList<String> urlsProduto = new SyncList<>();
-		for(String url : urlsCategoria) {
-			crawlersCategoria.add(new LondritechCatalogo(url, urlsProduto));
+		for(String url : urlsCaralogo) {
+			crawlersCatalogo.add(new LondritechCatalogo(url, urlsProduto));
 		}
-		new CrawlerThreads<>(crawlersCategoria, 8).crawl();
+		new CrawlerThreads<>(crawlersCatalogo, 8).crawl();
 		
 		Crawlers<Produto> crawlersProduto = new Crawlers<>();
 		for(String url : urlsProduto) {

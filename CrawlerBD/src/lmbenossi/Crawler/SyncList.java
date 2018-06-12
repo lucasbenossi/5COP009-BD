@@ -18,9 +18,7 @@ public class SyncList<T> implements Iterable<T> {
 	}
 	
 	public synchronized void add(T obj) {
-		if(!(obj instanceof Void) && obj != null) {
-			this.list.add(obj);
-		}
+		this.list.add(obj);
 	}
 	
 	@Override

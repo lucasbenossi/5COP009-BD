@@ -2,7 +2,7 @@ package lmbenossi.Crawler;
 
 public class CrawlerThreads<T> {
 	private Crawlers<T> crawlers;
-	private SyncList<T> objs;
+	private SyncList<T> list;
 	private int n;
 	
 	public CrawlerThreads(Crawlers<T> crawlers, int n) {
@@ -11,7 +11,7 @@ public class CrawlerThreads<T> {
 	}
 	
 	public SyncList<T> crawl() {
-		objs = new SyncList<>();
+		list = new SyncList<>();
 		Thread[] threads = new Thread[this.n];
 		
 		for(int i = 0; i < this.n; i++) {
@@ -27,7 +27,13 @@ public class CrawlerThreads<T> {
 			}
 		}
 		
-		return objs;
+		return list;
+	}
+	
+	private void addSyncList(T obj) {
+		if(!(obj instanceof Void) && obj != null) {
+			this.list.add(obj);
+		}
 	}
 	
 	private class CrawlerRunnable implements Runnable {
@@ -40,7 +46,7 @@ public class CrawlerThreads<T> {
 					break;
 				}
 				
-				objs.add(crawler.crawl());
+				addSyncList(crawler.crawl());
 			}
 		}
 	}

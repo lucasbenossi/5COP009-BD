@@ -7,5 +7,10 @@
 			<attribute name="javadoc_location" value="file:/home/lucas/Desktop/jsoup/"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="lib/gson-2.8.5.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/CrawlerBD/lib/gson-2.8.5-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

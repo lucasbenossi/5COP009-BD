@@ -8,12 +8,13 @@ import org.jsoup.nodes.Document;
 
 public abstract class HtmlDoc {
 	public static Document getHtmlDoc(String url) {
-		Connection connection = Jsoup.connect(url);
-		try {
-			return connection.get();
-		} catch (IOException e) {
-			e.printStackTrace();
-			return null;
+		while(true) {
+			Connection connection = Jsoup.connect(url);
+			try {
+				return connection.get();
+			} catch (IOException e) {
+				System.err.println("ERRO: " + url + " " + e);
+			}
 		}
 	}
 }
