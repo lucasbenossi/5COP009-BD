@@ -1,2 +1,0 @@
-Main-Class: lmbenossi.Main.Main
-Class-Path: lib/jsoup-1.11.3.jar
