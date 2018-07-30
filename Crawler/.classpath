@@ -4,12 +4,12 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="lib" path="lib/jsoup-1.11.3.jar">
 		<attributes>
-			<attribute name="javadoc_location" value="file:/home/lucas/Desktop/jsoup/"/>
+			<attribute name="javadoc_location" value="jar:platform:/resource/Crawler/lib/jsoup-1.11.3-javadoc.jar!/"/>
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="lib" path="lib/gson-2.8.5.jar">
 		<attributes>
-			<attribute name="javadoc_location" value="jar:platform:/resource/CrawlerBD/lib/gson-2.8.5-javadoc.jar!/"/>
+			<attribute name="javadoc_location" value="jar:platform:/resource/Crawler/lib/gson-2.8.5-javadoc.jar!/"/>
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="output" path="bin"/>
