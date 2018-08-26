@@ -28,7 +28,7 @@ public class ConnectionFactory {
 		return instance;
 	}
 
-	public void readProperties() throws IOException {
+	private void readProperties() throws IOException {
 		Properties properties = new Properties();
 		try {
 			String path = "prjbd/jdbc/datasource.properties";
