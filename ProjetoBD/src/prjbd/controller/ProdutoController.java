@@ -1,14 +1,17 @@
 package prjbd.controller;
 
 import java.io.IOException;
+import java.io.InputStreamReader;
 import java.math.BigDecimal;
 import java.util.List;
 
 import javax.servlet.ServletException;
+import javax.servlet.annotation.MultipartConfig;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.Part;
 
 import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
@@ -30,6 +33,7 @@ import prjbd.model.Produto;
 		"/excluir_produto",
 		"/inserir_json_processa",
 		"/limpar_produtos"})
+@MultipartConfig
 public class ProdutoController extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
@@ -109,10 +113,12 @@ public class ProdutoController extends HttpServlet {
 		case "/inserir_json_processa":
 			try {
 				DAO<Produto> dao = new ProdutoDAOFactory().getDAO();
-				String json = request.getParameter("json");
-				
 				JsonParser parser = new JsonParser();
-				JsonArray array = parser.parse(json).getAsJsonArray();
+				
+				Part part = request.getPart("json");
+				InputStreamReader isr = new InputStreamReader(part.getInputStream());
+				
+				JsonArray array = parser.parse(isr).getAsJsonArray();
 				
 				for(JsonElement element : array) {
 					JsonObject object = element.getAsJsonObject();

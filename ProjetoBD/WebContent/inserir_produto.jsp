@@ -24,8 +24,9 @@
 	</form>
 	<br>
 	<h2>JSON</h2>
-	<form action="inserir_json_processa" method="POST">
-		<textarea rows="20" cols="80" name="json"></textarea><br>
+	<form action="inserir_json_processa" method="POST" enctype="multipart/form-data">
+		<!-- <textarea rows="20" cols="80" name="json"></textarea><br> -->
+		<input type="file" name="json" accept="application/json">
 		<input type="submit" value="Inserir" />
 	</form>
 </body>
