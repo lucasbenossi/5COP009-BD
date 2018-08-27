@@ -22,4 +22,6 @@ public abstract class DAO<T> {
 	public abstract void delete(Integer id) throws SQLException;
 
 	public abstract List<T> all() throws SQLException;
+	
+	public abstract void clean() throws SQLException;
 }

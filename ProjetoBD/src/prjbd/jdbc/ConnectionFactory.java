@@ -21,28 +21,12 @@ public class ConnectionFactory {
 	private ConnectionFactory() {
 	}
 
+	// Singleton
 	public static ConnectionFactory getInstance() {
 		if (instance == null) {
 			instance = new ConnectionFactory();
 		}
 		return instance;
-	}
-
-	private void readProperties() throws IOException {
-		Properties properties = new Properties();
-		try {
-			String path = "prjbd/jdbc/datasource.properties";
-			InputStream input = this.getClass().getClassLoader().getResourceAsStream(path);
-			properties.load(input);
-			dbHost = properties.getProperty("host");
-			dbPort = properties.getProperty("port");
-			dbName = properties.getProperty("name");
-			dbUser = properties.getProperty("user");
-			dbPassword = properties.getProperty("password");
-		} catch (IOException ex) {
-			System.err.println(ex.getMessage());
-			throw new IOException("Erro ao obter informações do banco de dados.");
-		}
 	}
 
 	public Connection getConnection() throws ClassNotFoundException, IOException, SQLException {
@@ -62,4 +46,20 @@ public class ConnectionFactory {
 		return connection;
 	}
 
+	private void readProperties() throws IOException {
+		Properties properties = new Properties();
+		try {
+			String path = "prjbd/jdbc/datasource.properties";
+			InputStream input = this.getClass().getClassLoader().getResourceAsStream(path);
+			properties.load(input);
+			dbHost = properties.getProperty("host");
+			dbPort = properties.getProperty("port");
+			dbName = properties.getProperty("name");
+			dbUser = properties.getProperty("user");
+			dbPassword = properties.getProperty("password");
+		} catch (IOException ex) {
+			System.err.println(ex.getMessage());
+			throw new IOException("Erro ao obter informações do banco de dados.");
+		}
+	}
 }
