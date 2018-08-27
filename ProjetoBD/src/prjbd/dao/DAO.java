@@ -9,7 +9,7 @@ public abstract class DAO<T> {
 
 	protected Connection connection;
 
-	DAO(Connection connection) {
+	public DAO(Connection connection) {
 		this.connection = connection;
 	}
 

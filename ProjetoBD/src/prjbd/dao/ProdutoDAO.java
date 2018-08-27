@@ -24,7 +24,7 @@ public class ProdutoDAO extends DAO<Produto> {
 			statement.setInt(3, produto.parcelas());
 			statement.setBigDecimal(4, produto.valorParcela());
 			statement.setBoolean(5, produto.disponivel());
-			statement.setString(6, produto.loja().toString());
+			statement.setString(6, produto.loja());
 			statement.execute();
         } catch (SQLException e) {
             System.err.println(e.getMessage());
@@ -51,16 +51,16 @@ public class ProdutoDAO extends DAO<Produto> {
                     		result.getInt("parcelas"), 
                     		result.getBigDecimal("valorparcela"), 
                     		result.getBoolean("disponivel"), 
-                    		Loja.valueOf(result.getString("loja")));
+                    		result.getString("loja"));
                 } else {
                     throw new SQLException("Erro ao visualizar: produto não encontrado.");
                 }
             }
 		} catch (SQLException e) {
-			System.err.println(e.getMessage());
             if (e.getMessage().equals("Erro ao visualizar: produto não encontrado.")) {
                 throw e;
             } else {
+            	System.err.println(e.getMessage());
                 throw new SQLException("Erro ao visualizar produto.");
             }
 		}
@@ -77,17 +77,17 @@ public class ProdutoDAO extends DAO<Produto> {
 			statement.setInt(3, produto.parcelas());
 			statement.setBigDecimal(4, produto.valorParcela());
 			statement.setBoolean(5, produto.disponivel());
-			statement.setString(6, produto.loja().toString());
+			statement.setString(6, produto.loja());
 			statement.setInt(7, produto.id());
 			if(statement.executeUpdate() < 1) {
 				throw new SQLException("Erro ao editar: produto não encontrado.");
 			}
 		} catch (SQLException e) {
-			System.err.println(e.getMessage());
 			if(e.getMessage().equals("Erro ao editar: produto não encontrado.")) {
 				throw e;
 			}
 			else {
+				System.err.println(e.getMessage());
 				throw new SQLException("Erro ao editar produto.");
 			}
 		}		
@@ -102,11 +102,11 @@ public class ProdutoDAO extends DAO<Produto> {
 				 throw new SQLException("Erro ao excluir: produto não encontrado.");
 			}
 		} catch (Exception e) {
-			System.err.println(e.getMessage());
 			if(e.getMessage().equals("Erro ao excluir: produto não encontrado.")) {
 				throw e;
 			}
 			else {
+				System.err.println(e.getMessage());
 				throw new SQLException("Erro ao excluir produto.");
 			}
 		}
@@ -115,7 +115,7 @@ public class ProdutoDAO extends DAO<Produto> {
 
 	@Override
 	public List<Produto> all() throws SQLException {
-		String query = "SELECT id, nome, preco, parcelas, valorparcela, disponivel, loja FROM db.produto ORDER BY nome;";
+		String query = "SELECT id, nome, preco, parcelas, valorparcela, disponivel, loja FROM db.produto ORDER BY id;";
 		LinkedList<Produto> produtos = new LinkedList<>();
 		try (PreparedStatement statement = connection.prepareStatement(query);
                 ResultSet result = statement.executeQuery()) {
@@ -126,7 +126,7 @@ public class ProdutoDAO extends DAO<Produto> {
                 		result.getInt("parcelas"), 
                 		result.getBigDecimal("valorparcela"), 
                 		result.getBoolean("disponivel"), 
-                		Loja.valueOf(result.getString("loja")));
+                		result.getString("loja"));
             	produtos.add(produto);
             }
         } catch (SQLException e) {

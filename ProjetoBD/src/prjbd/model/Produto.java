@@ -5,8 +5,6 @@ import java.math.BigDecimal;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import prjbd.dao.Loja;
-
 public class Produto {
 	private int id;
 	private String nome;
@@ -14,9 +12,9 @@ public class Produto {
 	private int parcelas;
 	private BigDecimal valorParcela;
 	private boolean disponivel;
-	private Loja loja;
+	private String loja;
 	
-	public Produto(int id, String nome, BigDecimal preco, int parcelas, BigDecimal valorParcela, boolean disponivel, Loja loja) {
+	public Produto(int id, String nome, BigDecimal preco, int parcelas, BigDecimal valorParcela, boolean disponivel, String loja) {
 		this.id = id;
 		this.nome = nome;
 		this.preco = preco;
@@ -68,10 +66,10 @@ public class Produto {
 		this.disponivel = disponivel;
 	}
 	
-	public Loja loja() {
+	public String loja() {
 		return this.loja;
 	}
-	public void loja(Loja loja) {
+	public void loja(String loja) {
 		this.loja = loja;
 	}
 	
@@ -94,7 +92,7 @@ public class Produto {
 		out.println(parcelas);
 		out.println(valorParcela);
 		out.println(disponivel);
-		out.println(loja.nome());
+		out.println(loja);
 	}
 	public void print() {
 		print(System.out);
