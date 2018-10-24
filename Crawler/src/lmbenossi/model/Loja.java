@@ -1,4 +1,4 @@
-package lmbenossi.Crawler;
+package lmbenossi.model;
 
 public enum Loja {
 	PICHAU("Pichau"),

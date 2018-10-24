@@ -1,4 +1,4 @@
-package lmbenossi.Crawler;
+package lmbenossi.model;
 
 import java.io.PrintStream;
 import java.math.BigDecimal;
@@ -47,13 +47,19 @@ public class Produto {
 	}
 	
 	public static BigDecimal parsePreco(String input) {
-		Pattern regex = Pattern.compile("[0-9.]*,[0-9]{2}");
-		Matcher matcher = regex.matcher(input);
+		Pattern regex1 = Pattern.compile("[0-9.]*,[0-9]{2}");
+		Pattern regex2 = Pattern.compile("[0-9]*\\.[0-9]{2}");
+
+		Matcher matcher1 = regex1.matcher(input);
+		Matcher matcher2 = regex2.matcher(input);
 		
 		String val = null;
-		if(matcher.find()) {
-			val = matcher.group();
+		if(matcher1.find()) {
+			val = matcher1.group();
 			val = val.replace(".", "").replace(',', '.');
+		}
+		else if(matcher2.find()) {
+			val = matcher2.group();
 		}
 		return new BigDecimal(val);
 	}

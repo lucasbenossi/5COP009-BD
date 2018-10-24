@@ -1,4 +1,4 @@
-package lmbenossi.Crawler;
+package lmbenossi.crawler;
 
 import java.io.IOException;
 

@@ -1,4 +1,6 @@
-package lmbenossi.Crawler;
+package lmbenossi.crawler;
+
+import lmbenossi.model.Produto;
 
 public abstract class CrawlerProduto implements Crawler<Produto> {
 	protected String url;

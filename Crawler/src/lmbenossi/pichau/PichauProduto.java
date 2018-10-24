@@ -1,14 +1,14 @@
-package lmbenossi.Crawler.Pichau;
+package lmbenossi.pichau;
 
 import java.math.BigDecimal;
 
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 
-import lmbenossi.Crawler.CrawlerProduto;
-import lmbenossi.Crawler.HtmlDoc;
-import lmbenossi.Crawler.Loja;
-import lmbenossi.Crawler.Produto;
+import lmbenossi.crawler.CrawlerProduto;
+import lmbenossi.crawler.HtmlDoc;
+import lmbenossi.model.Loja;
+import lmbenossi.model.Produto;
 
 public class PichauProduto extends CrawlerProduto {
 	public PichauProduto(String url) {
@@ -20,10 +20,15 @@ public class PichauProduto extends CrawlerProduto {
 		Document htmlDoc = HtmlDoc.getHtmlDoc(super.url);
 		
 		Element infosProduto = htmlDoc.body().selectFirst("#content-main > article.wrapper > div.product-details.clearfix > div.col-right");
+		
 		String nome = infosProduto.select("h2").text();
+		
 		BigDecimal preco = Produto.parsePreco(infosProduto.selectFirst("div.product-payment > ul > li.boleto > span.valor").text());
+		
 		int parcelas = 10;
+		
 		BigDecimal valorParcela = Produto.parsePreco(infosProduto.selectFirst("div.product-payment > ul > li.other > span.pricex").text());
+		
 		boolean disponivel = true;
 		
 		if(infosProduto.selectFirst("div.product-stock.clearfix > span.availability.disponivel") != null) {

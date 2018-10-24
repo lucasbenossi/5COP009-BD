@@ -1,4 +1,4 @@
-package lmbenossi.Crawler;
+package lmbenossi.model;
 
 import java.io.IOException;
 

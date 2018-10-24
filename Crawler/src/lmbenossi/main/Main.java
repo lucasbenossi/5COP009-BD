@@ -1,24 +1,24 @@
-package lmbenossi.Main;
+package lmbenossi.main;
 
 import java.io.FileWriter;
 import java.io.PrintWriter;
+import java.util.LinkedList;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.JsonArray;
 
-import lmbenossi.Crawler.Produto;
-import lmbenossi.Crawler.ProdutoAdapter;
-import lmbenossi.Crawler.SyncList;
-import lmbenossi.Crawler.Londritech.Londritech;
-import lmbenossi.Crawler.Pichau.Pichau;
+import lmbenossi.londritech.Londritech;
+import lmbenossi.model.Produto;
+import lmbenossi.model.ProdutoAdapter;
+import lmbenossi.pichau.Pichau;
 
 public class Main {
 	public static void main(String[] argv) {
 		try {
 			PrintWriter writer;
 			JsonArray array;
-			SyncList<Produto> produtos;
+			LinkedList<Produto> produtos;
 			Gson gson = new GsonBuilder().setPrettyPrinting().registerTypeAdapter(Produto.class, new ProdutoAdapter()).create();
 			
 			Pichau pichau = new Pichau();
@@ -40,6 +40,10 @@ public class Main {
 			writer = new PrintWriter(new FileWriter("londritech.json"), true);
 			writer.println(gson.toJson(array));
 			writer.close();
+			
+//			LondritechProduto crawler = new LondritechProduto("http://londritech.com.br/computador-londritech-intel-i7-7700-360ghz-placa-b250-memoria-16gb-2x8gb-ssd-120gb--hd-1tb-placa-de-vdeo-gtx1060-3gb-fonte-500w-80plus-bronze-30907.html");
+//			Produto produto = crawler.crawl();
+//			produto.print();
 			
 		} catch (Exception e) {
 			e.printStackTrace();

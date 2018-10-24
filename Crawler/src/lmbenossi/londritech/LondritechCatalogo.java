@@ -1,20 +1,22 @@
-package lmbenossi.Crawler.Londritech;
+package lmbenossi.londritech;
+
+import java.util.LinkedList;
 
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
-import lmbenossi.Crawler.CrawlerCatalogo;
-import lmbenossi.Crawler.HtmlDoc;
-import lmbenossi.Crawler.SyncList;
+import lmbenossi.crawler.CrawlerCatalogo;
+import lmbenossi.crawler.HtmlDoc;
 
 public class LondritechCatalogo extends CrawlerCatalogo {
-	public LondritechCatalogo(String url, SyncList<String> urls) {
-		super(url, urls);
+	public LondritechCatalogo(String url) {
+		super(url);
 	}
 
 	@Override
-	protected void crawlPagesCatalogo() {
+	public String[] crawl() {
+		LinkedList<String> urls = new LinkedList<>();
 		String url = super.url;
 		while(url != null) {
 			Document htmlDoc = HtmlDoc.getHtmlDoc(url);
@@ -23,12 +25,14 @@ public class LondritechCatalogo extends CrawlerCatalogo {
 			Elements hrefs = divsProductResult.select("a.showcase-product__link_title");
 			for(Element href : hrefs) {
 				String value = "http://londritech.com.br" + href.attr("href");
-				super.urls.add(value);
+				urls.add(value);
 				System.out.println(value);
 			}
 			
 			url = getNextPage(htmlDoc);
 		}
+		
+		return urls.toArray(new String[urls.size()]);
 	}
 
 	@Override
