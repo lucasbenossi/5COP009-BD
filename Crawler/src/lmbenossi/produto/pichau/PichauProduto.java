@@ -1,14 +1,14 @@
-package lmbenossi.pichau;
+package lmbenossi.produto.pichau;
 
 import java.math.BigDecimal;
 
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 
-import lmbenossi.crawler.CrawlerProduto;
 import lmbenossi.crawler.HtmlDoc;
-import lmbenossi.model.Loja;
-import lmbenossi.model.Produto;
+import lmbenossi.produto.CrawlerProduto;
+import lmbenossi.produto.Loja;
+import lmbenossi.produto.Produto;
 
 public class PichauProduto extends CrawlerProduto {
 	public PichauProduto(String url) {

@@ -1,4 +1,4 @@
-package lmbenossi.londritech;
+package lmbenossi.produto.londritech;
 
 import java.util.LinkedList;
 
@@ -6,8 +6,8 @@ import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
-import lmbenossi.crawler.CrawlerCatalogo;
 import lmbenossi.crawler.HtmlDoc;
+import lmbenossi.produto.CrawlerCatalogo;
 
 public class LondritechCatalogo extends CrawlerCatalogo {
 	public LondritechCatalogo(String url) {

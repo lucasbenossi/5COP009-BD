@@ -1,4 +1,4 @@
-package lmbenossi.model;
+package lmbenossi.produto;
 
 public enum Loja {
 	PICHAU("Pichau"),

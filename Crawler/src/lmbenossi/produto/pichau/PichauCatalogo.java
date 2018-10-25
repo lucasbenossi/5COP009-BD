@@ -1,4 +1,4 @@
-package lmbenossi.pichau;
+package lmbenossi.produto.pichau;
 
 import java.util.LinkedList;
 
@@ -6,8 +6,8 @@ import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
-import lmbenossi.crawler.CrawlerCatalogo;
 import lmbenossi.crawler.HtmlDoc;
+import lmbenossi.produto.CrawlerCatalogo;
 
 public class PichauCatalogo extends CrawlerCatalogo {
 	public PichauCatalogo(String url) {

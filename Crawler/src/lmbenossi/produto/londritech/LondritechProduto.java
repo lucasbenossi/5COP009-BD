@@ -1,14 +1,14 @@
-package lmbenossi.londritech;
+package lmbenossi.produto.londritech;
 
 import java.math.BigDecimal;
 
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 
-import lmbenossi.crawler.CrawlerProduto;
 import lmbenossi.crawler.HtmlDoc;
-import lmbenossi.model.Loja;
-import lmbenossi.model.Produto;
+import lmbenossi.produto.CrawlerProduto;
+import lmbenossi.produto.Loja;
+import lmbenossi.produto.Produto;
 
 public class LondritechProduto extends CrawlerProduto {
 	public LondritechProduto(String url) {

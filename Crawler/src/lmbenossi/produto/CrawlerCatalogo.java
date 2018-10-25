@@ -1,6 +1,8 @@
-package lmbenossi.crawler;
+package lmbenossi.produto;
 
 import org.jsoup.nodes.Document;
+
+import lmbenossi.crawler.Crawler;
 
 public abstract class CrawlerCatalogo implements Crawler<String[]> {
 	protected String url;

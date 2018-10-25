@@ -1,4 +1,4 @@
-package lmbenossi.model;
+package lmbenossi.produto;
 
 import java.io.IOException;
 
