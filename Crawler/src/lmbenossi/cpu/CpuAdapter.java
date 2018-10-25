@@ -19,7 +19,9 @@ public class CpuAdapter extends TypeAdapter<Cpu> {
 		writer.name("brand").value(cpu.brand());
 		writer.name("model").value(cpu.model());
 		writer.name("cores").value(cpu.cores());
+		writer.name("threads").value(cpu.threads());
 		writer.name("frequency").value(cpu.frequency());
+		writer.name("maxFrequency").value(cpu.maxFrequency());
 		writer.name("scoreSingleCore").value(cpu.scoreSingleCore());
 		writer.name("scoreMultiCore").value(cpu.scoreMultiCore());
 		writer.endObject();

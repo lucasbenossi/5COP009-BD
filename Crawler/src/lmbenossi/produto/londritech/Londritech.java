@@ -1,7 +1,7 @@
 package lmbenossi.produto.londritech;
 
 import java.io.FileWriter;
-import java.io.PrintWriter;
+import java.io.IOException;
 import java.util.LinkedList;
 
 import org.jsoup.nodes.Document;
@@ -10,7 +10,7 @@ import org.jsoup.select.Elements;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
-import com.google.gson.JsonArray;
+import com.google.gson.stream.JsonWriter;
 
 import lmbenossi.crawler.Crawler;
 import lmbenossi.crawler.CrawlerThreads;
@@ -18,15 +18,10 @@ import lmbenossi.crawler.HtmlDoc;
 import lmbenossi.produto.Produto;
 import lmbenossi.produto.ProdutoAdapter;
 
-public class Londritech implements Crawler<LinkedList<Produto>> {
-	private String url;
+public class Londritech {
+	private String url = "http://www.londritech.com.br";
 	
-	public Londritech() {
-		this.url = "http://www.londritech.com.br";
-	}
-	
-	@Override
-	public LinkedList<Produto> crawl() {
+	public void crawl() {
 		LinkedList<String> urlsCatalogo = new LinkedList<>();
 		
 		Document htmlDoc = HtmlDoc.getHtmlDoc(this.url);
@@ -42,30 +37,27 @@ public class Londritech implements Crawler<LinkedList<Produto>> {
 			crawlersCatalogo.add(new LondritechCatalogo(url));
 		}
 		
-		LinkedList<String[]> listUrlsProduto = new CrawlerThreads<>(crawlersCatalogo, 16).crawl();
+		LinkedList<String[]> urls = new CrawlerThreads<String[]>(crawlersCatalogo, 8).crawl();
 		
 		LinkedList<Crawler<Produto>> crawlersProduto = new LinkedList<>();
-		for(String[] urlsProduto : listUrlsProduto) {
-			for(String url : urlsProduto) {
+		for(String[] urlArray : urls) {
+			for(String url : urlArray) {
 				crawlersProduto.add(new LondritechProduto(url));
 			}
 		}
 		
-		return new CrawlerThreads<>(crawlersProduto, 64).crawl();
+		try {
+			Gson gson = new GsonBuilder().setPrettyPrinting().registerTypeAdapter(Produto.class, new ProdutoAdapter()).create();
+			JsonWriter writer = gson.newJsonWriter(new FileWriter("londritech.json"));
+			
+			new CrawlerThreads<Produto>(crawlersProduto, 64).crawl(gson, writer);
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
 	}
 	
 	public static void main(String[] argv) throws Exception {
 		Londritech londritech = new Londritech();
-		LinkedList<Produto> produtos = londritech.crawl();
-		
-		Gson gson = new GsonBuilder().setPrettyPrinting().registerTypeAdapter(Produto.class, new ProdutoAdapter()).create();
-		JsonArray array = new JsonArray();
-		for(Produto produto : produtos) {
-			array.add(gson.toJsonTree(produto));
-		}
-		
-		PrintWriter writer = new PrintWriter(new FileWriter("londritech.json"), true);
-		writer.println(gson.toJson(array));
-		writer.close();
+		londritech.crawl();
 	}
 }

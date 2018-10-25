@@ -10,8 +10,8 @@ import lmbenossi.crawler.HtmlDoc;
 import lmbenossi.produto.CrawlerCatalogo;
 
 public class PichauCatalogo extends CrawlerCatalogo {
-	public PichauCatalogo(String url) {
-		super(url);
+	public PichauCatalogo() {
+		super("https://www.pichau.com.br/todos-os-departamentos");
 	}
 
 	@Override
@@ -21,8 +21,8 @@ public class PichauCatalogo extends CrawlerCatalogo {
 		while(url != null) {
 			Document htmlDoc = HtmlDoc.getHtmlDoc(url);
 			Element body = htmlDoc.body();
-			Element boxProdutos = body.selectFirst("#content-main > div.wrapper.clearfix > div.col-right > article > section");
-			Elements hrefs = boxProdutos.select("ul.clearfix.linha-produtos > li.item > h4.title > a");
+			Element boxProdutos = body.selectFirst("#maincontent > div.columns > div.column.main > div.products.wrapper.grid.products-grid");
+			Elements hrefs = boxProdutos.select("ol > li > div > div > strong > a");
 			for(Element href : hrefs) {
 				String value = href.attr("href");
 				urls.add(value);
@@ -37,7 +37,7 @@ public class PichauCatalogo extends CrawlerCatalogo {
 
 	@Override
 	protected String getNextPage(Document htmlPage) {
-		Element nextButton = htmlPage.body().selectFirst("#content-main > div.wrapper.clearfix > div.col-right > article > header > div.toolbar > div.pager > ul > li > a.bt-next");
+		Element nextButton = htmlPage.body().selectFirst("div.columns > div.column.main > div.toolbar.toolbar-products > div.pages > ul > li.item.pages-item-next > a");
 		
 		if(nextButton != null) {
 			return nextButton.attr("href");
