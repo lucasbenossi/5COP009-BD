@@ -9,5 +9,6 @@ public abstract class CrawlerProduto implements Crawler<Produto> {
 		this.url = url;
 	}
 	
+	@Override
 	public abstract Produto crawl();
 }

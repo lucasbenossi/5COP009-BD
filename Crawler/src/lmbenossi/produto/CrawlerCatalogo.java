@@ -11,6 +11,7 @@ public abstract class CrawlerCatalogo implements Crawler<String[]> {
 		this.url = url;
 	}
 	
+	@Override
 	public abstract String[] crawl();
 	protected abstract String getNextPage(Document currentPage);
 }

@@ -1,13 +1,8 @@
 package lmbenossi.crawler;
 
-import java.io.IOException;
 import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
-
-import com.google.gson.Gson;
-import com.google.gson.JsonIOException;
-import com.google.gson.stream.JsonWriter;
 
 public class CrawlerThreads<T> {
 	private Iterator<Crawler<T>> iterator;
@@ -21,25 +16,11 @@ public class CrawlerThreads<T> {
 	}
 	
 	public LinkedList<T> crawl() {
-		this.run();
+		this.execute();
 		return this.queue;
 	}
 	
-	public void crawl(Gson gson, JsonWriter writer) {
-		Thread thread = new Thread(new JsonRunnable(gson, writer));
-		thread.start();
-		
-		this.run();
-		putNull();
-		
-		try {
-			thread.join();
-		} catch (InterruptedException e) {
-			e.printStackTrace();
-		}
-	}
-	
-	private void run() {
+	public void execute() {
 		Thread[] threads = new Thread[this.n];
 		
 		for(int i = 0; i < this.n; i++) {
@@ -56,23 +37,18 @@ public class CrawlerThreads<T> {
 		}
 	}
 	
-	private void put(T obj) {
-		synchronized(this.queue) {
-			if(obj != null) {
-				this.queue.add(obj);
-				this.queue.notify();
-			}
-		}
+	public void finish() {
+		this.queue.add(null);
 	}
 	
-	private void putNull() {
-		synchronized (this.queue) {
-			this.queue.add(null);
+	private void put(T obj) {
+		synchronized(this.queue) {
+			this.queue.add(obj);
 			this.queue.notify();
 		}
 	}
 	
-	private T take() {
+	public T take() {
 		synchronized(queue) {
 			while(queue.isEmpty()) {
 				try {
@@ -99,44 +75,14 @@ public class CrawlerThreads<T> {
 		public void run() {
 			while(true) {
 				Crawler<T> crawler = nextCrawler();
-				
 				if(crawler == null) {
 					break;
 				}
 				
-				put(crawler.crawl());
-			}
-		}
-	}
-	
-	private class JsonRunnable implements Runnable {
-		private Gson gson;
-		private JsonWriter writer;
-		
-		public JsonRunnable(Gson gson, JsonWriter writer) {
-			this.gson = gson;
-			this.writer = writer;
-		}
-
-		@Override
-		public void run() {
-			try {
-				writer.beginArray().flush();
-				
-				while(true) {
-					Object obj = take();
-					if(obj == null) {
-						break;
-					}
-					gson.toJson(gson.toJsonTree(obj), writer);
-					writer.flush();
+				T obj = crawler.crawl();
+				if(obj != null) {
+					put(obj);
 				}
-				
-				writer.endArray().flush();
-			} catch (JsonIOException e) {
-				e.printStackTrace();
-			} catch (IOException e) {
-				e.printStackTrace();
 			}
 		}
 	}

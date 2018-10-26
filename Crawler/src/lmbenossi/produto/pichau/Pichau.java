@@ -10,6 +10,7 @@ import com.google.gson.stream.JsonWriter;
 
 import lmbenossi.crawler.Crawler;
 import lmbenossi.crawler.CrawlerThreads;
+import lmbenossi.crawler.JsonCreator;
 import lmbenossi.produto.Produto;
 import lmbenossi.produto.ProdutoAdapter;
 
@@ -26,7 +27,9 @@ public class Pichau {
 			Gson gson = new GsonBuilder().setPrettyPrinting().registerTypeAdapter(Produto.class, new ProdutoAdapter()).create();
 			JsonWriter writer = gson.newJsonWriter(new FileWriter("pichau.json"));
 			
-			new CrawlerThreads<Produto>(crawlersProduto, 64).crawl(gson, writer);
+			CrawlerThreads<Produto> crawler = new CrawlerThreads<Produto>(crawlersProduto, 64);
+			JsonCreator creator = new JsonCreator(gson, writer, crawler);
+			creator.execute();
 		} catch (IOException e) {
 			e.printStackTrace();
 		}

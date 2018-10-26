@@ -12,6 +12,7 @@ import lmbenossi.cpu.Cpu;
 import lmbenossi.cpu.CpuAdapter;
 import lmbenossi.crawler.Crawler;
 import lmbenossi.crawler.CrawlerThreads;
+import lmbenossi.crawler.JsonCreator;
 
 public class Geekbench {
 
@@ -29,7 +30,9 @@ public class Geekbench {
 			Gson gson = new GsonBuilder().setPrettyPrinting().registerTypeAdapter(Cpu.class, new CpuAdapter()).create();
 			JsonWriter writer = gson.newJsonWriter(new FileWriter("geekbench.json"));
 			
-			new CrawlerThreads<>(crawlers, 4).crawl(gson, writer);
+			CrawlerThreads<Cpu> crawler = new CrawlerThreads<Cpu>(crawlers, 4);
+			JsonCreator creator = new JsonCreator(gson, writer, crawler);
+			creator.execute();
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
