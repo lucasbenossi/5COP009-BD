@@ -19,10 +19,7 @@ import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 
 import prjbd.dao.DAO;
-import prjbd.dao.DAOFactory;
 import prjbd.dao.ProdutoDAO;
-import prjbd.dao.ProdutoDAOFactory;
-import prjbd.jdbc.ConnectionFactory;
 import prjbd.model.Produto;
 
 @WebServlet(urlPatterns={"/produtos", 
@@ -51,7 +48,7 @@ public class ProdutoController extends HttpServlet {
 		switch (request.getServletPath()) {
 		case "/produtos":
 			try {
-				List<Produto> produtos = new ProdutoDAO(ConnectionFactory.getInstance().getConnection()).all();
+				List<Produto> produtos = new ProdutoDAO().all();
 				request.setAttribute("produtosList", produtos);
 				request.getRequestDispatcher("/produtos.jsp").forward(request, response);
 			} catch (Exception e) {
@@ -63,8 +60,7 @@ public class ProdutoController extends HttpServlet {
 			break;
 		case "/inserir_produto_processa":
 			try {
-				DAOFactory<Produto> daoFactory = new ProdutoDAOFactory();
-				DAO<Produto> dao = daoFactory.getDAO();
+				DAO<Produto> dao = new ProdutoDAO();
 				
 				Produto produto = productFromRequest(request);
 				
@@ -77,7 +73,7 @@ public class ProdutoController extends HttpServlet {
 		case "/alterar_produto":
 			try {
 				int id = Integer.parseInt(request.getParameter("id"));
-				DAO<Produto> dao = new ProdutoDAOFactory().getDAO();
+				DAO<Produto> dao = new ProdutoDAO();
 				Produto produto = dao.read(id);
 				
 				request.setAttribute("produto", produto);
@@ -89,7 +85,7 @@ public class ProdutoController extends HttpServlet {
 			break;
 		case "/alterar_produto_processa":
 			try {
-				DAO<Produto> dao = new ProdutoDAOFactory().getDAO();
+				DAO<Produto> dao = new ProdutoDAO();
 				
 				Produto produto = productFromRequest(request);
 				produto.id(Integer.parseInt(request.getParameter("id")));
@@ -102,7 +98,7 @@ public class ProdutoController extends HttpServlet {
 			break;
 		case "/excluir_produto":
 			try {
-				DAO<Produto> dao = new ProdutoDAOFactory().getDAO();
+				DAO<Produto> dao = new ProdutoDAO();
 				int id = Integer.parseInt(request.getParameter("id"));
 				dao.delete(id);
 				request.getRequestDispatcher("/produtos").forward(request, response);
@@ -112,7 +108,7 @@ public class ProdutoController extends HttpServlet {
 			break;
 		case "/inserir_json_processa":
 			try {
-				DAO<Produto> dao = new ProdutoDAOFactory().getDAO();
+				DAO<Produto> dao = new ProdutoDAO();
 				JsonParser parser = new JsonParser();
 				
 				Part part = request.getPart("json");
@@ -141,7 +137,7 @@ public class ProdutoController extends HttpServlet {
 			break;
 		case "/limpar_produtos":
 			try {
-				DAO<Produto> dao = new ProdutoDAOFactory().getDAO();
+				DAO<Produto> dao = new ProdutoDAO();
 				dao.clean();
 				
 				request.getRequestDispatcher("/produtos").forward(request, response);

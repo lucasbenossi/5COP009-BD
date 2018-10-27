@@ -1,16 +1,19 @@
 
 package prjbd.dao;
 
+import java.io.IOException;
 import java.sql.Connection;
 import java.sql.SQLException;
 import java.util.List;
+
+import prjbd.jdbc.ConnectionFactory;
 
 public abstract class DAO<T> {
 
 	protected Connection connection;
 
-	public DAO(Connection connection) {
-		this.connection = connection;
+	public DAO() throws ClassNotFoundException, IOException, SQLException {
+		this.connection = ConnectionFactory.getInstance().getConnection();
 	}
 
 	public abstract void create(T t) throws SQLException;

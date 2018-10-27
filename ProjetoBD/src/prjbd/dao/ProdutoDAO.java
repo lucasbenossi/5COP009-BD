@@ -1,6 +1,6 @@
 package prjbd.dao;
 
-import java.sql.Connection;
+import java.io.IOException;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -10,9 +10,9 @@ import java.util.List;
 import prjbd.model.Produto;
 
 public class ProdutoDAO extends DAO<Produto> {
-	
-	public ProdutoDAO(Connection connection) {
-		super(connection);
+
+	public ProdutoDAO() throws ClassNotFoundException, IOException, SQLException {
+		super();
 	}
 
 	@Override
