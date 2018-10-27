@@ -1,37 +1,81 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!DOCTYPE html>
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <title>Editar produto</title>
-<link href="assets/css/bootstrap.css" rel="stylesheet">
-<link href="assets/css/tudo.css" rel="stylesheet">
+<link href="assets/bootstrap.css" rel="stylesheet">
 </head>
 <body>
-	<a href="index.jsp">Home</a>
-	<h2>Editar</h2>
-	<form action="alterar_produto_processa" method="POST">
-		<input type="hidden" name="id" value="${produto.id()}" />
-		Nome: <input type="text" name="nome" value="${produto.nome()}"/><br>
-		Preco: <input type="text" name="preco" value="${produto.preco()}"/><br>
-		Parcelas: <input type="text" name="parcelas" value="${produto.parcelas()}"/><br>
-		Valor Parcela: <input type="text" name="valorParcela" value="${produto.valorParcela()}"/><br>
-		Disponivel:
+	<nav class="navbar navbar-dark bg-dark navbar-expand-sm">
+		<ul class="navbar-nav">
+			<li class="nav-item">
+				<a class="nav-link" href="index.jsp">Home</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="produtos">Produtos</a>
+			</li>
+		</ul>
+	</nav>
+	<br>
+	
+	<div class="container">
+		<h2>Editar</h2>
+		<form action="inserir_produto_processa" method="POST">
+			<input type="hidden" name="id" value="${produto.id()}" />
+			<div class="form-group">
+				<label class="">Nome</label>
+				<input class="form-control" type="text" name="nome" value="${produto.nome()}" />
+			</div>
+			<div class="form-group">
+				<label class="">Preco</label>
+				<input class="form-control" type="text" name="preco" value="${produto.preco()}" />
+			</div>
+			<div class="form-group">
+				<label class="">Parcelas</label> 
+				<input class="form-control" type="text" name="parcelas" value="${produto.parcelas()}" />
+			</div>
+			<div class="form-group">
+				<label class="">Valor Parcela</label> 
+				<input class="form-control" type="text" name="valorParcela" value="${produto.valorParcela()}" />
+			</div>
+			<div class="form-group">
+				<label class="d-block">Disponível</label>
+				
+				<c:if test="${produto.disponivel()}">
+				<div class="form-check form-check-inline">
+					<input class="form-check-input" type="radio" name="disponivel" value="true" checked />
+					<label class="form-check-label">Sim</label>
+				</div>
+				<div class="form-check form-check-inline">
+					<input class="form-check-input" type="radio" name="disponivel" value="false" />
+					<label class="form-check-label">Não</label>
+				</div>
+				</c:if>
+				
+				<c:if test="${!produto.disponivel()}">
+				<div class="form-check form-check-inline">
+					<input class="form-check-input" type="radio" name="disponivel" value="true" />
+					<label class="form-check-label">Sim</label>
+				</div>
+				<div class="form-check form-check-inline">
+					<input class="form-check-input" type="radio" name="disponivel" value="false" checked />
+					<label class="form-check-label">Não</label>
+				</div>
+				</c:if>
+				
+			</div>
+			<div class="form-group">
+				<label class="">Loja</label>
+				<input class="form-control" type="text" name="loja" value="${produto.loja()}" />
+			</div>
+			<input class="btn btn-primary" type="submit" value="Inserir" />
+		</form>
+		<br>
 		
-		<c:if test="${produto.disponivel()}">
-			<input type="radio" name="disponivel" value="true" checked /> Sim
-			<input type="radio" name="disponivel" value="false" /> Não<br>
-		</c:if>
-		
-		<c:if test="${!produto.disponivel()}">
-			<input type="radio" name="disponivel" value="true" /> Sim
-			<input type="radio" name="disponivel" value="false" checked /> Não<br>
-		</c:if>
-
-		Loja: <input type="text" name="loja" value="${produto.loja()}"/><br>
-		<input type="submit" value="Alterar" />
-	</form>
+	</div>
 </body>
 </html>
