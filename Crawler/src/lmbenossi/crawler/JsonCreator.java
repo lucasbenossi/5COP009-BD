@@ -10,6 +10,7 @@ public class JsonCreator {
 	Gson gson;
 	JsonWriter writer;
 	CrawlerThreads<?> crawler;
+	boolean finished = false;
 	
 	public JsonCreator(Gson gson, JsonWriter writer, CrawlerThreads<?> crawler) {
 		this.gson = gson;
@@ -22,13 +23,33 @@ public class JsonCreator {
 		thread.start();
 		
 		crawler.execute();
-		crawler.finish();
+		this.finished = true;
+		synchronized (crawler) {
+			this.crawler.notify();
+		}
 		
 		try {
 			thread.join();
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		}
+	}
+	
+	private Object take() {
+		while(!finished) {
+			Object obj = crawler.poll();
+			if(obj != null) {
+				return obj;
+			}
+			synchronized (crawler) {
+				try {
+					crawler.wait();
+				} catch (InterruptedException e) {
+					e.printStackTrace();
+				}
+			}
+		}
+		return null;
 	}
 	
 	private class JsonCreatorRunnable implements Runnable {
@@ -38,8 +59,8 @@ public class JsonCreator {
 				writer.beginArray().flush();
 				
 				while(true) {
-					Object obj = crawler.take();
-					if(obj == null) {
+					Object obj = take();
+					if(finished) {
 						break;
 					}
 					gson.toJson(gson.toJsonTree(obj), writer);

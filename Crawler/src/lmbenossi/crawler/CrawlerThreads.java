@@ -37,27 +37,21 @@ public class CrawlerThreads<T> {
 		}
 	}
 	
-	public void finish() {
-		this.queue.add(null);
-	}
-	
 	private void put(T obj) {
 		synchronized(this.queue) {
 			this.queue.add(obj);
-			this.queue.notify();
+		}
+		synchronized (this) {
+			this.notify();
 		}
 	}
 	
-	public T take() {
-		synchronized(queue) {
-			while(queue.isEmpty()) {
-				try {
-					queue.wait();
-				} catch (InterruptedException e) {
-					e.printStackTrace();
-				}
+	public T poll() {
+		synchronized (this.queue) {
+			if(this.queue.isEmpty()) {
+				return null;
 			}
-			return queue.remove();
+			return this.queue.remove();
 		}
 	}
 	
