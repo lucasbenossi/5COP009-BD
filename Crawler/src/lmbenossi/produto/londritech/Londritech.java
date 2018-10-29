@@ -22,7 +22,7 @@ import lmbenossi.produto.ProdutoAdapter;
 public class Londritech {
 	private String url = "http://www.londritech.com.br";
 	
-	public void crawl() {
+	public void crawl() throws IOException {
 		LinkedList<String> urlsCatalogo = new LinkedList<>();
 		
 		Document htmlDoc = HtmlDoc.getHtmlDoc(this.url);
@@ -47,19 +47,15 @@ public class Londritech {
 			}
 		}
 		
-		try {
-			Gson gson = new GsonBuilder().setPrettyPrinting().registerTypeAdapter(Produto.class, new ProdutoAdapter()).create();
-			JsonWriter writer = gson.newJsonWriter(new FileWriter("londritech.json"));
-			
-			CrawlerThreads<Produto> crawler = new CrawlerThreads<Produto>(crawlersProduto, 64);
-			JsonCreator creator = new JsonCreator(gson, writer, crawler);
-			creator.execute();
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
+		Gson gson = new GsonBuilder().setPrettyPrinting().registerTypeAdapter(Produto.class, new ProdutoAdapter()).create();
+		JsonWriter writer = gson.newJsonWriter(new FileWriter("londritech.json"));
+		
+		CrawlerThreads<Produto> crawler = new CrawlerThreads<Produto>(crawlersProduto, 64);
+		JsonCreator creator = new JsonCreator(gson, writer, crawler);
+		creator.execute();
 	}
 	
-	public static void main(String[] argv) throws Exception {
+	public static void main(String[] argv) throws IOException {
 		Londritech londritech = new Londritech();
 		londritech.crawl();
 	}

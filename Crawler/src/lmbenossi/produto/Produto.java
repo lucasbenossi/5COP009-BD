@@ -1,6 +1,5 @@
 package lmbenossi.produto;
 
-import java.io.PrintStream;
 import java.math.BigDecimal;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -10,16 +9,16 @@ public class Produto {
 	private BigDecimal preco;
 	private int parcelas;
 	private BigDecimal valorParcela;
-	private boolean disponivel;
-	private Loja loja;
+	private int idLoja;
+	private String url;
 	
-	public Produto(String nome, BigDecimal preco, int parcelas, BigDecimal valorParcela, boolean disponivel, Loja loja) {
+	public Produto(String nome, BigDecimal preco, int parcelas, BigDecimal valorParcela, int idLoja, String url) {
 		this.nome = nome;
 		this.preco = preco;
 		this.parcelas = parcelas;
 		this.valorParcela = valorParcela;
-		this.disponivel = disponivel;
-		this.loja = loja;
+		this.idLoja = idLoja;
+		this.url = url;
 	}
 	
 	public String nome() {
@@ -38,12 +37,12 @@ public class Produto {
 		return this.valorParcela;
 	}
 	
-	public boolean disponivel() {
-		return this.disponivel;
+	public int idLoja() {
+		return this.idLoja;
 	}
 	
-	public Loja loja() {
-		return this.loja;
+	public String url() {
+		return this.url;
 	}
 	
 	public static BigDecimal parsePreco(String input) {
@@ -64,15 +63,13 @@ public class Produto {
 		return new BigDecimal(val);
 	}
 	
-	public void print(PrintStream out) {
-		out.println(nome);
-		out.println(preco);
-		out.println(parcelas);
-		out.println(valorParcela);
-		out.println(disponivel);
-		out.println(loja.nome());
-	}
-	public void print() {
-		print(System.out);
+	public static int parseParcelas(String input) {
+		Pattern regex = Pattern.compile("([0-9]{1,2})x de");
+		Matcher matcher = regex.matcher(input);
+		
+		if(matcher.find()) {
+			return Integer.parseInt(matcher.group(1));
+		}
+		return -1;
 	}
 }

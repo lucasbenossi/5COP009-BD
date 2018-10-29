@@ -58,19 +58,14 @@ public class JsonCreator {
 			try {
 				writer.beginArray().flush();
 				
-				while(true) {
+				while(!finished) {
 					Object obj = take();
-					if(finished) {
-						break;
-					}
 					gson.toJson(gson.toJsonTree(obj), writer);
 					writer.flush();
 				}
 				
 				writer.endArray().flush();
-			} catch (JsonIOException e) {
-				e.printStackTrace();
-			} catch (IOException e) {
+			} catch (JsonIOException | IOException e) {
 				e.printStackTrace();
 			}
 		}

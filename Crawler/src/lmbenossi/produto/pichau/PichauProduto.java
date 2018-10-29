@@ -9,6 +9,7 @@ import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 
 import lmbenossi.crawler.HtmlDoc;
+import lmbenossi.main.Globals;
 import lmbenossi.produto.CrawlerProduto;
 import lmbenossi.produto.Loja;
 import lmbenossi.produto.Produto;
@@ -21,30 +22,29 @@ public class PichauProduto extends CrawlerProduto {
 
 	@Override
 	public Produto crawl() {
-		Document htmlDoc = HtmlDoc.getHtmlDoc(super.url);
-		
-		Element infosProduto = htmlDoc.body().selectFirst("#maincontent > div.columns > div > div.product-info-main");
-		
-		String nome = infosProduto.select("h1").text();
-		
-		BigDecimal preco = Produto.parsePreco(infosProduto.selectFirst("div.product-info-price > div.price-box.price-final_price > span.price-container.price-final_price.tax.weee > span.price-wrapper").text());
-		
-		int parcelas = 10;
-		
-		BigDecimal valorParcela = Produto.parsePreco(infosProduto.selectFirst("div.product-info-price > div.price-box.price-final_price > span.price-container.price-final_price.tax.weee > span.price-installments > span").text());
-		
-		boolean disponivel = true;
-		
-		if(infosProduto.selectFirst("div.product-info-price > div.product-info-stock-sku > div.stock.available") != null) {
-			disponivel = true;
+		try {
+			Document htmlDoc = HtmlDoc.getHtmlDoc(super.url);
+			
+			Element infosProduto = htmlDoc.body().selectFirst("#maincontent > div.columns > div > div.product-info-main");
+			
+			String nome = infosProduto.select("h1").text();
+			
+			BigDecimal preco = Produto.parsePreco(infosProduto.selectFirst("div.product-info-price > div.price-box.price-final_price > span.price-container.price-final_price.tax.weee > span.price-wrapper").text());
+			
+			String stringParcelas = infosProduto.selectFirst("div.product-info-price > div.price-box.price-final_price > span.price-container.price-final_price.tax.weee > span.price-installments > span").text();
+			
+			int parcelas = Produto.parseParcelas(stringParcelas);
+			
+			BigDecimal valorParcela = Produto.parsePreco(stringParcelas);
+			
+			System.out.println(nome);
+			
+			return new Produto(nome, preco, parcelas, valorParcela, Loja.PICHAU.ordinal(), this.url);
+		} catch (Exception e) {
+			Globals.urlErros.add(this.url);
+			e.printStackTrace();
 		}
-		else if(infosProduto.selectFirst("div.product-info-price > div.product-info-stock-sku > div.stock.unavailable") != null) {
-			disponivel = false;
-		}
-		
-		System.out.println(nome);
-		
-		return new Produto(nome, preco, parcelas, valorParcela, disponivel, Loja.PICHAU);
+		return null;
 	}
 	
 	public static void main(String[] args) {

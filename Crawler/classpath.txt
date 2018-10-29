@@ -1,0 +1,1 @@
+bin/:lib/gson-2.8.5.jar:lib/jsoup-1.11.3.jar

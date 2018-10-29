@@ -20,8 +20,8 @@ public class ProdutoAdapter extends TypeAdapter<Produto> {
 		writer.name("preco").value(produto.preco());
 		writer.name("parcelas").value(produto.parcelas());
 		writer.name("valorParcela").value(produto.valorParcela());
-		writer.name("disponivel").value(produto.disponivel());
-		writer.name("loja").value(produto.loja().nome());
+		writer.name("idLoja").value(produto.idLoja());
+		writer.name("url").value(produto.url());
 		writer.endObject();
 		writer.flush();
 	}
