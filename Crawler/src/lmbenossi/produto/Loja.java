@@ -11,17 +11,23 @@ import com.google.gson.stream.JsonReader;
 import com.google.gson.stream.JsonWriter;
 
 public enum Loja {
-	PICHAU("Pichau"),
-	LONDRITECH("Londritech");
+	PICHAU("Pichau", "https://www.pichau.com.br/"),
+	LONDRITECH("Londritech", "https://www.londritech.com.br/");
 	
 	private String nome;
+	private String url;
 	
-	private Loja(String nome) {
+	private Loja(String nome, String url) {
 		this.nome = nome;
+		this.url = url;
 	}
 	
 	public String getNome() {
 		return this.nome;
+	}
+	
+	public String getUrl() {
+		return this.url;
 	}
 	
 	public static void createJson(Writer out) throws IOException {
@@ -50,6 +56,7 @@ public enum Loja {
 			out.beginObject();
 			out.name("id").value(loja.ordinal());
 			out.name("nome").value(loja.getNome());
+			out.name("url").value(loja.getUrl());
 			out.endObject();
 			out.flush();
 		}

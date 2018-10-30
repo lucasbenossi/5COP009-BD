@@ -16,19 +16,18 @@ import lmbenossi.crawler.Crawler;
 import lmbenossi.crawler.CrawlerThreads;
 import lmbenossi.crawler.HtmlDoc;
 import lmbenossi.crawler.JsonCreator;
+import lmbenossi.produto.Loja;
 import lmbenossi.produto.Produto;
 import lmbenossi.produto.ProdutoAdapter;
 
 public class Londritech {
-	private String url = "http://www.londritech.com.br";
-	
 	public void crawl() throws IOException {
 		LinkedList<String> urlsCatalogo = new LinkedList<>();
 		
-		Document htmlDoc = HtmlDoc.getHtmlDoc(this.url);
+		Document htmlDoc = HtmlDoc.getHtmlDoc(Loja.LONDRITECH.getUrl());
 		Elements items = htmlDoc.select("#navbar-collapse-target > ul > li.nav-main__item.nav-main__item_all.dropdown.pull-left > div > div > div > ul > li > a");
 		for(Element a : items) {
-			String href = "https://www.londritech.com.br/" + a.attr("href");
+			String href = Loja.LONDRITECH.getUrl() + a.attr("href");
 			System.out.println(href);
 			urlsCatalogo.add(href);
 		}
