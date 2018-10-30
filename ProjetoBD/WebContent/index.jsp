@@ -6,21 +6,22 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <title>Home</title>
-<link href="assets/bootstrap.css" rel="stylesheet">
+<link href="${pageContext.request.contextPath}/assets/bootstrap.css" rel="stylesheet">
 </head>
 <body>
 	<nav class="navbar navbar-dark bg-dark navbar-expand-sm">
 		<ul class="navbar-nav">
 			<li class="nav-item">
-				<a class="nav-link" href="index.jsp">Home</a>
+				<a class="nav-link" href="${pageContext.request.contextPath}/index.jsp">Home</a>
 			</li>
 		</ul>
 	</nav>
 	<br>
 
 	<div class="container">
-		<a href="produtos">Produtos</a><br>
-		<a href="lojas">Lojas</a><br>
+		<a href="${pageContext.request.contextPath}/lojas">Lojas</a><br>
+		<a href="${pageContext.request.contextPath}/produtos">Produtos</a><br>
+		<a href="${pageContext.request.contextPath}/cpus">CPUs</a><br>
 	</div>
 </body>
 </html>

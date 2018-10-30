@@ -1,17 +1,13 @@
 package prjbd.teste;
 
-import java.math.BigDecimal;
-
+import prjbd.dao.CpuDAO;
 import prjbd.dao.DAO;
-import prjbd.dao.LojaDAO;
-import prjbd.dao.ProdutoDAO;
-import prjbd.model.Loja;
-import prjbd.model.Produto;
+import prjbd.model.Cpu;
 
 public class Main {
 	public static void main(String[] args) throws Exception {
-		DAO<Produto> dao = new ProdutoDAO();
+		DAO<Cpu> dao = new CpuDAO();
 		
-		System.out.println(dao.all().size());
+		dao.clean();
 	}
 }
