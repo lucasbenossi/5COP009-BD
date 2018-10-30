@@ -23,42 +23,40 @@ import prjbd.dao.ProdutoDAO;
 import prjbd.model.Produto;
 
 @WebServlet(urlPatterns={"/produtos", 
-		"/inserir_produto",
-		"/inserir_produto_processa",
-		"/alterar_produto",
-		"/alterar_produto_processa",
-		"/excluir_produto",
-		"/inserir_json_processa",
-		"/limpar_produtos"})
+		"/produtos/inserir",
+		"/produtos/inserir_processa",
+		"/produtos/limpar",
+		"/produtos/alterar",
+		"/produtos/alterar_processa",
+		"/produtos/excluir",
+		"/produtos/json"})
 @MultipartConfig
 public class ProdutoController extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
-    /**
-     * @see HttpServlet#HttpServlet()
-     */
     public ProdutoController() {
         super();
     }
 
-	/**
-	 * @see HttpServlet#service(HttpServletRequest request, HttpServletResponse response)
-	 */
 	protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		switch (request.getServletPath()) {
 		case "/produtos":
 			try {
 				List<Produto> produtos = new ProdutoDAO().all();
 				request.setAttribute("produtosList", produtos);
-				request.getRequestDispatcher("/produtos.jsp").forward(request, response);
+				request.getRequestDispatcher("/produtos/listar.jsp").forward(request, response);
 			} catch (Exception e) {
-				processExeption(request, response, e);
+				ExceptionHandler.processExeption(request, response, e);
 			}
 			break;
-		case "/inserir_produto":
-			request.getRequestDispatcher("/inserir_produto.jsp").forward(request, response);
+		case "/produtos/inserir":
+			try {
+				request.getRequestDispatcher("/produtos/inserir.jsp").forward(request, response);
+			} catch (Exception e) {
+				ExceptionHandler.processExeption(request, response, e);
+			}
 			break;
-		case "/inserir_produto_processa":
+		case "/produtos/inserir_processa":
 			try {
 				DAO<Produto> dao = new ProdutoDAO();
 				
@@ -67,10 +65,20 @@ public class ProdutoController extends HttpServlet {
 				dao.create(produto);
 				request.getRequestDispatcher("/produtos").forward(request, response);
 			} catch (Exception e) {
-				processExeption(request, response, e);
+				ExceptionHandler.processExeption(request, response, e);
 			}
 			break;
-		case "/alterar_produto":
+		case "/produtos/limpar":
+			try {
+				DAO<Produto> dao = new ProdutoDAO();
+				dao.clean();
+				
+				request.getRequestDispatcher("/produtos").forward(request, response);
+			} catch (Exception e) {
+				ExceptionHandler.processExeption(request, response, e);
+			}
+			break;
+		case "/produtos/alterar":
 			try {
 				int id = Integer.parseInt(request.getParameter("id"));
 				DAO<Produto> dao = new ProdutoDAO();
@@ -78,12 +86,12 @@ public class ProdutoController extends HttpServlet {
 				
 				request.setAttribute("produto", produto);
 				
-				request.getRequestDispatcher("alterar_produto.jsp").forward(request, response);
+				request.getRequestDispatcher("/produtos/alterar.jsp").forward(request, response);
 			} catch (Exception e) {
-				processExeption(request, response, e);
+				ExceptionHandler.processExeption(request, response, e);
 			}
 			break;
-		case "/alterar_produto_processa":
+		case "/produtos/alterar_processa":
 			try {
 				DAO<Produto> dao = new ProdutoDAO();
 				
@@ -93,20 +101,20 @@ public class ProdutoController extends HttpServlet {
 				dao.update(produto);
 				request.getRequestDispatcher("/produtos").forward(request, response);
 			} catch (Exception e) {
-				processExeption(request, response, e);
+				ExceptionHandler.processExeption(request, response, e);
 			}
 			break;
-		case "/excluir_produto":
+		case "/produtos/excluir":
 			try {
 				DAO<Produto> dao = new ProdutoDAO();
 				int id = Integer.parseInt(request.getParameter("id"));
 				dao.delete(id);
 				request.getRequestDispatcher("/produtos").forward(request, response);
 			} catch (Exception e) {
-				processExeption(request, response, e);
+				ExceptionHandler.processExeption(request, response, e);
 			}
 			break;
-		case "/inserir_json_processa":
+		case "/produtos/json":
 			try {
 				DAO<Produto> dao = new ProdutoDAO();
 				JsonParser parser = new JsonParser();
@@ -123,26 +131,15 @@ public class ProdutoController extends HttpServlet {
 					BigDecimal preco = object.get("preco").getAsBigDecimal();
 					int parcelas = object.get("parcelas").getAsInt();
 					BigDecimal valorParcela = object.get("valorParcela").getAsBigDecimal();
-					boolean disponivel = object.get("disponivel").getAsBoolean();
-					String loja = object.get("loja").getAsString();
+					int idLoja = object.get("idLoja").getAsInt();
 					
-					Produto produto = new Produto(0, nome, preco, parcelas, valorParcela, disponivel, loja);
+					Produto produto = new Produto(0, nome, preco, parcelas, valorParcela, idLoja);
 					dao.create(produto);
 				}
 				
 				request.getRequestDispatcher("/produtos").forward(request, response);
 			} catch (Exception e) {
-				processExeption(request, response, e);
-			}
-			break;
-		case "/limpar_produtos":
-			try {
-				DAO<Produto> dao = new ProdutoDAO();
-				dao.clean();
-				
-				request.getRequestDispatcher("/produtos").forward(request, response);
-			} catch (Exception e) {
-				processExeption(request, response, e);
+				ExceptionHandler.processExeption(request, response, e);
 			}
 			break;
 		default:
@@ -155,16 +152,8 @@ public class ProdutoController extends HttpServlet {
 		BigDecimal preco = new BigDecimal(request.getParameter("preco"));
 		int parcelas = Integer.parseInt(request.getParameter("parcelas"));
 		BigDecimal valorParcela = new BigDecimal(request.getParameter("valorParcela"));
-		boolean disponivel = Boolean.parseBoolean(request.getParameter("disponivel"));
-		String loja = request.getParameter("loja");
+		int idLoja = Integer.parseInt(request.getParameter("idLoja"));
 		
-		return new Produto(0, nome, preco, parcelas, valorParcela, disponivel, loja);
-	}
-
-	private void processExeption(HttpServletRequest request, HttpServletResponse response, Exception e)
-			throws ServletException, IOException {
-		e.printStackTrace(System.err);
-		request.setAttribute("exeption", e.toString());
-		request.getRequestDispatcher("/erro.jsp").forward(request, response);
+		return new Produto(0, nome, preco, parcelas, valorParcela, idLoja);
 	}
 }

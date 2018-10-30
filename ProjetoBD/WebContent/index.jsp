@@ -20,6 +20,7 @@
 
 	<div class="container">
 		<a href="produtos">Produtos</a><br>
+		<a href="lojas">Lojas</a><br>
 	</div>
 </body>
 </html>

@@ -1,11 +1,12 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!DOCTYPE html>
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<title>Erro</title>
+<title>Alterar Loja</title>
 <link href="${pageContext.request.contextPath}/assets/bootstrap.css" rel="stylesheet">
 </head>
 <body>
@@ -14,16 +15,25 @@
 			<li class="nav-item">
 				<a class="nav-link" href="${pageContext.request.contextPath}/index.jsp">Home</a>
 			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="${pageContext.request.contextPath}/lojas">Lojas</a>
+			</li>
 		</ul>
 	</nav>
 	<br>
 	
 	<div class="container">
-		<h2>Erro</h2>
-		<p>${exeption}</p>
-<pre>
-${stackTrace}
-</pre>
+		<h2>Alterar Loja</h2>
+		<form action="${pageContext.request.contextPath}/lojas/alterar_processa" method="POST">
+			<input type="hidden" name="id" value="${loja.id()}" />
+			<div class="form-group">
+				<label class="">Nome</label>
+				<input class="form-control" type="text" name="nome" value="${loja.nome()}"/>
+			</div>
+			<input class="btn btn-primary" type="submit" value="Alterar" />
+		</form>
+		<br>
+		
 	</div>
 </body>
 </html>

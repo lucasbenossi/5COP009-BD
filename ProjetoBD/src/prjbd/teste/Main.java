@@ -1,15 +1,17 @@
 package prjbd.teste;
 
+import java.math.BigDecimal;
+
+import prjbd.dao.DAO;
+import prjbd.dao.LojaDAO;
 import prjbd.dao.ProdutoDAO;
+import prjbd.model.Loja;
+import prjbd.model.Produto;
 
 public class Main {
 	public static void main(String[] args) throws Exception {
-		ProdutoDAO dao = new ProdutoDAO();
-		dao.delete(10);
-		try {
-			dao.clean();
-		} catch (Exception e) {
-			e.printStackTrace(System.out);
-		}
+		DAO<Produto> dao = new ProdutoDAO();
+		
+		System.out.println(dao.all().size());
 	}
 }
