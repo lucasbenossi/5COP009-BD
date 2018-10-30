@@ -1,10 +1,12 @@
 [
   {
     "id": 0,
-    "nome": "Pichau"
+    "nome": "Pichau",
+    "url": "https://www.pichau.com.br/"
   },
   {
     "id": 1,
-    "nome": "Londritech"
+    "nome": "Londritech",
+    "url": "https://www.londritech.com.br/"
   }
 ]
