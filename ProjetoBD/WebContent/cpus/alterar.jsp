@@ -54,6 +54,10 @@
 				<label class="">ScoreMultiCore</label>
 				<input class="form-control" type="text" name="scoreMultiCore" value="${cpu.scoreMultiCore()}"/>
 			</div>
+			<div class="form-group">
+				<label class="">Url</label>
+				<input class="form-control" type="text" name="url" value="${cpu.url()}"/>
+			</div>
 			<input class="btn btn-primary" type="submit" value="Alterar" />
 		</form>
 		<br>

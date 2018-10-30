@@ -46,6 +46,10 @@
 				<label class="">IdLoja</label>
 				<input class="form-control" type="text" name="idLoja" value="${produto.idLoja()}" />
 			</div>
+			<div class="form-group">
+				<label class="">Url</label>
+				<input class="form-control" type="text" name="url" value="${produto.url()}" />
+			</div>
 			<input class="btn btn-primary" type="submit" value="Alterar" />
 		</form>
 		<br>

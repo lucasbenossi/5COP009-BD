@@ -1,13 +1,15 @@
 package prjbd.teste;
 
-import prjbd.dao.CpuDAO;
 import prjbd.dao.DAO;
-import prjbd.model.Cpu;
+import prjbd.dao.ProdutoDAO;
+import prjbd.model.Produto;
 
 public class Main {
 	public static void main(String[] args) throws Exception {
-		DAO<Cpu> dao = new CpuDAO();
+		DAO<Produto> dao = new ProdutoDAO();
 		
-		dao.clean();
+		for(Produto produto : ((ProdutoDAO)dao).search("ssd%")) {
+			System.out.println(produto.nome());
+		}
 	}
 }

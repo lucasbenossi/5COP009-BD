@@ -121,8 +121,9 @@ public class LojaController extends HttpServlet {
 					
 					int id = object.get("id").getAsInt();
 					String nome = object.get("nome").getAsString();
+					String url = object.get("url").getAsString();
 					
-					Loja loja = new Loja(id, nome);
+					Loja loja = new Loja(id, nome, url);
 					dao.create(loja);
 				}
 				
@@ -139,8 +140,9 @@ public class LojaController extends HttpServlet {
 	private Loja lojaFromRequest(HttpServletRequest request) {
 		int id = Integer.parseInt(request.getParameter("id"));
 		String nome = request.getParameter("nome");
+		String url = request.getParameter("url");
 		
-		return new Loja(id, nome);
+		return new Loja(id, nome, url);
 	}
 
 }

@@ -1,7 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-<%@ page import="java.util.List" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -51,7 +50,7 @@
 				<c:forEach var="cpu" items="${requestScope['cpusList']}">
 				<tr>
 					<td>${cpu.id()}</td>
-					<td>${cpu.name()}</td>
+					<td><a href="${cpu.url()}" target="_blank">${cpu.name()}</a></td>
 					<td>${cpu.cores()}</td>
 					<td>${cpu.threads()}</td>
 					<td>${cpu.frequency()}</td>

@@ -1,7 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-<%@ page import="java.util.List" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -45,7 +44,7 @@
 				<c:forEach var="loja" items="${requestScope['lojasList']}">
 				<tr>
 					<td>${loja.id()}</td>
-					<td>${loja.nome()}</td>
+					<td><a href="${loja.url()}" target="_blank">${loja.nome()}</a></td>
 					<td><a href="${pageContext.request.contextPath}/lojas/alterar?id=${loja.id()}">Alterar</a></td>
 					<td><a href="${pageContext.request.contextPath}/lojas/excluir?id=${loja.id()}">Excluir</a></td>
 				</tr>

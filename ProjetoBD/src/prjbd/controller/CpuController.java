@@ -126,8 +126,9 @@ public class CpuController extends HttpServlet {
 					int maxFrequency = object.get("maxFrequency").getAsInt();
 					int scoreSingleCore = object.get("scoreSingleCore").getAsInt();
 					int scoreMultiCore = object.get("scoreMultiCore").getAsInt();
+					String url = object.get("url").getAsString();
 					
-					Cpu cpu = new Cpu(0, name, cores, threads, frequency, maxFrequency, scoreSingleCore, scoreMultiCore);
+					Cpu cpu = new Cpu(0, name, cores, threads, frequency, maxFrequency, scoreSingleCore, scoreMultiCore, url);
 					dao.create(cpu);
 				}
 				
@@ -149,7 +150,8 @@ public class CpuController extends HttpServlet {
 		int maxFrequency = Integer.parseInt(request.getParameter("maxFrequency"));
 		int scoreSingleCore = Integer.parseInt(request.getParameter("scoreSingleCore"));
 		int scoreMultiCore = Integer.parseInt(request.getParameter("scoreMultiCore"));
+		String url = request.getParameter("url");
 		
-		return new Cpu(0, name, cores, threads, frequency, maxFrequency, scoreSingleCore, scoreMultiCore);
+		return new Cpu(0, name, cores, threads, frequency, maxFrequency, scoreSingleCore, scoreMultiCore, url);
 	}
 }

@@ -32,6 +32,10 @@
 				<label class="">Nome</label>
 				<input class="form-control" type="text" name="nome"/>
 			</div>
+			<div class="form-group">
+				<label class="">Url</label>
+				<input class="form-control" type="text" name="url"/>
+			</div>
 			<input class="btn btn-primary" type="submit" value="Inserir" />
 		</form>
 		<br>

@@ -30,6 +30,10 @@
 				<label class="">Nome</label>
 				<input class="form-control" type="text" name="nome" value="${loja.nome()}"/>
 			</div>
+			<div class="form-group">
+				<label class="">Url</label>
+				<input class="form-control" type="text" name="url" value="${loja.url()}"/>
+			</div>
 			<input class="btn btn-primary" type="submit" value="Alterar" />
 		</form>
 		<br>

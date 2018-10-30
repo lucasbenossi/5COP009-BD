@@ -132,8 +132,9 @@ public class ProdutoController extends HttpServlet {
 					int parcelas = object.get("parcelas").getAsInt();
 					BigDecimal valorParcela = object.get("valorParcela").getAsBigDecimal();
 					int idLoja = object.get("idLoja").getAsInt();
+					String url = object.get("url").getAsString();
 					
-					Produto produto = new Produto(0, nome, preco, parcelas, valorParcela, idLoja);
+					Produto produto = new Produto(0, nome, preco, parcelas, valorParcela, idLoja, url);
 					dao.create(produto);
 				}
 				
@@ -153,7 +154,8 @@ public class ProdutoController extends HttpServlet {
 		int parcelas = Integer.parseInt(request.getParameter("parcelas"));
 		BigDecimal valorParcela = new BigDecimal(request.getParameter("valorParcela"));
 		int idLoja = Integer.parseInt(request.getParameter("idLoja"));
+		String url = request.getParameter("url");
 		
-		return new Produto(0, nome, preco, parcelas, valorParcela, idLoja);
+		return new Produto(0, nome, preco, parcelas, valorParcela, idLoja, url);
 	}
 }

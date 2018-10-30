@@ -9,9 +9,10 @@ public class Cpu {
 	private int maxFrequency;
 	private int scoreSingleCore;
 	private int scoreMultiCore;
+	private String url;
 
 	public Cpu(int id, String name, int cores, int threads, int frequency, int maxFrequency, int scoreSingleCore,
-			int scoreMultiCore) {
+			int scoreMultiCore, String url) {
 		this.id = id;
 		this.name = name;
 		this.cores = cores;
@@ -20,6 +21,7 @@ public class Cpu {
 		this.maxFrequency = maxFrequency;
 		this.scoreSingleCore = scoreSingleCore;
 		this.scoreMultiCore = scoreMultiCore;
+		this.url = url;
 	}
 	
 	public int id() {
@@ -55,5 +57,9 @@ public class Cpu {
 
 	public int scoreMultiCore() {
 		return scoreMultiCore;
+	}
+	
+	public String url() {
+		return this.url;
 	}
 }

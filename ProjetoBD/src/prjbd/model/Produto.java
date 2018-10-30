@@ -9,14 +9,16 @@ public class Produto {
 	private int parcelas;
 	private BigDecimal valorParcela;
 	private int idLoja;
+	private String url;
 	
-	public Produto(int id, String nome, BigDecimal preco, int parcelas, BigDecimal valorParcela, int idLoja) {
+	public Produto(int id, String nome, BigDecimal preco, int parcelas, BigDecimal valorParcela, int idLoja, String url) {
 		this.id = id;
 		this.nome = nome;
 		this.preco = preco;
 		this.parcelas = parcelas;
 		this.valorParcela = valorParcela;
 		this.idLoja = idLoja;
+		this.url = url;
 	}
 	
 	public int id() {
@@ -59,5 +61,9 @@ public class Produto {
 	}
 	public void idLoja(int idLoja) {
 		this.idLoja = idLoja;
+	}
+	
+	public String url() {
+		return this.url;
 	}
 }

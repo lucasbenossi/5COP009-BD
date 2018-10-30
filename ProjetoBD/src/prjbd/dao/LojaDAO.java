@@ -17,11 +17,12 @@ public class LojaDAO extends DAO<Loja> {
 
 	@Override
 	public void create(Loja loja) throws SQLException {
-		String query = "INSERT INTO prjbd.loja (id, nome) VALUES (?,?);";
-		try (PreparedStatement statement = connection.prepareStatement(query);) {
-			statement.setInt(1, loja.id());
-			statement.setString(2, loja.nome());
-			statement.execute();
+		String query = "INSERT INTO prjbd.loja (id, nome, url) VALUES (?,?,?);";
+		try (PreparedStatement stmt = connection.prepareStatement(query);) {
+			stmt.setInt(1, loja.id());
+			stmt.setString(2, loja.nome());
+			stmt.setString(3, loja.url());
+			stmt.execute();
         }
 	}
 
@@ -33,7 +34,7 @@ public class LojaDAO extends DAO<Loja> {
 			stmt.setInt(1, id);
 			try(ResultSet result = stmt.executeQuery();){
 				if(result.next()) {
-					loja = new Loja(result.getInt("id"), result.getString("nome"));
+					loja = new Loja(result.getInt("id"), result.getString("nome"), result.getString("url"));
 				}
 			}
 		}
@@ -42,11 +43,12 @@ public class LojaDAO extends DAO<Loja> {
 
 	@Override
 	public void update(Loja loja) throws SQLException {
-		String query = "UPDATE prjbd.loja SET nome = ? WHERE id = ?;";
-		try (PreparedStatement statement = connection.prepareStatement(query);) {
-			statement.setString(1, loja.nome());
-			statement.setInt(2, loja.id());
-			if(statement.executeUpdate() < 1) {
+		String query = "UPDATE prjbd.loja SET nome = ?, url = ? WHERE id = ?;";
+		try (PreparedStatement stmt = connection.prepareStatement(query);) {
+			stmt.setString(1, loja.nome());
+			stmt.setString(2, loja.url());
+			stmt.setInt(3, loja.id());
+			if(stmt.executeUpdate() < 1) {
 				throw new SQLException("Erro ao editar: loja não encontrada.");
 			}
 		}
@@ -70,7 +72,7 @@ public class LojaDAO extends DAO<Loja> {
 		try (PreparedStatement statement = connection.prepareStatement(query);
                 ResultSet result = statement.executeQuery()) {
             while (result.next()) {
-            	Loja loja = new Loja(result.getInt("id"), result.getString("nome"));
+            	Loja loja = new Loja(result.getInt("id"), result.getString("nome"), result.getString("url"));
             	lojas.add(loja);
             }
         }

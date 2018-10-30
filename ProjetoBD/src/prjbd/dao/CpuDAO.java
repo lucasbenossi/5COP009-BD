@@ -17,7 +17,7 @@ public class CpuDAO extends DAO<Cpu> {
 
 	@Override
 	public void create(Cpu cpu) throws SQLException {
-		String query = "INSERT INTO prjbd.cpu (name, cores, threads, frequency, maxFrequency, scoreSingleCore, scoreMultiCore) VALUES (?,?,?,?,?,?,?);";
+		String query = "INSERT INTO prjbd.cpu (name, cores, threads, frequency, maxFrequency, scoreSingleCore, scoreMultiCore, url) VALUES (?,?,?,?,?,?,?,?);";
 		try (PreparedStatement stmt = connection.prepareStatement(query);) {
 			stmt.setString(1, cpu.name());
 			stmt.setInt(2, cpu.cores());
@@ -26,6 +26,7 @@ public class CpuDAO extends DAO<Cpu> {
 			stmt.setInt(5, cpu.maxFrequency());
 			stmt.setInt(6, cpu.scoreSingleCore());
 			stmt.setInt(7, cpu.scoreMultiCore());
+			stmt.setString(8, cpu.url());
 			stmt.execute();
 		}
 	}
@@ -45,7 +46,8 @@ public class CpuDAO extends DAO<Cpu> {
 							result.getInt("frequency"), 
 							result.getInt("maxFrequency"), 
 							result.getInt("scoreSingleCore"), 
-							result.getInt("scoreMultiCore"));
+							result.getInt("scoreMultiCore"),
+							result.getString("url"));
 				}
 				else {
 					throw new SQLException("Cpu não encontrada.");
@@ -57,7 +59,9 @@ public class CpuDAO extends DAO<Cpu> {
 
 	@Override
 	public void update(Cpu cpu) throws SQLException {
-		String query = "UPDATE prjbd.cpu SET name = ?, cores = ?, threads = ?, frequency = ?, maxFrequency = ?, scoreSingleCore = ?, scoreMultiCore = ? WHERE id = ?;";
+		String query = "UPDATE prjbd.cpu "
+				+ "SET name = ?, cores = ?, threads = ?, frequency = ?, maxFrequency = ?, scoreSingleCore = ?, scoreMultiCore = ?, url = ? "
+				+ "WHERE id = ?;";
 		try (PreparedStatement stmt = connection.prepareStatement(query);) {
 			stmt.setString(1, cpu.name());
 			stmt.setInt(2, cpu.cores());
@@ -66,7 +70,8 @@ public class CpuDAO extends DAO<Cpu> {
 			stmt.setInt(5, cpu.maxFrequency());
 			stmt.setInt(6, cpu.scoreSingleCore());
 			stmt.setInt(7, cpu.scoreMultiCore());
-			stmt.setInt(8, cpu.id());
+			stmt.setString(8, cpu.url());
+			stmt.setInt(9, cpu.id());
 			if(stmt.executeUpdate() < 1) {
 				throw new SQLException("Erro ao editar: CPU não encontrada.");
 			}
@@ -98,7 +103,8 @@ public class CpuDAO extends DAO<Cpu> {
 						result.getInt("frequency"), 
 						result.getInt("maxFrequency"), 
 						result.getInt("scoreSingleCore"), 
-						result.getInt("scoreMultiCore"));
+						result.getInt("scoreMultiCore"),
+						result.getString("url"));
             	cpus.add(cpu);
             }
         }
