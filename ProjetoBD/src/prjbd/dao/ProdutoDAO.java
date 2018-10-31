@@ -19,12 +19,12 @@ public class ProdutoDAO extends DAO<Produto> {
 	public void create(Produto produto) throws SQLException {
 		String query = "INSERT INTO prjbd.produto (nome, preco, parcelas, valorparcela, idLoja, url) VALUES (?,?,?,?,?,?);";
 		try (PreparedStatement stmt = connection.prepareStatement(query);) {
-			stmt.setString(1, produto.nome());
-			stmt.setBigDecimal(2, produto.preco());
-			stmt.setInt(3, produto.parcelas());
-			stmt.setBigDecimal(4, produto.valorParcela());
-			stmt.setInt(5, produto.idLoja());
-			stmt.setString(6, produto.url());
+			stmt.setString(1, produto.getNome());
+			stmt.setBigDecimal(2, produto.getPreco());
+			stmt.setInt(3, produto.getParcelas());
+			stmt.setBigDecimal(4, produto.getValorParcela());
+			stmt.setInt(5, produto.getIdLoja());
+			stmt.setString(6, produto.getUrl());
 			stmt.execute();
         }
 	}
@@ -56,13 +56,13 @@ public class ProdutoDAO extends DAO<Produto> {
 	public void update(Produto produto) throws SQLException {
 		String query = "UPDATE prjbd.produto SET nome = ?, preco = ?, parcelas = ?, valorparcela = ?, idLoja = ?, url = ? WHERE id = ?;";
 		try (PreparedStatement statement = connection.prepareStatement(query);) {
-			statement.setString(1, produto.nome());
-			statement.setBigDecimal(2, produto.preco());
-			statement.setInt(3, produto.parcelas());
-			statement.setBigDecimal(4, produto.valorParcela());
-			statement.setInt(5, produto.idLoja());
-			statement.setString(6, produto.url());
-			statement.setInt(7, produto.id());
+			statement.setString(1, produto.getNome());
+			statement.setBigDecimal(2, produto.getPreco());
+			statement.setInt(3, produto.getParcelas());
+			statement.setBigDecimal(4, produto.getValorParcela());
+			statement.setInt(5, produto.getIdLoja());
+			statement.setString(6, produto.getUrl());
+			statement.setInt(7, produto.getId());
 			if(statement.executeUpdate() < 1) {
 				throw new SQLException("Erro ao editar: produto não encontrado.");
 			}

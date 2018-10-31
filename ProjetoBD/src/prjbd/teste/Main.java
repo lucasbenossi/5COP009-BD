@@ -9,7 +9,7 @@ public class Main {
 		DAO<Produto> dao = new ProdutoDAO();
 		
 		for(Produto produto : ((ProdutoDAO)dao).search("ssd%")) {
-			System.out.println(produto.nome());
+			System.out.println(produto.getNome());
 		}
 	}
 }

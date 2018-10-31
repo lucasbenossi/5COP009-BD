@@ -96,7 +96,7 @@ public class ProdutoController extends HttpServlet {
 				DAO<Produto> dao = new ProdutoDAO();
 				
 				Produto produto = productFromRequest(request);
-				produto.id(Integer.parseInt(request.getParameter("id")));
+				produto.setId(Integer.parseInt(request.getParameter("id")));
 				
 				dao.update(produto);
 				request.getRequestDispatcher("/produtos").forward(request, response);

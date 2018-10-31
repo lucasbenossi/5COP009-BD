@@ -21,49 +21,34 @@ public class Produto {
 		this.url = url;
 	}
 	
-	public int id() {
+	public int getId() {
 		return this.id;
 	}
-	public void id(int id) {
+	public void setId(int id) {
 		this.id = id;
 	}
 	
-	public String nome() {
+	public String getNome() {
 		return this.nome;
 	}
-	public void nome(String nome) {
-		this.nome = nome;
-	}
 	
-	public BigDecimal preco() {
+	public BigDecimal getPreco() {
 		return this.preco;
 	}
-	public void preco(BigDecimal preco) {
-		this.preco = preco;
-	}
 	
-	public int parcelas() {
+	public int getParcelas() {
 		return this.parcelas;
 	}
-	public void parcelas(int parcelas) {
-		this.parcelas = parcelas;
-	}
 	
-	public BigDecimal valorParcela() {
+	public BigDecimal getValorParcela() {
 		return this.valorParcela;
 	}
-	public void valorParcela(BigDecimal valorParcela) {
-		this.valorParcela = valorParcela;
-	}
 	
-	public int idLoja() {
+	public int getIdLoja() {
 		return this.idLoja;
 	}
-	public void idLoja(int idLoja) {
-		this.idLoja = idLoja;
-	}
 	
-	public String url() {
+	public String getUrl() {
 		return this.url;
 	}
 }

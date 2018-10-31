@@ -46,20 +46,20 @@
 					<th>Preço</th>
 					<th>Parcelas</th>
 					<th>Valor Parcela</th>
-					<th>IdLoja</th>
+					<th>Loja</th>
 					<th>Preco por GB</th>
 				</tr>
 			</thead>
 			<tbody>
 				<c:forEach var="ssd" items="${requestScope['ssdsList']}">
 				<tr>
-					<td>${ssd.produto().id()}</td>
-					<td><a href="${ssd.produto().url()}" target="_blank">${ssd.produto().nome()}</a></td>
-					<td>${ssd.produto().preco()}</td>
-					<td>${ssd.produto().parcelas()}</td>
-					<td>${ssd.produto().valorParcela()}</td>
-					<td>${ssd.produto().idLoja()}</td>
-					<td>${ssd.precoPorGiga()}</td>
+					<td>${ssd.getProduto().getId()}</td>
+					<td><a href="${ssd.getProduto().getUrl()}" target="_blank">${ssd.getProduto().getNome()}</a></td>
+					<td>${ssd.getProduto().getPreco()}</td>
+					<td>${ssd.getProduto().getParcelas()}</td>
+					<td>${ssd.getProduto().getValorParcela()}</td>
+					<td>${ssd.getNomeLoja()}</td>
+					<td>${ssd.getPrecoPorGiga()}</td>
 				</tr>
 				</c:forEach>
 			</tbody>
