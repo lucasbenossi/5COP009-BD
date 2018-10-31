@@ -22,6 +22,7 @@
 		<a href="${pageContext.request.contextPath}/lojas">Lojas</a><br>
 		<a href="${pageContext.request.contextPath}/produtos">Produtos</a><br>
 		<a href="${pageContext.request.contextPath}/cpus">CPUs</a><br>
+		<a href="${pageContext.request.contextPath}/relatorios/ssd">Relatório SSDs</a><br>
 	</div>
 </body>
 </html>
