@@ -26,18 +26,8 @@
     "frequency": 4000,
     "maxFrequency": -1,
     "scoreSingleCore": 6121,
-    "scoreMultiCore": 27411,
+    "scoreMultiCore": 27406,
     "url": "https://browser.geekbench.com/processors/2146"
-  },
-  {
-    "name": "Intel Core i7-8700K",
-    "cores": 6,
-    "threads": 12,
-    "frequency": 3700,
-    "maxFrequency": 4700,
-    "scoreSingleCore": 5897,
-    "scoreMultiCore": 25992,
-    "url": "https://browser.geekbench.com/processors/2062"
   },
   {
     "name": "Intel Core i7-7740X",
@@ -50,13 +40,23 @@
     "url": "https://browser.geekbench.com/processors/2196"
   },
   {
+    "name": "Intel Core i7-8700K",
+    "cores": 6,
+    "threads": 12,
+    "frequency": 3700,
+    "maxFrequency": 4700,
+    "scoreSingleCore": 5894,
+    "scoreMultiCore": 25978,
+    "url": "https://browser.geekbench.com/processors/2062"
+  },
+  {
     "name": "Intel Core i7-7700K",
     "cores": 4,
     "threads": 8,
     "frequency": 4200,
     "maxFrequency": 4500,
-    "scoreSingleCore": 5696,
-    "scoreMultiCore": 18812,
+    "scoreSingleCore": 5697,
+    "scoreMultiCore": 18813,
     "url": "https://browser.geekbench.com/processors/1779"
   },
   {
@@ -75,8 +75,8 @@
     "threads": 4,
     "frequency": 4000,
     "maxFrequency": -1,
-    "scoreSingleCore": 5467,
-    "scoreMultiCore": 16058,
+    "scoreSingleCore": 5468,
+    "scoreMultiCore": 16062,
     "url": "https://browser.geekbench.com/processors/2067"
   },
   {
@@ -85,8 +85,8 @@
     "threads": 12,
     "frequency": 2900,
     "maxFrequency": -1,
-    "scoreSingleCore": 5411,
-    "scoreMultiCore": 21882,
+    "scoreSingleCore": 5408,
+    "scoreMultiCore": 21875,
     "url": "https://browser.geekbench.com/processors/2145"
   },
   {
@@ -95,8 +95,8 @@
     "threads": 32,
     "frequency": 2800,
     "maxFrequency": 4200,
-    "scoreSingleCore": 5410,
-    "scoreMultiCore": 39295,
+    "scoreSingleCore": 5393,
+    "scoreMultiCore": 39193,
     "url": "https://browser.geekbench.com/processors/2076"
   },
   {
@@ -105,8 +105,8 @@
     "threads": 16,
     "frequency": 3600,
     "maxFrequency": 4300,
-    "scoreSingleCore": 5372,
-    "scoreMultiCore": 30271,
+    "scoreSingleCore": 5371,
+    "scoreMultiCore": 30268,
     "url": "https://browser.geekbench.com/processors/2044"
   },
   {
@@ -115,8 +115,8 @@
     "threads": 4,
     "frequency": 3800,
     "maxFrequency": 4200,
-    "scoreSingleCore": 5359,
-    "scoreMultiCore": 15304,
+    "scoreSingleCore": 5360,
+    "scoreMultiCore": 15308,
     "url": "https://browser.geekbench.com/processors/1790"
   },
   {
@@ -126,7 +126,7 @@
     "frequency": 4000,
     "maxFrequency": 4200,
     "scoreSingleCore": 5336,
-    "scoreMultiCore": 17424,
+    "scoreMultiCore": 17425,
     "url": "https://browser.geekbench.com/processors/1705"
   },
   {
@@ -136,7 +136,7 @@
     "frequency": 3300,
     "maxFrequency": 4300,
     "scoreSingleCore": 5328,
-    "scoreMultiCore": 33943,
+    "scoreMultiCore": 33944,
     "url": "https://browser.geekbench.com/processors/2042"
   },
   {
@@ -145,8 +145,8 @@
     "threads": 12,
     "frequency": 3500,
     "maxFrequency": 4000,
-    "scoreSingleCore": 5322,
-    "scoreMultiCore": 24437,
+    "scoreSingleCore": 5321,
+    "scoreMultiCore": 24436,
     "url": "https://browser.geekbench.com/processors/2045"
   },
   {
@@ -165,8 +165,8 @@
     "threads": 12,
     "frequency": 3200,
     "maxFrequency": 4600,
-    "scoreSingleCore": 5303,
-    "scoreMultiCore": 23003,
+    "scoreSingleCore": 5304,
+    "scoreMultiCore": 23010,
     "url": "https://browser.geekbench.com/processors/2063"
   },
   {
@@ -195,8 +195,8 @@
     "threads": 28,
     "frequency": 3100,
     "maxFrequency": 4300,
-    "scoreSingleCore": 5192,
-    "scoreMultiCore": 38107,
+    "scoreSingleCore": 5194,
+    "scoreMultiCore": 38122,
     "url": "https://browser.geekbench.com/processors/2079"
   },
   {
@@ -226,7 +226,7 @@
     "frequency": 3100,
     "maxFrequency": 4300,
     "scoreSingleCore": 5115,
-    "scoreMultiCore": 19721,
+    "scoreMultiCore": 19710,
     "url": "https://browser.geekbench.com/processors/2200"
   },
   {
@@ -236,7 +236,7 @@
     "frequency": 3500,
     "maxFrequency": 3900,
     "scoreSingleCore": 5114,
-    "scoreMultiCore": 14502,
+    "scoreMultiCore": 14503,
     "url": "https://browser.geekbench.com/processors/1706"
   },
   {
@@ -255,8 +255,8 @@
     "threads": 8,
     "frequency": 2700,
     "maxFrequency": -1,
-    "scoreSingleCore": 5075,
-    "scoreMultiCore": 17056,
+    "scoreSingleCore": 5078,
+    "scoreMultiCore": 17062,
     "url": "https://browser.geekbench.com/processors/2149"
   },
   {
@@ -265,8 +265,8 @@
     "threads": 12,
     "frequency": 2600,
     "maxFrequency": -1,
-    "scoreSingleCore": 5006,
-    "scoreMultiCore": 19742,
+    "scoreSingleCore": 5008,
+    "scoreMultiCore": 19747,
     "url": "https://browser.geekbench.com/processors/2147"
   },
   {
@@ -285,8 +285,8 @@
     "threads": 12,
     "frequency": 2700,
     "maxFrequency": 4400,
-    "scoreSingleCore": 4984,
-    "scoreMultiCore": 19870,
+    "scoreSingleCore": 4998,
+    "scoreMultiCore": 19947,
     "url": "https://browser.geekbench.com/processors/2500"
   },
   {
@@ -295,8 +295,8 @@
     "threads": 8,
     "frequency": 3100,
     "maxFrequency": 4200,
-    "scoreSingleCore": 4974,
-    "scoreMultiCore": 16479,
+    "scoreSingleCore": 4980,
+    "scoreMultiCore": 16496,
     "url": "https://browser.geekbench.com/processors/2212"
   },
   {
@@ -316,7 +316,7 @@
     "frequency": 4000,
     "maxFrequency": 4400,
     "scoreSingleCore": 4910,
-    "scoreMultiCore": 15727,
+    "scoreMultiCore": 15728,
     "url": "https://browser.geekbench.com/processors/1537"
   },
   {
@@ -340,13 +340,23 @@
     "url": "https://browser.geekbench.com/processors/2250"
   },
   {
+    "name": "Intel Xeon E3-1535M v6",
+    "cores": 4,
+    "threads": 8,
+    "frequency": 3100,
+    "maxFrequency": 4200,
+    "scoreSingleCore": 4863,
+    "scoreMultiCore": 15866,
+    "url": "https://browser.geekbench.com/processors/2091"
+  },
+  {
     "name": "Intel Core i5-7600",
     "cores": 4,
     "threads": 4,
     "frequency": 3500,
     "maxFrequency": 4100,
     "scoreSingleCore": 4860,
-    "scoreMultiCore": 13893,
+    "scoreMultiCore": 13892,
     "url": "https://browser.geekbench.com/processors/1971"
   },
   {
@@ -356,18 +366,8 @@
     "frequency": 3300,
     "maxFrequency": 3700,
     "scoreSingleCore": 4859,
-    "scoreMultiCore": 15905,
+    "scoreMultiCore": 15910,
     "url": "https://browser.geekbench.com/processors/1707"
-  },
-  {
-    "name": "Intel Xeon E3-1535M v6",
-    "cores": 4,
-    "threads": 8,
-    "frequency": 3100,
-    "maxFrequency": 4200,
-    "scoreSingleCore": 4855,
-    "scoreMultiCore": 15908,
-    "url": "https://browser.geekbench.com/processors/2091"
   },
   {
     "name": "Intel Core i7-7700",
@@ -376,7 +376,7 @@
     "frequency": 3600,
     "maxFrequency": 4200,
     "scoreSingleCore": 4835,
-    "scoreMultiCore": 15809,
+    "scoreMultiCore": 15812,
     "url": "https://browser.geekbench.com/processors/1792"
   },
   {
@@ -396,7 +396,7 @@
     "frequency": 3700,
     "maxFrequency": 4300,
     "scoreSingleCore": 4826,
-    "scoreMultiCore": 26589,
+    "scoreMultiCore": 26588,
     "url": "https://browser.geekbench.com/processors/2080"
   },
   {
@@ -406,7 +406,7 @@
     "frequency": 2800,
     "maxFrequency": 4000,
     "scoreSingleCore": 4821,
-    "scoreMultiCore": 18415,
+    "scoreMultiCore": 18414,
     "url": "https://browser.geekbench.com/processors/2066"
   },
   {
@@ -456,7 +456,7 @@
     "frequency": 2900,
     "maxFrequency": 3900,
     "scoreSingleCore": 4673,
-    "scoreMultiCore": 15458,
+    "scoreMultiCore": 15459,
     "url": "https://browser.geekbench.com/processors/1836"
   },
   {
@@ -465,9 +465,19 @@
     "threads": 12,
     "frequency": 3600,
     "maxFrequency": 4200,
-    "scoreSingleCore": 4664,
-    "scoreMultiCore": 21722,
+    "scoreSingleCore": 4663,
+    "scoreMultiCore": 21721,
     "url": "https://browser.geekbench.com/processors/2082"
+  },
+  {
+    "name": "Intel Xeon Gold 6146",
+    "cores": 12,
+    "threads": 24,
+    "frequency": 3200,
+    "maxFrequency": 4200,
+    "scoreSingleCore": 4657,
+    "scoreMultiCore": 30928,
+    "url": "https://browser.geekbench.com/processors/2266"
   },
   {
     "name": "Intel Core i7-8750H",
@@ -475,8 +485,8 @@
     "threads": 12,
     "frequency": 2200,
     "maxFrequency": -1,
-    "scoreSingleCore": 4622,
-    "scoreMultiCore": 18428,
+    "scoreSingleCore": 4623,
+    "scoreMultiCore": 18434,
     "url": "https://browser.geekbench.com/processors/2144"
   },
   {
@@ -505,8 +515,8 @@
     "threads": 12,
     "frequency": 3600,
     "maxFrequency": 3800,
-    "scoreSingleCore": 4601,
-    "scoreMultiCore": 21986,
+    "scoreSingleCore": 4602,
+    "scoreMultiCore": 21987,
     "url": "https://browser.geekbench.com/processors/1774"
   },
   {
@@ -528,16 +538,6 @@
     "scoreSingleCore": 4584,
     "scoreMultiCore": 13022,
     "url": "https://browser.geekbench.com/processors/1538"
-  },
-  {
-    "name": "Intel Xeon Gold 6146",
-    "cores": 12,
-    "threads": 24,
-    "frequency": 3200,
-    "maxFrequency": 4200,
-    "scoreSingleCore": 4584,
-    "scoreMultiCore": 29865,
-    "url": "https://browser.geekbench.com/processors/2266"
   },
   {
     "name": "Intel Core i3-6320",
@@ -565,8 +565,8 @@
     "threads": 8,
     "frequency": 3000,
     "maxFrequency": 4000,
-    "scoreSingleCore": 4581,
-    "scoreMultiCore": 14346,
+    "scoreSingleCore": 4580,
+    "scoreMultiCore": 14348,
     "url": "https://browser.geekbench.com/processors/1993"
   },
   {
@@ -586,7 +586,7 @@
     "frequency": 3200,
     "maxFrequency": 3700,
     "scoreSingleCore": 4566,
-    "scoreMultiCore": 27205,
+    "scoreMultiCore": 27204,
     "url": "https://browser.geekbench.com/processors/1738"
   },
   {
@@ -595,8 +595,8 @@
     "threads": 8,
     "frequency": 3100,
     "maxFrequency": 4100,
-    "scoreSingleCore": 4552,
-    "scoreMultiCore": 14950,
+    "scoreSingleCore": 4553,
+    "scoreMultiCore": 14946,
     "url": "https://browser.geekbench.com/processors/2208"
   },
   {
@@ -605,8 +605,8 @@
     "threads": 12,
     "frequency": 3500,
     "maxFrequency": 3700,
-    "scoreSingleCore": 4551,
-    "scoreMultiCore": 22100,
+    "scoreSingleCore": 4552,
+    "scoreMultiCore": 22103,
     "url": "https://browser.geekbench.com/processors/1562"
   },
   {
@@ -646,7 +646,7 @@
     "frequency": 3500,
     "maxFrequency": 4000,
     "scoreSingleCore": 4535,
-    "scoreMultiCore": 9097,
+    "scoreMultiCore": 9099,
     "url": "https://browser.geekbench.com/processors/2039"
   },
   {
@@ -696,7 +696,7 @@
     "frequency": 3000,
     "maxFrequency": 3500,
     "scoreSingleCore": 4492,
-    "scoreMultiCore": 26832,
+    "scoreMultiCore": 26837,
     "url": "https://browser.geekbench.com/processors/1573"
   },
   {
@@ -716,7 +716,7 @@
     "frequency": 3400,
     "maxFrequency": 3800,
     "scoreSingleCore": 4481,
-    "scoreMultiCore": 12798,
+    "scoreMultiCore": 12799,
     "url": "https://browser.geekbench.com/processors/971"
   },
   {
@@ -766,7 +766,7 @@
     "frequency": 3400,
     "maxFrequency": 3800,
     "scoreSingleCore": 4425,
-    "scoreMultiCore": 12428,
+    "scoreMultiCore": 12426,
     "url": "https://browser.geekbench.com/processors/1793"
   },
   {
@@ -775,8 +775,8 @@
     "threads": 12,
     "frequency": 3400,
     "maxFrequency": 3600,
-    "scoreSingleCore": 4415,
-    "scoreMultiCore": 20849,
+    "scoreSingleCore": 4416,
+    "scoreMultiCore": 20850,
     "url": "https://browser.geekbench.com/processors/1732"
   },
   {
@@ -816,7 +816,7 @@
     "frequency": 3300,
     "maxFrequency": 3900,
     "scoreSingleCore": 4401,
-    "scoreMultiCore": 12344,
+    "scoreMultiCore": 12345,
     "url": "https://browser.geekbench.com/processors/1710"
   },
   {
@@ -855,8 +855,8 @@
     "threads": 12,
     "frequency": 3400,
     "maxFrequency": 3900,
-    "scoreSingleCore": 4384,
-    "scoreMultiCore": 20427,
+    "scoreSingleCore": 4385,
+    "scoreMultiCore": 20433,
     "url": "https://browser.geekbench.com/processors/2126"
   },
   {
@@ -866,7 +866,7 @@
     "frequency": 3400,
     "maxFrequency": 4000,
     "scoreSingleCore": 4383,
-    "scoreMultiCore": 29621,
+    "scoreMultiCore": 29616,
     "url": "https://browser.geekbench.com/processors/2050"
   },
   {
@@ -875,9 +875,19 @@
     "threads": 4,
     "frequency": 3600,
     "maxFrequency": -1,
-    "scoreSingleCore": 4381,
-    "scoreMultiCore": 12547,
+    "scoreSingleCore": 4379,
+    "scoreMultiCore": 12542,
     "url": "https://browser.geekbench.com/processors/2068"
+  },
+  {
+    "name": "Intel Xeon Processor E5-1680 v3",
+    "cores": 8,
+    "threads": 16,
+    "frequency": 3200,
+    "maxFrequency": 3800,
+    "scoreSingleCore": 4374,
+    "scoreMultiCore": 25061,
+    "url": "https://browser.geekbench.com/processors/2298"
   },
   {
     "name": "Intel Core i7-4980HQ",
@@ -885,8 +895,8 @@
     "threads": 8,
     "frequency": 2800,
     "maxFrequency": 4000,
-    "scoreSingleCore": 4369,
-    "scoreMultiCore": 13743,
+    "scoreSingleCore": 4370,
+    "scoreMultiCore": 13748,
     "url": "https://browser.geekbench.com/processors/1535"
   },
   {
@@ -896,8 +906,18 @@
     "frequency": 2700,
     "maxFrequency": 3600,
     "scoreSingleCore": 4366,
-    "scoreMultiCore": 14264,
+    "scoreMultiCore": 14266,
     "url": "https://browser.geekbench.com/processors/1776"
+  },
+  {
+    "name": "Intel Core i7-5820K",
+    "cores": 6,
+    "threads": 12,
+    "frequency": 3300,
+    "maxFrequency": 3600,
+    "scoreSingleCore": 4358,
+    "scoreMultiCore": 21086,
+    "url": "https://browser.geekbench.com/processors/1632"
   },
   {
     "name": "Intel Xeon E3-1276 v3",
@@ -910,16 +930,6 @@
     "url": "https://browser.geekbench.com/processors/1592"
   },
   {
-    "name": "Intel Core i7-5820K",
-    "cores": 6,
-    "threads": 12,
-    "frequency": 3300,
-    "maxFrequency": 3600,
-    "scoreSingleCore": 4357,
-    "scoreMultiCore": 21083,
-    "url": "https://browser.geekbench.com/processors/1632"
-  },
-  {
     "name": "Intel Core i7-5775R",
     "cores": 4,
     "threads": 8,
@@ -930,23 +940,13 @@
     "url": "https://browser.geekbench.com/processors/1726"
   },
   {
-    "name": "Intel Xeon Processor E5-1680 v3",
-    "cores": 8,
-    "threads": 16,
-    "frequency": 3200,
-    "maxFrequency": 3800,
-    "scoreSingleCore": 4350,
-    "scoreMultiCore": 24903,
-    "url": "https://browser.geekbench.com/processors/2298"
-  },
-  {
     "name": "Intel Core i5-8300H",
     "cores": 4,
     "threads": 8,
     "frequency": 2300,
     "maxFrequency": 4000,
     "scoreSingleCore": 4337,
-    "scoreMultiCore": 13431,
+    "scoreMultiCore": 13434,
     "url": "https://browser.geekbench.com/processors/2206"
   },
   {
@@ -955,9 +955,19 @@
     "threads": 16,
     "frequency": 3200,
     "maxFrequency": 4100,
-    "scoreSingleCore": 4335,
-    "scoreMultiCore": 22867,
+    "scoreSingleCore": 4334,
+    "scoreMultiCore": 22856,
     "url": "https://browser.geekbench.com/processors/2128"
+  },
+  {
+    "name": "Intel Core i5-8259U",
+    "cores": 4,
+    "threads": 8,
+    "frequency": 2300,
+    "maxFrequency": -1,
+    "scoreSingleCore": 4332,
+    "scoreMultiCore": 15376,
+    "url": "https://browser.geekbench.com/processors/2148"
   },
   {
     "name": "AMD Ryzen Threadripper 1900X",
@@ -980,16 +990,6 @@
     "url": "https://browser.geekbench.com/processors/2507"
   },
   {
-    "name": "Intel Core i5-8259U",
-    "cores": 4,
-    "threads": 8,
-    "frequency": 2300,
-    "maxFrequency": -1,
-    "scoreSingleCore": 4314,
-    "scoreMultiCore": 15293,
-    "url": "https://browser.geekbench.com/processors/2148"
-  },
-  {
     "name": "Intel Core i7-6920HQ",
     "cores": 4,
     "threads": 8,
@@ -1010,16 +1010,6 @@
     "url": "https://browser.geekbench.com/processors/2325"
   },
   {
-    "name": "Intel Xeon E3-1230 v5",
-    "cores": 4,
-    "threads": 8,
-    "frequency": 3400,
-    "maxFrequency": 3800,
-    "scoreSingleCore": 4289,
-    "scoreMultiCore": 14224,
-    "url": "https://browser.geekbench.com/processors/1806"
-  },
-  {
     "name": "AMD Ryzen Threadripper 1920X",
     "cores": 12,
     "threads": 24,
@@ -1036,8 +1026,18 @@
     "frequency": 3600,
     "maxFrequency": 4000,
     "scoreSingleCore": 4281,
-    "scoreMultiCore": 22518,
+    "scoreMultiCore": 22523,
     "url": "https://browser.geekbench.com/processors/1786"
+  },
+  {
+    "name": "Intel Xeon E3-1230 v5",
+    "cores": 4,
+    "threads": 8,
+    "frequency": 3400,
+    "maxFrequency": 3800,
+    "scoreSingleCore": 4281,
+    "scoreMultiCore": 14223,
+    "url": "https://browser.geekbench.com/processors/1806"
   },
   {
     "name": "Intel Xeon Gold 6154",
@@ -1066,7 +1066,7 @@
     "frequency": 3600,
     "maxFrequency": 4000,
     "scoreSingleCore": 4266,
-    "scoreMultiCore": 13526,
+    "scoreMultiCore": 13525,
     "url": "https://browser.geekbench.com/processors/1536"
   },
   {
@@ -1095,8 +1095,8 @@
     "threads": 4,
     "frequency": 2500,
     "maxFrequency": 4000,
-    "scoreSingleCore": 4256,
-    "scoreMultiCore": 8511,
+    "scoreSingleCore": 4254,
+    "scoreMultiCore": 8508,
     "url": "https://browser.geekbench.com/processors/2041"
   },
   {
@@ -1116,7 +1116,7 @@
     "frequency": 2900,
     "maxFrequency": 3900,
     "scoreSingleCore": 4231,
-    "scoreMultiCore": 13556,
+    "scoreMultiCore": 13552,
     "url": "https://browser.geekbench.com/processors/1997"
   },
   {
@@ -1135,8 +1135,8 @@
     "threads": 8,
     "frequency": 3700,
     "maxFrequency": 4000,
-    "scoreSingleCore": 4219,
-    "scoreMultiCore": 14566,
+    "scoreSingleCore": 4223,
+    "scoreMultiCore": 14597,
     "url": "https://browser.geekbench.com/processors/2278"
   },
   {
@@ -1145,8 +1145,8 @@
     "threads": 12,
     "frequency": 3600,
     "maxFrequency": 4000,
-    "scoreSingleCore": 4216,
-    "scoreMultiCore": 18970,
+    "scoreSingleCore": 4215,
+    "scoreMultiCore": 18972,
     "url": "https://browser.geekbench.com/processors/1894"
   },
   {
@@ -1170,6 +1170,16 @@
     "url": "https://browser.geekbench.com/processors/2057"
   },
   {
+    "name": "Intel Xeon E3-1535M v5",
+    "cores": 4,
+    "threads": 8,
+    "frequency": 2900,
+    "maxFrequency": 3800,
+    "scoreSingleCore": 4196,
+    "scoreMultiCore": 13643,
+    "url": "https://browser.geekbench.com/processors/1871"
+  },
+  {
     "name": "Intel Pentium Gold G5500",
     "cores": 2,
     "threads": 4,
@@ -1178,16 +1188,6 @@
     "scoreSingleCore": 4195,
     "scoreMultiCore": 8187,
     "url": "https://browser.geekbench.com/processors/2502"
-  },
-  {
-    "name": "Intel Xeon E3-1535M v5",
-    "cores": 4,
-    "threads": 8,
-    "frequency": 2900,
-    "maxFrequency": 3800,
-    "scoreSingleCore": 4192,
-    "scoreMultiCore": 13623,
-    "url": "https://browser.geekbench.com/processors/1871"
   },
   {
     "name": "Intel Xeon E3-1271 v3",
@@ -1230,16 +1230,6 @@
     "url": "https://browser.geekbench.com/processors/1586"
   },
   {
-    "name": "Intel Pentium Gold G5400",
-    "cores": 2,
-    "threads": 4,
-    "frequency": 3700,
-    "maxFrequency": -1,
-    "scoreSingleCore": 4179,
-    "scoreMultiCore": 8142,
-    "url": "https://browser.geekbench.com/processors/2336"
-  },
-  {
     "name": "Intel Core i7-4770R",
     "cores": 4,
     "threads": 8,
@@ -1250,13 +1240,23 @@
     "url": "https://browser.geekbench.com/processors/1092"
   },
   {
+    "name": "Intel Pentium Gold G5400",
+    "cores": 2,
+    "threads": 4,
+    "frequency": 3700,
+    "maxFrequency": -1,
+    "scoreSingleCore": 4172,
+    "scoreMultiCore": 8136,
+    "url": "https://browser.geekbench.com/processors/2336"
+  },
+  {
     "name": "Intel Xeon E5-1650 v4",
     "cores": 6,
     "threads": 12,
     "frequency": 3600,
     "maxFrequency": 4000,
-    "scoreSingleCore": 4168,
-    "scoreMultiCore": 20097,
+    "scoreSingleCore": 4169,
+    "scoreMultiCore": 20108,
     "url": "https://browser.geekbench.com/processors/1831"
   },
   {
@@ -1266,7 +1266,7 @@
     "frequency": 2400,
     "maxFrequency": 3800,
     "scoreSingleCore": 4167,
-    "scoreMultiCore": 8226,
+    "scoreMultiCore": 8227,
     "url": "https://browser.geekbench.com/processors/1998"
   },
   {
@@ -1320,6 +1320,16 @@
     "url": "https://browser.geekbench.com/processors/1724"
   },
   {
+    "name": "Intel Core i7-8650U",
+    "cores": 4,
+    "threads": 8,
+    "frequency": 1900,
+    "maxFrequency": 4200,
+    "scoreSingleCore": 4145,
+    "scoreMultiCore": 12169,
+    "url": "https://browser.geekbench.com/processors/2064"
+  },
+  {
     "name": "Intel Xeon E5-1660 v3",
     "cores": 8,
     "threads": 16,
@@ -1335,8 +1345,8 @@
     "threads": 4,
     "frequency": 3500,
     "maxFrequency": 3900,
-    "scoreSingleCore": 4142,
-    "scoreMultiCore": 11673,
+    "scoreSingleCore": 4143,
+    "scoreMultiCore": 11674,
     "url": "https://browser.geekbench.com/processors/1541"
   },
   {
@@ -1350,16 +1360,6 @@
     "url": "https://browser.geekbench.com/processors/1644"
   },
   {
-    "name": "Intel Core i7-8650U",
-    "cores": 4,
-    "threads": 8,
-    "frequency": 1900,
-    "maxFrequency": 4200,
-    "scoreSingleCore": 4141,
-    "scoreMultiCore": 12159,
-    "url": "https://browser.geekbench.com/processors/2064"
-  },
-  {
     "name": "Intel Xeon E5-2637 v4",
     "cores": 4,
     "threads": 8,
@@ -1370,13 +1370,23 @@
     "url": "https://browser.geekbench.com/processors/1880"
   },
   {
+    "name": "Intel Core i5-7360U",
+    "cores": 2,
+    "threads": 4,
+    "frequency": 2300,
+    "maxFrequency": 3600,
+    "scoreSingleCore": 4134,
+    "scoreMultiCore": 8423,
+    "url": "https://browser.geekbench.com/processors/2035"
+  },
+  {
     "name": "Intel Core i7-4770",
     "cores": 4,
     "threads": 8,
     "frequency": 3400,
     "maxFrequency": 3900,
-    "scoreSingleCore": 4131,
-    "scoreMultiCore": 13124,
+    "scoreSingleCore": 4132,
+    "scoreMultiCore": 13126,
     "url": "https://browser.geekbench.com/processors/973"
   },
   {
@@ -1388,16 +1398,6 @@
     "scoreSingleCore": 4128,
     "scoreMultiCore": 8008,
     "url": "https://browser.geekbench.com/processors/2376"
-  },
-  {
-    "name": "Intel Core i5-7360U",
-    "cores": 2,
-    "threads": 4,
-    "frequency": 2300,
-    "maxFrequency": 3600,
-    "scoreSingleCore": 4127,
-    "scoreMultiCore": 8406,
-    "url": "https://browser.geekbench.com/processors/2035"
   },
   {
     "name": "Intel Core i7-5950HQ",
@@ -1435,8 +1435,8 @@
     "threads": 12,
     "frequency": 3500,
     "maxFrequency": 3800,
-    "scoreSingleCore": 4107,
-    "scoreMultiCore": 19668,
+    "scoreSingleCore": 4108,
+    "scoreMultiCore": 19667,
     "url": "https://browser.geekbench.com/processors/1752"
   },
   {
@@ -1446,7 +1446,7 @@
     "frequency": 3500,
     "maxFrequency": 3900,
     "scoreSingleCore": 4104,
-    "scoreMultiCore": 13446,
+    "scoreMultiCore": 13447,
     "url": "https://browser.geekbench.com/processors/725"
   },
   {
@@ -1526,7 +1526,7 @@
     "frequency": 3400,
     "maxFrequency": 3800,
     "scoreSingleCore": 4078,
-    "scoreMultiCore": 13048,
+    "scoreMultiCore": 13049,
     "url": "https://browser.geekbench.com/processors/1554"
   },
   {
@@ -1556,7 +1556,7 @@
     "frequency": 3400,
     "maxFrequency": 3800,
     "scoreSingleCore": 4066,
-    "scoreMultiCore": 21249,
+    "scoreMultiCore": 21255,
     "url": "https://browser.geekbench.com/processors/1788"
   },
   {
@@ -1606,7 +1606,7 @@
     "frequency": 3400,
     "maxFrequency": 3800,
     "scoreSingleCore": 4048,
-    "scoreMultiCore": 11407,
+    "scoreMultiCore": 11408,
     "url": "https://browser.geekbench.com/processors/975"
   },
   {
@@ -1626,7 +1626,7 @@
     "frequency": 3000,
     "maxFrequency": 3500,
     "scoreSingleCore": 4047,
-    "scoreMultiCore": 11306,
+    "scoreMultiCore": 11305,
     "url": "https://browser.geekbench.com/processors/1808"
   },
   {
@@ -1650,16 +1650,6 @@
     "url": "https://browser.geekbench.com/processors/2005"
   },
   {
-    "name": "Intel Core i5-7260U",
-    "cores": 2,
-    "threads": 4,
-    "frequency": 2200,
-    "maxFrequency": 3400,
-    "scoreSingleCore": 4035,
-    "scoreMultiCore": 8171,
-    "url": "https://browser.geekbench.com/processors/2055"
-  },
-  {
     "name": "Intel Xeon E3-1285L v3",
     "cores": 4,
     "threads": 8,
@@ -1680,6 +1670,16 @@
     "url": "https://browser.geekbench.com/processors/2201"
   },
   {
+    "name": "Intel Core i5-7260U",
+    "cores": 2,
+    "threads": 4,
+    "frequency": 2200,
+    "maxFrequency": 3400,
+    "scoreSingleCore": 4029,
+    "scoreMultiCore": 8159,
+    "url": "https://browser.geekbench.com/processors/2055"
+  },
+  {
     "name": "Intel Xeon E3-1275L v3",
     "cores": 4,
     "threads": 8,
@@ -1695,8 +1695,8 @@
     "threads": 8,
     "frequency": 3500,
     "maxFrequency": 3700,
-    "scoreSingleCore": 4027,
-    "scoreMultiCore": 13909,
+    "scoreSingleCore": 4026,
+    "scoreMultiCore": 13908,
     "url": "https://browser.geekbench.com/processors/1908"
   },
   {
@@ -1745,8 +1745,8 @@
     "threads": 8,
     "frequency": 2600,
     "maxFrequency": 3500,
-    "scoreSingleCore": 4013,
-    "scoreMultiCore": 13097,
+    "scoreSingleCore": 4016,
+    "scoreMultiCore": 13101,
     "url": "https://browser.geekbench.com/processors/997"
   },
   {
@@ -1776,7 +1776,7 @@
     "frequency": 3400,
     "maxFrequency": 3800,
     "scoreSingleCore": 4010,
-    "scoreMultiCore": 11460,
+    "scoreMultiCore": 11461,
     "url": "https://browser.geekbench.com/processors/750"
   },
   {
@@ -1806,7 +1806,7 @@
     "frequency": 3300,
     "maxFrequency": 3600,
     "scoreSingleCore": 4004,
-    "scoreMultiCore": 7898,
+    "scoreMultiCore": 7901,
     "url": "https://browser.geekbench.com/processors/1785"
   },
   {
@@ -1830,13 +1830,23 @@
     "url": "https://browser.geekbench.com/processors/2425"
   },
   {
+    "name": "Intel Xeon E3-1225 v6",
+    "cores": 4,
+    "threads": 4,
+    "frequency": 3300,
+    "maxFrequency": 3700,
+    "scoreSingleCore": 4001,
+    "scoreMultiCore": 12421,
+    "url": "https://browser.geekbench.com/processors/2094"
+  },
+  {
     "name": "Intel Xeon E3-1505M v5",
     "cores": 4,
     "threads": 8,
     "frequency": 2800,
     "maxFrequency": 3700,
-    "scoreSingleCore": 3997,
-    "scoreMultiCore": 12792,
+    "scoreSingleCore": 3998,
+    "scoreMultiCore": 12798,
     "url": "https://browser.geekbench.com/processors/1764"
   },
   {
@@ -1846,7 +1856,7 @@
     "frequency": 2500,
     "maxFrequency": 3700,
     "scoreSingleCore": 3995,
-    "scoreMultiCore": 12935,
+    "scoreMultiCore": 12934,
     "url": "https://browser.geekbench.com/processors/1534"
   },
   {
@@ -1876,18 +1886,18 @@
     "frequency": 3600,
     "maxFrequency": 3900,
     "scoreSingleCore": 3979,
-    "scoreMultiCore": 11393,
+    "scoreMultiCore": 11390,
     "url": "https://browser.geekbench.com/processors/2075"
   },
   {
-    "name": "Intel Xeon E3-1225 v6",
+    "name": "Intel Core i7-4910MQ",
     "cores": 4,
-    "threads": 4,
-    "frequency": 3300,
-    "maxFrequency": 3700,
-    "scoreSingleCore": 3972,
-    "scoreMultiCore": 12356,
-    "url": "https://browser.geekbench.com/processors/2094"
+    "threads": 8,
+    "frequency": 2900,
+    "maxFrequency": 3900,
+    "scoreSingleCore": 3971,
+    "scoreMultiCore": 12236,
+    "url": "https://browser.geekbench.com/processors/1689"
   },
   {
     "name": "Intel Pentium G4600",
@@ -1896,7 +1906,7 @@
     "frequency": 3600,
     "maxFrequency": -1,
     "scoreSingleCore": 3971,
-    "scoreMultiCore": 7585,
+    "scoreMultiCore": 7587,
     "url": "https://browser.geekbench.com/processors/1857"
   },
   {
@@ -1920,23 +1930,13 @@
     "url": "https://browser.geekbench.com/processors/2387"
   },
   {
-    "name": "Intel Core i7-4910MQ",
-    "cores": 4,
-    "threads": 8,
-    "frequency": 2900,
-    "maxFrequency": 3900,
-    "scoreSingleCore": 3970,
-    "scoreMultiCore": 12232,
-    "url": "https://browser.geekbench.com/processors/1689"
-  },
-  {
     "name": "Intel Core i7-6820HQ",
     "cores": 4,
     "threads": 8,
     "frequency": 2700,
     "maxFrequency": 3600,
     "scoreSingleCore": 3968,
-    "scoreMultiCore": 12792,
+    "scoreMultiCore": 12794,
     "url": "https://browser.geekbench.com/processors/1747"
   },
   {
@@ -1995,8 +1995,8 @@
     "threads": 8,
     "frequency": 3100,
     "maxFrequency": 3900,
-    "scoreSingleCore": 3947,
-    "scoreMultiCore": 12266,
+    "scoreSingleCore": 3948,
+    "scoreMultiCore": 12273,
     "url": "https://browser.geekbench.com/processors/1005"
   },
   {
@@ -2005,8 +2005,8 @@
     "threads": 8,
     "frequency": 3500,
     "maxFrequency": 3900,
-    "scoreSingleCore": 3940,
-    "scoreMultiCore": 12808,
+    "scoreSingleCore": 3941,
+    "scoreMultiCore": 12810,
     "url": "https://browser.geekbench.com/processors/648"
   },
   {
@@ -2026,7 +2026,7 @@
     "frequency": 3300,
     "maxFrequency": 3700,
     "scoreSingleCore": 3934,
-    "scoreMultiCore": 11045,
+    "scoreMultiCore": 11046,
     "url": "https://browser.geekbench.com/processors/1540"
   },
   {
@@ -2065,9 +2065,19 @@
     "threads": 4,
     "frequency": 3500,
     "maxFrequency": 3700,
-    "scoreSingleCore": 3919,
-    "scoreMultiCore": 10926,
+    "scoreSingleCore": 3920,
+    "scoreMultiCore": 10932,
     "url": "https://browser.geekbench.com/processors/2052"
+  },
+  {
+    "name": "Intel Core i7-4960X",
+    "cores": 6,
+    "threads": 12,
+    "frequency": 3600,
+    "maxFrequency": 4000,
+    "scoreSingleCore": 3918,
+    "scoreMultiCore": 19907,
+    "url": "https://browser.geekbench.com/processors/990"
   },
   {
     "name": "Intel Xeon E5-2689 v4",
@@ -2080,23 +2090,13 @@
     "url": "https://browser.geekbench.com/processors/2253"
   },
   {
-    "name": "Intel Core i7-4960X",
-    "cores": 6,
-    "threads": 12,
-    "frequency": 3600,
-    "maxFrequency": 4000,
-    "scoreSingleCore": 3917,
-    "scoreMultiCore": 19902,
-    "url": "https://browser.geekbench.com/processors/990"
-  },
-  {
     "name": "AMD Ryzen 7 1700",
     "cores": 8,
     "threads": 16,
     "frequency": 3000,
     "maxFrequency": 3700,
     "scoreSingleCore": 3917,
-    "scoreMultiCore": 20414,
+    "scoreMultiCore": 20415,
     "url": "https://browser.geekbench.com/processors/1787"
   },
   {
@@ -2135,8 +2135,8 @@
     "threads": 8,
     "frequency": 2800,
     "maxFrequency": 3800,
-    "scoreSingleCore": 3905,
-    "scoreMultiCore": 11627,
+    "scoreSingleCore": 3906,
+    "scoreMultiCore": 11628,
     "url": "https://browser.geekbench.com/processors/1547"
   },
   {
@@ -2176,7 +2176,7 @@
     "frequency": 2700,
     "maxFrequency": 3300,
     "scoreSingleCore": 3874,
-    "scoreMultiCore": 10779,
+    "scoreMultiCore": 10780,
     "url": "https://browser.geekbench.com/processors/1718"
   },
   {
@@ -2215,7 +2215,7 @@
     "threads": 4,
     "frequency": 3000,
     "maxFrequency": 3700,
-    "scoreSingleCore": 3852,
+    "scoreSingleCore": 3853,
     "scoreMultiCore": 10441,
     "url": "https://browser.geekbench.com/processors/1695"
   },
@@ -2226,7 +2226,7 @@
     "frequency": 3400,
     "maxFrequency": 3800,
     "scoreSingleCore": 3846,
-    "scoreMultiCore": 12483,
+    "scoreMultiCore": 12484,
     "url": "https://browser.geekbench.com/processors/406"
   },
   {
@@ -2256,7 +2256,7 @@
     "frequency": 3300,
     "maxFrequency": 3900,
     "scoreSingleCore": 3836,
-    "scoreMultiCore": 18630,
+    "scoreMultiCore": 18632,
     "url": "https://browser.geekbench.com/processors/662"
   },
   {
@@ -2295,8 +2295,8 @@
     "threads": 4,
     "frequency": 3300,
     "maxFrequency": 3700,
-    "scoreSingleCore": 3821,
-    "scoreMultiCore": 10850,
+    "scoreSingleCore": 3820,
+    "scoreMultiCore": 10849,
     "url": "https://browser.geekbench.com/processors/379"
   },
   {
@@ -2315,8 +2315,8 @@
     "threads": 8,
     "frequency": 2700,
     "maxFrequency": 3500,
-    "scoreSingleCore": 3809,
-    "scoreMultiCore": 11472,
+    "scoreSingleCore": 3808,
+    "scoreMultiCore": 11475,
     "url": "https://browser.geekbench.com/processors/1778"
   },
   {
@@ -2380,6 +2380,16 @@
     "url": "https://browser.geekbench.com/processors/2299"
   },
   {
+    "name": "Intel Core i5-7300HQ",
+    "cores": 4,
+    "threads": 4,
+    "frequency": 2500,
+    "maxFrequency": 3500,
+    "scoreSingleCore": 3770,
+    "scoreMultiCore": 10403,
+    "url": "https://browser.geekbench.com/processors/1978"
+  },
+  {
     "name": "Intel Core i7-3770",
     "cores": 4,
     "threads": 8,
@@ -2388,16 +2398,6 @@
     "scoreSingleCore": 3769,
     "scoreMultiCore": 12260,
     "url": "https://browser.geekbench.com/processors/748"
-  },
-  {
-    "name": "Intel Core i5-7300HQ",
-    "cores": 4,
-    "threads": 4,
-    "frequency": 2500,
-    "maxFrequency": 3500,
-    "scoreSingleCore": 3769,
-    "scoreMultiCore": 10403,
-    "url": "https://browser.geekbench.com/processors/1978"
   },
   {
     "name": "Intel Core i5-7300U",
@@ -2426,7 +2426,7 @@
     "frequency": 3600,
     "maxFrequency": -1,
     "scoreSingleCore": 3760,
-    "scoreMultiCore": 6949,
+    "scoreMultiCore": 6948,
     "url": "https://browser.geekbench.com/processors/1648"
   },
   {
@@ -2465,8 +2465,8 @@
     "threads": 4,
     "frequency": 2900,
     "maxFrequency": 3300,
-    "scoreSingleCore": 3744,
-    "scoreMultiCore": 7409,
+    "scoreSingleCore": 3743,
+    "scoreMultiCore": 7410,
     "url": "https://browser.geekbench.com/processors/1783"
   },
   {
@@ -2485,7 +2485,7 @@
     "threads": 4,
     "frequency": 3500,
     "maxFrequency": -1,
-    "scoreSingleCore": 3738,
+    "scoreSingleCore": 3737,
     "scoreMultiCore": 7064,
     "url": "https://browser.geekbench.com/processors/1059"
   },
@@ -2496,7 +2496,7 @@
     "frequency": 2600,
     "maxFrequency": 3500,
     "scoreSingleCore": 3731,
-    "scoreMultiCore": 11753,
+    "scoreMultiCore": 11754,
     "url": "https://browser.geekbench.com/processors/1711"
   },
   {
@@ -2505,8 +2505,8 @@
     "threads": 4,
     "frequency": 3500,
     "maxFrequency": 3700,
-    "scoreSingleCore": 3726,
-    "scoreMultiCore": 10032,
+    "scoreSingleCore": 3725,
+    "scoreMultiCore": 10029,
     "url": "https://browser.geekbench.com/processors/2078"
   },
   {
@@ -2520,6 +2520,16 @@
     "url": "https://browser.geekbench.com/processors/1143"
   },
   {
+    "name": "Intel Core i7-3930K",
+    "cores": 6,
+    "threads": 12,
+    "frequency": 3200,
+    "maxFrequency": 3800,
+    "scoreSingleCore": 3722,
+    "scoreMultiCore": 17959,
+    "url": "https://browser.geekbench.com/processors/650"
+  },
+  {
     "name": "Intel Xeon E3-1270 V2",
     "cores": 4,
     "threads": 8,
@@ -2528,16 +2538,6 @@
     "scoreSingleCore": 3722,
     "scoreMultiCore": 12509,
     "url": "https://browser.geekbench.com/processors/942"
-  },
-  {
-    "name": "Intel Core i7-3930K",
-    "cores": 6,
-    "threads": 12,
-    "frequency": 3200,
-    "maxFrequency": 3800,
-    "scoreSingleCore": 3721,
-    "scoreMultiCore": 17956,
-    "url": "https://browser.geekbench.com/processors/650"
   },
   {
     "name": "Intel Core i7-4850HQ",
@@ -2620,6 +2620,16 @@
     "url": "https://browser.geekbench.com/processors/2335"
   },
   {
+    "name": "Intel Core i7-4770HQ",
+    "cores": 4,
+    "threads": 8,
+    "frequency": 2200,
+    "maxFrequency": 3400,
+    "scoreSingleCore": 3691,
+    "scoreMultiCore": 11899,
+    "url": "https://browser.geekbench.com/processors/1531"
+  },
+  {
     "name": "Intel Xeon E5-2690 v4",
     "cores": 14,
     "threads": 28,
@@ -2628,16 +2638,6 @@
     "scoreSingleCore": 3691,
     "scoreMultiCore": 29082,
     "url": "https://browser.geekbench.com/processors/1975"
-  },
-  {
-    "name": "Intel Core i7-4770HQ",
-    "cores": 4,
-    "threads": 8,
-    "frequency": 2200,
-    "maxFrequency": 3400,
-    "scoreSingleCore": 3690,
-    "scoreMultiCore": 11895,
-    "url": "https://browser.geekbench.com/processors/1531"
   },
   {
     "name": "AMD Ryzen 3 PRO 1200",
@@ -2655,8 +2655,8 @@
     "threads": 4,
     "frequency": 2200,
     "maxFrequency": 3400,
-    "scoreSingleCore": 3685,
-    "scoreMultiCore": 7126,
+    "scoreSingleCore": 3679,
+    "scoreMultiCore": 7116,
     "url": "https://browser.geekbench.com/processors/2246"
   },
   {
@@ -2665,8 +2665,8 @@
     "threads": 4,
     "frequency": 3100,
     "maxFrequency": 3500,
-    "scoreSingleCore": 3675,
-    "scoreMultiCore": 10937,
+    "scoreSingleCore": 3678,
+    "scoreMultiCore": 10945,
     "url": "https://browser.geekbench.com/processors/1583"
   },
   {
@@ -2700,13 +2700,23 @@
     "url": "https://browser.geekbench.com/processors/1773"
   },
   {
+    "name": "Intel Core i7-5557U",
+    "cores": 2,
+    "threads": 4,
+    "frequency": 3100,
+    "maxFrequency": 3400,
+    "scoreSingleCore": 3650,
+    "scoreMultiCore": 6993,
+    "url": "https://browser.geekbench.com/processors/1672"
+  },
+  {
     "name": "Intel Core i5-3570",
     "cores": 4,
     "threads": 4,
     "frequency": 3400,
     "maxFrequency": 3800,
     "scoreSingleCore": 3649,
-    "scoreMultiCore": 10322,
+    "scoreMultiCore": 10321,
     "url": "https://browser.geekbench.com/processors/875"
   },
   {
@@ -2718,16 +2728,6 @@
     "scoreSingleCore": 3649,
     "scoreMultiCore": 11066,
     "url": "https://browser.geekbench.com/processors/2022"
-  },
-  {
-    "name": "Intel Core i7-5557U",
-    "cores": 2,
-    "threads": 4,
-    "frequency": 3100,
-    "maxFrequency": 3400,
-    "scoreSingleCore": 3646,
-    "scoreMultiCore": 6985,
-    "url": "https://browser.geekbench.com/processors/1672"
   },
   {
     "name": "Intel Xeon E3-1290",
@@ -2750,6 +2750,16 @@
     "url": "https://browser.geekbench.com/processors/1581"
   },
   {
+    "name": "Intel Core i3-6100T",
+    "cores": 2,
+    "threads": 4,
+    "frequency": 3200,
+    "maxFrequency": -1,
+    "scoreSingleCore": 3644,
+    "scoreMultiCore": 6875,
+    "url": "https://browser.geekbench.com/processors/1833"
+  },
+  {
     "name": "Intel Xeon E5-2696 v4",
     "cores": 22,
     "threads": 44,
@@ -2758,16 +2768,6 @@
     "scoreSingleCore": 3644,
     "scoreMultiCore": 29065,
     "url": "https://browser.geekbench.com/processors/1979"
-  },
-  {
-    "name": "Intel Core i3-6100T",
-    "cores": 2,
-    "threads": 4,
-    "frequency": 3200,
-    "maxFrequency": -1,
-    "scoreSingleCore": 3643,
-    "scoreMultiCore": 6872,
-    "url": "https://browser.geekbench.com/processors/1833"
   },
   {
     "name": "Intel Xeon E5-1607 v4",
@@ -2796,18 +2796,8 @@
     "frequency": 2600,
     "maxFrequency": 3600,
     "scoreSingleCore": 3638,
-    "scoreMultiCore": 10895,
+    "scoreMultiCore": 10896,
     "url": "https://browser.geekbench.com/processors/1685"
-  },
-  {
-    "name": "Intel Xeon E5-2667 v2",
-    "cores": 8,
-    "threads": 16,
-    "frequency": 3300,
-    "maxFrequency": 4000,
-    "scoreSingleCore": 3634,
-    "scoreMultiCore": 22386,
-    "url": "https://browser.geekbench.com/processors/1576"
   },
   {
     "name": "Intel Core i5-4308U",
@@ -2820,12 +2810,22 @@
     "url": "https://browser.geekbench.com/processors/1532"
   },
   {
+    "name": "Intel Xeon E5-2667 v2",
+    "cores": 8,
+    "threads": 16,
+    "frequency": 3300,
+    "maxFrequency": 4000,
+    "scoreSingleCore": 3634,
+    "scoreMultiCore": 22386,
+    "url": "https://browser.geekbench.com/processors/1576"
+  },
+  {
     "name": "Intel Core i3-4150",
     "cores": 2,
     "threads": 4,
     "frequency": 3500,
     "maxFrequency": -1,
-    "scoreSingleCore": 3633,
+    "scoreSingleCore": 3632,
     "scoreMultiCore": 6721,
     "url": "https://browser.geekbench.com/processors/1563"
   },
@@ -2846,7 +2846,7 @@
     "frequency": 3500,
     "maxFrequency": 3900,
     "scoreSingleCore": 3631,
-    "scoreMultiCore": 17582,
+    "scoreMultiCore": 17584,
     "url": "https://browser.geekbench.com/processors/1032"
   },
   {
@@ -2866,7 +2866,7 @@
     "frequency": 3100,
     "maxFrequency": 3900,
     "scoreSingleCore": 3616,
-    "scoreMultiCore": 11515,
+    "scoreMultiCore": 11518,
     "url": "https://browser.geekbench.com/processors/812"
   },
   {
@@ -2876,7 +2876,7 @@
     "frequency": 3300,
     "maxFrequency": 3700,
     "scoreSingleCore": 3613,
-    "scoreMultiCore": 10170,
+    "scoreMultiCore": 10172,
     "url": "https://browser.geekbench.com/processors/761"
   },
   {
@@ -2905,8 +2905,8 @@
     "threads": 8,
     "frequency": 3200,
     "maxFrequency": 3400,
-    "scoreSingleCore": 3603,
-    "scoreMultiCore": 12023,
+    "scoreSingleCore": 3602,
+    "scoreMultiCore": 12022,
     "url": "https://browser.geekbench.com/processors/1902"
   },
   {
@@ -2930,6 +2930,16 @@
     "url": "https://browser.geekbench.com/processors/1757"
   },
   {
+    "name": "Intel Xeon E5-1620 v2",
+    "cores": 4,
+    "threads": 8,
+    "frequency": 3700,
+    "maxFrequency": 3900,
+    "scoreSingleCore": 3583,
+    "scoreMultiCore": 12891,
+    "url": "https://browser.geekbench.com/processors/1031"
+  },
+  {
     "name": "AMD Ryzen 5 1600 PRO",
     "cores": 6,
     "threads": 12,
@@ -2938,16 +2948,6 @@
     "scoreSingleCore": 3583,
     "scoreMultiCore": 15861,
     "url": "https://browser.geekbench.com/processors/2494"
-  },
-  {
-    "name": "Intel Xeon E5-1620 v2",
-    "cores": 4,
-    "threads": 8,
-    "frequency": 3700,
-    "maxFrequency": 3900,
-    "scoreSingleCore": 3581,
-    "scoreMultiCore": 12889,
-    "url": "https://browser.geekbench.com/processors/1031"
   },
   {
     "name": "Intel Xeon E3-1230V2",
@@ -2980,16 +2980,6 @@
     "url": "https://browser.geekbench.com/processors/2051"
   },
   {
-    "name": "Intel Core i5-4440",
-    "cores": 4,
-    "threads": 4,
-    "frequency": 3100,
-    "maxFrequency": 3300,
-    "scoreSingleCore": 3571,
-    "scoreMultiCore": 9925,
-    "url": "https://browser.geekbench.com/processors/1021"
-  },
-  {
     "name": "Intel Celeron G4900",
     "cores": 2,
     "threads": 2,
@@ -3000,13 +2990,23 @@
     "url": "https://browser.geekbench.com/processors/2496"
   },
   {
+    "name": "Intel Core i5-4440",
+    "cores": 4,
+    "threads": 4,
+    "frequency": 3100,
+    "maxFrequency": 3300,
+    "scoreSingleCore": 3571,
+    "scoreMultiCore": 9926,
+    "url": "https://browser.geekbench.com/processors/1021"
+  },
+  {
     "name": "Intel Core i3-4130",
     "cores": 2,
     "threads": 4,
     "frequency": 3400,
     "maxFrequency": -1,
     "scoreSingleCore": 3566,
-    "scoreMultiCore": 6567,
+    "scoreMultiCore": 6566,
     "url": "https://browser.geekbench.com/processors/1061"
   },
   {
@@ -3045,8 +3045,8 @@
     "threads": 8,
     "frequency": 2500,
     "maxFrequency": 3500,
-    "scoreSingleCore": 3550,
-    "scoreMultiCore": 10859,
+    "scoreSingleCore": 3549,
+    "scoreMultiCore": 10855,
     "url": "https://browser.geekbench.com/processors/1543"
   },
   {
@@ -3116,7 +3116,7 @@
     "frequency": 2500,
     "maxFrequency": 3500,
     "scoreSingleCore": 3529,
-    "scoreMultiCore": 10575,
+    "scoreMultiCore": 10576,
     "url": "https://browser.geekbench.com/processors/1551"
   },
   {
@@ -3225,8 +3225,8 @@
     "threads": 28,
     "frequency": 2400,
     "maxFrequency": 3300,
-    "scoreSingleCore": 3491,
-    "scoreMultiCore": 29586,
+    "scoreSingleCore": 3488,
+    "scoreMultiCore": 29604,
     "url": "https://browser.geekbench.com/processors/1986"
   },
   {
@@ -3238,6 +3238,16 @@
     "scoreSingleCore": 3487,
     "scoreMultiCore": 27567,
     "url": "https://browser.geekbench.com/processors/2191"
+  },
+  {
+    "name": "Intel Core i5-4570R",
+    "cores": 4,
+    "threads": 4,
+    "frequency": 2700,
+    "maxFrequency": 3200,
+    "scoreSingleCore": 3477,
+    "scoreMultiCore": 10059,
+    "url": "https://browser.geekbench.com/processors/986"
   },
   {
     "name": "Intel Core i4-4690T",
@@ -3256,18 +3266,8 @@
     "frequency": 2400,
     "maxFrequency": 3400,
     "scoreSingleCore": 3475,
-    "scoreMultiCore": 10545,
+    "scoreMultiCore": 10546,
     "url": "https://browser.geekbench.com/processors/977"
-  },
-  {
-    "name": "Intel Core i5-4570R",
-    "cores": 4,
-    "threads": 4,
-    "frequency": 2700,
-    "maxFrequency": 3200,
-    "scoreSingleCore": 3475,
-    "scoreMultiCore": 10053,
-    "url": "https://browser.geekbench.com/processors/986"
   },
   {
     "name": "Intel Core i7-3840QM",
@@ -3276,7 +3276,7 @@
     "frequency": 2800,
     "maxFrequency": 3800,
     "scoreSingleCore": 3473,
-    "scoreMultiCore": 11408,
+    "scoreMultiCore": 11410,
     "url": "https://browser.geekbench.com/processors/929"
   },
   {
@@ -3285,8 +3285,8 @@
     "threads": 4,
     "frequency": 2900,
     "maxFrequency": 3600,
-    "scoreSingleCore": 3471,
-    "scoreMultiCore": 6539,
+    "scoreSingleCore": 3473,
+    "scoreMultiCore": 6543,
     "url": "https://browser.geekbench.com/processors/1161"
   },
   {
@@ -3325,7 +3325,7 @@
     "threads": 4,
     "frequency": 3200,
     "maxFrequency": 3600,
-    "scoreSingleCore": 3460,
+    "scoreSingleCore": 3461,
     "scoreMultiCore": 9745,
     "url": "https://browser.geekbench.com/processors/879"
   },
@@ -3380,16 +3380,6 @@
     "url": "https://browser.geekbench.com/processors/1858"
   },
   {
-    "name": "Intel Core i7-6600U",
-    "cores": 2,
-    "threads": 4,
-    "frequency": 2600,
-    "maxFrequency": 3400,
-    "scoreSingleCore": 3442,
-    "scoreMultiCore": 6732,
-    "url": "https://browser.geekbench.com/processors/1729"
-  },
-  {
     "name": "Intel Xeon E5-2637 v2",
     "cores": 4,
     "threads": 8,
@@ -3405,9 +3395,19 @@
     "threads": 12,
     "frequency": 3200,
     "maxFrequency": 3800,
-    "scoreSingleCore": 3438,
-    "scoreMultiCore": 16778,
+    "scoreSingleCore": 3439,
+    "scoreMultiCore": 16785,
     "url": "https://browser.geekbench.com/processors/938"
+  },
+  {
+    "name": "Intel Core i7-6600U",
+    "cores": 2,
+    "threads": 4,
+    "frequency": 2600,
+    "maxFrequency": 3400,
+    "scoreSingleCore": 3438,
+    "scoreMultiCore": 6725,
+    "url": "https://browser.geekbench.com/processors/1729"
   },
   {
     "name": "Intel Core i5-7400T",
@@ -3455,9 +3455,19 @@
     "threads": 8,
     "frequency": 3200,
     "maxFrequency": 3600,
-    "scoreSingleCore": 3421,
-    "scoreMultiCore": 13324,
+    "scoreSingleCore": 3422,
+    "scoreMultiCore": 13326,
     "url": "https://browser.geekbench.com/processors/1981"
+  },
+  {
+    "name": "Intel Core i7-2600",
+    "cores": 4,
+    "threads": 8,
+    "frequency": 3400,
+    "maxFrequency": 3800,
+    "scoreSingleCore": 3418,
+    "scoreMultiCore": 10891,
+    "url": "https://browser.geekbench.com/processors/405"
   },
   {
     "name": "Intel Core i7-4712MQ",
@@ -3480,16 +3490,6 @@
     "url": "https://browser.geekbench.com/processors/2142"
   },
   {
-    "name": "Intel Core i7-2600",
-    "cores": 4,
-    "threads": 8,
-    "frequency": 3400,
-    "maxFrequency": 3800,
-    "scoreSingleCore": 3417,
-    "scoreMultiCore": 10891,
-    "url": "https://browser.geekbench.com/processors/405"
-  },
-  {
     "name": "Intel Xeon E5-2697A v4",
     "cores": 16,
     "threads": 32,
@@ -3506,7 +3506,7 @@
     "frequency": 2400,
     "maxFrequency": 3400,
     "scoreSingleCore": 3411,
-    "scoreMultiCore": 10315,
+    "scoreMultiCore": 10316,
     "url": "https://browser.geekbench.com/processors/972"
   },
   {
@@ -3515,8 +3515,8 @@
     "threads": 8,
     "frequency": 3600,
     "maxFrequency": 3800,
-    "scoreSingleCore": 3408,
-    "scoreMultiCore": 12211,
+    "scoreSingleCore": 3409,
+    "scoreMultiCore": 12212,
     "url": "https://browser.geekbench.com/processors/1014"
   },
   {
@@ -3560,6 +3560,16 @@
     "url": "https://browser.geekbench.com/processors/2485"
   },
   {
+    "name": "Intel Core i5-4200H",
+    "cores": 2,
+    "threads": 4,
+    "frequency": 2800,
+    "maxFrequency": 3400,
+    "scoreSingleCore": 3404,
+    "scoreMultiCore": 6318,
+    "url": "https://browser.geekbench.com/processors/1455"
+  },
+  {
     "name": "Intel Core i5-3450",
     "cores": 4,
     "threads": 4,
@@ -3568,16 +3578,6 @@
     "scoreSingleCore": 3403,
     "scoreMultiCore": 9565,
     "url": "https://browser.geekbench.com/processors/763"
-  },
-  {
-    "name": "Intel Core i5-4200H",
-    "cores": 2,
-    "threads": 4,
-    "frequency": 2800,
-    "maxFrequency": 3400,
-    "scoreSingleCore": 3403,
-    "scoreMultiCore": 6317,
-    "url": "https://browser.geekbench.com/processors/1455"
   },
   {
     "name": "Intel Core i5-3475S",
@@ -3655,7 +3655,7 @@
     "threads": 4,
     "frequency": 2900,
     "maxFrequency": 3500,
-    "scoreSingleCore": 3377,
+    "scoreSingleCore": 3378,
     "scoreMultiCore": 6222,
     "url": "https://browser.geekbench.com/processors/1693"
   },
@@ -3726,7 +3726,7 @@
     "frequency": 2900,
     "maxFrequency": 3600,
     "scoreSingleCore": 3361,
-    "scoreMultiCore": 9284,
+    "scoreMultiCore": 9289,
     "url": "https://browser.geekbench.com/processors/878"
   },
   {
@@ -3745,8 +3745,8 @@
     "threads": 4,
     "frequency": 2700,
     "maxFrequency": 3100,
-    "scoreSingleCore": 3359,
-    "scoreMultiCore": 6366,
+    "scoreSingleCore": 3360,
+    "scoreMultiCore": 6367,
     "url": "https://browser.geekbench.com/processors/1671"
   },
   {
@@ -3780,24 +3780,24 @@
     "url": "https://browser.geekbench.com/processors/2223"
   },
   {
-    "name": "AMD Ryzen 7 2700U",
-    "cores": 4,
-    "threads": 8,
-    "frequency": 2200,
-    "maxFrequency": 3800,
-    "scoreSingleCore": 3347,
-    "scoreMultiCore": 8929,
-    "url": "https://browser.geekbench.com/processors/2081"
-  },
-  {
     "name": "Intel Core i7-5600U",
     "cores": 2,
     "threads": 4,
     "frequency": 2600,
     "maxFrequency": 3200,
     "scoreSingleCore": 3346,
-    "scoreMultiCore": 6273,
+    "scoreMultiCore": 6275,
     "url": "https://browser.geekbench.com/processors/1667"
+  },
+  {
+    "name": "AMD Ryzen 7 2700U",
+    "cores": 4,
+    "threads": 8,
+    "frequency": 2200,
+    "maxFrequency": 3800,
+    "scoreSingleCore": 3345,
+    "scoreMultiCore": 8918,
+    "url": "https://browser.geekbench.com/processors/2081"
   },
   {
     "name": "Intel Xeon E5-2623 v3",
@@ -3808,6 +3808,16 @@
     "scoreSingleCore": 3344,
     "scoreMultiCore": 12933,
     "url": "https://browser.geekbench.com/processors/1832"
+  },
+  {
+    "name": "Intel Core i7-5650U",
+    "cores": 2,
+    "threads": 4,
+    "frequency": 2200,
+    "maxFrequency": 3100,
+    "scoreSingleCore": 3341,
+    "scoreMultiCore": 6425,
+    "url": "https://browser.geekbench.com/processors/1670"
   },
   {
     "name": "Intel Core i7-5550U",
@@ -3830,16 +3840,6 @@
     "url": "https://browser.geekbench.com/processors/1502"
   },
   {
-    "name": "Intel Core i7-5650U",
-    "cores": 2,
-    "threads": 4,
-    "frequency": 2200,
-    "maxFrequency": 3100,
-    "scoreSingleCore": 3337,
-    "scoreMultiCore": 6442,
-    "url": "https://browser.geekbench.com/processors/1670"
-  },
-  {
     "name": "Intel Xeon E5-2687W",
     "cores": 8,
     "threads": 16,
@@ -3855,8 +3855,8 @@
     "threads": 4,
     "frequency": 2500,
     "maxFrequency": 3100,
-    "scoreSingleCore": 3328,
-    "scoreMultiCore": 6458,
+    "scoreSingleCore": 3329,
+    "scoreMultiCore": 6461,
     "url": "https://browser.geekbench.com/processors/1789"
   },
   {
@@ -3886,7 +3886,7 @@
     "frequency": 2500,
     "maxFrequency": 3100,
     "scoreSingleCore": 3316,
-    "scoreMultiCore": 6407,
+    "scoreMultiCore": 6406,
     "url": "https://browser.geekbench.com/processors/1713"
   },
   {
@@ -3916,7 +3916,7 @@
     "frequency": 2300,
     "maxFrequency": 3300,
     "scoreSingleCore": 3301,
-    "scoreMultiCore": 10146,
+    "scoreMultiCore": 10145,
     "url": "https://browser.geekbench.com/processors/1571"
   },
   {
@@ -3925,9 +3925,19 @@
     "threads": 4,
     "frequency": 2900,
     "maxFrequency": 3600,
-    "scoreSingleCore": 3298,
-    "scoreMultiCore": 6114,
+    "scoreSingleCore": 3296,
+    "scoreMultiCore": 6110,
     "url": "https://browser.geekbench.com/processors/807"
+  },
+  {
+    "name": "Intel Core i5-4300M",
+    "cores": 2,
+    "threads": 4,
+    "frequency": 2600,
+    "maxFrequency": 3300,
+    "scoreSingleCore": 3296,
+    "scoreMultiCore": 6167,
+    "url": "https://browser.geekbench.com/processors/1480"
   },
   {
     "name": "Intel Core i7-3720QM",
@@ -3940,23 +3950,13 @@
     "url": "https://browser.geekbench.com/processors/743"
   },
   {
-    "name": "Intel Core i5-4300M",
-    "cores": 2,
-    "threads": 4,
-    "frequency": 2600,
-    "maxFrequency": 3300,
-    "scoreSingleCore": 3295,
-    "scoreMultiCore": 6166,
-    "url": "https://browser.geekbench.com/processors/1480"
-  },
-  {
     "name": "Intel Core i7-3740QM",
     "cores": 4,
     "threads": 8,
     "frequency": 2700,
     "maxFrequency": 3700,
-    "scoreSingleCore": 3291,
-    "scoreMultiCore": 10550,
+    "scoreSingleCore": 3292,
+    "scoreMultiCore": 10552,
     "url": "https://browser.geekbench.com/processors/928"
   },
   {
@@ -4040,6 +4040,16 @@
     "url": "https://browser.geekbench.com/processors/1110"
   },
   {
+    "name": "Intel Core i5-3570T",
+    "cores": 4,
+    "threads": 4,
+    "frequency": 2300,
+    "maxFrequency": 3300,
+    "scoreSingleCore": 3272,
+    "scoreMultiCore": 8999,
+    "url": "https://browser.geekbench.com/processors/1416"
+  },
+  {
     "name": "Intel Core i7-2600S",
     "cores": 4,
     "threads": 8,
@@ -4050,14 +4060,14 @@
     "url": "https://browser.geekbench.com/processors/407"
   },
   {
-    "name": "Intel Core i5-3570T",
-    "cores": 4,
+    "name": "Intel Core i3-4160T",
+    "cores": 2,
     "threads": 4,
-    "frequency": 2300,
-    "maxFrequency": 3300,
-    "scoreSingleCore": 3272,
-    "scoreMultiCore": 8999,
-    "url": "https://browser.geekbench.com/processors/1416"
+    "frequency": 3100,
+    "maxFrequency": -1,
+    "scoreSingleCore": 3266,
+    "scoreMultiCore": 6157,
+    "url": "https://browser.geekbench.com/processors/2229"
   },
   {
     "name": "Intel Core i7-3820QM",
@@ -4078,16 +4088,6 @@
     "scoreSingleCore": 3265,
     "scoreMultiCore": 9872,
     "url": "https://browser.geekbench.com/processors/1098"
-  },
-  {
-    "name": "Intel Core i3-4160T",
-    "cores": 2,
-    "threads": 4,
-    "frequency": 3100,
-    "maxFrequency": -1,
-    "scoreSingleCore": 3265,
-    "scoreMultiCore": 6157,
-    "url": "https://browser.geekbench.com/processors/2229"
   },
   {
     "name": "Intel Core i5-2450P",
@@ -4146,8 +4146,18 @@
     "frequency": 2200,
     "maxFrequency": 3200,
     "scoreSingleCore": 3244,
-    "scoreMultiCore": 9854,
+    "scoreMultiCore": 9855,
     "url": "https://browser.geekbench.com/processors/962"
+  },
+  {
+    "name": "Intel Core i7-3540M",
+    "cores": 2,
+    "threads": 4,
+    "frequency": 3000,
+    "maxFrequency": 3700,
+    "scoreSingleCore": 3238,
+    "scoreMultiCore": 6204,
+    "url": "https://browser.geekbench.com/processors/952"
   },
   {
     "name": "Intel Xeon E5-2630 v3",
@@ -4160,14 +4170,14 @@
     "url": "https://browser.geekbench.com/processors/1751"
   },
   {
-    "name": "Intel Core i7-3540M",
+    "name": "Intel Core i3-4150T",
     "cores": 2,
     "threads": 4,
     "frequency": 3000,
-    "maxFrequency": 3700,
-    "scoreSingleCore": 3237,
-    "scoreMultiCore": 6200,
-    "url": "https://browser.geekbench.com/processors/952"
+    "maxFrequency": -1,
+    "scoreSingleCore": 3226,
+    "scoreMultiCore": 6003,
+    "url": "https://browser.geekbench.com/processors/2252"
   },
   {
     "name": "Intel Core i5-3350P",
@@ -4198,16 +4208,6 @@
     "scoreSingleCore": 3220,
     "scoreMultiCore": 6096,
     "url": "https://browser.geekbench.com/processors/1847"
-  },
-  {
-    "name": "Intel Core i3-4150T",
-    "cores": 2,
-    "threads": 4,
-    "frequency": 3000,
-    "maxFrequency": -1,
-    "scoreSingleCore": 3220,
-    "scoreMultiCore": 5989,
-    "url": "https://browser.geekbench.com/processors/2252"
   },
   {
     "name": "Intel Xeon E5-2683 v4",
@@ -4270,6 +4270,16 @@
     "url": "https://browser.geekbench.com/processors/2287"
   },
   {
+    "name": "Intel Core i5-5350U",
+    "cores": 2,
+    "threads": 4,
+    "frequency": 1800,
+    "maxFrequency": 2900,
+    "scoreSingleCore": 3195,
+    "scoreMultiCore": 5783,
+    "url": "https://browser.geekbench.com/processors/2069"
+  },
+  {
     "name": "Intel Xeon Silver 4114",
     "cores": 10,
     "threads": 20,
@@ -4285,19 +4295,9 @@
     "threads": 8,
     "frequency": 2200,
     "maxFrequency": 3200,
-    "scoreSingleCore": 3192,
-    "scoreMultiCore": 9769,
+    "scoreSingleCore": 3191,
+    "scoreMultiCore": 9761,
     "url": "https://browser.geekbench.com/processors/1062"
-  },
-  {
-    "name": "Intel Core i5-5350U",
-    "cores": 2,
-    "threads": 4,
-    "frequency": 1800,
-    "maxFrequency": 2900,
-    "scoreSingleCore": 3192,
-    "scoreMultiCore": 5777,
-    "url": "https://browser.geekbench.com/processors/2069"
   },
   {
     "name": "Intel Core i5-6300U",
@@ -4340,24 +4340,24 @@
     "url": "https://browser.geekbench.com/processors/1457"
   },
   {
+    "name": "AMD Ryzen 5 2500U",
+    "cores": 4,
+    "threads": 8,
+    "frequency": 2000,
+    "maxFrequency": 3600,
+    "scoreSingleCore": 3180,
+    "scoreMultiCore": 8581,
+    "url": "https://browser.geekbench.com/processors/2077"
+  },
+  {
     "name": "Intel Pentium G3260",
     "cores": 2,
     "threads": 2,
     "frequency": 3300,
     "maxFrequency": -1,
     "scoreSingleCore": 3182,
-    "scoreMultiCore": 5227,
+    "scoreMultiCore": 5229,
     "url": "https://browser.geekbench.com/processors/1814"
-  },
-  {
-    "name": "AMD Ryzen 5 2500U",
-    "cores": 4,
-    "threads": 8,
-    "frequency": 2000,
-    "maxFrequency": 3600,
-    "scoreSingleCore": 3181,
-    "scoreMultiCore": 8581,
-    "url": "https://browser.geekbench.com/processors/2077"
   },
   {
     "name": "Intel Core i7-3520M",
@@ -4366,7 +4366,7 @@
     "frequency": 2900,
     "maxFrequency": 3600,
     "scoreSingleCore": 3178,
-    "scoreMultiCore": 6093,
+    "scoreMultiCore": 6094,
     "url": "https://browser.geekbench.com/processors/746"
   },
   {
@@ -4375,19 +4375,9 @@
     "threads": 4,
     "frequency": 2600,
     "maxFrequency": 3200,
-    "scoreSingleCore": 3177,
-    "scoreMultiCore": 5892,
+    "scoreSingleCore": 3178,
+    "scoreMultiCore": 5893,
     "url": "https://browser.geekbench.com/processors/1687"
-  },
-  {
-    "name": "Intel Core m5-6Y57",
-    "cores": 2,
-    "threads": 4,
-    "frequency": 1100,
-    "maxFrequency": 2800,
-    "scoreSingleCore": 3169,
-    "scoreMultiCore": 5683,
-    "url": "https://browser.geekbench.com/processors/1721"
   },
   {
     "name": "Intel Core i7-2960XM",
@@ -4398,6 +4388,16 @@
     "scoreSingleCore": 3164,
     "scoreMultiCore": 9392,
     "url": "https://browser.geekbench.com/processors/576"
+  },
+  {
+    "name": "Intel Core m5-6Y57",
+    "cores": 2,
+    "threads": 4,
+    "frequency": 1100,
+    "maxFrequency": 2800,
+    "scoreSingleCore": 3169,
+    "scoreMultiCore": 5683,
+    "url": "https://browser.geekbench.com/processors/1721"
   },
   {
     "name": "Intel Core i5-3380M",
@@ -4460,24 +4460,24 @@
     "url": "https://browser.geekbench.com/processors/877"
   },
   {
-    "name": "Intel Xeon E5-2680 v2",
-    "cores": 10,
-    "threads": 20,
-    "frequency": 2800,
-    "maxFrequency": 3600,
-    "scoreSingleCore": 3154,
-    "scoreMultiCore": 22630,
-    "url": "https://browser.geekbench.com/processors/1072"
-  },
-  {
     "name": "Intel Xeon E5-2690 v2",
     "cores": 10,
     "threads": 20,
     "frequency": 3000,
     "maxFrequency": 3600,
-    "scoreSingleCore": 3153,
-    "scoreMultiCore": 22560,
+    "scoreSingleCore": 3156,
+    "scoreMultiCore": 22687,
     "url": "https://browser.geekbench.com/processors/1089"
+  },
+  {
+    "name": "Intel Xeon E5-2680 v2",
+    "cores": 10,
+    "threads": 20,
+    "frequency": 2800,
+    "maxFrequency": 3600,
+    "scoreSingleCore": 3153,
+    "scoreMultiCore": 22640,
+    "url": "https://browser.geekbench.com/processors/1072"
   },
   {
     "name": "Intel Core i5-2380P",
@@ -4495,8 +4495,8 @@
     "threads": 4,
     "frequency": 3100,
     "maxFrequency": 3300,
-    "scoreSingleCore": 3142,
-    "scoreMultiCore": 8664,
+    "scoreSingleCore": 3141,
+    "scoreMultiCore": 8661,
     "url": "https://browser.geekbench.com/processors/1146"
   },
   {
@@ -4506,7 +4506,7 @@
     "frequency": 3100,
     "maxFrequency": 3400,
     "scoreSingleCore": 3136,
-    "scoreMultiCore": 8925,
+    "scoreMultiCore": 8916,
     "url": "https://browser.geekbench.com/processors/946"
   },
   {
@@ -4526,7 +4526,7 @@
     "frequency": 3100,
     "maxFrequency": -1,
     "scoreSingleCore": 3133,
-    "scoreMultiCore": 8789,
+    "scoreMultiCore": 8788,
     "url": "https://browser.geekbench.com/processors/374"
   },
   {
@@ -4605,8 +4605,8 @@
     "threads": 4,
     "frequency": 2100,
     "maxFrequency": 3300,
-    "scoreSingleCore": 3116,
-    "scoreMultiCore": 5651,
+    "scoreSingleCore": 3117,
+    "scoreMultiCore": 5653,
     "url": "https://browser.geekbench.com/processors/1076"
   },
   {
@@ -4635,8 +4635,8 @@
     "threads": 8,
     "frequency": 2400,
     "maxFrequency": 3400,
-    "scoreSingleCore": 3102,
-    "scoreMultiCore": 9997,
+    "scoreSingleCore": 3101,
+    "scoreMultiCore": 9996,
     "url": "https://browser.geekbench.com/processors/883"
   },
   {
@@ -4715,7 +4715,7 @@
     "threads": 4,
     "frequency": 1700,
     "maxFrequency": 3300,
-    "scoreSingleCore": 3087,
+    "scoreSingleCore": 3088,
     "scoreMultiCore": 5369,
     "url": "https://browser.geekbench.com/processors/960"
   },
@@ -4756,18 +4756,8 @@
     "frequency": 3100,
     "maxFrequency": 3400,
     "scoreSingleCore": 3075,
-    "scoreMultiCore": 9160,
+    "scoreMultiCore": 9156,
     "url": "https://browser.geekbench.com/processors/818"
-  },
-  {
-    "name": "Intel Xeon E5-2620 v3",
-    "cores": 6,
-    "threads": 12,
-    "frequency": 2400,
-    "maxFrequency": 3200,
-    "scoreSingleCore": 3057,
-    "scoreMultiCore": 14319,
-    "url": "https://browser.geekbench.com/processors/1753"
   },
   {
     "name": "Intel Core i7-5500U",
@@ -4776,7 +4766,7 @@
     "frequency": 2400,
     "maxFrequency": 3000,
     "scoreSingleCore": 3053,
-    "scoreMultiCore": 5669,
+    "scoreMultiCore": 5670,
     "url": "https://browser.geekbench.com/processors/1663"
   },
   {
@@ -4786,8 +4776,28 @@
     "frequency": 2300,
     "maxFrequency": 3300,
     "scoreSingleCore": 3050,
-    "scoreMultiCore": 9891,
+    "scoreMultiCore": 9893,
     "url": "https://browser.geekbench.com/processors/753"
+  },
+  {
+    "name": "Intel Xeon E5-2620 v3",
+    "cores": 6,
+    "threads": 12,
+    "frequency": 2400,
+    "maxFrequency": 3200,
+    "scoreSingleCore": 3046,
+    "scoreMultiCore": 14292,
+    "url": "https://browser.geekbench.com/processors/1753"
+  },
+  {
+    "name": "Intel Xeon E5-2676 v3",
+    "cores": 2,
+    "threads": 4,
+    "frequency": 2400,
+    "maxFrequency": -1,
+    "scoreSingleCore": 3042,
+    "scoreMultiCore": 8567,
+    "url": "https://browser.geekbench.com/processors/1965"
   },
   {
     "name": "Intel Core i5-2320",
@@ -4806,7 +4816,7 @@
     "frequency": 3400,
     "maxFrequency": -1,
     "scoreSingleCore": 3033,
-    "scoreMultiCore": 5787,
+    "scoreMultiCore": 5788,
     "url": "https://browser.geekbench.com/processors/944"
   },
   {
@@ -4816,7 +4826,7 @@
     "frequency": 2700,
     "maxFrequency": 3500,
     "scoreSingleCore": 3031,
-    "scoreMultiCore": 18028,
+    "scoreMultiCore": 18039,
     "url": "https://browser.geekbench.com/processors/947"
   },
   {
@@ -4838,16 +4848,6 @@
     "scoreSingleCore": 3029,
     "scoreMultiCore": 16429,
     "url": "https://browser.geekbench.com/processors/1992"
-  },
-  {
-    "name": "Intel Xeon E5-2676 v3",
-    "cores": 2,
-    "threads": 4,
-    "frequency": 2400,
-    "maxFrequency": -1,
-    "scoreSingleCore": 3027,
-    "scoreMultiCore": 8438,
-    "url": "https://browser.geekbench.com/processors/1965"
   },
   {
     "name": "Intel Xeon E5-2650 v3",
@@ -4885,8 +4885,8 @@
     "threads": 4,
     "frequency": 2300,
     "maxFrequency": 2800,
-    "scoreSingleCore": 3016,
-    "scoreMultiCore": 5701,
+    "scoreSingleCore": 3015,
+    "scoreMultiCore": 5700,
     "url": "https://browser.geekbench.com/processors/1714"
   },
   {
@@ -4895,8 +4895,8 @@
     "threads": 2,
     "frequency": 3200,
     "maxFrequency": -1,
-    "scoreSingleCore": 3014,
-    "scoreMultiCore": 4924,
+    "scoreSingleCore": 3015,
+    "scoreMultiCore": 4925,
     "url": "https://browser.geekbench.com/processors/1744"
   },
   {
@@ -4926,7 +4926,7 @@
     "frequency": 2300,
     "maxFrequency": 2900,
     "scoreSingleCore": 3011,
-    "scoreMultiCore": 5450,
+    "scoreMultiCore": 5451,
     "url": "https://browser.geekbench.com/processors/1665"
   },
   {
@@ -4936,7 +4936,7 @@
     "frequency": 2500,
     "maxFrequency": 3600,
     "scoreSingleCore": 3000,
-    "scoreMultiCore": 9291,
+    "scoreMultiCore": 9290,
     "url": "https://browser.geekbench.com/processors/639"
   },
   {
@@ -4946,7 +4946,7 @@
     "frequency": 2000,
     "maxFrequency": 3100,
     "scoreSingleCore": 2998,
-    "scoreMultiCore": 5458,
+    "scoreMultiCore": 5457,
     "url": "https://browser.geekbench.com/processors/1546"
   },
   {
@@ -4986,18 +4986,18 @@
     "frequency": 3300,
     "maxFrequency": -1,
     "scoreSingleCore": 2969,
-    "scoreMultiCore": 5651,
+    "scoreMultiCore": 5652,
     "url": "https://browser.geekbench.com/processors/884"
   },
   {
-    "name": "AMD Ryzen 3 2200U",
-    "cores": 2,
-    "threads": 4,
-    "frequency": 2500,
-    "maxFrequency": 3400,
-    "scoreSingleCore": 2968,
-    "scoreMultiCore": 5798,
-    "url": "https://browser.geekbench.com/processors/2127"
+    "name": "Intel Xeon E5-2697 v2",
+    "cores": 12,
+    "threads": 24,
+    "frequency": 2700,
+    "maxFrequency": 3500,
+    "scoreSingleCore": 2967,
+    "scoreMultiCore": 23847,
+    "url": "https://browser.geekbench.com/processors/1034"
   },
   {
     "name": "Intel Pentium G2140",
@@ -5020,14 +5020,14 @@
     "url": "https://browser.geekbench.com/processors/885"
   },
   {
-    "name": "Intel Xeon E5-2697 v2",
-    "cores": 12,
-    "threads": 24,
-    "frequency": 2700,
-    "maxFrequency": 3500,
-    "scoreSingleCore": 2961,
-    "scoreMultiCore": 23804,
-    "url": "https://browser.geekbench.com/processors/1034"
+    "name": "AMD Ryzen 3 2200U",
+    "cores": 2,
+    "threads": 4,
+    "frequency": 2500,
+    "maxFrequency": 3400,
+    "scoreSingleCore": 2963,
+    "scoreMultiCore": 5787,
+    "url": "https://browser.geekbench.com/processors/2127"
   },
   {
     "name": "Intel Core i5-3320M",
@@ -5035,8 +5035,8 @@
     "threads": 4,
     "frequency": 2600,
     "maxFrequency": 3300,
-    "scoreSingleCore": 2955,
-    "scoreMultiCore": 5606,
+    "scoreSingleCore": 2956,
+    "scoreMultiCore": 5607,
     "url": "https://browser.geekbench.com/processors/806"
   },
   {
@@ -5045,9 +5045,19 @@
     "threads": 4,
     "frequency": 2900,
     "maxFrequency": 3200,
-    "scoreSingleCore": 2954,
-    "scoreMultiCore": 8217,
+    "scoreSingleCore": 2953,
+    "scoreMultiCore": 8212,
     "url": "https://browser.geekbench.com/processors/569"
+  },
+  {
+    "name": "Intel Core i7-4500U",
+    "cores": 2,
+    "threads": 4,
+    "frequency": 1800,
+    "maxFrequency": 3000,
+    "scoreSingleCore": 2952,
+    "scoreMultiCore": 5363,
+    "url": "https://browser.geekbench.com/processors/985"
   },
   {
     "name": "Intel Core i3-2125",
@@ -5058,16 +5068,6 @@
     "scoreSingleCore": 2951,
     "scoreMultiCore": 5556,
     "url": "https://browser.geekbench.com/processors/598"
-  },
-  {
-    "name": "Intel Core i7-4500U",
-    "cores": 2,
-    "threads": 4,
-    "frequency": 1800,
-    "maxFrequency": 3000,
-    "scoreSingleCore": 2951,
-    "scoreMultiCore": 5362,
-    "url": "https://browser.geekbench.com/processors/985"
   },
   {
     "name": "Intel Pentium G3260T",
@@ -5110,6 +5110,16 @@
     "url": "https://browser.geekbench.com/processors/2280"
   },
   {
+    "name": "Intel Core i3-6157U",
+    "cores": 2,
+    "threads": 4,
+    "frequency": 2400,
+    "maxFrequency": -1,
+    "scoreSingleCore": 2933,
+    "scoreMultiCore": 5629,
+    "url": "https://browser.geekbench.com/processors/2276"
+  },
+  {
     "name": "Intel Xeon W3680",
     "cores": 6,
     "threads": 12,
@@ -5128,16 +5138,6 @@
     "scoreSingleCore": 2929,
     "scoreMultiCore": 13304,
     "url": "https://browser.geekbench.com/processors/441"
-  },
-  {
-    "name": "Intel Core i3-6157U",
-    "cores": 2,
-    "threads": 4,
-    "frequency": 2400,
-    "maxFrequency": -1,
-    "scoreSingleCore": 2928,
-    "scoreMultiCore": 5614,
-    "url": "https://browser.geekbench.com/processors/2276"
   },
   {
     "name": "Intel Xeon E5-2620 v4",
@@ -5160,13 +5160,23 @@
     "url": "https://browser.geekbench.com/processors/1722"
   },
   {
+    "name": "AMD Ryzen 3 2300U",
+    "cores": 4,
+    "threads": 4,
+    "frequency": 2000,
+    "maxFrequency": 3400,
+    "scoreSingleCore": 2906,
+    "scoreMultiCore": 7619,
+    "url": "https://browser.geekbench.com/processors/2129"
+  },
+  {
     "name": "Intel Pentium G3220",
     "cores": 2,
     "threads": 2,
     "frequency": 3000,
     "maxFrequency": -1,
-    "scoreSingleCore": 2909,
-    "scoreMultiCore": 4813,
+    "scoreSingleCore": 2910,
+    "scoreMultiCore": 4814,
     "url": "https://browser.geekbench.com/processors/1060"
   },
   {
@@ -5185,8 +5195,8 @@
     "threads": 4,
     "frequency": 2500,
     "maxFrequency": -1,
-    "scoreSingleCore": 2899,
-    "scoreMultiCore": 7367,
+    "scoreSingleCore": 2900,
+    "scoreMultiCore": 7368,
     "url": "https://browser.geekbench.com/processors/375"
   },
   {
@@ -5196,28 +5206,8 @@
     "frequency": 2800,
     "maxFrequency": -1,
     "scoreSingleCore": 2897,
-    "scoreMultiCore": 8042,
+    "scoreMultiCore": 8043,
     "url": "https://browser.geekbench.com/processors/373"
-  },
-  {
-    "name": "AMD Ryzen 3 2300U",
-    "cores": 4,
-    "threads": 4,
-    "frequency": 2000,
-    "maxFrequency": 3400,
-    "scoreSingleCore": 2897,
-    "scoreMultiCore": 7592,
-    "url": "https://browser.geekbench.com/processors/2129"
-  },
-  {
-    "name": "Intel Pentium G3240",
-    "cores": 2,
-    "threads": 2,
-    "frequency": 3100,
-    "maxFrequency": -1,
-    "scoreSingleCore": 2896,
-    "scoreMultiCore": 4703,
-    "url": "https://browser.geekbench.com/processors/1570"
   },
   {
     "name": "Intel Xeon E5-4667 v3",
@@ -5228,6 +5218,16 @@
     "scoreSingleCore": 2895,
     "scoreMultiCore": 20597,
     "url": "https://browser.geekbench.com/processors/2490"
+  },
+  {
+    "name": "Intel Pentium G3240",
+    "cores": 2,
+    "threads": 2,
+    "frequency": 3100,
+    "maxFrequency": -1,
+    "scoreSingleCore": 2894,
+    "scoreMultiCore": 4698,
+    "url": "https://browser.geekbench.com/processors/1570"
   },
   {
     "name": "Intel Core i5-2405S",
@@ -5265,9 +5265,19 @@
     "threads": 4,
     "frequency": 3400,
     "maxFrequency": -1,
-    "scoreSingleCore": 2886,
-    "scoreMultiCore": 5467,
+    "scoreSingleCore": 2887,
+    "scoreMultiCore": 5468,
     "url": "https://browser.geekbench.com/processors/815"
+  },
+  {
+    "name": "Intel Core i7-2620M",
+    "cores": 2,
+    "threads": 4,
+    "frequency": 2700,
+    "maxFrequency": 3400,
+    "scoreSingleCore": 2883,
+    "scoreMultiCore": 5474,
+    "url": "https://browser.geekbench.com/processors/408"
   },
   {
     "name": "Intel Core i5-2500T",
@@ -5278,16 +5288,6 @@
     "scoreSingleCore": 2883,
     "scoreMultiCore": 6924,
     "url": "https://browser.geekbench.com/processors/605"
-  },
-  {
-    "name": "Intel Core i7-2620M",
-    "cores": 2,
-    "threads": 4,
-    "frequency": 2700,
-    "maxFrequency": 3400,
-    "scoreSingleCore": 2882,
-    "scoreMultiCore": 5473,
-    "url": "https://browser.geekbench.com/processors/408"
   },
   {
     "name": "Intel Core i7-2640M",
@@ -5305,8 +5305,8 @@
     "threads": 8,
     "frequency": 2200,
     "maxFrequency": 3200,
-    "scoreSingleCore": 2877,
-    "scoreMultiCore": 9139,
+    "scoreSingleCore": 2875,
+    "scoreMultiCore": 9133,
     "url": "https://browser.geekbench.com/processors/888"
   },
   {
@@ -5325,8 +5325,8 @@
     "threads": 4,
     "frequency": 1600,
     "maxFrequency": 2700,
-    "scoreSingleCore": 2873,
-    "scoreMultiCore": 5230,
+    "scoreSingleCore": 2874,
+    "scoreMultiCore": 5229,
     "url": "https://browser.geekbench.com/processors/1666"
   },
   {
@@ -5336,7 +5336,7 @@
     "frequency": 2600,
     "maxFrequency": 3300,
     "scoreSingleCore": 2871,
-    "scoreMultiCore": 16959,
+    "scoreMultiCore": 16963,
     "url": "https://browser.geekbench.com/processors/896"
   },
   {
@@ -5345,8 +5345,8 @@
     "threads": 4,
     "frequency": 1900,
     "maxFrequency": 2900,
-    "scoreSingleCore": 2870,
-    "scoreMultiCore": 5206,
+    "scoreSingleCore": 2871,
+    "scoreMultiCore": 5207,
     "url": "https://browser.geekbench.com/processors/1112"
   },
   {
@@ -5355,8 +5355,8 @@
     "threads": 4,
     "frequency": 3200,
     "maxFrequency": -1,
-    "scoreSingleCore": 2868,
-    "scoreMultiCore": 5434,
+    "scoreSingleCore": 2869,
+    "scoreMultiCore": 5438,
     "url": "https://browser.geekbench.com/processors/1064"
   },
   {
@@ -5385,8 +5385,8 @@
     "threads": 4,
     "frequency": 2100,
     "maxFrequency": 3300,
-    "scoreSingleCore": 2854,
-    "scoreMultiCore": 5451,
+    "scoreSingleCore": 2857,
+    "scoreMultiCore": 5457,
     "url": "https://browser.geekbench.com/processors/1084"
   },
   {
@@ -5446,7 +5446,7 @@
     "frequency": 2400,
     "maxFrequency": 15,
     "scoreSingleCore": 2839,
-    "scoreMultiCore": 5469,
+    "scoreMultiCore": 5470,
     "url": "https://browser.geekbench.com/processors/1807"
   },
   {
@@ -5470,23 +5470,13 @@
     "url": "https://browser.geekbench.com/processors/915"
   },
   {
-    "name": "Intel Xeon E5-2650 v2",
-    "cores": 8,
-    "threads": 16,
-    "frequency": 2600,
-    "maxFrequency": 3400,
-    "scoreSingleCore": 2829,
-    "scoreMultiCore": 18495,
-    "url": "https://browser.geekbench.com/processors/1122"
-  },
-  {
     "name": "Intel Core i7-3612QM",
     "cores": 4,
     "threads": 8,
     "frequency": 2100,
     "maxFrequency": 3100,
-    "scoreSingleCore": 2825,
-    "scoreMultiCore": 9053,
+    "scoreSingleCore": 2824,
+    "scoreMultiCore": 9052,
     "url": "https://browser.geekbench.com/processors/811"
   },
   {
@@ -5498,6 +5488,16 @@
     "scoreSingleCore": 2822,
     "scoreMultiCore": 5307,
     "url": "https://browser.geekbench.com/processors/951"
+  },
+  {
+    "name": "Intel Xeon E5-2650 v2",
+    "cores": 8,
+    "threads": 16,
+    "frequency": 2600,
+    "maxFrequency": 3400,
+    "scoreSingleCore": 2819,
+    "scoreMultiCore": 18491,
+    "url": "https://browser.geekbench.com/processors/1122"
   },
   {
     "name": "Intel Xeon X5677",
@@ -5536,7 +5536,7 @@
     "frequency": 3000,
     "maxFrequency": -1,
     "scoreSingleCore": 2805,
-    "scoreMultiCore": 8548,
+    "scoreMultiCore": 8558,
     "url": "https://browser.geekbench.com/processors/1138"
   },
   {
@@ -5575,8 +5575,8 @@
     "threads": 4,
     "frequency": 1300,
     "maxFrequency": 2600,
-    "scoreSingleCore": 2780,
-    "scoreMultiCore": 4921,
+    "scoreSingleCore": 2781,
+    "scoreMultiCore": 4923,
     "url": "https://browser.geekbench.com/processors/959"
   },
   {
@@ -5585,8 +5585,8 @@
     "threads": 12,
     "frequency": 3330,
     "maxFrequency": 3600,
-    "scoreSingleCore": 2763,
-    "scoreMultiCore": 13381,
+    "scoreSingleCore": 2761,
+    "scoreMultiCore": 13321,
     "url": "https://browser.geekbench.com/processors/668"
   },
   {
@@ -5675,8 +5675,8 @@
     "threads": 4,
     "frequency": 2200,
     "maxFrequency": 2700,
-    "scoreSingleCore": 2743,
-    "scoreMultiCore": 4971,
+    "scoreSingleCore": 2744,
+    "scoreMultiCore": 4972,
     "url": "https://browser.geekbench.com/processors/1662"
   },
   {
@@ -5685,8 +5685,8 @@
     "threads": 4,
     "frequency": 2300,
     "maxFrequency": -1,
-    "scoreSingleCore": 2741,
-    "scoreMultiCore": 5227,
+    "scoreSingleCore": 2742,
+    "scoreMultiCore": 5228,
     "url": "https://browser.geekbench.com/processors/1734"
   },
   {
@@ -5726,7 +5726,7 @@
     "frequency": 2300,
     "maxFrequency": -1,
     "scoreSingleCore": 2734,
-    "scoreMultiCore": 5270,
+    "scoreMultiCore": 5259,
     "url": "https://browser.geekbench.com/processors/2357"
   },
   {
@@ -5770,16 +5770,6 @@
     "url": "https://browser.geekbench.com/processors/742"
   },
   {
-    "name": "Intel Celeron G1830",
-    "cores": 2,
-    "threads": 2,
-    "frequency": 2800,
-    "maxFrequency": -1,
-    "scoreSingleCore": 2711,
-    "scoreMultiCore": 4308,
-    "url": "https://browser.geekbench.com/processors/2405"
-  },
-  {
     "name": "Intel Xeon W5580",
     "cores": 4,
     "threads": 8,
@@ -5788,6 +5778,16 @@
     "scoreSingleCore": 2702,
     "scoreMultiCore": 10226,
     "url": "https://browser.geekbench.com/processors/759"
+  },
+  {
+    "name": "Intel Celeron G1830",
+    "cores": 2,
+    "threads": 2,
+    "frequency": 2800,
+    "maxFrequency": -1,
+    "scoreSingleCore": 2711,
+    "scoreMultiCore": 4308,
+    "url": "https://browser.geekbench.com/processors/2405"
   },
   {
     "name": "AMD Athlon X4 880K",
@@ -5906,7 +5906,7 @@
     "frequency": 3070,
     "maxFrequency": 3460,
     "scoreSingleCore": 2668,
-    "scoreMultiCore": 13114,
+    "scoreMultiCore": 13113,
     "url": "https://browser.geekbench.com/processors/749"
   },
   {
@@ -5915,8 +5915,8 @@
     "threads": 8,
     "frequency": 4000,
     "maxFrequency": 4300,
-    "scoreSingleCore": 2665,
-    "scoreMultiCore": 9956,
+    "scoreSingleCore": 2664,
+    "scoreMultiCore": 9953,
     "url": "https://browser.geekbench.com/processors/1697"
   },
   {
@@ -5926,7 +5926,7 @@
     "frequency": 1700,
     "maxFrequency": 2700,
     "scoreSingleCore": 2663,
-    "scoreMultiCore": 4811,
+    "scoreMultiCore": 4810,
     "url": "https://browser.geekbench.com/processors/1561"
   },
   {
@@ -5946,7 +5946,7 @@
     "frequency": 2500,
     "maxFrequency": 3200,
     "scoreSingleCore": 2657,
-    "scoreMultiCore": 4984,
+    "scoreMultiCore": 4985,
     "url": "https://browser.geekbench.com/processors/381"
   },
   {
@@ -6026,7 +6026,7 @@
     "frequency": 2200,
     "maxFrequency": 3100,
     "scoreSingleCore": 2624,
-    "scoreMultiCore": 7971,
+    "scoreMultiCore": 7970,
     "url": "https://browser.geekbench.com/processors/573"
   },
   {
@@ -6076,7 +6076,7 @@
     "frequency": 4000,
     "maxFrequency": 4200,
     "scoreSingleCore": 2609,
-    "scoreMultiCore": 9922,
+    "scoreMultiCore": 9924,
     "url": "https://browser.geekbench.com/processors/874"
   },
   {
@@ -6116,7 +6116,7 @@
     "frequency": 3000,
     "maxFrequency": -1,
     "scoreSingleCore": 2602,
-    "scoreMultiCore": 4230,
+    "scoreMultiCore": 4231,
     "url": "https://browser.geekbench.com/processors/1012"
   },
   {
@@ -6145,8 +6145,8 @@
     "threads": 4,
     "frequency": 4200,
     "maxFrequency": 4300,
-    "scoreSingleCore": 2590,
-    "scoreMultiCore": 6261,
+    "scoreSingleCore": 2591,
+    "scoreMultiCore": 6263,
     "url": "https://browser.geekbench.com/processors/1095"
   },
   {
@@ -6216,7 +6216,7 @@
     "frequency": 2900,
     "maxFrequency": -1,
     "scoreSingleCore": 2571,
-    "scoreMultiCore": 4223,
+    "scoreMultiCore": 4219,
     "url": "https://browser.geekbench.com/processors/1010"
   },
   {
@@ -6266,7 +6266,7 @@
     "frequency": 2300,
     "maxFrequency": -1,
     "scoreSingleCore": 2559,
-    "scoreMultiCore": 4881,
+    "scoreMultiCore": 4882,
     "url": "https://browser.geekbench.com/processors/2197"
   },
   {
@@ -6300,6 +6300,16 @@
     "url": "https://browser.geekbench.com/processors/1019"
   },
   {
+    "name": "Intel Xeon X5560",
+    "cores": 4,
+    "threads": 8,
+    "frequency": 2800,
+    "maxFrequency": 3200,
+    "scoreSingleCore": 2542,
+    "scoreMultiCore": 8861,
+    "url": "https://browser.geekbench.com/processors/663"
+  },
+  {
     "name": "Intel Core i5-2435M",
     "cores": 2,
     "threads": 4,
@@ -6325,19 +6335,9 @@
     "threads": 8,
     "frequency": 2000,
     "maxFrequency": 2900,
-    "scoreSingleCore": 2539,
-    "scoreMultiCore": 7868,
+    "scoreSingleCore": 2540,
+    "scoreMultiCore": 7870,
     "url": "https://browser.geekbench.com/processors/411"
-  },
-  {
-    "name": "Intel Xeon X5560",
-    "cores": 4,
-    "threads": 8,
-    "frequency": 2800,
-    "maxFrequency": 3200,
-    "scoreSingleCore": 2539,
-    "scoreMultiCore": 8857,
-    "url": "https://browser.geekbench.com/processors/663"
   },
   {
     "name": "Intel Core i7-950",
@@ -6360,14 +6360,14 @@
     "url": "https://browser.geekbench.com/processors/642"
   },
   {
-    "name": "Intel Celeron G1630",
-    "cores": 2,
-    "threads": 2,
-    "frequency": 2800,
-    "maxFrequency": -1,
-    "scoreSingleCore": 2532,
-    "scoreMultiCore": 4150,
-    "url": "https://browser.geekbench.com/processors/1477"
+    "name": "AMD A10-6800K",
+    "cores": 4,
+    "threads": 4,
+    "frequency": 4100,
+    "maxFrequency": 4400,
+    "scoreSingleCore": 2525,
+    "scoreMultiCore": 5946,
+    "url": "https://browser.geekbench.com/processors/980"
   },
   {
     "name": "Intel Xeon D-1537",
@@ -6380,14 +6380,14 @@
     "url": "https://browser.geekbench.com/processors/2112"
   },
   {
-    "name": "AMD A10-6800K",
-    "cores": 4,
-    "threads": 4,
-    "frequency": 4100,
-    "maxFrequency": 4400,
-    "scoreSingleCore": 2525,
-    "scoreMultiCore": 5946,
-    "url": "https://browser.geekbench.com/processors/980"
+    "name": "Intel Celeron G1630",
+    "cores": 2,
+    "threads": 2,
+    "frequency": 2800,
+    "maxFrequency": -1,
+    "scoreSingleCore": 2532,
+    "scoreMultiCore": 4150,
+    "url": "https://browser.geekbench.com/processors/1477"
   },
   {
     "name": "Intel Core i7-870",
@@ -6398,26 +6398,6 @@
     "scoreSingleCore": 2522,
     "scoreMultiCore": 8043,
     "url": "https://browser.geekbench.com/processors/427"
-  },
-  {
-    "name": "Intel Core i5-2430M",
-    "cores": 2,
-    "threads": 4,
-    "frequency": 2400,
-    "maxFrequency": 3000,
-    "scoreSingleCore": 2512,
-    "scoreMultiCore": 4661,
-    "url": "https://browser.geekbench.com/processors/604"
-  },
-  {
-    "name": "Intel Core i5-655K",
-    "cores": 2,
-    "threads": 4,
-    "frequency": 3200,
-    "maxFrequency": 3460,
-    "scoreSingleCore": 2511,
-    "scoreMultiCore": 4856,
-    "url": "https://browser.geekbench.com/processors/397"
   },
   {
     "name": "Intel Core M-5Y51",
@@ -6438,6 +6418,26 @@
     "scoreSingleCore": 2505,
     "scoreMultiCore": 4680,
     "url": "https://browser.geekbench.com/processors/1461"
+  },
+  {
+    "name": "Intel Core i5-2430M",
+    "cores": 2,
+    "threads": 4,
+    "frequency": 2400,
+    "maxFrequency": 3000,
+    "scoreSingleCore": 2512,
+    "scoreMultiCore": 4662,
+    "url": "https://browser.geekbench.com/processors/604"
+  },
+  {
+    "name": "Intel Core i5-655K",
+    "cores": 2,
+    "threads": 4,
+    "frequency": 3200,
+    "maxFrequency": 3460,
+    "scoreSingleCore": 2511,
+    "scoreMultiCore": 4856,
+    "url": "https://browser.geekbench.com/processors/397"
   },
   {
     "name": "Intel Xeon E5-2609 v2",
@@ -6480,13 +6480,23 @@
     "url": "https://browser.geekbench.com/processors/2360"
   },
   {
+    "name": "Intel Core i5-3437U",
+    "cores": 2,
+    "threads": 4,
+    "frequency": 1900,
+    "maxFrequency": 2900,
+    "scoreSingleCore": 2482,
+    "scoreMultiCore": 4725,
+    "url": "https://browser.geekbench.com/processors/1094"
+  },
+  {
     "name": "Intel Core i7-2630QM",
     "cores": 4,
     "threads": 8,
     "frequency": 2000,
     "maxFrequency": 2900,
     "scoreSingleCore": 2481,
-    "scoreMultiCore": 7453,
+    "scoreMultiCore": 7454,
     "url": "https://browser.geekbench.com/processors/409"
   },
   {
@@ -6498,16 +6508,6 @@
     "scoreSingleCore": 2481,
     "scoreMultiCore": 4034,
     "url": "https://browser.geekbench.com/processors/1066"
-  },
-  {
-    "name": "Intel Core i5-3437U",
-    "cores": 2,
-    "threads": 4,
-    "frequency": 1900,
-    "maxFrequency": 2900,
-    "scoreSingleCore": 2480,
-    "scoreMultiCore": 4722,
-    "url": "https://browser.geekbench.com/processors/1094"
   },
   {
     "name": "Intel Core i5-3427U",
@@ -6575,8 +6575,8 @@
     "threads": 12,
     "frequency": 2300,
     "maxFrequency": 2800,
-    "scoreSingleCore": 2453,
-    "scoreMultiCore": 11955,
+    "scoreSingleCore": 2454,
+    "scoreMultiCore": 11972,
     "url": "https://browser.geekbench.com/processors/772"
   },
   {
@@ -6616,7 +6616,7 @@
     "frequency": 2800,
     "maxFrequency": 3460,
     "scoreSingleCore": 2439,
-    "scoreMultiCore": 7649,
+    "scoreMultiCore": 7650,
     "url": "https://browser.geekbench.com/processors/425"
   },
   {
@@ -6626,7 +6626,7 @@
     "frequency": 3500,
     "maxFrequency": 3700,
     "scoreSingleCore": 2435,
-    "scoreMultiCore": 9003,
+    "scoreMultiCore": 9004,
     "url": "https://browser.geekbench.com/processors/894"
   },
   {
@@ -6666,7 +6666,7 @@
     "frequency": 3500,
     "maxFrequency": 4100,
     "scoreSingleCore": 2419,
-    "scoreMultiCore": 7290,
+    "scoreMultiCore": 7291,
     "url": "https://browser.geekbench.com/processors/927"
   },
   {
@@ -6690,16 +6690,6 @@
     "url": "https://browser.geekbench.com/processors/2291"
   },
   {
-    "name": "AMD Phenom II X6 1100T Black Edition",
-    "cores": 6,
-    "threads": 6,
-    "frequency": 3700,
-    "maxFrequency": 3700,
-    "scoreSingleCore": 2416,
-    "scoreMultiCore": 9283,
-    "url": "https://browser.geekbench.com/processors/107"
-  },
-  {
     "name": "Intel Core i5-660",
     "cores": 2,
     "threads": 4,
@@ -6720,6 +6710,26 @@
     "url": "https://browser.geekbench.com/processors/610"
   },
   {
+    "name": "AMD Athlon X4 860K",
+    "cores": 4,
+    "threads": 4,
+    "frequency": 3700,
+    "maxFrequency": 4000,
+    "scoreSingleCore": 2416,
+    "scoreMultiCore": 5990,
+    "url": "https://browser.geekbench.com/processors/1754"
+  },
+  {
+    "name": "AMD Phenom II X6 1100T Black Edition",
+    "cores": 6,
+    "threads": 6,
+    "frequency": 3700,
+    "maxFrequency": 3700,
+    "scoreSingleCore": 2415,
+    "scoreMultiCore": 9282,
+    "url": "https://browser.geekbench.com/processors/107"
+  },
+  {
     "name": "AMD A10-7850K",
     "cores": 4,
     "threads": 4,
@@ -6728,16 +6738,6 @@
     "scoreSingleCore": 2415,
     "scoreMultiCore": 6066,
     "url": "https://browser.geekbench.com/processors/1526"
-  },
-  {
-    "name": "AMD Athlon X4 860K",
-    "cores": 4,
-    "threads": 4,
-    "frequency": 3700,
-    "maxFrequency": 4000,
-    "scoreSingleCore": 2415,
-    "scoreMultiCore": 5988,
-    "url": "https://browser.geekbench.com/processors/1754"
   },
   {
     "name": "AMD Athlon X4 950",
@@ -6770,16 +6770,6 @@
     "url": "https://browser.geekbench.com/processors/376"
   },
   {
-    "name": "Intel Xeon E5640",
-    "cores": 4,
-    "threads": 8,
-    "frequency": 2670,
-    "maxFrequency": 2930,
-    "scoreSingleCore": 2413,
-    "scoreMultiCore": 8911,
-    "url": "https://browser.geekbench.com/processors/647"
-  },
-  {
     "name": "AMD FX-670K",
     "cores": 4,
     "threads": 4,
@@ -6788,6 +6778,16 @@
     "scoreSingleCore": 2412,
     "scoreMultiCore": 5641,
     "url": "https://browser.geekbench.com/processors/2304"
+  },
+  {
+    "name": "Intel Xeon E5640",
+    "cores": 4,
+    "threads": 8,
+    "frequency": 2670,
+    "maxFrequency": 2930,
+    "scoreSingleCore": 2413,
+    "scoreMultiCore": 8911,
+    "url": "https://browser.geekbench.com/processors/647"
   },
   {
     "name": "Intel Xeon W3530",
@@ -6810,13 +6810,23 @@
     "url": "https://browser.geekbench.com/processors/399"
   },
   {
+    "name": "AMD Athlon X4 870K",
+    "cores": 2,
+    "threads": 4,
+    "frequency": 3900,
+    "maxFrequency": 4100,
+    "scoreSingleCore": 2403,
+    "scoreMultiCore": 6064,
+    "url": "https://browser.geekbench.com/processors/1901"
+  },
+  {
     "name": "Intel Xeon E5-2650",
     "cores": 8,
     "threads": 16,
     "frequency": 2000,
     "maxFrequency": 2800,
-    "scoreSingleCore": 2405,
-    "scoreMultiCore": 14734,
+    "scoreSingleCore": 2404,
+    "scoreMultiCore": 14733,
     "url": "https://browser.geekbench.com/processors/823"
   },
   {
@@ -6826,7 +6836,7 @@
     "frequency": 3900,
     "maxFrequency": 4200,
     "scoreSingleCore": 2401,
-    "scoreMultiCore": 5542,
+    "scoreMultiCore": 5541,
     "url": "https://browser.geekbench.com/processors/1027"
   },
   {
@@ -6836,7 +6846,7 @@
     "frequency": 2800,
     "maxFrequency": 3060,
     "scoreSingleCore": 2399,
-    "scoreMultiCore": 7894,
+    "scoreMultiCore": 7895,
     "url": "https://browser.geekbench.com/processors/433"
   },
   {
@@ -6848,16 +6858,6 @@
     "scoreSingleCore": 2399,
     "scoreMultiCore": 4594,
     "url": "https://browser.geekbench.com/processors/1846"
-  },
-  {
-    "name": "AMD Athlon X4 870K",
-    "cores": 2,
-    "threads": 4,
-    "frequency": 3900,
-    "maxFrequency": 4100,
-    "scoreSingleCore": 2399,
-    "scoreMultiCore": 6054,
-    "url": "https://browser.geekbench.com/processors/1901"
   },
   {
     "name": "Intel Core i7-940XM",
@@ -6905,7 +6905,7 @@
     "threads": 4,
     "frequency": 1800,
     "maxFrequency": 2700,
-    "scoreSingleCore": 2385,
+    "scoreSingleCore": 2384,
     "scoreMultiCore": 4458,
     "url": "https://browser.geekbench.com/processors/964"
   },
@@ -6946,7 +6946,7 @@
     "frequency": 3800,
     "maxFrequency": 4200,
     "scoreSingleCore": 2380,
-    "scoreMultiCore": 5538,
+    "scoreMultiCore": 5539,
     "url": "https://browser.geekbench.com/processors/886"
   },
   {
@@ -6955,8 +6955,8 @@
     "threads": 8,
     "frequency": 3200,
     "maxFrequency": 4000,
-    "scoreSingleCore": 2380,
-    "scoreMultiCore": 8519,
+    "scoreSingleCore": 2379,
+    "scoreMultiCore": 8516,
     "url": "https://browser.geekbench.com/processors/1659"
   },
   {
@@ -7010,16 +7010,6 @@
     "url": "https://browser.geekbench.com/processors/396"
   },
   {
-    "name": "AMD FX-4300",
-    "cores": 4,
-    "threads": 4,
-    "frequency": 3800,
-    "maxFrequency": 4000,
-    "scoreSingleCore": 2366,
-    "scoreMultiCore": 5608,
-    "url": "https://browser.geekbench.com/processors/1070"
-  },
-  {
     "name": "Intel Core i3-2100T",
     "cores": 2,
     "threads": 4,
@@ -7028,6 +7018,16 @@
     "scoreSingleCore": 2365,
     "scoreMultiCore": 4492,
     "url": "https://browser.geekbench.com/processors/595"
+  },
+  {
+    "name": "AMD FX-4300",
+    "cores": 4,
+    "threads": 4,
+    "frequency": 3800,
+    "maxFrequency": 4000,
+    "scoreSingleCore": 2365,
+    "scoreMultiCore": 5608,
+    "url": "https://browser.geekbench.com/processors/1070"
   },
   {
     "name": "Intel Pentium 4405U",
@@ -7076,7 +7076,7 @@
     "frequency": 2100,
     "maxFrequency": -1,
     "scoreSingleCore": 2353,
-    "scoreMultiCore": 4379,
+    "scoreMultiCore": 4380,
     "url": "https://browser.geekbench.com/processors/1669"
   },
   {
@@ -7085,8 +7085,8 @@
     "threads": 8,
     "frequency": 3600,
     "maxFrequency": 3900,
-    "scoreSingleCore": 2350,
-    "scoreMultiCore": 8611,
+    "scoreSingleCore": 2349,
+    "scoreMultiCore": 8607,
     "url": "https://browser.geekbench.com/processors/585"
   },
   {
@@ -7196,7 +7196,7 @@
     "frequency": 3100,
     "maxFrequency": 3800,
     "scoreSingleCore": 2322,
-    "scoreMultiCore": 5804,
+    "scoreMultiCore": 5807,
     "url": "https://browser.geekbench.com/processors/1895"
   },
   {
@@ -7206,7 +7206,7 @@
     "frequency": 2500,
     "maxFrequency": -1,
     "scoreSingleCore": 2317,
-    "scoreMultiCore": 4443,
+    "scoreMultiCore": 4444,
     "url": "https://browser.geekbench.com/processors/923"
   },
   {
@@ -7236,7 +7236,7 @@
     "frequency": 2670,
     "maxFrequency": 3200,
     "scoreSingleCore": 2310,
-    "scoreMultiCore": 6256,
+    "scoreMultiCore": 6255,
     "url": "https://browser.geekbench.com/processors/402"
   },
   {
@@ -7248,16 +7248,6 @@
     "scoreSingleCore": 2310,
     "scoreMultiCore": 7558,
     "url": "https://browser.geekbench.com/processors/431"
-  },
-  {
-    "name": "AMD A8-6500B",
-    "cores": 4,
-    "threads": 4,
-    "frequency": 3500,
-    "maxFrequency": 4100,
-    "scoreSingleCore": 2310,
-    "scoreMultiCore": 5306,
-    "url": "https://browser.geekbench.com/processors/2301"
   },
   {
     "name": "AMD Athlon X2 370K",
@@ -7330,6 +7320,26 @@
     "url": "https://browser.geekbench.com/processors/871"
   },
   {
+    "name": "AMD A8-6500B",
+    "cores": 4,
+    "threads": 4,
+    "frequency": 3500,
+    "maxFrequency": 4100,
+    "scoreSingleCore": 2300,
+    "scoreMultiCore": 5269,
+    "url": "https://browser.geekbench.com/processors/2301"
+  },
+  {
+    "name": "Intel Pentium 2030M",
+    "cores": 2,
+    "threads": 2,
+    "frequency": 2500,
+    "maxFrequency": -1,
+    "scoreSingleCore": 2296,
+    "scoreMultiCore": 3800,
+    "url": "https://browser.geekbench.com/processors/1447"
+  },
+  {
     "name": "Intel Celeron 3955U",
     "cores": 2,
     "threads": 2,
@@ -7348,16 +7358,6 @@
     "scoreSingleCore": 2294,
     "scoreMultiCore": 14598,
     "url": "https://browser.geekbench.com/processors/2420"
-  },
-  {
-    "name": "Intel Pentium 2030M",
-    "cores": 2,
-    "threads": 2,
-    "frequency": 2500,
-    "maxFrequency": -1,
-    "scoreSingleCore": 2293,
-    "scoreMultiCore": 3796,
-    "url": "https://browser.geekbench.com/processors/1447"
   },
   {
     "name": "AMD A8-7650K",
@@ -7460,16 +7460,6 @@
     "url": "https://browser.geekbench.com/processors/588"
   },
   {
-    "name": "AMD A8-5600K",
-    "cores": 4,
-    "threads": 4,
-    "frequency": 3600,
-    "maxFrequency": 3900,
-    "scoreSingleCore": 2263,
-    "scoreMultiCore": 5302,
-    "url": "https://browser.geekbench.com/processors/945"
-  },
-  {
     "name": "Intel Core M-5Y10a",
     "cores": 2,
     "threads": 4,
@@ -7478,6 +7468,16 @@
     "scoreSingleCore": 2259,
     "scoreMultiCore": 3808,
     "url": "https://browser.geekbench.com/processors/1654"
+  },
+  {
+    "name": "AMD A8-5600K",
+    "cores": 4,
+    "threads": 4,
+    "frequency": 3600,
+    "maxFrequency": 3900,
+    "scoreSingleCore": 2263,
+    "scoreMultiCore": 5302,
+    "url": "https://browser.geekbench.com/processors/945"
   },
   {
     "name": "AMD A8-7600",
@@ -7496,7 +7496,7 @@
     "frequency": 3500,
     "maxFrequency": 3900,
     "scoreSingleCore": 2253,
-    "scoreMultiCore": 5500,
+    "scoreMultiCore": 5501,
     "url": "https://browser.geekbench.com/processors/1760"
   },
   {
@@ -7505,7 +7505,7 @@
     "threads": 4,
     "frequency": 2800,
     "maxFrequency": 3460,
-    "scoreSingleCore": 2247,
+    "scoreSingleCore": 2248,
     "scoreMultiCore": 4213,
     "url": "https://browser.geekbench.com/processors/418"
   },
@@ -7526,7 +7526,7 @@
     "frequency": 2700,
     "maxFrequency": -1,
     "scoreSingleCore": 2246,
-    "scoreMultiCore": 3646,
+    "scoreMultiCore": 3647,
     "url": "https://browser.geekbench.com/processors/904"
   },
   {
@@ -7560,6 +7560,16 @@
     "url": "https://browser.geekbench.com/processors/2432"
   },
   {
+    "name": "AMD A10-5700",
+    "cores": 4,
+    "threads": 4,
+    "frequency": 3400,
+    "maxFrequency": 4000,
+    "scoreSingleCore": 2217,
+    "scoreMultiCore": 5099,
+    "url": "https://browser.geekbench.com/processors/858"
+  },
+  {
     "name": "AMD A8-6500",
     "cores": 4,
     "threads": 4,
@@ -7568,16 +7578,6 @@
     "scoreSingleCore": 2239,
     "scoreMultiCore": 5144,
     "url": "https://browser.geekbench.com/processors/1121"
-  },
-  {
-    "name": "Intel Xeon E5-2609",
-    "cores": 4,
-    "threads": 4,
-    "frequency": 2400,
-    "maxFrequency": -1,
-    "scoreSingleCore": 2234,
-    "scoreMultiCore": 6727,
-    "url": "https://browser.geekbench.com/processors/1055"
   },
   {
     "name": "Intel Core i3-3110M",
@@ -7590,24 +7590,14 @@
     "url": "https://browser.geekbench.com/processors/910"
   },
   {
-    "name": "AMD A10-5700",
+    "name": "Intel Xeon E5-2609",
     "cores": 4,
     "threads": 4,
-    "frequency": 3400,
-    "maxFrequency": 4000,
-    "scoreSingleCore": 2217,
-    "scoreMultiCore": 5098,
-    "url": "https://browser.geekbench.com/processors/858"
-  },
-  {
-    "name": "Intel Xeon E5-2620 v2",
-    "cores": 6,
-    "threads": 12,
-    "frequency": 2100,
-    "maxFrequency": 2600,
-    "scoreSingleCore": 2212,
-    "scoreMultiCore": 11657,
-    "url": "https://browser.geekbench.com/processors/1086"
+    "frequency": 2400,
+    "maxFrequency": -1,
+    "scoreSingleCore": 2233,
+    "scoreMultiCore": 6725,
+    "url": "https://browser.geekbench.com/processors/1055"
   },
   {
     "name": "AMD A8-9600",
@@ -7620,16 +7610,6 @@
     "url": "https://browser.geekbench.com/processors/2218"
   },
   {
-    "name": "AMD A6-6400K",
-    "cores": 2,
-    "threads": 2,
-    "frequency": 3900,
-    "maxFrequency": 4100,
-    "scoreSingleCore": 2210,
-    "scoreMultiCore": 3131,
-    "url": "https://browser.geekbench.com/processors/1050"
-  },
-  {
     "name": "AMD Phenom II X4 975 Black Edition",
     "cores": 4,
     "threads": 4,
@@ -7640,14 +7620,34 @@
     "url": "https://browser.geekbench.com/processors/93"
   },
   {
+    "name": "AMD A6-6400K",
+    "cores": 2,
+    "threads": 2,
+    "frequency": 3900,
+    "maxFrequency": 4100,
+    "scoreSingleCore": 2210,
+    "scoreMultiCore": 3131,
+    "url": "https://browser.geekbench.com/processors/1050"
+  },
+  {
     "name": "Intel Core i3-5005U",
     "cores": 2,
     "threads": 4,
     "frequency": 2000,
     "maxFrequency": -1,
     "scoreSingleCore": 2208,
-    "scoreMultiCore": 4078,
+    "scoreMultiCore": 4079,
     "url": "https://browser.geekbench.com/processors/1668"
+  },
+  {
+    "name": "Intel Xeon E5-2620 v2",
+    "cores": 6,
+    "threads": 12,
+    "frequency": 2100,
+    "maxFrequency": 2600,
+    "scoreSingleCore": 2205,
+    "scoreMultiCore": 11632,
+    "url": "https://browser.geekbench.com/processors/1086"
   },
   {
     "name": "Intel Xeon E5-2430",
@@ -7750,23 +7750,13 @@
     "url": "https://browser.geekbench.com/processors/371"
   },
   {
-    "name": "Intel Xeon X3440",
-    "cores": 4,
-    "threads": 8,
-    "frequency": 2530,
-    "maxFrequency": 2930,
-    "scoreSingleCore": 2183,
-    "scoreMultiCore": 7177,
-    "url": "https://browser.geekbench.com/processors/659"
-  },
-  {
     "name": "Intel Xeon E5630",
     "cores": 4,
     "threads": 8,
     "frequency": 2530,
     "maxFrequency": 2800,
-    "scoreSingleCore": 2183,
-    "scoreMultiCore": 7814,
+    "scoreSingleCore": 2185,
+    "scoreMultiCore": 7972,
     "url": "https://browser.geekbench.com/processors/667"
   },
   {
@@ -7778,6 +7768,16 @@
     "scoreSingleCore": 2183,
     "scoreMultiCore": 5378,
     "url": "https://browser.geekbench.com/processors/1938"
+  },
+  {
+    "name": "Intel Xeon X3440",
+    "cores": 4,
+    "threads": 8,
+    "frequency": 2530,
+    "maxFrequency": 2930,
+    "scoreSingleCore": 2184,
+    "scoreMultiCore": 7185,
+    "url": "https://browser.geekbench.com/processors/659"
   },
   {
     "name": "AMD A6-7400K",
@@ -7796,18 +7796,8 @@
     "frequency": 3100,
     "maxFrequency": 3400,
     "scoreSingleCore": 2181,
-    "scoreMultiCore": 7652,
+    "scoreMultiCore": 7654,
     "url": "https://browser.geekbench.com/processors/552"
-  },
-  {
-    "name": "Intel Xeon E5-2603 v4",
-    "cores": 6,
-    "threads": 6,
-    "frequency": 1700,
-    "maxFrequency": -1,
-    "scoreSingleCore": 2180,
-    "scoreMultiCore": 9108,
-    "url": "https://browser.geekbench.com/processors/2254"
   },
   {
     "name": "AMD PRO A8-8650B",
@@ -7818,6 +7808,16 @@
     "scoreSingleCore": 2178,
     "scoreMultiCore": 5349,
     "url": "https://browser.geekbench.com/processors/2417"
+  },
+  {
+    "name": "Intel Xeon E5-2603 v4",
+    "cores": 6,
+    "threads": 6,
+    "frequency": 1700,
+    "maxFrequency": -1,
+    "scoreSingleCore": 2180,
+    "scoreMultiCore": 9108,
+    "url": "https://browser.geekbench.com/processors/2254"
   },
   {
     "name": "Intel Celeron G550",
@@ -7835,8 +7835,8 @@
     "threads": 4,
     "frequency": 3200,
     "maxFrequency": 3700,
-    "scoreSingleCore": 2174,
-    "scoreMultiCore": 5120,
+    "scoreSingleCore": 2173,
+    "scoreMultiCore": 5107,
     "url": "https://browser.geekbench.com/processors/1962"
   },
   {
@@ -7856,7 +7856,7 @@
     "frequency": 3600,
     "maxFrequency": 3700,
     "scoreSingleCore": 2170,
-    "scoreMultiCore": 5192,
+    "scoreMultiCore": 5191,
     "url": "https://browser.geekbench.com/processors/550"
   },
   {
@@ -7876,7 +7876,7 @@
     "frequency": 2600,
     "maxFrequency": -1,
     "scoreSingleCore": 2168,
-    "scoreMultiCore": 3444,
+    "scoreMultiCore": 3443,
     "url": "https://browser.geekbench.com/processors/578"
   },
   {
@@ -7898,16 +7898,6 @@
     "scoreSingleCore": 2160,
     "scoreMultiCore": 10496,
     "url": "https://browser.geekbench.com/processors/661"
-  },
-  {
-    "name": "AMD A12-9730P",
-    "cores": 4,
-    "threads": 4,
-    "frequency": 2800,
-    "maxFrequency": 3500,
-    "scoreSingleCore": 2159,
-    "scoreMultiCore": 5230,
-    "url": "https://browser.geekbench.com/processors/2367"
   },
   {
     "name": "Intel Core i7-840QM",
@@ -7980,16 +7970,6 @@
     "url": "https://browser.geekbench.com/processors/1163"
   },
   {
-    "name": "Intel Xeon L5640",
-    "cores": 6,
-    "threads": 12,
-    "frequency": 2270,
-    "maxFrequency": 2800,
-    "scoreSingleCore": 2136,
-    "scoreMultiCore": 9586,
-    "url": "https://browser.geekbench.com/processors/646"
-  },
-  {
     "name": "AMD A8-7500",
     "cores": 4,
     "threads": 4,
@@ -8006,18 +7986,18 @@
     "frequency": 3300,
     "maxFrequency": 3600,
     "scoreSingleCore": 2135,
-    "scoreMultiCore": 6548,
+    "scoreMultiCore": 6549,
     "url": "https://browser.geekbench.com/processors/551"
   },
   {
-    "name": "AMD Athlon X4 740",
-    "cores": 4,
-    "threads": 4,
-    "frequency": 3200,
-    "maxFrequency": 3700,
-    "scoreSingleCore": 2127,
-    "scoreMultiCore": 4981,
-    "url": "https://browser.geekbench.com/processors/1564"
+    "name": "Intel Xeon L5640",
+    "cores": 6,
+    "threads": 12,
+    "frequency": 2270,
+    "maxFrequency": 2800,
+    "scoreSingleCore": 2133,
+    "scoreMultiCore": 9587,
+    "url": "https://browser.geekbench.com/processors/646"
   },
   {
     "name": "AMD Phenom II X2 565 Black Edition",
@@ -8028,6 +8008,16 @@
     "scoreSingleCore": 2128,
     "scoreMultiCore": 3663,
     "url": "https://browser.geekbench.com/processors/64"
+  },
+  {
+    "name": "AMD Athlon X4 740",
+    "cores": 4,
+    "threads": 4,
+    "frequency": 3200,
+    "maxFrequency": 3700,
+    "scoreSingleCore": 2127,
+    "scoreMultiCore": 4981,
+    "url": "https://browser.geekbench.com/processors/1564"
   },
   {
     "name": "Intel Xeon E5540",
@@ -8090,6 +8080,16 @@
     "url": "https://browser.geekbench.com/processors/2211"
   },
   {
+    "name": "AMD A12-9730P",
+    "cores": 4,
+    "threads": 4,
+    "frequency": 2800,
+    "maxFrequency": 3500,
+    "scoreSingleCore": 2107,
+    "scoreMultiCore": 5203,
+    "url": "https://browser.geekbench.com/processors/2367"
+  },
+  {
     "name": "AMD Phenom II X2 570 BE",
     "cores": 2,
     "threads": 2,
@@ -8120,6 +8120,16 @@
     "url": "https://browser.geekbench.com/processors/2257"
   },
   {
+    "name": "AMD A8-5500",
+    "cores": 4,
+    "threads": 4,
+    "frequency": 3200,
+    "maxFrequency": 3700,
+    "scoreSingleCore": 2100,
+    "scoreMultiCore": 4895,
+    "url": "https://browser.geekbench.com/processors/860"
+  },
+  {
     "name": "Intel Celeron G1610T",
     "cores": 2,
     "threads": 2,
@@ -8128,16 +8138,6 @@
     "scoreSingleCore": 2099,
     "scoreMultiCore": 3478,
     "url": "https://browser.geekbench.com/processors/1441"
-  },
-  {
-    "name": "AMD A8-5500",
-    "cores": 4,
-    "threads": 4,
-    "frequency": 3200,
-    "maxFrequency": 3700,
-    "scoreSingleCore": 2098,
-    "scoreMultiCore": 4888,
-    "url": "https://browser.geekbench.com/processors/860"
   },
   {
     "name": "Intel Xeon E5-2640 v2",
@@ -8236,7 +8236,7 @@
     "frequency": 3400,
     "maxFrequency": -1,
     "scoreSingleCore": 2080,
-    "scoreMultiCore": 5945,
+    "scoreMultiCore": 5946,
     "url": "https://browser.geekbench.com/processors/91"
   },
   {
@@ -8285,8 +8285,8 @@
     "threads": 2,
     "frequency": 3800,
     "maxFrequency": 4000,
-    "scoreSingleCore": 2060,
-    "scoreMultiCore": 2892,
+    "scoreSingleCore": 2061,
+    "scoreMultiCore": 2893,
     "url": "https://browser.geekbench.com/processors/1900"
   },
   {
@@ -8340,6 +8340,16 @@
     "url": "https://browser.geekbench.com/processors/634"
   },
   {
+    "name": "AMD A4-6300",
+    "cores": 2,
+    "threads": 2,
+    "frequency": 3700,
+    "maxFrequency": 3900,
+    "scoreSingleCore": 2043,
+    "scoreMultiCore": 2901,
+    "url": "https://browser.geekbench.com/processors/1628"
+  },
+  {
     "name": "AMD A6 PRO-7400B",
     "cores": 2,
     "threads": 2,
@@ -8348,16 +8358,6 @@
     "scoreSingleCore": 2043,
     "scoreMultiCore": 3153,
     "url": "https://browser.geekbench.com/processors/2529"
-  },
-  {
-    "name": "AMD A4-6300",
-    "cores": 2,
-    "threads": 2,
-    "frequency": 3700,
-    "maxFrequency": 3900,
-    "scoreSingleCore": 2042,
-    "scoreMultiCore": 2899,
-    "url": "https://browser.geekbench.com/processors/1628"
   },
   {
     "name": "Intel Xeon E5-2420",
@@ -8475,8 +8475,8 @@
     "threads": 4,
     "frequency": 2400,
     "maxFrequency": 2800,
-    "scoreSingleCore": 2002,
-    "scoreMultiCore": 5784,
+    "scoreSingleCore": 2001,
+    "scoreMultiCore": 5790,
     "url": "https://browser.geekbench.com/processors/657"
   },
   {
@@ -8485,8 +8485,8 @@
     "threads": 4,
     "frequency": 2400,
     "maxFrequency": -1,
-    "scoreSingleCore": 1999,
-    "scoreMultiCore": 3786,
+    "scoreSingleCore": 1998,
+    "scoreMultiCore": 3785,
     "url": "https://browser.geekbench.com/processors/889"
   },
   {
@@ -8540,16 +8540,6 @@
     "url": "https://browser.geekbench.com/processors/762"
   },
   {
-    "name": "Intel Xeon E5472",
-    "cores": 4,
-    "threads": 4,
-    "frequency": 3000,
-    "maxFrequency": -1,
-    "scoreSingleCore": 1983,
-    "scoreMultiCore": 5699,
-    "url": "https://browser.geekbench.com/processors/673"
-  },
-  {
     "name": "Intel Xeon L3426",
     "cores": 4,
     "threads": 8,
@@ -8558,6 +8548,16 @@
     "scoreSingleCore": 1982,
     "scoreMultiCore": 5623,
     "url": "https://browser.geekbench.com/processors/970"
+  },
+  {
+    "name": "Intel Xeon E5472",
+    "cores": 4,
+    "threads": 4,
+    "frequency": 3000,
+    "maxFrequency": -1,
+    "scoreSingleCore": 1983,
+    "scoreMultiCore": 5699,
+    "url": "https://browser.geekbench.com/processors/673"
   },
   {
     "name": "Intel Core 2 Duo E8500",
@@ -8786,7 +8786,7 @@
     "frequency": 3000,
     "maxFrequency": -1,
     "scoreSingleCore": 1944,
-    "scoreMultiCore": 5510,
+    "scoreMultiCore": 5511,
     "url": "https://browser.geekbench.com/processors/334"
   },
   {
@@ -8875,19 +8875,9 @@
     "threads": 4,
     "frequency": 3012,
     "maxFrequency": -1,
-    "scoreSingleCore": 1926,
-    "scoreMultiCore": 5616,
-    "url": "https://browser.geekbench.com/processors/1921"
-  },
-  {
-    "name": "AMD FX-7600P",
-    "cores": 4,
-    "threads": 4,
-    "frequency": 2700,
-    "maxFrequency": 3600,
     "scoreSingleCore": 1925,
-    "scoreMultiCore": 4529,
-    "url": "https://browser.geekbench.com/processors/1922"
+    "scoreMultiCore": 5613,
+    "url": "https://browser.geekbench.com/processors/1921"
   },
   {
     "name": "AMD RX-216GD",
@@ -8898,6 +8888,16 @@
     "scoreSingleCore": 1924,
     "scoreMultiCore": 2958,
     "url": "https://browser.geekbench.com/processors/2333"
+  },
+  {
+    "name": "AMD FX-7600P",
+    "cores": 4,
+    "threads": 4,
+    "frequency": 2700,
+    "maxFrequency": 3600,
+    "scoreSingleCore": 1925,
+    "scoreMultiCore": 4529,
+    "url": "https://browser.geekbench.com/processors/1922"
   },
   {
     "name": "Intel Xeon D-1518",
@@ -8986,7 +8986,7 @@
     "frequency": 2700,
     "maxFrequency": 3600,
     "scoreSingleCore": 1908,
-    "scoreMultiCore": 4444,
+    "scoreMultiCore": 4445,
     "url": "https://browser.geekbench.com/processors/2194"
   },
   {
@@ -9150,16 +9150,6 @@
     "url": "https://browser.geekbench.com/processors/1025"
   },
   {
-    "name": "Intel Core i5-540M",
-    "cores": 2,
-    "threads": 4,
-    "frequency": 2530,
-    "maxFrequency": 3070,
-    "scoreSingleCore": 1883,
-    "scoreMultiCore": 3615,
-    "url": "https://browser.geekbench.com/processors/392"
-  },
-  {
     "name": "Intel Core i7-740QM",
     "cores": 4,
     "threads": 8,
@@ -9190,6 +9180,16 @@
     "url": "https://browser.geekbench.com/processors/1623"
   },
   {
+    "name": "Intel Core i5-540M",
+    "cores": 2,
+    "threads": 4,
+    "frequency": 2530,
+    "maxFrequency": 3070,
+    "scoreSingleCore": 1879,
+    "scoreMultiCore": 3607,
+    "url": "https://browser.geekbench.com/processors/392"
+  },
+  {
     "name": "AMD Phenom II X4 945",
     "cores": 4,
     "threads": 4,
@@ -9198,6 +9198,16 @@
     "scoreSingleCore": 1877,
     "scoreMultiCore": 5386,
     "url": "https://browser.geekbench.com/processors/89"
+  },
+  {
+    "name": "Intel Pentium 3825U",
+    "cores": 2,
+    "threads": 4,
+    "frequency": 1900,
+    "maxFrequency": -1,
+    "scoreSingleCore": 1874,
+    "scoreMultiCore": 3406,
+    "url": "https://browser.geekbench.com/processors/1985"
   },
   {
     "name": "Intel Core i3-4005U",
@@ -9210,26 +9220,6 @@
     "url": "https://browser.geekbench.com/processors/1148"
   },
   {
-    "name": "Intel Core i5-2467M",
-    "cores": 2,
-    "threads": 4,
-    "frequency": 1601,
-    "maxFrequency": 2300,
-    "scoreSingleCore": 1873,
-    "scoreMultiCore": 3372,
-    "url": "https://browser.geekbench.com/processors/570"
-  },
-  {
-    "name": "Intel Pentium 3825U",
-    "cores": 2,
-    "threads": 4,
-    "frequency": 1900,
-    "maxFrequency": -1,
-    "scoreSingleCore": 1873,
-    "scoreMultiCore": 3406,
-    "url": "https://browser.geekbench.com/processors/1985"
-  },
-  {
     "name": "AMD Phenom II X4 850",
     "cores": 4,
     "threads": 4,
@@ -9238,6 +9228,16 @@
     "scoreSingleCore": 1873,
     "scoreMultiCore": 5285,
     "url": "https://browser.geekbench.com/processors/2263"
+  },
+  {
+    "name": "Intel Core i5-2467M",
+    "cores": 2,
+    "threads": 4,
+    "frequency": 1601,
+    "maxFrequency": 2300,
+    "scoreSingleCore": 1872,
+    "scoreMultiCore": 3372,
+    "url": "https://browser.geekbench.com/processors/570"
   },
   {
     "name": "Intel Xeon L5639",
@@ -9276,7 +9276,7 @@
     "frequency": 2670,
     "maxFrequency": 2930,
     "scoreSingleCore": 1858,
-    "scoreMultiCore": 3538,
+    "scoreMultiCore": 3532,
     "url": "https://browser.geekbench.com/processors/389"
   },
   {
@@ -9286,7 +9286,7 @@
     "frequency": 1100,
     "maxFrequency": -1,
     "scoreSingleCore": 1858,
-    "scoreMultiCore": 3141,
+    "scoreMultiCore": 3142,
     "url": "https://browser.geekbench.com/processors/2202"
   },
   {
@@ -9310,24 +9310,34 @@
     "url": "https://browser.geekbench.com/processors/473"
   },
   {
-    "name": "AMD A10-9620P",
-    "cores": 4,
-    "threads": 4,
-    "frequency": 2500,
-    "maxFrequency": 3400,
-    "scoreSingleCore": 1856,
-    "scoreMultiCore": 4261,
-    "url": "https://browser.geekbench.com/processors/2214"
-  },
-  {
     "name": "Intel Xeon E5440",
     "cores": 4,
     "threads": 4,
     "frequency": 2830,
     "maxFrequency": -1,
     "scoreSingleCore": 1855,
-    "scoreMultiCore": 5301,
+    "scoreMultiCore": 5302,
     "url": "https://browser.geekbench.com/processors/819"
+  },
+  {
+    "name": "AMD A10-9620P",
+    "cores": 4,
+    "threads": 4,
+    "frequency": 2500,
+    "maxFrequency": 3400,
+    "scoreSingleCore": 1853,
+    "scoreMultiCore": 4255,
+    "url": "https://browser.geekbench.com/processors/2214"
+  },
+  {
+    "name": "Intel Pentium B960",
+    "cores": 2,
+    "threads": 2,
+    "frequency": 2200,
+    "maxFrequency": -1,
+    "scoreSingleCore": 1852,
+    "scoreMultiCore": 2949,
+    "url": "https://browser.geekbench.com/processors/905"
   },
   {
     "name": "AMD A10-5750M",
@@ -9356,7 +9366,7 @@
     "frequency": 2400,
     "maxFrequency": 2930,
     "scoreSingleCore": 1850,
-    "scoreMultiCore": 3521,
+    "scoreMultiCore": 3520,
     "url": "https://browser.geekbench.com/processors/390"
   },
   {
@@ -9378,16 +9388,6 @@
     "scoreSingleCore": 1848,
     "scoreMultiCore": 5245,
     "url": "https://browser.geekbench.com/processors/333"
-  },
-  {
-    "name": "Intel Pentium B960",
-    "cores": 2,
-    "threads": 2,
-    "frequency": 2200,
-    "maxFrequency": -1,
-    "scoreSingleCore": 1848,
-    "scoreMultiCore": 2940,
-    "url": "https://browser.geekbench.com/processors/905"
   },
   {
     "name": "Intel Celeron G540T",
@@ -9525,7 +9525,7 @@
     "threads": 4,
     "frequency": 1900,
     "maxFrequency": -1,
-    "scoreSingleCore": 1831,
+    "scoreSingleCore": 1830,
     "scoreMultiCore": 3478,
     "url": "https://browser.geekbench.com/processors/987"
   },
@@ -9556,7 +9556,7 @@
     "frequency": 2400,
     "maxFrequency": 3300,
     "scoreSingleCore": 1828,
-    "scoreMultiCore": 4232,
+    "scoreMultiCore": 4233,
     "url": "https://browser.geekbench.com/processors/1761"
   },
   {
@@ -9566,7 +9566,7 @@
     "frequency": 1600,
     "maxFrequency": 2800,
     "scoreSingleCore": 1826,
-    "scoreMultiCore": 4539,
+    "scoreMultiCore": 4540,
     "url": "https://browser.geekbench.com/processors/421"
   },
   {
@@ -9676,7 +9676,7 @@
     "frequency": 3100,
     "maxFrequency": -1,
     "scoreSingleCore": 1800,
-    "scoreMultiCore": 3015,
+    "scoreMultiCore": 3014,
     "url": "https://browser.geekbench.com/processors/528"
   },
   {
@@ -9740,6 +9740,16 @@
     "url": "https://browser.geekbench.com/processors/87"
   },
   {
+    "name": "AMD A8-5557M",
+    "cores": 4,
+    "threads": 4,
+    "frequency": 2100,
+    "maxFrequency": 3100,
+    "scoreSingleCore": 1791,
+    "scoreMultiCore": 4100,
+    "url": "https://browser.geekbench.com/processors/1113"
+  },
+  {
     "name": "Intel Celeron 3965Y",
     "cores": 2,
     "threads": 2,
@@ -9780,6 +9790,16 @@
     "url": "https://browser.geekbench.com/processors/71"
   },
   {
+    "name": "AMD A4-4000",
+    "cores": 2,
+    "threads": 2,
+    "frequency": 3000,
+    "maxFrequency": 3200,
+    "scoreSingleCore": 1786,
+    "scoreMultiCore": 2538,
+    "url": "https://browser.geekbench.com/processors/1153"
+  },
+  {
     "name": "AMD A4-4020",
     "cores": 2,
     "threads": 2,
@@ -9790,16 +9810,6 @@
     "url": "https://browser.geekbench.com/processors/1953"
   },
   {
-    "name": "AMD A4-4000",
-    "cores": 2,
-    "threads": 2,
-    "frequency": 3000,
-    "maxFrequency": 3200,
-    "scoreSingleCore": 1785,
-    "scoreMultiCore": 2536,
-    "url": "https://browser.geekbench.com/processors/1153"
-  },
-  {
     "name": "Intel Core i5-460M",
     "cores": 2,
     "threads": 4,
@@ -9808,16 +9818,6 @@
     "scoreSingleCore": 1784,
     "scoreMultiCore": 3384,
     "url": "https://browser.geekbench.com/processors/387"
-  },
-  {
-    "name": "AMD A8-5557M",
-    "cores": 4,
-    "threads": 4,
-    "frequency": 2100,
-    "maxFrequency": 3100,
-    "scoreSingleCore": 1784,
-    "scoreMultiCore": 4079,
-    "url": "https://browser.geekbench.com/processors/1113"
   },
   {
     "name": "Intel Core 2 Duo P9700",
@@ -9866,7 +9866,7 @@
     "frequency": 3100,
     "maxFrequency": -1,
     "scoreSingleCore": 1776,
-    "scoreMultiCore": 4997,
+    "scoreMultiCore": 4998,
     "url": "https://browser.geekbench.com/processors/541"
   },
   {
@@ -9906,7 +9906,7 @@
     "frequency": 2100,
     "maxFrequency": -1,
     "scoreSingleCore": 1771,
-    "scoreMultiCore": 2788,
+    "scoreMultiCore": 2789,
     "url": "https://browser.geekbench.com/processors/906"
   },
   {
@@ -10025,8 +10025,8 @@
     "threads": 2,
     "frequency": 2000,
     "maxFrequency": -1,
-    "scoreSingleCore": 1752,
-    "scoreMultiCore": 2767,
+    "scoreSingleCore": 1753,
+    "scoreMultiCore": 2770,
     "url": "https://browser.geekbench.com/processors/577"
   },
   {
@@ -10055,8 +10055,8 @@
     "threads": 4,
     "frequency": 2660,
     "maxFrequency": -1,
-    "scoreSingleCore": 1745,
-    "scoreMultiCore": 4922,
+    "scoreSingleCore": 1746,
+    "scoreMultiCore": 4923,
     "url": "https://browser.geekbench.com/processors/330"
   },
   {
@@ -10210,6 +10210,16 @@
     "url": "https://browser.geekbench.com/processors/1892"
   },
   {
+    "name": "Intel Celeron N4100",
+    "cores": 4,
+    "threads": 4,
+    "frequency": 1100,
+    "maxFrequency": -1,
+    "scoreSingleCore": 1729,
+    "scoreMultiCore": 4850,
+    "url": "https://browser.geekbench.com/processors/2217"
+  },
+  {
     "name": "AMD Opteron 6276",
     "cores": 16,
     "threads": 16,
@@ -10218,16 +10228,6 @@
     "scoreSingleCore": 1728,
     "scoreMultiCore": 8176,
     "url": "https://browser.geekbench.com/processors/781"
-  },
-  {
-    "name": "Intel Celeron N4100",
-    "cores": 4,
-    "threads": 4,
-    "frequency": 1100,
-    "maxFrequency": -1,
-    "scoreSingleCore": 1728,
-    "scoreMultiCore": 4842,
-    "url": "https://browser.geekbench.com/processors/2217"
   },
   {
     "name": "AMD Athlon II X3 440",
@@ -10336,7 +10336,7 @@
     "frequency": 1800,
     "maxFrequency": 3200,
     "scoreSingleCore": 1710,
-    "scoreMultiCore": 3766,
+    "scoreMultiCore": 3771,
     "url": "https://browser.geekbench.com/processors/1920"
   },
   {
@@ -10356,7 +10356,7 @@
     "frequency": 2900,
     "maxFrequency": -1,
     "scoreSingleCore": 1706,
-    "scoreMultiCore": 4821,
+    "scoreMultiCore": 4820,
     "url": "https://browser.geekbench.com/processors/539"
   },
   {
@@ -10395,8 +10395,8 @@
     "threads": 2,
     "frequency": 2660,
     "maxFrequency": -1,
-    "scoreSingleCore": 1702,
-    "scoreMultiCore": 2788,
+    "scoreSingleCore": 1703,
+    "scoreMultiCore": 2790,
     "url": "https://browser.geekbench.com/processors/233"
   },
   {
@@ -10410,16 +10410,6 @@
     "url": "https://browser.geekbench.com/processors/234"
   },
   {
-    "name": "AMD A10-7400P",
-    "cores": 4,
-    "threads": 4,
-    "frequency": 2500,
-    "maxFrequency": 3400,
-    "scoreSingleCore": 1702,
-    "scoreMultiCore": 3927,
-    "url": "https://browser.geekbench.com/processors/1863"
-  },
-  {
     "name": "AMD Phenom II X2 545",
     "cores": 2,
     "threads": 2,
@@ -10430,14 +10420,14 @@
     "url": "https://browser.geekbench.com/processors/60"
   },
   {
-    "name": "Intel Xeon E7-4830",
-    "cores": 8,
-    "threads": 16,
-    "frequency": 2130,
-    "maxFrequency": 2400,
-    "scoreSingleCore": 1696,
-    "scoreMultiCore": 10382,
-    "url": "https://browser.geekbench.com/processors/756"
+    "name": "AMD A10-7400P",
+    "cores": 4,
+    "threads": 4,
+    "frequency": 2500,
+    "maxFrequency": 3400,
+    "scoreSingleCore": 1701,
+    "scoreMultiCore": 3930,
+    "url": "https://browser.geekbench.com/processors/1863"
   },
   {
     "name": "AMD Phenom II X2 N660",
@@ -10450,13 +10440,23 @@
     "url": "https://browser.geekbench.com/processors/67"
   },
   {
+    "name": "Intel Xeon E7-4830",
+    "cores": 8,
+    "threads": 16,
+    "frequency": 2130,
+    "maxFrequency": 2400,
+    "scoreSingleCore": 1696,
+    "scoreMultiCore": 10382,
+    "url": "https://browser.geekbench.com/processors/756"
+  },
+  {
     "name": "AMD A10-8700P",
     "cores": 4,
     "threads": 4,
     "frequency": 1800,
     "maxFrequency": 3200,
     "scoreSingleCore": 1695,
-    "scoreMultiCore": 3870,
+    "scoreMultiCore": 3872,
     "url": "https://browser.geekbench.com/processors/1745"
   },
   {
@@ -10510,6 +10510,16 @@
     "url": "https://browser.geekbench.com/processors/1862"
   },
   {
+    "name": "Intel Celeron 1037U",
+    "cores": 2,
+    "threads": 2,
+    "frequency": 1800,
+    "maxFrequency": -1,
+    "scoreSingleCore": 1682,
+    "scoreMultiCore": 2689,
+    "url": "https://browser.geekbench.com/processors/1085"
+  },
+  {
     "name": "Intel Core 2 Duo P9500",
     "cores": 2,
     "threads": 2,
@@ -10538,16 +10548,6 @@
     "scoreSingleCore": 1678,
     "scoreMultiCore": 2644,
     "url": "https://browser.geekbench.com/processors/313"
-  },
-  {
-    "name": "Intel Celeron 1037U",
-    "cores": 2,
-    "threads": 2,
-    "frequency": 1800,
-    "maxFrequency": -1,
-    "scoreSingleCore": 1678,
-    "scoreMultiCore": 2680,
-    "url": "https://browser.geekbench.com/processors/1085"
   },
   {
     "name": "Intel Core 2 Quad Q8400",
@@ -10626,7 +10626,7 @@
     "frequency": 2530,
     "maxFrequency": -1,
     "scoreSingleCore": 1662,
-    "scoreMultiCore": 3220,
+    "scoreMultiCore": 3219,
     "url": "https://browser.geekbench.com/processors/366"
   },
   {
@@ -10676,7 +10676,7 @@
     "frequency": 2660,
     "maxFrequency": -1,
     "scoreSingleCore": 1659,
-    "scoreMultiCore": 2681,
+    "scoreMultiCore": 2683,
     "url": "https://browser.geekbench.com/processors/300"
   },
   {
@@ -10815,8 +10815,8 @@
     "threads": 2,
     "frequency": 3000,
     "maxFrequency": -1,
-    "scoreSingleCore": 1632,
-    "scoreMultiCore": 2519,
+    "scoreSingleCore": 1631,
+    "scoreMultiCore": 2516,
     "url": "https://browser.geekbench.com/processors/468"
   },
   {
@@ -10916,7 +10916,7 @@
     "frequency": 2400,
     "maxFrequency": -1,
     "scoreSingleCore": 1610,
-    "scoreMultiCore": 3112,
+    "scoreMultiCore": 3113,
     "url": "https://browser.geekbench.com/processors/365"
   },
   {
@@ -10926,18 +10926,8 @@
     "frequency": 2100,
     "maxFrequency": 3100,
     "scoreSingleCore": 1609,
-    "scoreMultiCore": 3686,
+    "scoreMultiCore": 3683,
     "url": "https://browser.geekbench.com/processors/984"
-  },
-  {
-    "name": "AMD A10 PRO-7350B",
-    "cores": 4,
-    "threads": 4,
-    "frequency": 2100,
-    "maxFrequency": 3300,
-    "scoreSingleCore": 1609,
-    "scoreMultiCore": 3445,
-    "url": "https://browser.geekbench.com/processors/1912"
   },
   {
     "name": "AMD Phenom II X4 810",
@@ -10948,6 +10938,16 @@
     "scoreSingleCore": 1606,
     "scoreMultiCore": 4576,
     "url": "https://browser.geekbench.com/processors/78"
+  },
+  {
+    "name": "AMD A10 PRO-7350B",
+    "cores": 4,
+    "threads": 4,
+    "frequency": 2100,
+    "maxFrequency": 3300,
+    "scoreSingleCore": 1605,
+    "scoreMultiCore": 3445,
+    "url": "https://browser.geekbench.com/processors/1912"
   },
   {
     "name": "AMD Athlon II X2 220",
@@ -11020,16 +11020,6 @@
     "url": "https://browser.geekbench.com/processors/1397"
   },
   {
-    "name": "Intel Core i5-2537M",
-    "cores": 2,
-    "threads": 4,
-    "frequency": 1400,
-    "maxFrequency": 2300,
-    "scoreSingleCore": 1584,
-    "scoreMultiCore": 2792,
-    "url": "https://browser.geekbench.com/processors/382"
-  },
-  {
     "name": "AMD A4-4300M",
     "cores": 2,
     "threads": 2,
@@ -11068,6 +11058,16 @@
     "scoreSingleCore": 1579,
     "scoreMultiCore": 2463,
     "url": "https://browser.geekbench.com/processors/1999"
+  },
+  {
+    "name": "Intel Core i5-2537M",
+    "cores": 2,
+    "threads": 4,
+    "frequency": 1400,
+    "maxFrequency": 2300,
+    "scoreSingleCore": 1575,
+    "scoreMultiCore": 2790,
+    "url": "https://browser.geekbench.com/processors/382"
   },
   {
     "name": "AMD Athlon II X4 615e",
@@ -11120,16 +11120,6 @@
     "url": "https://browser.geekbench.com/processors/863"
   },
   {
-    "name": "AMD Phenom II X2 N620",
-    "cores": 2,
-    "threads": 2,
-    "frequency": 2800,
-    "maxFrequency": -1,
-    "scoreSingleCore": 1561,
-    "scoreMultiCore": 2500,
-    "url": "https://browser.geekbench.com/processors/65"
-  },
-  {
     "name": "Intel Core 2 Duo E6700",
     "cores": 2,
     "threads": 2,
@@ -11138,6 +11128,16 @@
     "scoreSingleCore": 1558,
     "scoreMultiCore": 2522,
     "url": "https://browser.geekbench.com/processors/223"
+  },
+  {
+    "name": "AMD Phenom II X2 N620",
+    "cores": 2,
+    "threads": 2,
+    "frequency": 2800,
+    "maxFrequency": -1,
+    "scoreSingleCore": 1561,
+    "scoreMultiCore": 2500,
+    "url": "https://browser.geekbench.com/processors/65"
   },
   {
     "name": "AMD Athlon II X3 425",
@@ -11205,8 +11205,8 @@
     "threads": 2,
     "frequency": 2800,
     "maxFrequency": -1,
-    "scoreSingleCore": 1541,
-    "scoreMultiCore": 2386,
+    "scoreSingleCore": 1540,
+    "scoreMultiCore": 2387,
     "url": "https://browser.geekbench.com/processors/467"
   },
   {
@@ -11246,18 +11246,8 @@
     "frequency": 2530,
     "maxFrequency": -1,
     "scoreSingleCore": 1533,
-    "scoreMultiCore": 2469,
+    "scoreMultiCore": 2468,
     "url": "https://browser.geekbench.com/processors/226"
-  },
-  {
-    "name": "AMD Athlon II X2 215",
-    "cores": 2,
-    "threads": 2,
-    "frequency": 2700,
-    "maxFrequency": -1,
-    "scoreSingleCore": 1533,
-    "scoreMultiCore": 2553,
-    "url": "https://browser.geekbench.com/processors/522"
   },
   {
     "name": "AMD Athlon 64 X2 6400+",
@@ -11268,6 +11258,16 @@
     "scoreSingleCore": 1532,
     "scoreMultiCore": 2429,
     "url": "https://browser.geekbench.com/processors/33"
+  },
+  {
+    "name": "AMD Athlon II X2 215",
+    "cores": 2,
+    "threads": 2,
+    "frequency": 2700,
+    "maxFrequency": -1,
+    "scoreSingleCore": 1532,
+    "scoreMultiCore": 2552,
+    "url": "https://browser.geekbench.com/processors/522"
   },
   {
     "name": "Intel Core 2 Duo P8700",
@@ -11386,7 +11386,7 @@
     "frequency": 2700,
     "maxFrequency": -1,
     "scoreSingleCore": 1505,
-    "scoreMultiCore": 2340,
+    "scoreMultiCore": 2342,
     "url": "https://browser.geekbench.com/processors/466"
   },
   {
@@ -11405,8 +11405,8 @@
     "threads": 2,
     "frequency": 2400,
     "maxFrequency": -1,
-    "scoreSingleCore": 1503,
-    "scoreMultiCore": 2426,
+    "scoreSingleCore": 1497,
+    "scoreMultiCore": 2418,
     "url": "https://browser.geekbench.com/processors/261"
   },
   {
@@ -11415,8 +11415,8 @@
     "threads": 4,
     "frequency": 1500,
     "maxFrequency": -1,
-    "scoreSingleCore": 1500,
-    "scoreMultiCore": 4164,
+    "scoreSingleCore": 1497,
+    "scoreMultiCore": 4149,
     "url": "https://browser.geekbench.com/processors/2203"
   },
   {
@@ -11465,8 +11465,8 @@
     "threads": 4,
     "frequency": 2330,
     "maxFrequency": -1,
-    "scoreSingleCore": 1474,
-    "scoreMultiCore": 4018,
+    "scoreSingleCore": 1475,
+    "scoreMultiCore": 4027,
     "url": "https://browser.geekbench.com/processors/656"
   },
   {
@@ -11496,7 +11496,7 @@
     "frequency": 2130,
     "maxFrequency": -1,
     "scoreSingleCore": 1470,
-    "scoreMultiCore": 2385,
+    "scoreMultiCore": 2386,
     "url": "https://browser.geekbench.com/processors/482"
   },
   {
@@ -11576,7 +11576,7 @@
     "frequency": 1100,
     "maxFrequency": 2500,
     "scoreSingleCore": 1456,
-    "scoreMultiCore": 3930,
+    "scoreMultiCore": 3932,
     "url": "https://browser.geekbench.com/processors/1834"
   },
   {
@@ -11635,8 +11635,8 @@
     "threads": 2,
     "frequency": 2400,
     "maxFrequency": -1,
-    "scoreSingleCore": 1446,
-    "scoreMultiCore": 2513,
+    "scoreSingleCore": 1448,
+    "scoreMultiCore": 2516,
     "url": "https://browser.geekbench.com/processors/559"
   },
   {
@@ -11646,7 +11646,7 @@
     "frequency": 2100,
     "maxFrequency": 2900,
     "scoreSingleCore": 1446,
-    "scoreMultiCore": 3241,
+    "scoreMultiCore": 3243,
     "url": "https://browser.geekbench.com/processors/1079"
   },
   {
@@ -11665,7 +11665,7 @@
     "threads": 2,
     "frequency": 1500,
     "maxFrequency": -1,
-    "scoreSingleCore": 1440,
+    "scoreSingleCore": 1441,
     "scoreMultiCore": 2277,
     "url": "https://browser.geekbench.com/processors/1018"
   },
@@ -11750,6 +11750,16 @@
     "url": "https://browser.geekbench.com/processors/222"
   },
   {
+    "name": "AMD A6-3600",
+    "cores": 4,
+    "threads": 4,
+    "frequency": 2100,
+    "maxFrequency": 2400,
+    "scoreSingleCore": 1427,
+    "scoreMultiCore": 3934,
+    "url": "https://browser.geekbench.com/processors/731"
+  },
+  {
     "name": "Intel Core 2 Duo P9300",
     "cores": 2,
     "threads": 2,
@@ -11758,26 +11768,6 @@
     "scoreSingleCore": 1426,
     "scoreMultiCore": 2279,
     "url": "https://browser.geekbench.com/processors/260"
-  },
-  {
-    "name": "AMD A6-3600",
-    "cores": 4,
-    "threads": 4,
-    "frequency": 2100,
-    "maxFrequency": 2400,
-    "scoreSingleCore": 1426,
-    "scoreMultiCore": 3933,
-    "url": "https://browser.geekbench.com/processors/731"
-  },
-  {
-    "name": "Intel Core 2 Duo T8300",
-    "cores": 2,
-    "threads": 2,
-    "frequency": 2400,
-    "maxFrequency": -1,
-    "scoreSingleCore": 1423,
-    "scoreMultiCore": 2281,
-    "url": "https://browser.geekbench.com/processors/296"
   },
   {
     "name": "AMD Athlon II X4 605e",
@@ -11798,6 +11788,16 @@
     "scoreSingleCore": 1422,
     "scoreMultiCore": 2254,
     "url": "https://browser.geekbench.com/processors/256"
+  },
+  {
+    "name": "Intel Core 2 Duo T8300",
+    "cores": 2,
+    "threads": 2,
+    "frequency": 2400,
+    "maxFrequency": -1,
+    "scoreSingleCore": 1422,
+    "scoreMultiCore": 2281,
+    "url": "https://browser.geekbench.com/processors/296"
   },
   {
     "name": "AMD Sempron 140",
@@ -11880,16 +11880,6 @@
     "url": "https://browser.geekbench.com/processors/201"
   },
   {
-    "name": "Intel Xeon 5150",
-    "cores": 2,
-    "threads": 2,
-    "frequency": 2660,
-    "maxFrequency": -1,
-    "scoreSingleCore": 1401,
-    "scoreMultiCore": 2320,
-    "url": "https://browser.geekbench.com/processors/628"
-  },
-  {
     "name": "Intel Core 2 Extreme X9000",
     "cores": 2,
     "threads": 2,
@@ -11898,6 +11888,16 @@
     "scoreSingleCore": 1403,
     "scoreMultiCore": 2272,
     "url": "https://browser.geekbench.com/processors/316"
+  },
+  {
+    "name": "Intel Xeon 5150",
+    "cores": 2,
+    "threads": 2,
+    "frequency": 2660,
+    "maxFrequency": -1,
+    "scoreSingleCore": 1401,
+    "scoreMultiCore": 2320,
+    "url": "https://browser.geekbench.com/processors/628"
   },
   {
     "name": "Intel Core 2 Duo P7550",
@@ -11920,6 +11920,16 @@
     "url": "https://browser.geekbench.com/processors/215"
   },
   {
+    "name": "Intel Celeron B815",
+    "cores": 2,
+    "threads": 2,
+    "frequency": 1600,
+    "maxFrequency": -1,
+    "scoreSingleCore": 1397,
+    "scoreMultiCore": 2203,
+    "url": "https://browser.geekbench.com/processors/913"
+  },
+  {
     "name": "Intel Celeron G440",
     "cores": 1,
     "threads": 1,
@@ -11940,23 +11950,13 @@
     "url": "https://browser.geekbench.com/processors/2373"
   },
   {
-    "name": "Intel Celeron B815",
-    "cores": 2,
-    "threads": 2,
-    "frequency": 1600,
-    "maxFrequency": -1,
-    "scoreSingleCore": 1395,
-    "scoreMultiCore": 2198,
-    "url": "https://browser.geekbench.com/processors/913"
-  },
-  {
     "name": "Intel Celeron N3350",
     "cores": 2,
     "threads": 2,
     "frequency": 1100,
     "maxFrequency": 2400,
-    "scoreSingleCore": 1392,
-    "scoreMultiCore": 2337,
+    "scoreSingleCore": 1391,
+    "scoreMultiCore": 2334,
     "url": "https://browser.geekbench.com/processors/1839"
   },
   {
@@ -11970,16 +11970,6 @@
     "url": "https://browser.geekbench.com/processors/513"
   },
   {
-    "name": "Intel Core 2 Duo T7700",
-    "cores": 2,
-    "threads": 2,
-    "frequency": 2400,
-    "maxFrequency": -1,
-    "scoreSingleCore": 1387,
-    "scoreMultiCore": 2248,
-    "url": "https://browser.geekbench.com/processors/293"
-  },
-  {
     "name": "AMD Turion II P520",
     "cores": 2,
     "threads": 2,
@@ -11988,6 +11978,16 @@
     "scoreSingleCore": 1389,
     "scoreMultiCore": 2316,
     "url": "https://browser.geekbench.com/processors/558"
+  },
+  {
+    "name": "Intel Core 2 Duo T7700",
+    "cores": 2,
+    "threads": 2,
+    "frequency": 2400,
+    "maxFrequency": -1,
+    "scoreSingleCore": 1387,
+    "scoreMultiCore": 2248,
+    "url": "https://browser.geekbench.com/processors/293"
   },
   {
     "name": "Intel Atom T5700",
@@ -12010,16 +12010,6 @@
     "url": "https://browser.geekbench.com/processors/480"
   },
   {
-    "name": "Intel Celeron E3400",
-    "cores": 2,
-    "threads": 2,
-    "frequency": 2600,
-    "maxFrequency": -1,
-    "scoreSingleCore": 1385,
-    "scoreMultiCore": 2181,
-    "url": "https://browser.geekbench.com/processors/189"
-  },
-  {
     "name": "Intel Core 2 Duo E6550",
     "cores": 2,
     "threads": 2,
@@ -12028,6 +12018,16 @@
     "scoreSingleCore": 1385,
     "scoreMultiCore": 2200,
     "url": "https://browser.geekbench.com/processors/221"
+  },
+  {
+    "name": "Intel Celeron E3400",
+    "cores": 2,
+    "threads": 2,
+    "frequency": 2600,
+    "maxFrequency": -1,
+    "scoreSingleCore": 1385,
+    "scoreMultiCore": 2181,
+    "url": "https://browser.geekbench.com/processors/189"
   },
   {
     "name": "AMD Athlon II X3 400e",
@@ -12110,16 +12110,6 @@
     "url": "https://browser.geekbench.com/processors/113"
   },
   {
-    "name": "AMD Phenom X3 8750",
-    "cores": 3,
-    "threads": 3,
-    "frequency": 2400,
-    "maxFrequency": -1,
-    "scoreSingleCore": 1358,
-    "scoreMultiCore": 3052,
-    "url": "https://browser.geekbench.com/processors/117"
-  },
-  {
     "name": "AMD A8-3520M",
     "cores": 4,
     "threads": 4,
@@ -12128,6 +12118,16 @@
     "scoreSingleCore": 1358,
     "scoreMultiCore": 3458,
     "url": "https://browser.geekbench.com/processors/728"
+  },
+  {
+    "name": "AMD Phenom X3 8750",
+    "cores": 3,
+    "threads": 3,
+    "frequency": 2400,
+    "maxFrequency": -1,
+    "scoreSingleCore": 1358,
+    "scoreMultiCore": 3052,
+    "url": "https://browser.geekbench.com/processors/117"
   },
   {
     "name": "AMD Sempron X2 190",
@@ -12150,16 +12150,6 @@
     "url": "https://browser.geekbench.com/processors/188"
   },
   {
-    "name": "Intel Core i3-2367M",
-    "cores": 2,
-    "threads": 4,
-    "frequency": 1400,
-    "maxFrequency": -1,
-    "scoreSingleCore": 1356,
-    "scoreMultiCore": 2537,
-    "url": "https://browser.geekbench.com/processors/816"
-  },
-  {
     "name": "AMD Opteron 6272",
     "cores": 16,
     "threads": 16,
@@ -12168,6 +12158,16 @@
     "scoreSingleCore": 1356,
     "scoreMultiCore": 6923,
     "url": "https://browser.geekbench.com/processors/1550"
+  },
+  {
+    "name": "Intel Core i3-2367M",
+    "cores": 2,
+    "threads": 4,
+    "frequency": 1400,
+    "maxFrequency": -1,
+    "scoreSingleCore": 1355,
+    "scoreMultiCore": 2538,
+    "url": "https://browser.geekbench.com/processors/816"
   },
   {
     "name": "AMD A10-4655M",
@@ -12240,16 +12240,6 @@
     "url": "https://browser.geekbench.com/processors/769"
   },
   {
-    "name": "AMD A6-3430MX",
-    "cores": 4,
-    "threads": 4,
-    "frequency": 1700,
-    "maxFrequency": 2400,
-    "scoreSingleCore": 1342,
-    "scoreMultiCore": 3518,
-    "url": "https://browser.geekbench.com/processors/737"
-  },
-  {
     "name": "AMD Phenom X4 9650",
     "cores": 4,
     "threads": 4,
@@ -12298,6 +12288,16 @@
     "scoreSingleCore": 1334,
     "scoreMultiCore": 2507,
     "url": "https://browser.geekbench.com/processors/948"
+  },
+  {
+    "name": "AMD A6-3430MX",
+    "cores": 4,
+    "threads": 4,
+    "frequency": 1700,
+    "maxFrequency": 2400,
+    "scoreSingleCore": 1332,
+    "scoreMultiCore": 3490,
+    "url": "https://browser.geekbench.com/processors/737"
   },
   {
     "name": "Intel Xeon E5405",
@@ -12416,7 +12416,7 @@
     "frequency": 1100,
     "maxFrequency": 2200,
     "scoreSingleCore": 1316,
-    "scoreMultiCore": 3727,
+    "scoreMultiCore": 3728,
     "url": "https://browser.geekbench.com/processors/1972"
   },
   {
@@ -12430,16 +12430,6 @@
     "url": "https://browser.geekbench.com/processors/391"
   },
   {
-    "name": "AMD Athlon 64 X2 5400+",
-    "cores": 2,
-    "threads": 2,
-    "frequency": 2800,
-    "maxFrequency": -1,
-    "scoreSingleCore": 1312,
-    "scoreMultiCore": 2149,
-    "url": "https://browser.geekbench.com/processors/29"
-  },
-  {
     "name": "Intel Xeon X3210",
     "cores": 4,
     "threads": 4,
@@ -12448,6 +12438,16 @@
     "scoreSingleCore": 1315,
     "scoreMultiCore": 3714,
     "url": "https://browser.geekbench.com/processors/666"
+  },
+  {
+    "name": "AMD Athlon 64 X2 5400+",
+    "cores": 2,
+    "threads": 2,
+    "frequency": 2800,
+    "maxFrequency": -1,
+    "scoreSingleCore": 1312,
+    "scoreMultiCore": 2149,
+    "url": "https://browser.geekbench.com/processors/29"
   },
   {
     "name": "Intel Core 2 Duo E6420",
@@ -12596,7 +12596,7 @@
     "frequency": 2200,
     "maxFrequency": -1,
     "scoreSingleCore": 1282,
-    "scoreMultiCore": 1999,
+    "scoreMultiCore": 2000,
     "url": "https://browser.geekbench.com/processors/284"
   },
   {
@@ -12605,8 +12605,8 @@
     "threads": 2,
     "frequency": 2200,
     "maxFrequency": -1,
-    "scoreSingleCore": 1277,
-    "scoreMultiCore": 1981,
+    "scoreSingleCore": 1279,
+    "scoreMultiCore": 1984,
     "url": "https://browser.geekbench.com/processors/285"
   },
   {
@@ -12730,6 +12730,16 @@
     "url": "https://browser.geekbench.com/processors/94"
   },
   {
+    "name": "AMD A4-3320M",
+    "cores": 2,
+    "threads": 2,
+    "frequency": 2000,
+    "maxFrequency": 2600,
+    "scoreSingleCore": 1256,
+    "scoreMultiCore": 2072,
+    "url": "https://browser.geekbench.com/processors/866"
+  },
+  {
     "name": "AMD Phenom X3 8450",
     "cores": 3,
     "threads": 3,
@@ -12748,16 +12758,6 @@
     "scoreSingleCore": 1254,
     "scoreMultiCore": 3280,
     "url": "https://browser.geekbench.com/processors/509"
-  },
-  {
-    "name": "AMD A4-3320M",
-    "cores": 2,
-    "threads": 2,
-    "frequency": 2000,
-    "maxFrequency": 2600,
-    "scoreSingleCore": 1253,
-    "scoreMultiCore": 2059,
-    "url": "https://browser.geekbench.com/processors/866"
   },
   {
     "name": "AMD A4-3300M",
@@ -12885,7 +12885,7 @@
     "threads": 2,
     "frequency": 2100,
     "maxFrequency": -1,
-    "scoreSingleCore": 1221,
+    "scoreSingleCore": 1219,
     "scoreMultiCore": 1923,
     "url": "https://browser.geekbench.com/processors/282"
   },
@@ -12905,8 +12905,8 @@
     "threads": 2,
     "frequency": 2000,
     "maxFrequency": -1,
-    "scoreSingleCore": 1216,
-    "scoreMultiCore": 1924,
+    "scoreSingleCore": 1213,
+    "scoreMultiCore": 1918,
     "url": "https://browser.geekbench.com/processors/289"
   },
   {
@@ -12980,26 +12980,6 @@
     "url": "https://browser.geekbench.com/processors/1951"
   },
   {
-    "name": "AMD Athlon X2 4850e",
-    "cores": 2,
-    "threads": 2,
-    "frequency": 2500,
-    "maxFrequency": -1,
-    "scoreSingleCore": 1200,
-    "scoreMultiCore": 1965,
-    "url": "https://browser.geekbench.com/processors/48"
-  },
-  {
-    "name": "Intel Core 2 Duo T5870",
-    "cores": 2,
-    "threads": 2,
-    "frequency": 2000,
-    "maxFrequency": -1,
-    "scoreSingleCore": 1200,
-    "scoreMultiCore": 1845,
-    "url": "https://browser.geekbench.com/processors/279"
-  },
-  {
     "name": "AMD Athlon II M320",
     "cores": 2,
     "threads": 2,
@@ -13008,6 +12988,16 @@
     "scoreSingleCore": 1200,
     "scoreMultiCore": 1950,
     "url": "https://browser.geekbench.com/processors/515"
+  },
+  {
+    "name": "AMD Athlon X2 4850e",
+    "cores": 2,
+    "threads": 2,
+    "frequency": 2500,
+    "maxFrequency": -1,
+    "scoreSingleCore": 1200,
+    "scoreMultiCore": 1965,
+    "url": "https://browser.geekbench.com/processors/48"
   },
   {
     "name": "AMD Athlon 64 X2 5000+",
@@ -13030,6 +13020,16 @@
     "url": "https://browser.geekbench.com/processors/520"
   },
   {
+    "name": "Intel Core 2 Duo T5870",
+    "cores": 2,
+    "threads": 2,
+    "frequency": 2000,
+    "maxFrequency": -1,
+    "scoreSingleCore": 1196,
+    "scoreMultiCore": 1845,
+    "url": "https://browser.geekbench.com/processors/279"
+  },
+  {
     "name": "Intel Celeron T3500",
     "cores": 2,
     "threads": 2,
@@ -13046,7 +13046,7 @@
     "frequency": 2200,
     "maxFrequency": 2600,
     "scoreSingleCore": 1196,
-    "scoreMultiCore": 1848,
+    "scoreMultiCore": 1845,
     "url": "https://browser.geekbench.com/processors/1627"
   },
   {
@@ -13076,7 +13076,7 @@
     "frequency": 2000,
     "maxFrequency": 2400,
     "scoreSingleCore": 1191,
-    "scoreMultiCore": 2940,
+    "scoreMultiCore": 2939,
     "url": "https://browser.geekbench.com/processors/1574"
   },
   {
@@ -13085,19 +13085,9 @@
     "threads": 2,
     "frequency": 2100,
     "maxFrequency": -1,
-    "scoreSingleCore": 1189,
-    "scoreMultiCore": 1967,
+    "scoreSingleCore": 1188,
+    "scoreMultiCore": 1964,
     "url": "https://browser.geekbench.com/processors/519"
-  },
-  {
-    "name": "AMD Phenom X4 9350e",
-    "cores": 4,
-    "threads": 4,
-    "frequency": 2000,
-    "maxFrequency": -1,
-    "scoreSingleCore": 1186,
-    "scoreMultiCore": 3196,
-    "url": "https://browser.geekbench.com/processors/120"
   },
   {
     "name": "Intel Celeron T3300",
@@ -13108,6 +13098,16 @@
     "scoreSingleCore": 1185,
     "scoreMultiCore": 1839,
     "url": "https://browser.geekbench.com/processors/207"
+  },
+  {
+    "name": "AMD Phenom X4 9350e",
+    "cores": 4,
+    "threads": 4,
+    "frequency": 2000,
+    "maxFrequency": -1,
+    "scoreSingleCore": 1186,
+    "scoreMultiCore": 3196,
+    "url": "https://browser.geekbench.com/processors/120"
   },
   {
     "name": "Intel Pentium 3560Y",
@@ -13126,7 +13126,7 @@
     "frequency": 2000,
     "maxFrequency": -1,
     "scoreSingleCore": 1181,
-    "scoreMultiCore": 1825,
+    "scoreMultiCore": 1826,
     "url": "https://browser.geekbench.com/processors/281"
   },
   {
@@ -13390,6 +13390,16 @@
     "url": "https://browser.geekbench.com/processors/217"
   },
   {
+    "name": "Intel Pentium N3540",
+    "cores": 4,
+    "threads": 4,
+    "frequency": 2160,
+    "maxFrequency": 2660,
+    "scoreSingleCore": 1121,
+    "scoreMultiCore": 2948,
+    "url": "https://browser.geekbench.com/processors/1690"
+  },
+  {
     "name": "AMD Phenom II X3 P840",
     "cores": 3,
     "threads": 3,
@@ -13398,16 +13408,6 @@
     "scoreSingleCore": 1121,
     "scoreMultiCore": 2473,
     "url": "https://browser.geekbench.com/processors/76"
-  },
-  {
-    "name": "Intel Pentium N3540",
-    "cores": 4,
-    "threads": 4,
-    "frequency": 2160,
-    "maxFrequency": 2660,
-    "scoreSingleCore": 1121,
-    "scoreMultiCore": 2949,
-    "url": "https://browser.geekbench.com/processors/1690"
   },
   {
     "name": "Intel Celeron J1900",
@@ -13676,7 +13676,7 @@
     "frequency": 1600,
     "maxFrequency": 2400,
     "scoreSingleCore": 1076,
-    "scoreMultiCore": 3002,
+    "scoreMultiCore": 3003,
     "url": "https://browser.geekbench.com/processors/1708"
   },
   {
@@ -13735,8 +13735,8 @@
     "threads": 2,
     "frequency": 2000,
     "maxFrequency": -1,
-    "scoreSingleCore": 1063,
-    "scoreMultiCore": 1632,
+    "scoreSingleCore": 1061,
+    "scoreMultiCore": 1629,
     "url": "https://browser.geekbench.com/processors/460"
   },
   {
@@ -13820,6 +13820,16 @@
     "url": "https://browser.geekbench.com/processors/493"
   },
   {
+    "name": "Intel Core 2 Duo T5550",
+    "cores": 2,
+    "threads": 2,
+    "frequency": 1830,
+    "maxFrequency": -1,
+    "scoreSingleCore": 1050,
+    "scoreMultiCore": 1648,
+    "url": "https://browser.geekbench.com/processors/273"
+  },
+  {
     "name": "AMD Phenom X4 9600",
     "cores": 4,
     "threads": 4,
@@ -13860,16 +13870,6 @@
     "url": "https://browser.geekbench.com/processors/175"
   },
   {
-    "name": "Intel Core 2 Duo T5550",
-    "cores": 2,
-    "threads": 2,
-    "frequency": 1830,
-    "maxFrequency": -1,
-    "scoreSingleCore": 1048,
-    "scoreMultiCore": 1645,
-    "url": "https://browser.geekbench.com/processors/273"
-  },
-  {
     "name": "AMD Phenom II X4 P920",
     "cores": 4,
     "threads": 4,
@@ -13880,16 +13880,6 @@
     "url": "https://browser.geekbench.com/processors/97"
   },
   {
-    "name": "AMD Athlon X2 4450e",
-    "cores": 2,
-    "threads": 2,
-    "frequency": 2300,
-    "maxFrequency": -1,
-    "scoreSingleCore": 1045,
-    "scoreMultiCore": 1701,
-    "url": "https://browser.geekbench.com/processors/47"
-  },
-  {
     "name": "Intel Core 2 Duo E4300",
     "cores": 2,
     "threads": 2,
@@ -13898,6 +13888,16 @@
     "scoreSingleCore": 1044,
     "scoreMultiCore": 1615,
     "url": "https://browser.geekbench.com/processors/211"
+  },
+  {
+    "name": "AMD Athlon X2 4450e",
+    "cores": 2,
+    "threads": 2,
+    "frequency": 2300,
+    "maxFrequency": -1,
+    "scoreSingleCore": 1045,
+    "scoreMultiCore": 1701,
+    "url": "https://browser.geekbench.com/processors/47"
   },
   {
     "name": "AMD E2-9000e",
@@ -13920,6 +13920,16 @@
     "url": "https://browser.geekbench.com/processors/1049"
   },
   {
+    "name": "Intel Celeron N2830",
+    "cores": 2,
+    "threads": 2,
+    "frequency": 2160,
+    "maxFrequency": 2410,
+    "scoreSingleCore": 1036,
+    "scoreMultiCore": 1609,
+    "url": "https://browser.geekbench.com/processors/1569"
+  },
+  {
     "name": "AMD Athlon X2 4450B",
     "cores": 2,
     "threads": 2,
@@ -13930,14 +13940,14 @@
     "url": "https://browser.geekbench.com/processors/46"
   },
   {
-    "name": "Intel Celeron N2830",
+    "name": "AMD Athlon II X2 250u",
     "cores": 2,
     "threads": 2,
-    "frequency": 2160,
-    "maxFrequency": 2410,
+    "frequency": 1600,
+    "maxFrequency": -1,
     "scoreSingleCore": 1036,
-    "scoreMultiCore": 1609,
-    "url": "https://browser.geekbench.com/processors/1569"
+    "scoreMultiCore": 1675,
+    "url": "https://browser.geekbench.com/processors/2379"
   },
   {
     "name": "AMD Phenom X4 9500",
@@ -13958,16 +13968,6 @@
     "scoreSingleCore": 1033,
     "scoreMultiCore": 2886,
     "url": "https://browser.geekbench.com/processors/1856"
-  },
-  {
-    "name": "AMD Athlon II X2 250u",
-    "cores": 2,
-    "threads": 2,
-    "frequency": 1600,
-    "maxFrequency": -1,
-    "scoreSingleCore": 1033,
-    "scoreMultiCore": 1661,
-    "url": "https://browser.geekbench.com/processors/2379"
   },
   {
     "name": "Intel Pentium N3700",
@@ -14066,7 +14066,7 @@
     "frequency": 1600,
     "maxFrequency": 2240,
     "scoreSingleCore": 1015,
-    "scoreMultiCore": 2830,
+    "scoreMultiCore": 2832,
     "url": "https://browser.geekbench.com/processors/1830"
   },
   {
@@ -14086,7 +14086,7 @@
     "frequency": 1440,
     "maxFrequency": 2240,
     "scoreSingleCore": 1011,
-    "scoreMultiCore": 2733,
+    "scoreMultiCore": 2732,
     "url": "https://browser.geekbench.com/processors/1731"
   },
   {
@@ -14210,16 +14210,6 @@
     "url": "https://browser.geekbench.com/processors/20"
   },
   {
-    "name": "AMD Athlon X2 4050e",
-    "cores": 2,
-    "threads": 2,
-    "frequency": 2100,
-    "maxFrequency": -1,
-    "scoreSingleCore": 991,
-    "scoreMultiCore": 1644,
-    "url": "https://browser.geekbench.com/processors/45"
-  },
-  {
     "name": "AMD Athlon 64 3500+",
     "cores": 1,
     "threads": 1,
@@ -14228,6 +14218,16 @@
     "scoreSingleCore": 987,
     "scoreMultiCore": 942,
     "url": "https://browser.geekbench.com/processors/8"
+  },
+  {
+    "name": "AMD Athlon X2 4050e",
+    "cores": 2,
+    "threads": 2,
+    "frequency": 2100,
+    "maxFrequency": -1,
+    "scoreSingleCore": 991,
+    "scoreMultiCore": 1644,
+    "url": "https://browser.geekbench.com/processors/45"
   },
   {
     "name": "Intel Celeron 540",
@@ -14296,7 +14296,7 @@
     "frequency": 1660,
     "maxFrequency": -1,
     "scoreSingleCore": 978,
-    "scoreMultiCore": 1541,
+    "scoreMultiCore": 1542,
     "url": "https://browser.geekbench.com/processors/272"
   },
   {
@@ -14496,7 +14496,7 @@
     "frequency": 1600,
     "maxFrequency": 2160,
     "scoreSingleCore": 930,
-    "scoreMultiCore": 1529,
+    "scoreMultiCore": 1528,
     "url": "https://browser.geekbench.com/processors/1741"
   },
   {
@@ -14695,7 +14695,7 @@
     "threads": 2,
     "frequency": 3000,
     "maxFrequency": -1,
-    "scoreSingleCore": 889,
+    "scoreSingleCore": 890,
     "scoreMultiCore": 984,
     "url": "https://browser.geekbench.com/processors/447"
   },
@@ -14740,16 +14740,6 @@
     "url": "https://browser.geekbench.com/processors/2437"
   },
   {
-    "name": "AMD E2-6110",
-    "cores": 4,
-    "threads": 4,
-    "frequency": 1500,
-    "maxFrequency": -1,
-    "scoreSingleCore": 878,
-    "scoreMultiCore": 2278,
-    "url": "https://browser.geekbench.com/processors/1904"
-  },
-  {
     "name": "AMD GX-415GA",
     "cores": 4,
     "threads": 4,
@@ -14760,14 +14750,14 @@
     "url": "https://browser.geekbench.com/processors/2519"
   },
   {
-    "name": "AMD Sempron 3200+",
-    "cores": 1,
-    "threads": 1,
-    "frequency": 1800,
+    "name": "AMD E2-6110",
+    "cores": 4,
+    "threads": 4,
+    "frequency": 1500,
     "maxFrequency": -1,
-    "scoreSingleCore": 875,
-    "scoreMultiCore": 826,
-    "url": "https://browser.geekbench.com/processors/2481"
+    "scoreSingleCore": 878,
+    "scoreMultiCore": 2278,
+    "url": "https://browser.geekbench.com/processors/1904"
   },
   {
     "name": "AMD Turion X2 Mobile RM-72",
@@ -14780,14 +14770,14 @@
     "url": "https://browser.geekbench.com/processors/141"
   },
   {
-    "name": "AMD A4-5100",
-    "cores": 4,
-    "threads": 4,
-    "frequency": 1550,
+    "name": "AMD Sempron 3200+",
+    "cores": 1,
+    "threads": 1,
+    "frequency": 1800,
     "maxFrequency": -1,
-    "scoreSingleCore": 870,
-    "scoreMultiCore": 2359,
-    "url": "https://browser.geekbench.com/processors/2390"
+    "scoreSingleCore": 875,
+    "scoreMultiCore": 826,
+    "url": "https://browser.geekbench.com/processors/2481"
   },
   {
     "name": "Intel Pentium SU4100",
@@ -14800,14 +14790,24 @@
     "url": "https://browser.geekbench.com/processors/484"
   },
   {
-    "name": "Intel Celeron E1200",
-    "cores": 2,
-    "threads": 2,
-    "frequency": 1600,
+    "name": "AMD A4-5100",
+    "cores": 4,
+    "threads": 4,
+    "frequency": 1550,
     "maxFrequency": -1,
-    "scoreSingleCore": 867,
-    "scoreMultiCore": 1252,
-    "url": "https://browser.geekbench.com/processors/183"
+    "scoreSingleCore": 870,
+    "scoreMultiCore": 2359,
+    "url": "https://browser.geekbench.com/processors/2390"
+  },
+  {
+    "name": "AMD Athlon II Neo K125",
+    "cores": 1,
+    "threads": 1,
+    "frequency": 1700,
+    "maxFrequency": -1,
+    "scoreSingleCore": 866,
+    "scoreMultiCore": 846,
+    "url": "https://browser.geekbench.com/processors/516"
   },
   {
     "name": "AMD Sempron SI-42",
@@ -14820,14 +14820,14 @@
     "url": "https://browser.geekbench.com/processors/1567"
   },
   {
-    "name": "AMD Athlon II Neo K125",
-    "cores": 1,
-    "threads": 1,
-    "frequency": 1700,
+    "name": "Intel Celeron E1200",
+    "cores": 2,
+    "threads": 2,
+    "frequency": 1600,
     "maxFrequency": -1,
-    "scoreSingleCore": 866,
-    "scoreMultiCore": 846,
-    "url": "https://browser.geekbench.com/processors/516"
+    "scoreSingleCore": 867,
+    "scoreMultiCore": 1252,
+    "url": "https://browser.geekbench.com/processors/183"
   },
   {
     "name": "Intel Core 2 Duo T5270",
@@ -14886,7 +14886,7 @@
     "frequency": 1500,
     "maxFrequency": -1,
     "scoreSingleCore": 856,
-    "scoreMultiCore": 2240,
+    "scoreMultiCore": 2241,
     "url": "https://browser.geekbench.com/processors/1075"
   },
   {
@@ -14926,7 +14926,7 @@
     "frequency": 1440,
     "maxFrequency": 1920,
     "scoreSingleCore": 850,
-    "scoreMultiCore": 2192,
+    "scoreMultiCore": 2193,
     "url": "https://browser.geekbench.com/processors/1969"
   },
   {
@@ -15035,8 +15035,8 @@
     "threads": 4,
     "frequency": 1297,
     "maxFrequency": -1,
-    "scoreSingleCore": 813,
-    "scoreMultiCore": 2167,
+    "scoreSingleCore": 814,
+    "scoreMultiCore": 2176,
     "url": "https://browser.geekbench.com/processors/1925"
   },
   {
@@ -15065,8 +15065,8 @@
     "threads": 2,
     "frequency": 1200,
     "maxFrequency": -1,
-    "scoreSingleCore": 808,
-    "scoreMultiCore": 1237,
+    "scoreSingleCore": 803,
+    "scoreMultiCore": 1236,
     "url": "https://browser.geekbench.com/processors/202"
   },
   {
@@ -15160,16 +15160,6 @@
     "url": "https://browser.geekbench.com/processors/1496"
   },
   {
-    "name": "AMD Athlon X2 3250e",
-    "cores": 2,
-    "threads": 2,
-    "frequency": 1500,
-    "maxFrequency": -1,
-    "scoreSingleCore": 753,
-    "scoreMultiCore": 1269,
-    "url": "https://browser.geekbench.com/processors/44"
-  },
-  {
     "name": "AMD A4 Micro-6400T",
     "cores": 4,
     "threads": 4,
@@ -15178,6 +15168,16 @@
     "scoreSingleCore": 749,
     "scoreMultiCore": 1585,
     "url": "https://browser.geekbench.com/processors/2340"
+  },
+  {
+    "name": "AMD Athlon X2 3250e",
+    "cores": 2,
+    "threads": 2,
+    "frequency": 1500,
+    "maxFrequency": -1,
+    "scoreSingleCore": 753,
+    "scoreMultiCore": 1269,
+    "url": "https://browser.geekbench.com/processors/44"
   },
   {
     "name": "AMD Athlon II Neo K325",
@@ -15200,16 +15200,6 @@
     "url": "https://browser.geekbench.com/processors/930"
   },
   {
-    "name": "AMD E2-3800",
-    "cores": 4,
-    "threads": 4,
-    "frequency": 1300,
-    "maxFrequency": -1,
-    "scoreSingleCore": 742,
-    "scoreMultiCore": 1905,
-    "url": "https://browser.geekbench.com/processors/1626"
-  },
-  {
     "name": "AMD Sempron LE-1150",
     "cores": 1,
     "threads": 1,
@@ -15218,6 +15208,16 @@
     "scoreSingleCore": 740,
     "scoreMultiCore": 719,
     "url": "https://browser.geekbench.com/processors/2463"
+  },
+  {
+    "name": "AMD E2-3800",
+    "cores": 4,
+    "threads": 4,
+    "frequency": 1300,
+    "maxFrequency": -1,
+    "scoreSingleCore": 742,
+    "scoreMultiCore": 1905,
+    "url": "https://browser.geekbench.com/processors/1626"
   },
   {
     "name": "AMD QC-4000",
@@ -15266,7 +15266,7 @@
     "frequency": 1400,
     "maxFrequency": -1,
     "scoreSingleCore": 714,
-    "scoreMultiCore": 1100,
+    "scoreMultiCore": 1101,
     "url": "https://browser.geekbench.com/processors/1129"
   },
   {
@@ -15336,7 +15336,7 @@
     "frequency": 1350,
     "maxFrequency": -1,
     "scoreSingleCore": 692,
-    "scoreMultiCore": 1072,
+    "scoreMultiCore": 1073,
     "url": "https://browser.geekbench.com/processors/1891"
   },
   {
@@ -15370,16 +15370,6 @@
     "url": "https://browser.geekbench.com/processors/1407"
   },
   {
-    "name": "AMD Athlon X2 L310",
-    "cores": 2,
-    "threads": 2,
-    "frequency": 1200,
-    "maxFrequency": -1,
-    "scoreSingleCore": 625,
-    "scoreMultiCore": 907,
-    "url": "https://browser.geekbench.com/processors/545"
-  },
-  {
     "name": "AMD E1-1200",
     "cores": 2,
     "threads": 2,
@@ -15388,6 +15378,16 @@
     "scoreSingleCore": 615,
     "scoreMultiCore": 978,
     "url": "https://browser.geekbench.com/processors/932"
+  },
+  {
+    "name": "AMD Athlon X2 L310",
+    "cores": 2,
+    "threads": 2,
+    "frequency": 1200,
+    "maxFrequency": -1,
+    "scoreSingleCore": 625,
+    "scoreMultiCore": 907,
+    "url": "https://browser.geekbench.com/processors/545"
   },
   {
     "name": "AMD E-240",
@@ -15515,7 +15515,7 @@
     "threads": 2,
     "frequency": 1000,
     "maxFrequency": -1,
-    "scoreSingleCore": 503,
+    "scoreSingleCore": 504,
     "scoreMultiCore": 798,
     "url": "https://browser.geekbench.com/processors/547"
   },
