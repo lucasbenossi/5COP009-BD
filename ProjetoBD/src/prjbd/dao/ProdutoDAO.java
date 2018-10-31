@@ -17,14 +17,15 @@ public class ProdutoDAO extends DAO<Produto> {
 
 	@Override
 	public void create(Produto produto) throws SQLException {
-		String query = "INSERT INTO prjbd.produto (nome, preco, parcelas, valorparcela, idLoja, url) VALUES (?,?,?,?,?,?);";
+		String query = "INSERT INTO prjbd.produto (nome, nomeTratado, preco, parcelas, valorparcela, idLoja, url) VALUES (?,?,?,?,?,?,?);";
 		try (PreparedStatement stmt = connection.prepareStatement(query);) {
 			stmt.setString(1, produto.getNome());
-			stmt.setBigDecimal(2, produto.getPreco());
-			stmt.setInt(3, produto.getParcelas());
-			stmt.setBigDecimal(4, produto.getValorParcela());
-			stmt.setInt(5, produto.getIdLoja());
-			stmt.setString(6, produto.getUrl());
+			stmt.setString(2, produto.getNomeTratado());
+			stmt.setBigDecimal(3, produto.getPreco());
+			stmt.setInt(4, produto.getParcelas());
+			stmt.setBigDecimal(5, produto.getValorParcela());
+			stmt.setInt(6, produto.getIdLoja());
+			stmt.setString(7, produto.getUrl());
 			stmt.execute();
         }
 	}
@@ -39,6 +40,7 @@ public class ProdutoDAO extends DAO<Produto> {
                 if (result.next()) {
                     produto = new Produto(result.getInt("id"), 
                     		result.getString("nome"), 
+                    		result.getString("nomeTratado"),
                     		result.getBigDecimal("preco"), 
                     		result.getInt("parcelas"), 
                     		result.getBigDecimal("valorParcela"), 
@@ -54,15 +56,16 @@ public class ProdutoDAO extends DAO<Produto> {
 
 	@Override
 	public void update(Produto produto) throws SQLException {
-		String query = "UPDATE prjbd.produto SET nome = ?, preco = ?, parcelas = ?, valorparcela = ?, idLoja = ?, url = ? WHERE id = ?;";
+		String query = "UPDATE prjbd.produto SET nome = ?, nomeTratado = ?, preco = ?, parcelas = ?, valorparcela = ?, idLoja = ?, url = ? WHERE id = ?;";
 		try (PreparedStatement statement = connection.prepareStatement(query);) {
 			statement.setString(1, produto.getNome());
-			statement.setBigDecimal(2, produto.getPreco());
-			statement.setInt(3, produto.getParcelas());
-			statement.setBigDecimal(4, produto.getValorParcela());
-			statement.setInt(5, produto.getIdLoja());
-			statement.setString(6, produto.getUrl());
-			statement.setInt(7, produto.getId());
+			statement.setString(2, produto.getNomeTratado());
+			statement.setBigDecimal(3, produto.getPreco());
+			statement.setInt(4, produto.getParcelas());
+			statement.setBigDecimal(5, produto.getValorParcela());
+			statement.setInt(6, produto.getIdLoja());
+			statement.setString(7, produto.getUrl());
+			statement.setInt(8, produto.getId());
 			if(statement.executeUpdate() < 1) {
 				throw new SQLException("Erro ao editar: produto não encontrado.");
 			}
@@ -89,6 +92,7 @@ public class ProdutoDAO extends DAO<Produto> {
             while (result.next()) {
             	Produto produto = new Produto(result.getInt("id"),
                 		result.getString("nome"), 
+                		result.getString("nomeTratado"),
                 		result.getBigDecimal("preco"), 
                 		result.getInt("parcelas"), 
                 		result.getBigDecimal("valorparcela"), 
@@ -117,6 +121,7 @@ public class ProdutoDAO extends DAO<Produto> {
 				while(result.next()) {
 					Produto produto = new Produto(result.getInt("id"), 
 							result.getString("nome"), 
+	                		result.getString("nomeTratado"),
 							result.getBigDecimal("preco"), 
 							result.getInt("parcelas"), 
 							result.getBigDecimal("valorParcela"), 

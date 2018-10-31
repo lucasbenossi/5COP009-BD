@@ -25,30 +25,34 @@
 	<div class="container">
 		<h2>Alterar Produto</h2>
 		<form action="${pageContext.request.contextPath}/produtos/alterar_processa" method="POST">
-			<input type="hidden" name="id" value="${produto.id()}" />
+			<input type="hidden" name="id" value="${produto.getId()}" />
 			<div class="form-group">
 				<label class="">Nome</label>
-				<input class="form-control" type="text" name="nome" value="${produto.nome()}" />
+				<input class="form-control" type="text" name="nome" value="${produto.getNome()}" />
+			</div>
+			<div class="form-group">
+				<label class="">Nome Tratado</label>
+				<input class="form-control" type="text" name="nomeTratado" value="${produto.getNomeTratado()}"/>
 			</div>
 			<div class="form-group">
 				<label class="">Preco</label>
-				<input class="form-control" type="text" name="preco" value="${produto.preco()}" />
+				<input class="form-control" type="text" name="preco" value="${produto.getPreco()}" />
 			</div>
 			<div class="form-group">
 				<label class="">Parcelas</label> 
-				<input class="form-control" type="text" name="parcelas" value="${produto.parcelas()}" />
+				<input class="form-control" type="text" name="parcelas" value="${produto.getParcelas()}" />
 			</div>
 			<div class="form-group">
 				<label class="">Valor Parcela</label> 
-				<input class="form-control" type="text" name="valorParcela" value="${produto.valorParcela()}" />
+				<input class="form-control" type="text" name="valorParcela" value="${produto.getValorParcela()}" />
 			</div>
 			<div class="form-group">
 				<label class="">IdLoja</label>
-				<input class="form-control" type="text" name="idLoja" value="${produto.idLoja()}" />
+				<input class="form-control" type="text" name="idLoja" value="${produto.getIdLoja()}" />
 			</div>
 			<div class="form-group">
 				<label class="">Url</label>
-				<input class="form-control" type="text" name="url" value="${produto.url()}" />
+				<input class="form-control" type="text" name="url" value="${produto.getUrl()}" />
 			</div>
 			<input class="btn btn-primary" type="submit" value="Alterar" />
 		</form>

@@ -1,4 +1,4 @@
-package prjbd.dao;
+package prjbd.controller.tratador;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;

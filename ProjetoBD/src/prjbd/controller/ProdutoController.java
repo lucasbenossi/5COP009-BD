@@ -18,6 +18,7 @@ import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 
+import prjbd.controller.tratador.TratarNome;
 import prjbd.dao.DAO;
 import prjbd.dao.ProdutoDAO;
 import prjbd.model.Produto;
@@ -128,13 +129,14 @@ public class ProdutoController extends HttpServlet {
 					JsonObject object = element.getAsJsonObject();
 					
 					String nome = object.get("nome").getAsString();
+					String nomeTratado = TratarNome.tratarNome(nome);
 					BigDecimal preco = object.get("preco").getAsBigDecimal();
 					int parcelas = object.get("parcelas").getAsInt();
 					BigDecimal valorParcela = object.get("valorParcela").getAsBigDecimal();
 					int idLoja = object.get("idLoja").getAsInt();
 					String url = object.get("url").getAsString();
 					
-					Produto produto = new Produto(0, nome, preco, parcelas, valorParcela, idLoja, url);
+					Produto produto = new Produto(0, nome, nomeTratado, preco, parcelas, valorParcela, idLoja, url);
 					dao.create(produto);
 				}
 				
@@ -150,12 +152,13 @@ public class ProdutoController extends HttpServlet {
 
 	private Produto productFromRequest(HttpServletRequest request) {
 		String nome = request.getParameter("nome");
+		String nomeTratado = request.getParameter("nomeTratado");
 		BigDecimal preco = new BigDecimal(request.getParameter("preco"));
 		int parcelas = Integer.parseInt(request.getParameter("parcelas"));
 		BigDecimal valorParcela = new BigDecimal(request.getParameter("valorParcela"));
 		int idLoja = Integer.parseInt(request.getParameter("idLoja"));
 		String url = request.getParameter("url");
 		
-		return new Produto(0, nome, preco, parcelas, valorParcela, idLoja, url);
+		return new Produto(0, nome, nomeTratado, preco, parcelas, valorParcela, idLoja, url);
 	}
 }

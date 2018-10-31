@@ -41,7 +41,7 @@ public class CpuProdutoDAO extends DAO<CpuProduto> {
 	@Override
 	public List<CpuProduto> all() throws SQLException {
 		LinkedList<CpuProduto> cpusProduto = new LinkedList<>();
-		String query = "SELECT p.id, p.nome, p.preco, p.parcelas, p.valorParcela, p.idLoja, p.url, l.nome as nomeLoja " + 
+		String query = "SELECT p.id, p.nome, p.nomeTratado, p.preco, p.parcelas, p.valorParcela, p.idLoja, p.url, l.nome as nomeLoja " + 
 				"FROM prjbd.produto as p, prjbd.loja as l " + 
 				"WHERE p.idLoja = l.id AND p.nome ILIKE 'processador%';";
 		
@@ -57,6 +57,7 @@ public class CpuProdutoDAO extends DAO<CpuProduto> {
 			while(result.next()) {
 				int id = result.getInt("id");
 				String nome = result.getString("nome");
+				String nomeTratado = result.getString("nomeTratado");
 				BigDecimal preco = result.getBigDecimal("preco");
 				int parcelas = result.getInt("parcelas");
 				BigDecimal valorParcela = result.getBigDecimal("valorParcela");
@@ -64,20 +65,19 @@ public class CpuProdutoDAO extends DAO<CpuProduto> {
 				String url = result.getString("url");
 				String nomeLoja = result.getString("nomeLoja");
 				
-				String cpuName = CpuNameParser.parseNome(nome);
 				
-				LinkedList<Cpu> cpus = cpuDao.search(cpuName);
+				LinkedList<Cpu> cpus = cpuDao.search(nomeTratado);
 				if(cpus.isEmpty()) {
-					System.err.println(cpuName + ": Produto sem prjbd.cpu correspondente.");
+					System.err.println(nomeTratado + ": Produto sem prjbd.cpu correspondente.");
 					continue;
 				}
 				else if(cpus.size() > 1) {
-					System.err.println(cpuName + ": Produto com mais de um prjbd.cpu correspondente.");
+					System.err.println(nomeTratado + ": Produto com mais de um prjbd.cpu correspondente.");
 					continue;
 				}
 				
 				Cpu cpu = cpus.getFirst();
-				Produto produto = new Produto(id, nome, preco, parcelas, valorParcela, idLoja, url);
+				Produto produto = new Produto(id, nome, nomeTratado, preco, parcelas, valorParcela, idLoja, url);
 				CpuProduto cpuProduto = new CpuProduto(produto, cpu, null, nomeLoja);
 				
 				cpusProduto.add(cpuProduto);

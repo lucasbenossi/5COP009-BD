@@ -29,6 +29,10 @@
 				<input class="form-control" type="text" name="nome"/>
 			</div>
 			<div class="form-group">
+				<label class="">Nome Tratado</label>
+				<input class="form-control" type="text" name="nomeTratado"/>
+			</div>
+			<div class="form-group">
 				<label class="">Preco</label>
 				<input class="form-control" type="text" name="preco" />
 			</div>

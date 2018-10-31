@@ -5,15 +5,17 @@ import java.math.BigDecimal;
 public class Produto {
 	private int id;
 	private String nome;
+	private String nomeTratado;
 	private BigDecimal preco;
 	private int parcelas;
 	private BigDecimal valorParcela;
 	private int idLoja;
 	private String url;
 	
-	public Produto(int id, String nome, BigDecimal preco, int parcelas, BigDecimal valorParcela, int idLoja, String url) {
+	public Produto(int id, String nome, String nomeTratado, BigDecimal preco, int parcelas, BigDecimal valorParcela, int idLoja, String url) {
 		this.id = id;
 		this.nome = nome;
+		this.nomeTratado = nomeTratado;
 		this.preco = preco;
 		this.parcelas = parcelas;
 		this.valorParcela = valorParcela;
@@ -30,6 +32,10 @@ public class Produto {
 	
 	public String getNome() {
 		return this.nome;
+	}
+	
+	public String getNomeTratado() {
+		return this.nomeTratado;
 	}
 	
 	public BigDecimal getPreco() {

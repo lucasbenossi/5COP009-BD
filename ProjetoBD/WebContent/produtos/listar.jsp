@@ -36,6 +36,7 @@
 				<tr>
 					<th>Id</th>
 					<th>Nome</th>
+					<th>NomeTratado</th>
 					<th>Preço</th>
 					<th>Parcelas</th>
 					<th>Valor Parcela</th>
@@ -49,6 +50,7 @@
 				<tr>
 					<td>${produto.getId()}</td>
 					<td><a href="${produto.getUrl()}" target="_blank">${produto.getNome()}</a></td>
+					<td>${produto.getNomeTratado()}</td>
 					<td>${produto.getPreco()}</td>
 					<td>${produto.getParcelas()}</td>
 					<td>${produto.getValorParcela()}</td>

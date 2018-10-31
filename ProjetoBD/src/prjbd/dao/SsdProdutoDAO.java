@@ -55,7 +55,7 @@ public class SsdProdutoDAO extends DAO<SsdProduto> {
 					String url = result.getString("url");
 					String nomeLoja = result.getString("nomeLoja");
 					
-					ssds.add(new SsdProduto(new Produto(id, nome, preco, parcelas, valorParcela, idLoja, url), nomeLoja, null));
+					ssds.add(new SsdProduto(new Produto(id, nome, "", preco, parcelas, valorParcela, idLoja, url), nomeLoja, null));
 				}
 			}
 		}
