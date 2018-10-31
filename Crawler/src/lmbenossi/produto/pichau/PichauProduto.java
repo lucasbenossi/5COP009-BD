@@ -29,13 +29,23 @@ public class PichauProduto extends CrawlerProduto {
 			
 			String nome = infosProduto.select("h1").text();
 			
-			BigDecimal preco = Produto.parsePreco(infosProduto.selectFirst("div.product-info-price > div.price-box.price-final_price > span.price-container.price-final_price.tax.weee > span.price-wrapper").text());
+			Element precoBox = infosProduto.selectFirst("div.product-info-price > div.price-box.price-final_price");
 			
-			String stringParcelas = infosProduto.selectFirst("div.product-info-price > div.price-box.price-final_price > span.price-container.price-final_price.tax.weee > span.price-installments > span").text();
+			Element precoAVista = precoBox.selectFirst("span.price-boleto > span");
+			if(precoAVista == null) {
+				precoAVista = precoBox.selectFirst("span.special-price > span.price-boleto > span");
+			}
 			
-			int parcelas = Produto.parseParcelas(stringParcelas);
+			BigDecimal preco = Produto.parsePreco(precoAVista.text());
 			
-			BigDecimal valorParcela = Produto.parsePreco(stringParcelas);
+			Element precoAPrazo = precoBox.selectFirst("span.price-container.price-final_price.tax.weee > span.price-installments > span");
+			if(precoAPrazo == null) {
+				precoAPrazo = precoBox.selectFirst("span.special-price > span.price-container.price-final_price.tax.weee > span.price-installments > span");
+			}
+			
+			int parcelas = Produto.parseParcelas(precoAPrazo.text());
+			
+			BigDecimal valorParcela = Produto.parsePreco(precoAPrazo.text());
 			
 			System.out.println(nome);
 			

@@ -35,23 +35,6 @@ public class JsonCreator {
 		}
 	}
 	
-	private Object take() {
-		while(!finished) {
-			Object obj = crawler.poll();
-			if(obj != null) {
-				return obj;
-			}
-			synchronized (crawler) {
-				try {
-					crawler.wait();
-				} catch (InterruptedException e) {
-					e.printStackTrace();
-				}
-			}
-		}
-		return null;
-	}
-	
 	private class JsonCreatorRunnable implements Runnable {
 		@Override
 		public void run() {
@@ -59,9 +42,20 @@ public class JsonCreator {
 				writer.beginArray().flush();
 				
 				while(!finished) {
-					Object obj = take();
-					gson.toJson(gson.toJsonTree(obj), writer);
-					writer.flush();
+					Object obj = crawler.poll();
+					if (obj != null){
+						gson.toJson(gson.toJsonTree(obj), writer);
+						writer.flush();
+					}
+					else {
+						synchronized (crawler) {
+							try {
+								crawler.wait();
+							} catch (InterruptedException e) {
+								e.printStackTrace();
+							}
+						}
+					}
 				}
 				
 				writer.endArray().flush();

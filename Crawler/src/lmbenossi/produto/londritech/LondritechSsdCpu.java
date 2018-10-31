@@ -4,35 +4,24 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.LinkedList;
 
-import org.jsoup.nodes.Document;
-import org.jsoup.nodes.Element;
-import org.jsoup.select.Elements;
-
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.stream.JsonWriter;
 
 import lmbenossi.crawler.Crawler;
 import lmbenossi.crawler.CrawlerThreads;
-import lmbenossi.crawler.HtmlDoc;
 import lmbenossi.crawler.JsonCreator;
-import lmbenossi.produto.Loja;
+import lmbenossi.main.Main;
 import lmbenossi.produto.Produto;
 import lmbenossi.produto.ProdutoAdapter;
 
-public class Londritech {
+public class LondritechSsdCpu {
 	public void crawl() throws IOException {
 		LinkedList<Crawler<String[]>> crawlersCatalogo = new LinkedList<>();
+		crawlersCatalogo.add(new LondritechCatalogo("https://www.londritech.com.br/b?cn=HARDWARE%2FHARD+DISK+%2F+HD+%2F+SSD&cid=5032/5045/"));
+		crawlersCatalogo.add(new LondritechCatalogo("https://www.londritech.com.br/b?cn=HARDWARE%2FPROCESSADOR&cid=5032/5046/"));
 		
-		Document htmlDoc = HtmlDoc.getHtmlDoc(Loja.LONDRITECH.getUrl());
-		Elements items = htmlDoc.select("#navbar-collapse-target > ul > li.nav-main__item.nav-main__item_all.dropdown.pull-left > div > div > div > ul > li > a");
-		for(Element a : items) {
-			String url = Loja.LONDRITECH.getUrl() + a.attr("href");
-			System.out.println(url);
-			crawlersCatalogo.add(new LondritechCatalogo(url));
-		}
-		
-		LinkedList<String[]> urls = new CrawlerThreads<String[]>(crawlersCatalogo, 8).crawl();
+		LinkedList<String[]> urls = new CrawlerThreads<String[]>(crawlersCatalogo, 2).crawl();
 		
 		LinkedList<Crawler<Produto>> crawlersProduto = new LinkedList<>();
 		for(String[] urlArray : urls) {
@@ -50,7 +39,9 @@ public class Londritech {
 	}
 	
 	public static void main(String[] argv) throws IOException {
-		Londritech londritech = new Londritech();
+		LondritechSsdCpu londritech = new LondritechSsdCpu();
 		londritech.crawl();
+		
+		Main.printErros();
 	}
 }

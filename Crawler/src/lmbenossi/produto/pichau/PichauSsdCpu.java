@@ -14,25 +14,30 @@ import lmbenossi.crawler.JsonCreator;
 import lmbenossi.produto.Produto;
 import lmbenossi.produto.ProdutoAdapter;
 
-public class Pichau {
-
+public class PichauSsdCpu {
 	public void crawl() throws IOException {
-		LinkedList<Crawler<Produto>> crawlersProduto = new LinkedList<>();
+		LinkedList<Crawler<String[]>> crawlersCatalogos = new LinkedList<>();
+		crawlersCatalogos.add(new PichauCatalogo("https://www.pichau.com.br/hardware/ssd"));
+		crawlersCatalogos.add(new PichauCatalogo("https://www.pichau.com.br/hardware/processadores"));
 		
-		for(String url : new PichauCatalogo("https://www.pichau.com.br/todos-os-departamentos").crawl()) {
-			crawlersProduto.add(new PichauProduto(url));
+		LinkedList<String[]> urlsProdutos = new CrawlerThreads<>(crawlersCatalogos, 2).crawl();
+		
+		LinkedList<Crawler<Produto>> crawlersProdutos = new LinkedList<>();
+		for(String[] array : urlsProdutos) {
+			for(String url : array) {
+				crawlersProdutos.add(new PichauProduto(url));
+			}
 		}
 		
 		Gson gson = new GsonBuilder().setPrettyPrinting().registerTypeAdapter(Produto.class, new ProdutoAdapter()).create();
 		JsonWriter writer = gson.newJsonWriter(new FileWriter("pichau.json"));
 		
-		CrawlerThreads<Produto> crawler = new CrawlerThreads<Produto>(crawlersProduto, 64);
+		CrawlerThreads<Produto> crawler = new CrawlerThreads<Produto>(crawlersProdutos, 64);
 		JsonCreator creator = new JsonCreator(gson, writer, crawler);
 		creator.execute();
 	}
 	
 	public static void main(String[] argv) throws Exception {
-		Pichau pichau = new Pichau();
-		pichau.crawl();
+		new PichauSsdCpu().crawl();
 	}
 }

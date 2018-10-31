@@ -10,8 +10,8 @@ import lmbenossi.crawler.HtmlDoc;
 import lmbenossi.produto.CrawlerCatalogo;
 
 public class PichauCatalogo extends CrawlerCatalogo {
-	public PichauCatalogo() {
-		super("https://www.pichau.com.br/todos-os-departamentos");
+	public PichauCatalogo(String url) {
+		super(url);
 	}
 
 	@Override
