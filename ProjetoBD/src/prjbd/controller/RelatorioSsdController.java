@@ -20,7 +20,7 @@ import com.google.gson.JsonArray;
 import prjbd.dao.SsdProdutoDAO;
 import prjbd.model.SsdProduto;
 
-@WebServlet(urlPatterns={"/relatorios/ssd"})
+@WebServlet("/relatorios/ssd")
 public class RelatorioSsdController extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
@@ -47,7 +47,7 @@ public class RelatorioSsdController extends HttpServlet {
 				}
 			}
 			
-			ssds.sort(new ComparatorSsd());
+			ssds.sort(new ComparatorSsdProduto());
 			
 			JsonArray x = new JsonArray();
 			JsonArray y = new JsonArray();
@@ -70,10 +70,12 @@ public class RelatorioSsdController extends HttpServlet {
 		}
 	}
     
-    private class ComparatorSsd implements Comparator<SsdProduto> {
+    private class ComparatorSsdProduto implements Comparator<SsdProduto> {
 		@Override
 		public int compare(SsdProduto o1, SsdProduto o2) {
-			return o1.getPrecoPorGiga().subtract(o2.getPrecoPorGiga()).multiply(new BigDecimal(100)).intValue();
+			BigDecimal valor1 = o1.getPrecoPorGiga().multiply(BigDecimal.valueOf(100));
+			BigDecimal valor2 = o2.getPrecoPorGiga().multiply(BigDecimal.valueOf(100));
+			return valor1.subtract(valor2).intValue();
 		}
     }
     

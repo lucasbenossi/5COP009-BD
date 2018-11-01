@@ -1,0 +1,1 @@
+WebContent/WEB-INF/lib/gson-2.8.5.jar:WebContent/WEB-INF/lib/javax.servlet.jsp.jstl-1.2.1.jar:WebContent/WEB-INF/lib/javax.servlet.jsp.jstl-api-1.2.1.jar:WebContent/WEB-INF/lib/postgresql-9.3-1102.jdbc41.jar:build/classes

@@ -47,14 +47,14 @@
 			<tbody>
 				<c:forEach var="produto" items="${requestScope['produtosList']}">
 				<tr>
-					<td>${produto.id()}</td>
-					<td><a href="${produto.url()}" target="_blank">${produto.nome()}</a></td>
-					<td>${produto.preco()}</td>
-					<td>${produto.parcelas()}</td>
-					<td>${produto.valorParcela()}</td>
-					<td>${produto.idLoja()}</td>
-					<td><a href="${pageContext.request.contextPath}/produtos/alterar?id=${produto.id()}">Alterar</a></td>
-					<td><a href="${pageContext.request.contextPath}/produtos/excluir?id=${produto.id()}">Excluir</a></td>
+					<td>${produto.getId()}</td>
+					<td><a href="${produto.getUrl()}" target="_blank">${produto.getNome()}</a></td>
+					<td>${produto.getPreco()}</td>
+					<td>${produto.getParcelas()}</td>
+					<td>${produto.getValorParcela()}</td>
+					<td>${produto.getIdLoja()}</td>
+					<td><a href="${pageContext.request.contextPath}/produtos/alterar?id=${produto.getId()}">Alterar</a></td>
+					<td><a href="${pageContext.request.contextPath}/produtos/excluir?id=${produto.getId()}">Excluir</a></td>
 				</tr>
 				</c:forEach>
 			</tbody>

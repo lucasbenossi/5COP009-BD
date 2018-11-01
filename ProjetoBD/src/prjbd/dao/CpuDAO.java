@@ -119,4 +119,28 @@ public class CpuDAO extends DAO<Cpu> {
 		}
 	}
 
+	public LinkedList<Cpu> search(String pattern) throws SQLException {
+		LinkedList<Cpu> cpus = new LinkedList<>();
+		String query = "SELECT * FROM prjbd.cpu WHERE lower(name) SIMILAR TO ?";
+		
+		try (PreparedStatement stmt = connection.prepareStatement(query);){
+			stmt.setString(1, pattern);
+			try (ResultSet result = stmt.executeQuery();) {
+				while (result.next()) {
+	            	Cpu cpu = new Cpu(result.getInt("id"), 
+							result.getString("name"), 
+							result.getInt("cores"), 
+							result.getInt("threads"), 
+							result.getInt("frequency"), 
+							result.getInt("maxFrequency"), 
+							result.getInt("scoreSingleCore"), 
+							result.getInt("scoreMultiCore"),
+							result.getString("url"));
+	            	cpus.add(cpu);
+	            }
+			}
+		}
+		
+		return cpus;
+	}
 }
