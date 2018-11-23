@@ -1,17 +1,19 @@
 package lmbenossi.main;
 
 import lmbenossi.cpu.geekbench.Geekbench;
+import lmbenossi.gpu.passmark.PassMark;
 import lmbenossi.produto.Loja;
-import lmbenossi.produto.londritech.LondritechSsdCpu;
-import lmbenossi.produto.pichau.PichauSsdCpu;
+import lmbenossi.produto.londritech.LondritechSsdCpuGpu;
+import lmbenossi.produto.pichau.PichauSsdCpuGpu;
 
 public class Main {
 	public static void main(String[] args) {
 		try {
 			Loja.main(args);
-			LondritechSsdCpu.main(args);
-			PichauSsdCpu.main(args);
+			LondritechSsdCpuGpu.main(args);
+			PichauSsdCpuGpu.main(args);
 			Geekbench.main(args);
+			PassMark.main(args);
 		} catch (Exception e) {
 			e.printStackTrace();
 		}

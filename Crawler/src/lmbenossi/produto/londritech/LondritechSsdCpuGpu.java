@@ -15,11 +15,12 @@ import lmbenossi.main.Main;
 import lmbenossi.produto.Produto;
 import lmbenossi.produto.ProdutoAdapter;
 
-public class LondritechSsdCpu {
+public class LondritechSsdCpuGpu {
 	public void crawl() throws IOException {
 		LinkedList<Crawler<String[]>> crawlersCatalogo = new LinkedList<>();
 		crawlersCatalogo.add(new LondritechCatalogo("https://www.londritech.com.br/b?cn=HARDWARE%2FHARD+DISK+%2F+HD+%2F+SSD&cid=5032/5045/"));
 		crawlersCatalogo.add(new LondritechCatalogo("https://www.londritech.com.br/b?cn=HARDWARE%2FPROCESSADOR&cid=5032/5046/"));
+		crawlersCatalogo.add(new LondritechCatalogo("https://www.londritech.com.br/b?cn=HARDWARE%2FPLACAS+DE+VIDEO&cid=5032/5050/"));
 		
 		LinkedList<String[]> urls = new CrawlerThreads<String[]>(crawlersCatalogo, 2).crawl();
 		
@@ -39,7 +40,7 @@ public class LondritechSsdCpu {
 	}
 	
 	public static void main(String[] argv) throws IOException {
-		LondritechSsdCpu londritech = new LondritechSsdCpu();
+		LondritechSsdCpuGpu londritech = new LondritechSsdCpuGpu();
 		londritech.crawl();
 		
 		Main.printErros();
