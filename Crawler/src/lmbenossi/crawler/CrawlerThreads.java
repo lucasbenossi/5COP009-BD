@@ -55,15 +55,6 @@ public class CrawlerThreads<T> {
 		}
 	}
 	
-	private Crawler<T> nextCrawler() {
-		synchronized (this.iterator) {
-			if(this.iterator.hasNext()) {
-				return this.iterator.next();
-			}
-			return null;
-		}
-	}
-	
 	private class CrawlerRunnable implements Runnable {
 		@Override
 		public void run() {
@@ -77,6 +68,15 @@ public class CrawlerThreads<T> {
 				if(obj != null) {
 					put(obj);
 				}
+			}
+		}
+		
+		private Crawler<T> nextCrawler() {
+			synchronized (iterator) {
+				if(iterator.hasNext()) {
+					return iterator.next();
+				}
+				return null;
 			}
 		}
 	}

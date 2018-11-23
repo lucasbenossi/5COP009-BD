@@ -41,13 +41,16 @@ public class JsonCreator {
 			try {
 				writer.beginArray().flush();
 				
-				while(!finished) {
+				while(true) {
 					Object obj = crawler.poll();
 					if (obj != null){
 						gson.toJson(gson.toJsonTree(obj), writer);
 						writer.flush();
 					}
 					else {
+						if(finished) {
+							break;
+						}
 						synchronized (crawler) {
 							try {
 								crawler.wait();
