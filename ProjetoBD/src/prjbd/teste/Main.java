@@ -1,15 +1,15 @@
 package prjbd.teste;
 
 import prjbd.dao.DAO;
-import prjbd.dao.ProdutoDAO;
-import prjbd.model.Produto;
+import prjbd.dao.GpuDAO;
+import prjbd.model.Gpu;
 
 public class Main {
 	public static void main(String[] args) throws Exception {
-		DAO<Produto> dao = new ProdutoDAO();
+		DAO<Gpu> dao = new GpuDAO();
 		
-		for(Produto produto : ((ProdutoDAO)dao).search("ssd%")) {
-			System.out.println(produto.getNome());
+		for(Gpu gpu : dao.search("%4%")) {
+			System.out.println(gpu.name());
 		}
 	}
 }
