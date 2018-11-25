@@ -1,0 +1,7627 @@
+[
+  {
+    "name": "128 DDR Radeon 9700 TX w/TV-Out",
+    "g2dMark": 151,
+    "g3dMark": 44
+  },
+  {
+    "name": "128MB DDR Radeon 9800 Pro",
+    "g2dMark": 175,
+    "g3dMark": 66
+  },
+  {
+    "name": "128MB RADEON X600 SE",
+    "g2dMark": 228,
+    "g3dMark": 49
+  },
+  {
+    "name": "15DD",
+    "g2dMark": 641,
+    "g3dMark": 1648
+  },
+  {
+    "name": "256MB RADEON X600",
+    "g2dMark": 252,
+    "g3dMark": 67
+  },
+  {
+    "name": "3DP Edition",
+    "g2dMark": 930,
+    "g3dMark": 826
+  },
+  {
+    "name": "7900 MOD - Radeon HD 6520G",
+    "g2dMark": 322,
+    "g3dMark": 610
+  },
+  {
+    "name": "A6 Micro-6500T Quad-Core APU with RadeonR4",
+    "g2dMark": 126,
+    "g3dMark": 220
+  },
+  {
+    "name": "ABIT Siluro T400",
+    "g2dMark": 151,
+    "g3dMark": 3
+  },
+  {
+    "name": "ALL-IN-WONDER 9000",
+    "g2dMark": 102,
+    "g3dMark": 4
+  },
+  {
+    "name": "ALL-IN-WONDER RADEON 8500DV",
+    "g2dMark": 132,
+    "g3dMark": 5
+  },
+  {
+    "name": "All-in-Wonder X1900",
+    "g2dMark": 444,
+    "g3dMark": 127
+  },
+  {
+    "name": "ALL-IN-WONDER X800 GT",
+    "g2dMark": 186,
+    "g3dMark": 84
+  },
+  {
+    "name": "ASUS EAH4870x2",
+    "g2dMark": 538,
+    "g3dMark": 496
+  },
+  {
+    "name": "Barco MXRT 5400",
+    "g2dMark": 456,
+    "g3dMark": 1161
+  },
+  {
+    "name": "Barco MXRT 5450",
+    "g2dMark": 602,
+    "g3dMark": 992
+  },
+  {
+    "name": "Barco MXRT 7500",
+    "g2dMark": 762,
+    "g3dMark": 4319
+  },
+  {
+    "name": "Barco MXRT 7600",
+    "g2dMark": 441,
+    "g3dMark": 4943
+  },
+  {
+    "name": "Chell 1.7b for Intel 945G",
+    "g2dMark": 313,
+    "g3dMark": 12
+  },
+  {
+    "name": "Chell 1.7b for Intel G33/G31",
+    "g2dMark": 348,
+    "g3dMark": 16
+  },
+  {
+    "name": "Chell 1.7b for Intel GMA 3150",
+    "g2dMark": 171,
+    "g3dMark": 4
+  },
+  {
+    "name": "Chell 1.7b for Mobile Intel 945",
+    "g2dMark": 217,
+    "g3dMark": 6
+  },
+  {
+    "name": "Chell 1.8a for Mobile Intel 965",
+    "g2dMark": 207,
+    "g3dMark": 22
+  },
+  {
+    "name": "Chell 1.8b for Intel 945G",
+    "g2dMark": 124,
+    "g3dMark": 1
+  },
+  {
+    "name": "Chell 1.8b for Intel G33/G31",
+    "g2dMark": 299,
+    "g3dMark": 7
+  },
+  {
+    "name": "Chell 1.8b for Mobile Intel 945",
+    "g2dMark": 93,
+    "g3dMark": 2
+  },
+  {
+    "name": "Chell 1.8b for Mobile Intel 965",
+    "g2dMark": 216,
+    "g3dMark": 14
+  },
+  {
+    "name": "Chipset Intel G41 Express",
+    "g2dMark": 225,
+    "g3dMark": 57
+  },
+  {
+    "name": "Device",
+    "g2dMark": 545,
+    "g3dMark": 3545
+  },
+  {
+    "name": "EAH6450",
+    "g2dMark": 641,
+    "g3dMark": 264
+  },
+  {
+    "name": "Embedded Radeon E9173",
+    "g2dMark": 526,
+    "g3dMark": 1996
+  },
+  {
+    "name": "Famille de jeu de puces Express Intel 946GZ",
+    "g2dMark": 230,
+    "g3dMark": 7
+  },
+  {
+    "name": "FireGL T2-128",
+    "g2dMark": 178,
+    "g3dMark": 30
+  },
+  {
+    "name": "FireGL V3100",
+    "g2dMark": 276,
+    "g3dMark": 52
+  },
+  {
+    "name": "FireGL V3200",
+    "g2dMark": 235,
+    "g3dMark": 84
+  },
+  {
+    "name": "FireGL V3300",
+    "g2dMark": 326,
+    "g3dMark": 70
+  },
+  {
+    "name": "FireGL V3350",
+    "g2dMark": 344,
+    "g3dMark": 66
+  },
+  {
+    "name": "FireGL V3400",
+    "g2dMark": 352,
+    "g3dMark": 103
+  },
+  {
+    "name": "FireGL V3600",
+    "g2dMark": 400,
+    "g3dMark": 180
+  },
+  {
+    "name": "FireGL V5100",
+    "g2dMark": 250,
+    "g3dMark": 92
+  },
+  {
+    "name": "FireGL V5200",
+    "g2dMark": 345,
+    "g3dMark": 113
+  },
+  {
+    "name": "FireGL V5600",
+    "g2dMark": 444,
+    "g3dMark": 341
+  },
+  {
+    "name": "FireGL V7200",
+    "g2dMark": 347,
+    "g3dMark": 113
+  },
+  {
+    "name": "FireGL V7300",
+    "g2dMark": 322,
+    "g3dMark": 128
+  },
+  {
+    "name": "FireGL V7350",
+    "g2dMark": 356,
+    "g3dMark": 122
+  },
+  {
+    "name": "FireGL V7600",
+    "g2dMark": 488,
+    "g3dMark": 615
+  },
+  {
+    "name": "FireGL V7700",
+    "g2dMark": 422,
+    "g3dMark": 660
+  },
+  {
+    "name": "FireGL V8650",
+    "g2dMark": 636,
+    "g3dMark": 550
+  },
+  {
+    "name": "FireGL X1",
+    "g2dMark": 167,
+    "g3dMark": 59
+  },
+  {
+    "name": "FireMV 2200 PCIe",
+    "g2dMark": 259,
+    "g3dMark": 36
+  },
+  {
+    "name": "FireMV 2250",
+    "g2dMark": 290,
+    "g3dMark": 45
+  },
+  {
+    "name": "FireMV 2260",
+    "g2dMark": 487,
+    "g3dMark": 117
+  },
+  {
+    "name": "FireMV 2400 PCIe",
+    "g2dMark": 289,
+    "g3dMark": 13
+  },
+  {
+    "name": "FirePro 2260",
+    "g2dMark": 432,
+    "g3dMark": 113
+  },
+  {
+    "name": "FirePro 2270",
+    "g2dMark": 559,
+    "g3dMark": 226
+  },
+  {
+    "name": "FirePro 2450",
+    "g2dMark": 490,
+    "g3dMark": 51
+  },
+  {
+    "name": "FirePro 2460",
+    "g2dMark": 572,
+    "g3dMark": 215
+  },
+  {
+    "name": "FirePro 3D V3700",
+    "g2dMark": 468,
+    "g3dMark": 184
+  },
+  {
+    "name": "FirePro 3D V3750",
+    "g2dMark": 470,
+    "g3dMark": 343
+  },
+  {
+    "name": "FirePro 3D V3800",
+    "g2dMark": 509,
+    "g3dMark": 475
+  },
+  {
+    "name": "FirePro 3D V4800",
+    "g2dMark": 559,
+    "g3dMark": 1080
+  },
+  {
+    "name": "FirePro 3D V5700",
+    "g2dMark": 516,
+    "g3dMark": 546
+  },
+  {
+    "name": "FirePro 3D V5800",
+    "g2dMark": 564,
+    "g3dMark": 1465
+  },
+  {
+    "name": "FirePro 3D V7750",
+    "g2dMark": 469,
+    "g3dMark": 540
+  },
+  {
+    "name": "FirePro 3D V7800",
+    "g2dMark": 588,
+    "g3dMark": 1809
+  },
+  {
+    "name": "FirePro 3D V8700",
+    "g2dMark": 514,
+    "g3dMark": 1198
+  },
+  {
+    "name": "FirePro 3D V8750",
+    "g2dMark": 542,
+    "g3dMark": 1271
+  },
+  {
+    "name": "FirePro 3D V8800",
+    "g2dMark": 633,
+    "g3dMark": 2473
+  },
+  {
+    "name": "FirePro 3D V9800",
+    "g2dMark": 555,
+    "g3dMark": 2811
+  },
+  {
+    "name": "FirePro M2000",
+    "g2dMark": 599,
+    "g3dMark": 613
+  },
+  {
+    "name": "FirePro M4000",
+    "g2dMark": 607,
+    "g3dMark": 1609
+  },
+  {
+    "name": "FirePro M4000 Mobility Pro",
+    "g2dMark": 592,
+    "g3dMark": 1682
+  },
+  {
+    "name": "FirePro M40003",
+    "g2dMark": 652,
+    "g3dMark": 1364
+  },
+  {
+    "name": "Firepro M4100",
+    "g2dMark": 622,
+    "g3dMark": 1059
+  },
+  {
+    "name": "FirePro M4150",
+    "g2dMark": 592,
+    "g3dMark": 1102
+  },
+  {
+    "name": "FirePro M4170",
+    "g2dMark": 663,
+    "g3dMark": 1086
+  },
+  {
+    "name": "FirePro M5100",
+    "g2dMark": 814,
+    "g3dMark": 2097
+  },
+  {
+    "name": "FirePro M5950",
+    "g2dMark": 573,
+    "g3dMark": 1314
+  },
+  {
+    "name": "FirePro M6000 Mobility Pro",
+    "g2dMark": 640,
+    "g3dMark": 1743
+  },
+  {
+    "name": "FirePro M6100",
+    "g2dMark": 693,
+    "g3dMark": 2960
+  },
+  {
+    "name": "FirePro M7740",
+    "g2dMark": 415,
+    "g3dMark": 661
+  },
+  {
+    "name": "FirePro S7000",
+    "g2dMark": 614,
+    "g3dMark": 4166
+  },
+  {
+    "name": "FirePro S9000",
+    "g2dMark": 557,
+    "g3dMark": 5358
+  },
+  {
+    "name": "FirePro V3900",
+    "g2dMark": 667,
+    "g3dMark": 871
+  },
+  {
+    "name": "FirePro V4800",
+    "g2dMark": 456,
+    "g3dMark": 1204
+  },
+  {
+    "name": "FirePro V4900",
+    "g2dMark": 700,
+    "g3dMark": 1302
+  },
+  {
+    "name": "FirePro V5700",
+    "g2dMark": 469,
+    "g3dMark": 464
+  },
+  {
+    "name": "FirePro V5900",
+    "g2dMark": 633,
+    "g3dMark": 1526
+  },
+  {
+    "name": "FirePro V7000 Adapter",
+    "g2dMark": 667,
+    "g3dMark": 3161
+  },
+  {
+    "name": "FirePro V7900",
+    "g2dMark": 652,
+    "g3dMark": 2717
+  },
+  {
+    "name": "FirePro V9800 Adapter",
+    "g2dMark": 673,
+    "g3dMark": 2730
+  },
+  {
+    "name": "FirePro W2100",
+    "g2dMark": 709,
+    "g3dMark": 899
+  },
+  {
+    "name": "FirePro W4100",
+    "g2dMark": 764,
+    "g3dMark": 1598
+  },
+  {
+    "name": "FirePro W4100 Adapter",
+    "g2dMark": 725,
+    "g3dMark": 1740
+  },
+  {
+    "name": "FirePro W4170M",
+    "g2dMark": 692,
+    "g3dMark": 1340
+  },
+  {
+    "name": "Firepro W4190M",
+    "g2dMark": 617,
+    "g3dMark": 1280
+  },
+  {
+    "name": "FirePro W4300",
+    "g2dMark": 804,
+    "g3dMark": 2894
+  },
+  {
+    "name": "FirePro W5000",
+    "g2dMark": 735,
+    "g3dMark": 3073
+  },
+  {
+    "name": "FirePro W5100",
+    "g2dMark": 736,
+    "g3dMark": 3000
+  },
+  {
+    "name": "FirePro W5130M",
+    "g2dMark": 644,
+    "g3dMark": 1583
+  },
+  {
+    "name": "Firepro W5170M",
+    "g2dMark": 697,
+    "g3dMark": 2202
+  },
+  {
+    "name": "FirePro W600",
+    "g2dMark": 708,
+    "g3dMark": 1734
+  },
+  {
+    "name": "FirePro W7000",
+    "g2dMark": 705,
+    "g3dMark": 4303
+  },
+  {
+    "name": "FirePro W7000 Adapter",
+    "g2dMark": 589,
+    "g3dMark": 4064
+  },
+  {
+    "name": "FirePro W7100",
+    "g2dMark": 725,
+    "g3dMark": 5382
+  },
+  {
+    "name": "FirePro W7100 Adapter",
+    "g2dMark": 713,
+    "g3dMark": 5647
+  },
+  {
+    "name": "FirePro W7170M",
+    "g2dMark": 762,
+    "g3dMark": 4643
+  },
+  {
+    "name": "FirePro W8000",
+    "g2dMark": 719,
+    "g3dMark": 4532
+  },
+  {
+    "name": "FirePro W8000 Adapter",
+    "g2dMark": 488,
+    "g3dMark": 4751
+  },
+  {
+    "name": "FirePro W8100",
+    "g2dMark": 751,
+    "g3dMark": 5987
+  },
+  {
+    "name": "FirePro W9000",
+    "g2dMark": 732,
+    "g3dMark": 5394
+  },
+  {
+    "name": "FirePro W9100",
+    "g2dMark": 738,
+    "g3dMark": 7189
+  },
+  {
+    "name": "FireStream 9250",
+    "g2dMark": 465,
+    "g3dMark": 1164
+  },
+  {
+    "name": "FireStream 9270",
+    "g2dMark": 473,
+    "g3dMark": 1341
+  },
+  {
+    "name": "GeForce 205",
+    "g2dMark": 308,
+    "g3dMark": 126
+  },
+  {
+    "name": "GeForce 210",
+    "g2dMark": 424,
+    "g3dMark": 172
+  },
+  {
+    "name": "GeForce 256",
+    "g2dMark": 200,
+    "g3dMark": 5
+  },
+  {
+    "name": "GeForce 305M",
+    "g2dMark": 287,
+    "g3dMark": 190
+  },
+  {
+    "name": "GeForce 310",
+    "g2dMark": 473,
+    "g3dMark": 202
+  },
+  {
+    "name": "GeForce 310M",
+    "g2dMark": 364,
+    "g3dMark": 211
+  },
+  {
+    "name": "GeForce 315",
+    "g2dMark": 439,
+    "g3dMark": 250
+  },
+  {
+    "name": "GeForce 315M",
+    "g2dMark": 403,
+    "g3dMark": 209
+  },
+  {
+    "name": "GeForce 320M",
+    "g2dMark": 321,
+    "g3dMark": 272
+  },
+  {
+    "name": "GeForce 405",
+    "g2dMark": 476,
+    "g3dMark": 213
+  },
+  {
+    "name": "GeForce 410M",
+    "g2dMark": 443,
+    "g3dMark": 349
+  },
+  {
+    "name": "GeForce 505",
+    "g2dMark": 588,
+    "g3dMark": 191
+  },
+  {
+    "name": "GeForce 510",
+    "g2dMark": 559,
+    "g3dMark": 309
+  },
+  {
+    "name": "GeForce 605",
+    "g2dMark": 529,
+    "g3dMark": 320
+  },
+  {
+    "name": "GeForce 6100",
+    "g2dMark": 209,
+    "g3dMark": 21
+  },
+  {
+    "name": "GeForce 6100 nForce 400",
+    "g2dMark": 234,
+    "g3dMark": 25
+  },
+  {
+    "name": "GeForce 6100 nForce 405",
+    "g2dMark": 211,
+    "g3dMark": 22
+  },
+  {
+    "name": "GeForce 6100 nForce 420",
+    "g2dMark": 234,
+    "g3dMark": 25
+  },
+  {
+    "name": "GeForce 6100 nForce 430",
+    "g2dMark": 249,
+    "g3dMark": 23
+  },
+  {
+    "name": "GeForce 610M",
+    "g2dMark": 484,
+    "g3dMark": 404
+  },
+  {
+    "name": "GeForce 615",
+    "g2dMark": 579,
+    "g3dMark": 546
+  },
+  {
+    "name": "GeForce 6150",
+    "g2dMark": 250,
+    "g3dMark": 21
+  },
+  {
+    "name": "GeForce 6150 LE",
+    "g2dMark": 221,
+    "g3dMark": 21
+  },
+  {
+    "name": "GeForce 6150SE",
+    "g2dMark": 265,
+    "g3dMark": 24
+  },
+  {
+    "name": "GeForce 6150SE nForce 430",
+    "g2dMark": 269,
+    "g3dMark": 22
+  },
+  {
+    "name": "GeForce 6200",
+    "g2dMark": 162,
+    "g3dMark": 44
+  },
+  {
+    "name": "GeForce 6200 A-LE",
+    "g2dMark": 192,
+    "g3dMark": 32
+  },
+  {
+    "name": "GeForce 6200 LE",
+    "g2dMark": 285,
+    "g3dMark": 26
+  },
+  {
+    "name": "GeForce 6200 TurboCache",
+    "g2dMark": 274,
+    "g3dMark": 38
+  },
+  {
+    "name": "GeForce 6200SE TurboCache",
+    "g2dMark": 266,
+    "g3dMark": 29
+  },
+  {
+    "name": "GeForce 6500",
+    "g2dMark": 307,
+    "g3dMark": 37
+  },
+  {
+    "name": "GeForce 6600",
+    "g2dMark": 275,
+    "g3dMark": 62
+  },
+  {
+    "name": "GeForce 6600 GT",
+    "g2dMark": 276,
+    "g3dMark": 102
+  },
+  {
+    "name": "GeForce 6600 LE",
+    "g2dMark": 232,
+    "g3dMark": 51
+  },
+  {
+    "name": "GeForce 6610 XL",
+    "g2dMark": 287,
+    "g3dMark": 88
+  },
+  {
+    "name": "GeForce 6700 XL",
+    "g2dMark": 236,
+    "g3dMark": 98
+  },
+  {
+    "name": "GeForce 6800",
+    "g2dMark": 258,
+    "g3dMark": 112
+  },
+  {
+    "name": "GeForce 6800 GS",
+    "g2dMark": 333,
+    "g3dMark": 136
+  },
+  {
+    "name": "GeForce 6800 GS/XT",
+    "g2dMark": 195,
+    "g3dMark": 102
+  },
+  {
+    "name": "GeForce 6800 GT",
+    "g2dMark": 212,
+    "g3dMark": 142
+  },
+  {
+    "name": "GeForce 6800 LE",
+    "g2dMark": 166,
+    "g3dMark": 109
+  },
+  {
+    "name": "GeForce 6800 Ultra",
+    "g2dMark": 153,
+    "g3dMark": 138
+  },
+  {
+    "name": "GeForce 6800 XT",
+    "g2dMark": 381,
+    "g3dMark": 101
+  },
+  {
+    "name": "GeForce 7000M",
+    "g2dMark": 238,
+    "g3dMark": 13
+  },
+  {
+    "name": "GeForce 7000M / nForce 610M",
+    "g2dMark": 188,
+    "g3dMark": 12
+  },
+  {
+    "name": "GeForce 7025 / nForce 630a",
+    "g2dMark": 332,
+    "g3dMark": 25
+  },
+  {
+    "name": "GeForce 7050 / nForce 610i",
+    "g2dMark": 285,
+    "g3dMark": 27
+  },
+  {
+    "name": "GeForce 7050 / nForce 620i",
+    "g2dMark": 250,
+    "g3dMark": 31
+  },
+  {
+    "name": "GeForce 7050 / nForce 630i",
+    "g2dMark": 281,
+    "g3dMark": 27
+  },
+  {
+    "name": "GeForce 7050 PV / nForce 630a",
+    "g2dMark": 265,
+    "g3dMark": 22
+  },
+  {
+    "name": "GeForce 705M",
+    "g2dMark": 455,
+    "g3dMark": 454
+  },
+  {
+    "name": "GeForce 7100 / nForce 630i",
+    "g2dMark": 300,
+    "g3dMark": 31
+  },
+  {
+    "name": "GeForce 7100 GS",
+    "g2dMark": 284,
+    "g3dMark": 43
+  },
+  {
+    "name": "GeForce 710A",
+    "g2dMark": 596,
+    "g3dMark": 507
+  },
+  {
+    "name": "GeForce 710M",
+    "g2dMark": 469,
+    "g3dMark": 567
+  },
+  {
+    "name": "GeForce 7150 / nForce 630i",
+    "g2dMark": 254,
+    "g3dMark": 33
+  },
+  {
+    "name": "GeForce 7150M / nForce 630M",
+    "g2dMark": 193,
+    "g3dMark": 17
+  },
+  {
+    "name": "GeForce 7300 GS",
+    "g2dMark": 297,
+    "g3dMark": 66
+  },
+  {
+    "name": "GeForce 7300 GT",
+    "g2dMark": 325,
+    "g3dMark": 108
+  },
+  {
+    "name": "GeForce 7300 LE",
+    "g2dMark": 282,
+    "g3dMark": 55
+  },
+  {
+    "name": "GeForce 7300 SE",
+    "g2dMark": 250,
+    "g3dMark": 39
+  },
+  {
+    "name": "GeForce 7300 SE/7200 GS",
+    "g2dMark": 304,
+    "g3dMark": 41
+  },
+  {
+    "name": "GeForce 730A",
+    "g2dMark": 675,
+    "g3dMark": 789
+  },
+  {
+    "name": "GeForce 7350 LE",
+    "g2dMark": 281,
+    "g3dMark": 74
+  },
+  {
+    "name": "GeForce 7500 LE",
+    "g2dMark": 258,
+    "g3dMark": 69
+  },
+  {
+    "name": "GeForce 7600 GS",
+    "g2dMark": 272,
+    "g3dMark": 134
+  },
+  {
+    "name": "GeForce 7600 GT",
+    "g2dMark": 321,
+    "g3dMark": 182
+  },
+  {
+    "name": "GeForce 7650 GS",
+    "g2dMark": 334,
+    "g3dMark": 134
+  },
+  {
+    "name": "GeForce 7800 GS",
+    "g2dMark": 201,
+    "g3dMark": 177
+  },
+  {
+    "name": "GeForce 7800 GT",
+    "g2dMark": 369,
+    "g3dMark": 195
+  },
+  {
+    "name": "GeForce 7800 GTX",
+    "g2dMark": 354,
+    "g3dMark": 223
+  },
+  {
+    "name": "GeForce 7900 GS",
+    "g2dMark": 354,
+    "g3dMark": 217
+  },
+  {
+    "name": "GeForce 7900 GT",
+    "g2dMark": 160,
+    "g3dMark": 258
+  },
+  {
+    "name": "GeForce 7900 GT/GTO",
+    "g2dMark": 464,
+    "g3dMark": 246
+  },
+  {
+    "name": "GeForce 7900 GTX",
+    "g2dMark": 404,
+    "g3dMark": 305
+  },
+  {
+    "name": "GeForce 7950 GT",
+    "g2dMark": 379,
+    "g3dMark": 264
+  },
+  {
+    "name": "GeForce 7950 GX2",
+    "g2dMark": 398,
+    "g3dMark": 192
+  },
+  {
+    "name": "GeForce 800A",
+    "g2dMark": 234,
+    "g3dMark": 440
+  },
+  {
+    "name": "GeForce 800M",
+    "g2dMark": 611,
+    "g3dMark": 553
+  },
+  {
+    "name": "GeForce 8100 / nForce 720a",
+    "g2dMark": 310,
+    "g3dMark": 83
+  },
+  {
+    "name": "GeForce 810A",
+    "g2dMark": 686,
+    "g3dMark": 638
+  },
+  {
+    "name": "GeForce 810M",
+    "g2dMark": 210,
+    "g3dMark": 482
+  },
+  {
+    "name": "GeForce 8200",
+    "g2dMark": 314,
+    "g3dMark": 79
+  },
+  {
+    "name": "GeForce 8200M G",
+    "g2dMark": 201,
+    "g3dMark": 56
+  },
+  {
+    "name": "GeForce 820A",
+    "g2dMark": 520,
+    "g3dMark": 691
+  },
+  {
+    "name": "GeForce 820M",
+    "g2dMark": 473,
+    "g3dMark": 616
+  },
+  {
+    "name": "GeForce 825M",
+    "g2dMark": 561,
+    "g3dMark": 754
+  },
+  {
+    "name": "GeForce 8300",
+    "g2dMark": 327,
+    "g3dMark": 91
+  },
+  {
+    "name": "GeForce 8300 GS",
+    "g2dMark": 313,
+    "g3dMark": 66
+  },
+  {
+    "name": "GeForce 830A",
+    "g2dMark": 735,
+    "g3dMark": 990
+  },
+  {
+    "name": "GeForce 830M",
+    "g2dMark": 483,
+    "g3dMark": 885
+  },
+  {
+    "name": "GeForce 8400",
+    "g2dMark": 306,
+    "g3dMark": 100
+  },
+  {
+    "name": "GeForce 8400 GS",
+    "g2dMark": 370,
+    "g3dMark": 113
+  },
+  {
+    "name": "GeForce 8400 SE",
+    "g2dMark": 290,
+    "g3dMark": 68
+  },
+  {
+    "name": "GeForce 8400M G",
+    "g2dMark": 241,
+    "g3dMark": 58
+  },
+  {
+    "name": "GeForce 8400M GS",
+    "g2dMark": 248,
+    "g3dMark": 82
+  },
+  {
+    "name": "GeForce 8400M GT",
+    "g2dMark": 253,
+    "g3dMark": 97
+  },
+  {
+    "name": "GeForce 840A",
+    "g2dMark": 630,
+    "g3dMark": 867
+  },
+  {
+    "name": "GeForce 840M",
+    "g2dMark": 560,
+    "g3dMark": 911
+  },
+  {
+    "name": "GeForce 845M",
+    "g2dMark": 586,
+    "g3dMark": 1121
+  },
+  {
+    "name": "GeForce 8500 GT",
+    "g2dMark": 356,
+    "g3dMark": 137
+  },
+  {
+    "name": "GeForce 8600 GS",
+    "g2dMark": 369,
+    "g3dMark": 141
+  },
+  {
+    "name": "GeForce 8600 GT",
+    "g2dMark": 390,
+    "g3dMark": 242
+  },
+  {
+    "name": "GeForce 8600 GTS",
+    "g2dMark": 409,
+    "g3dMark": 286
+  },
+  {
+    "name": "GeForce 8600M GS",
+    "g2dMark": 267,
+    "g3dMark": 124
+  },
+  {
+    "name": "GeForce 8600M GT",
+    "g2dMark": 282,
+    "g3dMark": 169
+  },
+  {
+    "name": "GeForce 8700M GT",
+    "g2dMark": 291,
+    "g3dMark": 208
+  },
+  {
+    "name": "GeForce 8800 GS",
+    "g2dMark": 435,
+    "g3dMark": 545
+  },
+  {
+    "name": "GeForce 8800 GT",
+    "g2dMark": 461,
+    "g3dMark": 749
+  },
+  {
+    "name": "GeForce 8800 GTS",
+    "g2dMark": 447,
+    "g3dMark": 605
+  },
+  {
+    "name": "GeForce 8800 GTS 512",
+    "g2dMark": 494,
+    "g3dMark": 834
+  },
+  {
+    "name": "GeForce 8800 GTX",
+    "g2dMark": 475,
+    "g3dMark": 763
+  },
+  {
+    "name": "GeForce 8800 Ultra",
+    "g2dMark": 475,
+    "g3dMark": 769
+  },
+  {
+    "name": "GeForce 8800M GTS",
+    "g2dMark": 310,
+    "g3dMark": 474
+  },
+  {
+    "name": "GeForce 8800M GTX",
+    "g2dMark": 345,
+    "g3dMark": 542
+  },
+  {
+    "name": "GeForce 9100",
+    "g2dMark": 345,
+    "g3dMark": 82
+  },
+  {
+    "name": "GeForce 9100M G",
+    "g2dMark": 219,
+    "g3dMark": 75
+  },
+  {
+    "name": "GeForce 910M",
+    "g2dMark": 223,
+    "g3dMark": 475
+  },
+  {
+    "name": "GeForce 9200",
+    "g2dMark": 309,
+    "g3dMark": 80
+  },
+  {
+    "name": "GeForce 9200M GE",
+    "g2dMark": 227,
+    "g3dMark": 81
+  },
+  {
+    "name": "GeForce 9200M GS",
+    "g2dMark": 255,
+    "g3dMark": 85
+  },
+  {
+    "name": "GeForce 920A",
+    "g2dMark": 532,
+    "g3dMark": 925
+  },
+  {
+    "name": "GeForce 920M",
+    "g2dMark": 476,
+    "g3dMark": 730
+  },
+  {
+    "name": "GeForce 920MX",
+    "g2dMark": 517,
+    "g3dMark": 1058
+  },
+  {
+    "name": "GeForce 9300",
+    "g2dMark": 384,
+    "g3dMark": 126
+  },
+  {
+    "name": "GeForce 9300 / nForce 730i",
+    "g2dMark": 373,
+    "g3dMark": 130
+  },
+  {
+    "name": "GeForce 9300 GE",
+    "g2dMark": 368,
+    "g3dMark": 101
+  },
+  {
+    "name": "GeForce 9300 GS",
+    "g2dMark": 326,
+    "g3dMark": 91
+  },
+  {
+    "name": "GeForce 9300GE",
+    "g2dMark": 366,
+    "g3dMark": 97
+  },
+  {
+    "name": "GeForce 9300M G",
+    "g2dMark": 235,
+    "g3dMark": 84
+  },
+  {
+    "name": "GeForce 9300M GS",
+    "g2dMark": 270,
+    "g3dMark": 94
+  },
+  {
+    "name": "GeForce 930A",
+    "g2dMark": 628,
+    "g3dMark": 1208
+  },
+  {
+    "name": "GeForce 930M",
+    "g2dMark": 527,
+    "g3dMark": 939
+  },
+  {
+    "name": "GeForce 930MX",
+    "g2dMark": 608,
+    "g3dMark": 1192
+  },
+  {
+    "name": "GeForce 9400",
+    "g2dMark": 363,
+    "g3dMark": 141
+  },
+  {
+    "name": "GeForce 9400 GT",
+    "g2dMark": 365,
+    "g3dMark": 187
+  },
+  {
+    "name": "GeForce 9400M",
+    "g2dMark": 293,
+    "g3dMark": 119
+  },
+  {
+    "name": "GeForce 9400M G",
+    "g2dMark": 301,
+    "g3dMark": 124
+  },
+  {
+    "name": "GeForce 940A",
+    "g2dMark": 564,
+    "g3dMark": 810
+  },
+  {
+    "name": "GeForce 940M",
+    "g2dMark": 525,
+    "g3dMark": 982
+  },
+  {
+    "name": "GeForce 940MX",
+    "g2dMark": 566,
+    "g3dMark": 1333
+  },
+  {
+    "name": "GeForce 945M",
+    "g2dMark": 556,
+    "g3dMark": 1434
+  },
+  {
+    "name": "GeForce 9500 GS",
+    "g2dMark": 372,
+    "g3dMark": 278
+  },
+  {
+    "name": "GeForce 9500 GT",
+    "g2dMark": 403,
+    "g3dMark": 274
+  },
+  {
+    "name": "GeForce 9500M",
+    "g2dMark": 319,
+    "g3dMark": 103
+  },
+  {
+    "name": "GeForce 9500M G",
+    "g2dMark": 337,
+    "g3dMark": 166
+  },
+  {
+    "name": "GeForce 9500M GS",
+    "g2dMark": 280,
+    "g3dMark": 181
+  },
+  {
+    "name": "GeForce 9600 GS",
+    "g2dMark": 402,
+    "g3dMark": 445
+  },
+  {
+    "name": "GeForce 9600 GSO",
+    "g2dMark": 453,
+    "g3dMark": 516
+  },
+  {
+    "name": "GeForce 9600 GSO 512",
+    "g2dMark": 402,
+    "g3dMark": 503
+  },
+  {
+    "name": "GeForce 9600 GT",
+    "g2dMark": 448,
+    "g3dMark": 730
+  },
+  {
+    "name": "GeForce 9600M GS",
+    "g2dMark": 287,
+    "g3dMark": 232
+  },
+  {
+    "name": "GeForce 9600M GT",
+    "g2dMark": 311,
+    "g3dMark": 261
+  },
+  {
+    "name": "GeForce 9600M GT / GeForce GT 220M",
+    "g2dMark": 290,
+    "g3dMark": 293
+  },
+  {
+    "name": "GeForce 9650M GS",
+    "g2dMark": 328,
+    "g3dMark": 270
+  },
+  {
+    "name": "GeForce 9650M GT",
+    "g2dMark": 315,
+    "g3dMark": 254
+  },
+  {
+    "name": "GeForce 9700M GT",
+    "g2dMark": 329,
+    "g3dMark": 319
+  },
+  {
+    "name": "GeForce 9700M GTS",
+    "g2dMark": 300,
+    "g3dMark": 478
+  },
+  {
+    "name": "GeForce 9800 GT",
+    "g2dMark": 462,
+    "g3dMark": 709
+  },
+  {
+    "name": "GeForce 9800 GTX",
+    "g2dMark": 366,
+    "g3dMark": 769
+  },
+  {
+    "name": "GeForce 9800 GTX+",
+    "g2dMark": 481,
+    "g3dMark": 898
+  },
+  {
+    "name": "GeForce 9800 GTX/9800 GTX+",
+    "g2dMark": 486,
+    "g3dMark": 883
+  },
+  {
+    "name": "GeForce 9800 GX2",
+    "g2dMark": 520,
+    "g3dMark": 800
+  },
+  {
+    "name": "GeForce 9800 S",
+    "g2dMark": 427,
+    "g3dMark": 635
+  },
+  {
+    "name": "GeForce 9800M GS",
+    "g2dMark": 311,
+    "g3dMark": 547
+  },
+  {
+    "name": "GeForce 9800M GT",
+    "g2dMark": 374,
+    "g3dMark": 475
+  },
+  {
+    "name": "GeForce 9800M GTS",
+    "g2dMark": 361,
+    "g3dMark": 645
+  },
+  {
+    "name": "GeForce 9800M GTX",
+    "g2dMark": 330,
+    "g3dMark": 527
+  },
+  {
+    "name": "GeForce FX 5200",
+    "g2dMark": 154,
+    "g3dMark": 7
+  },
+  {
+    "name": "GeForce FX 5200 Ultra",
+    "g2dMark": 138,
+    "g3dMark": 12
+  },
+  {
+    "name": "GeForce FX 5200LE",
+    "g2dMark": 170,
+    "g3dMark": 7
+  },
+  {
+    "name": "GeForce FX 5200SE",
+    "g2dMark": 193,
+    "g3dMark": 11
+  },
+  {
+    "name": "GeForce FX 5500",
+    "g2dMark": 151,
+    "g3dMark": 8
+  },
+  {
+    "name": "GeForce FX 5600",
+    "g2dMark": 163,
+    "g3dMark": 11
+  },
+  {
+    "name": "GeForce FX 5600 Ultra",
+    "g2dMark": 121,
+    "g3dMark": 17
+  },
+  {
+    "name": "GeForce FX 5600XT",
+    "g2dMark": 165,
+    "g3dMark": 9
+  },
+  {
+    "name": "GeForce FX 5700",
+    "g2dMark": 169,
+    "g3dMark": 41
+  },
+  {
+    "name": "GeForce FX 5700 Ultra",
+    "g2dMark": 126,
+    "g3dMark": 34
+  },
+  {
+    "name": "GeForce FX 5700LE",
+    "g2dMark": 144,
+    "g3dMark": 24
+  },
+  {
+    "name": "GeForce FX 5700VE",
+    "g2dMark": 161,
+    "g3dMark": 33
+  },
+  {
+    "name": "GeForce FX 5900",
+    "g2dMark": 187,
+    "g3dMark": 34
+  },
+  {
+    "name": "GeForce FX 5900 Ultra",
+    "g2dMark": 170,
+    "g3dMark": 41
+  },
+  {
+    "name": "GeForce FX 5900XT",
+    "g2dMark": 133,
+    "g3dMark": 40
+  },
+  {
+    "name": "GeForce FX 5950 Ultra",
+    "g2dMark": 273,
+    "g3dMark": 59
+  },
+  {
+    "name": "GeForce FX Go 5200",
+    "g2dMark": 192,
+    "g3dMark": 8
+  },
+  {
+    "name": "GeForce FX Go 5600",
+    "g2dMark": 186,
+    "g3dMark": 17
+  },
+  {
+    "name": "GeForce FX Go5300",
+    "g2dMark": 159,
+    "g3dMark": 12
+  },
+  {
+    "name": "GeForce FX Go5650",
+    "g2dMark": 210,
+    "g3dMark": 16
+  },
+  {
+    "name": "GeForce FX Go5700",
+    "g2dMark": 171,
+    "g3dMark": 51
+  },
+  {
+    "name": "GeForce G 103M",
+    "g2dMark": 281,
+    "g3dMark": 106
+  },
+  {
+    "name": "GeForce G 105M",
+    "g2dMark": 257,
+    "g3dMark": 113
+  },
+  {
+    "name": "GeForce G100",
+    "g2dMark": 359,
+    "g3dMark": 100
+  },
+  {
+    "name": "GeForce G102M",
+    "g2dMark": 263,
+    "g3dMark": 95
+  },
+  {
+    "name": "GeForce G105M",
+    "g2dMark": 299,
+    "g3dMark": 180
+  },
+  {
+    "name": "GeForce G200",
+    "g2dMark": 286,
+    "g3dMark": 134
+  },
+  {
+    "name": "GeForce G205M",
+    "g2dMark": 293,
+    "g3dMark": 91
+  },
+  {
+    "name": "GeForce G210",
+    "g2dMark": 384,
+    "g3dMark": 170
+  },
+  {
+    "name": "GeForce G210M",
+    "g2dMark": 289,
+    "g3dMark": 199
+  },
+  {
+    "name": "GeForce Go 6100",
+    "g2dMark": 180,
+    "g3dMark": 18
+  },
+  {
+    "name": "GeForce Go 6150",
+    "g2dMark": 179,
+    "g3dMark": 18
+  },
+  {
+    "name": "GeForce Go 6200",
+    "g2dMark": 202,
+    "g3dMark": 15
+  },
+  {
+    "name": "GeForce Go 6400",
+    "g2dMark": 211,
+    "g3dMark": 24
+  },
+  {
+    "name": "GeForce Go 6600",
+    "g2dMark": 211,
+    "g3dMark": 68
+  },
+  {
+    "name": "GeForce Go 6600 TE/6200 TE",
+    "g2dMark": 222,
+    "g3dMark": 44
+  },
+  {
+    "name": "GeForce Go 6800",
+    "g2dMark": 204,
+    "g3dMark": 106
+  },
+  {
+    "name": "GeForce Go 6800 Ultra",
+    "g2dMark": 197,
+    "g3dMark": 137
+  },
+  {
+    "name": "GeForce Go 7200",
+    "g2dMark": 198,
+    "g3dMark": 45
+  },
+  {
+    "name": "GeForce Go 7300",
+    "g2dMark": 219,
+    "g3dMark": 50
+  },
+  {
+    "name": "GeForce Go 7400",
+    "g2dMark": 221,
+    "g3dMark": 62
+  },
+  {
+    "name": "GeForce Go 7600",
+    "g2dMark": 222,
+    "g3dMark": 129
+  },
+  {
+    "name": "GeForce Go 7600 GT",
+    "g2dMark": 238,
+    "g3dMark": 163
+  },
+  {
+    "name": "GeForce Go 7700",
+    "g2dMark": 232,
+    "g3dMark": 147
+  },
+  {
+    "name": "GeForce Go 7800",
+    "g2dMark": 203,
+    "g3dMark": 116
+  },
+  {
+    "name": "GeForce Go 7800 GTX",
+    "g2dMark": 239,
+    "g3dMark": 209
+  },
+  {
+    "name": "GeForce Go 7900 GS",
+    "g2dMark": 253,
+    "g3dMark": 176
+  },
+  {
+    "name": "GeForce Go 7950 GTX",
+    "g2dMark": 285,
+    "g3dMark": 262
+  },
+  {
+    "name": "GeForce GPU",
+    "g2dMark": 450,
+    "g3dMark": 1167
+  },
+  {
+    "name": "GeForce GT 1030",
+    "g2dMark": 568,
+    "g3dMark": 2224
+  },
+  {
+    "name": "GeForce GT 120",
+    "g2dMark": 383,
+    "g3dMark": 287
+  },
+  {
+    "name": "GeForce GT 120M",
+    "g2dMark": 273,
+    "g3dMark": 268
+  },
+  {
+    "name": "GeForce GT 130",
+    "g2dMark": 390,
+    "g3dMark": 459
+  },
+  {
+    "name": "GeForce GT 130M",
+    "g2dMark": 309,
+    "g3dMark": 299
+  },
+  {
+    "name": "GeForce GT 140",
+    "g2dMark": 444,
+    "g3dMark": 757
+  },
+  {
+    "name": "GeForce GT 220",
+    "g2dMark": 428,
+    "g3dMark": 350
+  },
+  {
+    "name": "GeForce GT 220M",
+    "g2dMark": 288,
+    "g3dMark": 260
+  },
+  {
+    "name": "GeForce GT 230",
+    "g2dMark": 437,
+    "g3dMark": 473
+  },
+  {
+    "name": "GeForce GT 230M",
+    "g2dMark": 352,
+    "g3dMark": 332
+  },
+  {
+    "name": "GeForce GT 240",
+    "g2dMark": 458,
+    "g3dMark": 651
+  },
+  {
+    "name": "GeForce GT 240M",
+    "g2dMark": 334,
+    "g3dMark": 352
+  },
+  {
+    "name": "GeForce GT 320",
+    "g2dMark": 482,
+    "g3dMark": 553
+  },
+  {
+    "name": "GeForce GT 320M",
+    "g2dMark": 346,
+    "g3dMark": 205
+  },
+  {
+    "name": "GeForce GT 325M",
+    "g2dMark": 387,
+    "g3dMark": 293
+  },
+  {
+    "name": "GeForce GT 330",
+    "g2dMark": 468,
+    "g3dMark": 555
+  },
+  {
+    "name": "GeForce GT 330M",
+    "g2dMark": 391,
+    "g3dMark": 362
+  },
+  {
+    "name": "GeForce GT 335M",
+    "g2dMark": 318,
+    "g3dMark": 502
+  },
+  {
+    "name": "GeForce GT 340",
+    "g2dMark": 474,
+    "g3dMark": 775
+  },
+  {
+    "name": "GeForce GT 415M",
+    "g2dMark": 426,
+    "g3dMark": 319
+  },
+  {
+    "name": "GeForce GT 420",
+    "g2dMark": 544,
+    "g3dMark": 472
+  },
+  {
+    "name": "GeForce GT 420M",
+    "g2dMark": 414,
+    "g3dMark": 544
+  },
+  {
+    "name": "GeForce GT 425M",
+    "g2dMark": 392,
+    "g3dMark": 624
+  },
+  {
+    "name": "GeForce GT 430",
+    "g2dMark": 477,
+    "g3dMark": 661
+  },
+  {
+    "name": "GeForce GT 435M",
+    "g2dMark": 401,
+    "g3dMark": 666
+  },
+  {
+    "name": "GeForce GT 440",
+    "g2dMark": 491,
+    "g3dMark": 841
+  },
+  {
+    "name": "GeForce GT 445M",
+    "g2dMark": 396,
+    "g3dMark": 1055
+  },
+  {
+    "name": "GeForce GT 520",
+    "g2dMark": 471,
+    "g3dMark": 366
+  },
+  {
+    "name": "GeForce GT 520M",
+    "g2dMark": 428,
+    "g3dMark": 381
+  },
+  {
+    "name": "GeForce GT 520MX",
+    "g2dMark": 429,
+    "g3dMark": 406
+  },
+  {
+    "name": "GeForce GT 525M",
+    "g2dMark": 470,
+    "g3dMark": 600
+  },
+  {
+    "name": "GeForce GT 530",
+    "g2dMark": 609,
+    "g3dMark": 744
+  },
+  {
+    "name": "GeForce GT 540M",
+    "g2dMark": 472,
+    "g3dMark": 649
+  },
+  {
+    "name": "GeForce GT 545",
+    "g2dMark": 625,
+    "g3dMark": 1295
+  },
+  {
+    "name": "GeForce GT 550M",
+    "g2dMark": 484,
+    "g3dMark": 721
+  },
+  {
+    "name": "GeForce GT 555M",
+    "g2dMark": 490,
+    "g3dMark": 892
+  },
+  {
+    "name": "GeForce GT 610",
+    "g2dMark": 482,
+    "g3dMark": 351
+  },
+  {
+    "name": "GeForce GT 620",
+    "g2dMark": 564,
+    "g3dMark": 430
+  },
+  {
+    "name": "GeForce GT 620M",
+    "g2dMark": 447,
+    "g3dMark": 568
+  },
+  {
+    "name": "GeForce GT 625",
+    "g2dMark": 773,
+    "g3dMark": 439
+  },
+  {
+    "name": "GeForce GT 625M",
+    "g2dMark": 409,
+    "g3dMark": 503
+  },
+  {
+    "name": "GeForce GT 630",
+    "g2dMark": 550,
+    "g3dMark": 745
+  },
+  {
+    "name": "GeForce GT 630M",
+    "g2dMark": 525,
+    "g3dMark": 686
+  },
+  {
+    "name": "GeForce GT 635",
+    "g2dMark": 814,
+    "g3dMark": 916
+  },
+  {
+    "name": "GeForce GT 635M",
+    "g2dMark": 534,
+    "g3dMark": 695
+  },
+  {
+    "name": "GeForce GT 640",
+    "g2dMark": 610,
+    "g3dMark": 1280
+  },
+  {
+    "name": "GeForce GT 640M",
+    "g2dMark": 562,
+    "g3dMark": 960
+  },
+  {
+    "name": "GeForce GT 640M LE",
+    "g2dMark": 543,
+    "g3dMark": 784
+  },
+  {
+    "name": "GeForce GT 645",
+    "g2dMark": 771,
+    "g3dMark": 2215
+  },
+  {
+    "name": "GeForce GT 645M",
+    "g2dMark": 529,
+    "g3dMark": 885
+  },
+  {
+    "name": "GeForce GT 650M",
+    "g2dMark": 588,
+    "g3dMark": 1226
+  },
+  {
+    "name": "GeForce GT 705",
+    "g2dMark": 687,
+    "g3dMark": 419
+  },
+  {
+    "name": "GeForce GT 710",
+    "g2dMark": 523,
+    "g3dMark": 678
+  },
+  {
+    "name": "GeForce GT 710M",
+    "g2dMark": 430,
+    "g3dMark": 550
+  },
+  {
+    "name": "GeForce GT 720",
+    "g2dMark": 631,
+    "g3dMark": 717
+  },
+  {
+    "name": "GeForce GT 720A",
+    "g2dMark": 706,
+    "g3dMark": 661
+  },
+  {
+    "name": "GeForce GT 720M",
+    "g2dMark": 483,
+    "g3dMark": 559
+  },
+  {
+    "name": "GeForce GT 730",
+    "g2dMark": 571,
+    "g3dMark": 922
+  },
+  {
+    "name": "GeForce GT 730A",
+    "g2dMark": 711,
+    "g3dMark": 732
+  },
+  {
+    "name": "GeForce GT 730M",
+    "g2dMark": 589,
+    "g3dMark": 828
+  },
+  {
+    "name": "GeForce GT 735M",
+    "g2dMark": 484,
+    "g3dMark": 668
+  },
+  {
+    "name": "GeForce GT 740",
+    "g2dMark": 607,
+    "g3dMark": 1573
+  },
+  {
+    "name": "GeForce GT 740M",
+    "g2dMark": 552,
+    "g3dMark": 782
+  },
+  {
+    "name": "GeForce GT 745A",
+    "g2dMark": 779,
+    "g3dMark": 1171
+  },
+  {
+    "name": "GeForce GT 745M",
+    "g2dMark": 601,
+    "g3dMark": 969
+  },
+  {
+    "name": "GeForce GT 750M",
+    "g2dMark": 635,
+    "g3dMark": 1292
+  },
+  {
+    "name": "GeForce GT 755M",
+    "g2dMark": 681,
+    "g3dMark": 1593
+  },
+  {
+    "name": "GeForce GT 820M",
+    "g2dMark": 523,
+    "g3dMark": 698
+  },
+  {
+    "name": "GeForce GT625M",
+    "g2dMark": 394,
+    "g3dMark": 520
+  },
+  {
+    "name": "GeForce GTS 160M",
+    "g2dMark": 308,
+    "g3dMark": 678
+  },
+  {
+    "name": "GeForce GTS 240",
+    "g2dMark": 517,
+    "g3dMark": 821
+  },
+  {
+    "name": "GeForce GTS 250",
+    "g2dMark": 496,
+    "g3dMark": 877
+  },
+  {
+    "name": "GeForce GTS 250M",
+    "g2dMark": 361,
+    "g3dMark": 567
+  },
+  {
+    "name": "GeForce GTS 350M",
+    "g2dMark": 384,
+    "g3dMark": 556
+  },
+  {
+    "name": "GeForce GTS 360M",
+    "g2dMark": 390,
+    "g3dMark": 757
+  },
+  {
+    "name": "GeForce GTS 450",
+    "g2dMark": 535,
+    "g3dMark": 1557
+  },
+  {
+    "name": "GeForce GTX 1050",
+    "g2dMark": 683,
+    "g3dMark": 4618
+  },
+  {
+    "name": "GeForce GTX 1050 Ti",
+    "g2dMark": 735,
+    "g3dMark": 5955
+  },
+  {
+    "name": "GeForce GTX 1050 Ti with Max-Q Design",
+    "g2dMark": 627,
+    "g3dMark": 5709
+  },
+  {
+    "name": "GeForce GTX 1050 with Max-Q Design",
+    "g2dMark": 673,
+    "g3dMark": 4108
+  },
+  {
+    "name": "GeForce GTX 1060",
+    "g2dMark": 819,
+    "g3dMark": 9022
+  },
+  {
+    "name": "GeForce GTX 1060 3GB",
+    "g2dMark": 805,
+    "g3dMark": 8931
+  },
+  {
+    "name": "GeForce GTX 1060 5GB",
+    "g2dMark": 736,
+    "g3dMark": 8642
+  },
+  {
+    "name": "GeForce GTX 1060 with Max-Q Design",
+    "g2dMark": 690,
+    "g3dMark": 7724
+  },
+  {
+    "name": "GeForce GTX 1070",
+    "g2dMark": 895,
+    "g3dMark": 11223
+  },
+  {
+    "name": "GeForce GTX 1070 Ti",
+    "g2dMark": 889,
+    "g3dMark": 12169
+  },
+  {
+    "name": "GeForce GTX 1070 with Max-Q Design",
+    "g2dMark": 701,
+    "g3dMark": 9126
+  },
+  {
+    "name": "GeForce GTX 1080",
+    "g2dMark": 928,
+    "g3dMark": 12339
+  },
+  {
+    "name": "GeForce GTX 1080 Ti",
+    "g2dMark": 940,
+    "g3dMark": 14120
+  },
+  {
+    "name": "GeForce GTX 1080 with Max-Q Design",
+    "g2dMark": 740,
+    "g3dMark": 10247
+  },
+  {
+    "name": "GeForce GTX 260",
+    "g2dMark": 526,
+    "g3dMark": 1134
+  },
+  {
+    "name": "GeForce GTX 260M",
+    "g2dMark": 367,
+    "g3dMark": 590
+  },
+  {
+    "name": "GeForce GTX 275",
+    "g2dMark": 558,
+    "g3dMark": 1242
+  },
+  {
+    "name": "GeForce GTX 280",
+    "g2dMark": 552,
+    "g3dMark": 1200
+  },
+  {
+    "name": "GeForce GTX 280M",
+    "g2dMark": 443,
+    "g3dMark": 620
+  },
+  {
+    "name": "GeForce GTX 285",
+    "g2dMark": 553,
+    "g3dMark": 1272
+  },
+  {
+    "name": "GeForce GTX 285M",
+    "g2dMark": 473,
+    "g3dMark": 734
+  },
+  {
+    "name": "GeForce GTX 295",
+    "g2dMark": 567,
+    "g3dMark": 1052
+  },
+  {
+    "name": "GeForce GTX 460",
+    "g2dMark": 587,
+    "g3dMark": 2654
+  },
+  {
+    "name": "GeForce GTX 460 SE",
+    "g2dMark": 590,
+    "g3dMark": 2250
+  },
+  {
+    "name": "GeForce GTX 460 v2",
+    "g2dMark": 611,
+    "g3dMark": 2497
+  },
+  {
+    "name": "GeForce GTX 460M",
+    "g2dMark": 466,
+    "g3dMark": 1393
+  },
+  {
+    "name": "GeForce GTX 465",
+    "g2dMark": 585,
+    "g3dMark": 2950
+  },
+  {
+    "name": "GeForce GTX 470",
+    "g2dMark": 618,
+    "g3dMark": 3602
+  },
+  {
+    "name": "GeForce GTX 470M",
+    "g2dMark": 523,
+    "g3dMark": 1949
+  },
+  {
+    "name": "GeForce GTX 480",
+    "g2dMark": 666,
+    "g3dMark": 4359
+  },
+  {
+    "name": "GeForce GTX 480M",
+    "g2dMark": 543,
+    "g3dMark": 2039
+  },
+  {
+    "name": "GeForce GTX 485M",
+    "g2dMark": 577,
+    "g3dMark": 2382
+  },
+  {
+    "name": "GeForce GTX 550 Ti",
+    "g2dMark": 574,
+    "g3dMark": 1925
+  },
+  {
+    "name": "GeForce GTX 555",
+    "g2dMark": 643,
+    "g3dMark": 2176
+  },
+  {
+    "name": "GeForce GTX 560",
+    "g2dMark": 628,
+    "g3dMark": 3119
+  },
+  {
+    "name": "GeForce GTX 560 SE",
+    "g2dMark": 580,
+    "g3dMark": 2192
+  },
+  {
+    "name": "GeForce GTX 560 Ti",
+    "g2dMark": 658,
+    "g3dMark": 3532
+  },
+  {
+    "name": "GeForce GTX 560M",
+    "g2dMark": 530,
+    "g3dMark": 1548
+  },
+  {
+    "name": "GeForce GTX 570",
+    "g2dMark": 692,
+    "g3dMark": 4417
+  },
+  {
+    "name": "GeForce GTX 570M",
+    "g2dMark": 543,
+    "g3dMark": 2024
+  },
+  {
+    "name": "GeForce GTX 580",
+    "g2dMark": 711,
+    "g3dMark": 5018
+  },
+  {
+    "name": "GeForce GTX 580M",
+    "g2dMark": 564,
+    "g3dMark": 2315
+  },
+  {
+    "name": "GeForce GTX 590",
+    "g2dMark": 731,
+    "g3dMark": 4210
+  },
+  {
+    "name": "GeForce GTX 645",
+    "g2dMark": 803,
+    "g3dMark": 1928
+  },
+  {
+    "name": "GeForce GTX 650",
+    "g2dMark": 612,
+    "g3dMark": 1833
+  },
+  {
+    "name": "GeForce GTX 650 Ti",
+    "g2dMark": 641,
+    "g3dMark": 2659
+  },
+  {
+    "name": "GeForce GTX 650 Ti BOOST",
+    "g2dMark": 671,
+    "g3dMark": 3536
+  },
+  {
+    "name": "GeForce GTX 660",
+    "g2dMark": 703,
+    "g3dMark": 4127
+  },
+  {
+    "name": "GeForce GTX 660 Ti",
+    "g2dMark": 737,
+    "g3dMark": 4664
+  },
+  {
+    "name": "GeForce GTX 660M",
+    "g2dMark": 596,
+    "g3dMark": 1436
+  },
+  {
+    "name": "GeForce GTX 670",
+    "g2dMark": 776,
+    "g3dMark": 5368
+  },
+  {
+    "name": "GeForce GTX 670M",
+    "g2dMark": 621,
+    "g3dMark": 1935
+  },
+  {
+    "name": "GeForce GTX 670MX",
+    "g2dMark": 614,
+    "g3dMark": 2068
+  },
+  {
+    "name": "GeForce GTX 675M",
+    "g2dMark": 643,
+    "g3dMark": 2144
+  },
+  {
+    "name": "GeForce GTX 675MX",
+    "g2dMark": 647,
+    "g3dMark": 2403
+  },
+  {
+    "name": "GeForce GTX 680",
+    "g2dMark": 785,
+    "g3dMark": 5674
+  },
+  {
+    "name": "GeForce GTX 680M",
+    "g2dMark": 696,
+    "g3dMark": 3350
+  },
+  {
+    "name": "GeForce GTX 680MX",
+    "g2dMark": 740,
+    "g3dMark": 4353
+  },
+  {
+    "name": "GeForce GTX 690",
+    "g2dMark": 755,
+    "g3dMark": 5376
+  },
+  {
+    "name": "GeForce GTX 745",
+    "g2dMark": 780,
+    "g3dMark": 2181
+  },
+  {
+    "name": "GeForce GTX 750",
+    "g2dMark": 651,
+    "g3dMark": 3306
+  },
+  {
+    "name": "GeForce GTX 750 Ti",
+    "g2dMark": 664,
+    "g3dMark": 3737
+  },
+  {
+    "name": "GeForce GTX 760",
+    "g2dMark": 762,
+    "g3dMark": 4938
+  },
+  {
+    "name": "GeForce GTX 760 Ti",
+    "g2dMark": 804,
+    "g3dMark": 5117
+  },
+  {
+    "name": "GeForce GTX 760A",
+    "g2dMark": 781,
+    "g3dMark": 1281
+  },
+  {
+    "name": "GeForce GTX 760M",
+    "g2dMark": 665,
+    "g3dMark": 1427
+  },
+  {
+    "name": "GeForce GTX 765M",
+    "g2dMark": 696,
+    "g3dMark": 1884
+  },
+  {
+    "name": "GeForce GTX 770",
+    "g2dMark": 811,
+    "g3dMark": 6077
+  },
+  {
+    "name": "GeForce GTX 770M",
+    "g2dMark": 723,
+    "g3dMark": 2648
+  },
+  {
+    "name": "GeForce GTX 775M",
+    "g2dMark": 804,
+    "g3dMark": 4180
+  },
+  {
+    "name": "GeForce GTX 780",
+    "g2dMark": 847,
+    "g3dMark": 7958
+  },
+  {
+    "name": "GeForce GTX 780 Ti",
+    "g2dMark": 847,
+    "g3dMark": 8887
+  },
+  {
+    "name": "GeForce GTX 780M",
+    "g2dMark": 771,
+    "g3dMark": 4002
+  },
+  {
+    "name": "GeForce GTX 850A",
+    "g2dMark": 566,
+    "g3dMark": 802
+  },
+  {
+    "name": "GeForce GTX 850M",
+    "g2dMark": 652,
+    "g3dMark": 1589
+  },
+  {
+    "name": "GeForce GTX 860M",
+    "g2dMark": 639,
+    "g3dMark": 1889
+  },
+  {
+    "name": "GeForce GTX 870M",
+    "g2dMark": 725,
+    "g3dMark": 2400
+  },
+  {
+    "name": "GeForce GTX 880M",
+    "g2dMark": 777,
+    "g3dMark": 3663
+  },
+  {
+    "name": "GeForce GTX 950",
+    "g2dMark": 717,
+    "g3dMark": 5219
+  },
+  {
+    "name": "GeForce GTX 950A",
+    "g2dMark": 598,
+    "g3dMark": 1617
+  },
+  {
+    "name": "GeForce GTX 950M",
+    "g2dMark": 602,
+    "g3dMark": 1845
+  },
+  {
+    "name": "GeForce GTX 960",
+    "g2dMark": 757,
+    "g3dMark": 5805
+  },
+  {
+    "name": "GeForce GTX 960A",
+    "g2dMark": 631,
+    "g3dMark": 2358
+  },
+  {
+    "name": "GeForce GTX 960M",
+    "g2dMark": 573,
+    "g3dMark": 2255
+  },
+  {
+    "name": "GeForce GTX 965M",
+    "g2dMark": 662,
+    "g3dMark": 3186
+  },
+  {
+    "name": "GeForce GTX 970",
+    "g2dMark": 847,
+    "g3dMark": 8601
+  },
+  {
+    "name": "GeForce GTX 970M",
+    "g2dMark": 689,
+    "g3dMark": 4112
+  },
+  {
+    "name": "GeForce GTX 980",
+    "g2dMark": 867,
+    "g3dMark": 9606
+  },
+  {
+    "name": "GeForce GTX 980 Ti",
+    "g2dMark": 903,
+    "g3dMark": 11352
+  },
+  {
+    "name": "GeForce GTX 980M",
+    "g2dMark": 731,
+    "g3dMark": 5903
+  },
+  {
+    "name": "GeForce GTX Titan",
+    "g2dMark": 808,
+    "g3dMark": 7933
+  },
+  {
+    "name": "GeForce GTX TITAN Black",
+    "g2dMark": 809,
+    "g3dMark": 8611
+  },
+  {
+    "name": "GeForce GTX TITAN X",
+    "g2dMark": 829,
+    "g3dMark": 10672
+  },
+  {
+    "name": "GeForce GTX TITAN Z",
+    "g2dMark": 712,
+    "g3dMark": 7742
+  },
+  {
+    "name": "GeForce MX110",
+    "g2dMark": 540,
+    "g3dMark": 1543
+  },
+  {
+    "name": "GeForce MX130",
+    "g2dMark": 580,
+    "g3dMark": 1891
+  },
+  {
+    "name": "GeForce MX150",
+    "g2dMark": 644,
+    "g3dMark": 2139
+  },
+  {
+    "name": "GeForce PCX 5300",
+    "g2dMark": 197,
+    "g3dMark": 6
+  },
+  {
+    "name": "GeForce PCX 5750",
+    "g2dMark": 310,
+    "g3dMark": 34
+  },
+  {
+    "name": "GeForce RTX 2070",
+    "g2dMark": 889,
+    "g3dMark": 14157
+  },
+  {
+    "name": "GeForce RTX 2080",
+    "g2dMark": 929,
+    "g3dMark": 15593
+  },
+  {
+    "name": "GeForce RTX 2080 Ti",
+    "g2dMark": 977,
+    "g3dMark": 17057
+  },
+  {
+    "name": "GeForce2 GTS/GeForce2 Pro",
+    "g2dMark": 135,
+    "g3dMark": 3
+  },
+  {
+    "name": "GeForce2 Integrated GPU",
+    "g2dMark": 170,
+    "g3dMark": 4
+  },
+  {
+    "name": "GeForce2 MX",
+    "g2dMark": 143,
+    "g3dMark": 2
+  },
+  {
+    "name": "GeForce2 MX 100/200",
+    "g2dMark": 119,
+    "g3dMark": 3
+  },
+  {
+    "name": "GeForce2 MX/MX 400",
+    "g2dMark": 128,
+    "g3dMark": 3
+  },
+  {
+    "name": "GeForce2 Ti",
+    "g2dMark": 148,
+    "g3dMark": 4
+  },
+  {
+    "name": "GeForce3",
+    "g2dMark": 120,
+    "g3dMark": 4
+  },
+  {
+    "name": "GeForce3 Ti 200",
+    "g2dMark": 140,
+    "g3dMark": 4
+  },
+  {
+    "name": "GeForce3 Ti 500",
+    "g2dMark": 115,
+    "g3dMark": 2
+  },
+  {
+    "name": "GeForce4 420 Go",
+    "g2dMark": 146,
+    "g3dMark": 3
+  },
+  {
+    "name": "GeForce4 420 Go 32M",
+    "g2dMark": 164,
+    "g3dMark": 5
+  },
+  {
+    "name": "GeForce4 4200 Go",
+    "g2dMark": 173,
+    "g3dMark": 3
+  },
+  {
+    "name": "GeForce4 440 Go",
+    "g2dMark": 139,
+    "g3dMark": 3
+  },
+  {
+    "name": "GeForce4 440 Go 64M",
+    "g2dMark": 155,
+    "g3dMark": 5
+  },
+  {
+    "name": "GeForce4 448 Go",
+    "g2dMark": 199,
+    "g3dMark": 5
+  },
+  {
+    "name": "GeForce4 460 Go --MobileForce M4 Stock--",
+    "g2dMark": 182,
+    "g3dMark": 5
+  },
+  {
+    "name": "GeForce4 MX 4000",
+    "g2dMark": 131,
+    "g3dMark": 4
+  },
+  {
+    "name": "GeForce4 MX 420",
+    "g2dMark": 170,
+    "g3dMark": 4
+  },
+  {
+    "name": "GeForce4 MX 440",
+    "g2dMark": 138,
+    "g3dMark": 4
+  },
+  {
+    "name": "GeForce4 MX 440 with AGP8X",
+    "g2dMark": 157,
+    "g3dMark": 4
+  },
+  {
+    "name": "GeForce4 MX 440SE",
+    "g2dMark": 158,
+    "g3dMark": 4
+  },
+  {
+    "name": "GeForce4 MX 460",
+    "g2dMark": 176,
+    "g3dMark": 4
+  },
+  {
+    "name": "GeForce4 MX Integrated GPU",
+    "g2dMark": 198,
+    "g3dMark": 6
+  },
+  {
+    "name": "GeForce4 Ti 4200",
+    "g2dMark": 154,
+    "g3dMark": 5
+  },
+  {
+    "name": "GeForce4 Ti 4400",
+    "g2dMark": 170,
+    "g3dMark": 7
+  },
+  {
+    "name": "GeForce4 Ti 4600",
+    "g2dMark": 172,
+    "g3dMark": 5
+  },
+  {
+    "name": "GeForce4 Ti 4800 SE",
+    "g2dMark": 193,
+    "g3dMark": 7
+  },
+  {
+    "name": "GeForce9400M",
+    "g2dMark": 160,
+    "g3dMark": 105
+  },
+  {
+    "name": "GF117",
+    "g2dMark": 446,
+    "g3dMark": 554
+  },
+  {
+    "name": "GIGABYTE RADEON 9600 PRO",
+    "g2dMark": 129,
+    "g3dMark": 39
+  },
+  {
+    "name": "GRID K1",
+    "g2dMark": 459,
+    "g3dMark": 880
+  },
+  {
+    "name": "GRID K120Q",
+    "g2dMark": 275,
+    "g3dMark": 298
+  },
+  {
+    "name": "GRID K140Q",
+    "g2dMark": 456,
+    "g3dMark": 727
+  },
+  {
+    "name": "GRID K160Q",
+    "g2dMark": 446,
+    "g3dMark": 701
+  },
+  {
+    "name": "GRID K180Q",
+    "g2dMark": 461,
+    "g3dMark": 778
+  },
+  {
+    "name": "GRID K2",
+    "g2dMark": 396,
+    "g3dMark": 3772
+  },
+  {
+    "name": "GRID K220Q",
+    "g2dMark": 538,
+    "g3dMark": 912
+  },
+  {
+    "name": "GRID K240Q",
+    "g2dMark": 641,
+    "g3dMark": 2143
+  },
+  {
+    "name": "GRID K260Q",
+    "g2dMark": 644,
+    "g3dMark": 2940
+  },
+  {
+    "name": "GRID K280Q",
+    "g2dMark": 565,
+    "g3dMark": 2322
+  },
+  {
+    "name": "GRID K520",
+    "g2dMark": 532,
+    "g3dMark": 4384
+  },
+  {
+    "name": "GRID M60-1Q",
+    "g2dMark": 654,
+    "g3dMark": 4872
+  },
+  {
+    "name": "GRID M60-2Q",
+    "g2dMark": 537,
+    "g3dMark": 5904
+  },
+  {
+    "name": "GRID M60-4Q",
+    "g2dMark": 819,
+    "g3dMark": 3291
+  },
+  {
+    "name": "GRID M60-8Q",
+    "g2dMark": 617,
+    "g3dMark": 3883
+  },
+  {
+    "name": "GRID P6-4Q",
+    "g2dMark": 585,
+    "g3dMark": 4429
+  },
+  {
+    "name": "HD6450",
+    "g2dMark": 311,
+    "g3dMark": 227
+  },
+  {
+    "name": "Intel - Express Chipset G41",
+    "g2dMark": 317,
+    "g3dMark": 57
+  },
+  {
+    "name": "Intel - Express Chipset Q45/Q43",
+    "g2dMark": 333,
+    "g3dMark": 58
+  },
+  {
+    "name": "Intel 4th Generation Haswell HD",
+    "g2dMark": 734,
+    "g3dMark": 419
+  },
+  {
+    "name": "Intel 82845G Controller",
+    "g2dMark": 131,
+    "g3dMark": 2
+  },
+  {
+    "name": "Intel 82845G/GL Controller",
+    "g2dMark": 176,
+    "g3dMark": 2
+  },
+  {
+    "name": "Intel 82845G/GL/GE/PE/GV Controller",
+    "g2dMark": 157,
+    "g3dMark": 2
+  },
+  {
+    "name": "Intel 82865G Controller",
+    "g2dMark": 195,
+    "g3dMark": 4
+  },
+  {
+    "name": "Intel 82915G Express",
+    "g2dMark": 206,
+    "g3dMark": 5
+  },
+  {
+    "name": "Intel 82915G/GV/910GL Express",
+    "g2dMark": 141,
+    "g3dMark": 3
+  },
+  {
+    "name": "Intel 82945G Express",
+    "g2dMark": 211,
+    "g3dMark": 5
+  },
+  {
+    "name": "Intel 865 Embedded Controller",
+    "g2dMark": 20,
+    "g3dMark": 3
+  },
+  {
+    "name": "Intel 946GZ Embedded Chipset Function 0",
+    "g2dMark": 66,
+    "g3dMark": 3
+  },
+  {
+    "name": "Intel 946GZ Express",
+    "g2dMark": 249,
+    "g3dMark": 6
+  },
+  {
+    "name": "Intel B43 Express Chipset",
+    "g2dMark": 313,
+    "g3dMark": 64
+  },
+  {
+    "name": "Intel Coffee Lake UHD",
+    "g2dMark": 917,
+    "g3dMark": 1158
+  },
+  {
+    "name": "Intel G33/G31 Express",
+    "g2dMark": 301,
+    "g3dMark": 12
+  },
+  {
+    "name": "Intel G35 Express",
+    "g2dMark": 319,
+    "g3dMark": 30
+  },
+  {
+    "name": "Intel G41 Express Chipset",
+    "g2dMark": 301,
+    "g3dMark": 63
+  },
+  {
+    "name": "Intel G41 Express Chipset v2",
+    "g2dMark": 321,
+    "g3dMark": 71
+  },
+  {
+    "name": "Intel G41 Express-Chipsatz",
+    "g2dMark": 256,
+    "g3dMark": 58
+  },
+  {
+    "name": "Intel G45/G43 Express Chipset",
+    "g2dMark": 313,
+    "g3dMark": 69
+  },
+  {
+    "name": "Intel G965 Express",
+    "g2dMark": 229,
+    "g3dMark": 18
+  },
+  {
+    "name": "Intel Haswell HD - GT1",
+    "g2dMark": 505,
+    "g3dMark": 118
+  },
+  {
+    "name": "Intel Haswell HD - GT2",
+    "g2dMark": 634,
+    "g3dMark": 160
+  },
+  {
+    "name": "Intel HD 3000",
+    "g2dMark": 444,
+    "g3dMark": 313
+  },
+  {
+    "name": "Intel HD 4000",
+    "g2dMark": 519,
+    "g3dMark": 455
+  },
+  {
+    "name": "Intel HD 4400",
+    "g2dMark": 758,
+    "g3dMark": 567
+  },
+  {
+    "name": "Intel HD 4600",
+    "g2dMark": 762,
+    "g3dMark": 711
+  },
+  {
+    "name": "Intel HD 5000",
+    "g2dMark": 494,
+    "g3dMark": 599
+  },
+  {
+    "name": "Intel HD 510",
+    "g2dMark": 626,
+    "g3dMark": 620
+  },
+  {
+    "name": "Intel HD 515",
+    "g2dMark": 388,
+    "g3dMark": 644
+  },
+  {
+    "name": "Intel HD 520",
+    "g2dMark": 515,
+    "g3dMark": 832
+  },
+  {
+    "name": "Intel HD 5200",
+    "g2dMark": 645,
+    "g3dMark": 777
+  },
+  {
+    "name": "Intel HD 530",
+    "g2dMark": 751,
+    "g3dMark": 998
+  },
+  {
+    "name": "Intel HD 5300",
+    "g2dMark": 336,
+    "g3dMark": 401
+  },
+  {
+    "name": "Intel HD 5500",
+    "g2dMark": 508,
+    "g3dMark": 586
+  },
+  {
+    "name": "Intel HD 5600",
+    "g2dMark": 745,
+    "g3dMark": 663
+  },
+  {
+    "name": "Intel HD 6000",
+    "g2dMark": 528,
+    "g3dMark": 829
+  },
+  {
+    "name": "Intel HD 610",
+    "g2dMark": 687,
+    "g3dMark": 710
+  },
+  {
+    "name": "Intel HD 615",
+    "g2dMark": 413,
+    "g3dMark": 719
+  },
+  {
+    "name": "Intel HD 630",
+    "g2dMark": 813,
+    "g3dMark": 1118
+  },
+  {
+    "name": "Intel HD Family",
+    "g2dMark": 476,
+    "g3dMark": 434
+  },
+  {
+    "name": "Intel HD Graphics 620",
+    "g2dMark": 595,
+    "g3dMark": 925
+  },
+  {
+    "name": "Intel HD manual-gen9_2015-133271",
+    "g2dMark": 119,
+    "g3dMark": 165
+  },
+  {
+    "name": "Intel HD Modded",
+    "g2dMark": 302,
+    "g3dMark": 112
+  },
+  {
+    "name": "Intel HD P3000",
+    "g2dMark": 605,
+    "g3dMark": 351
+  },
+  {
+    "name": "Intel HD P4000",
+    "g2dMark": 635,
+    "g3dMark": 516
+  },
+  {
+    "name": "Intel HD P4600",
+    "g2dMark": 962,
+    "g3dMark": 604
+  },
+  {
+    "name": "Intel HD P4600/P4700",
+    "g2dMark": 816,
+    "g3dMark": 668
+  },
+  {
+    "name": "Intel HD P530",
+    "g2dMark": 715,
+    "g3dMark": 1066
+  },
+  {
+    "name": "Intel HD P630",
+    "g2dMark": 723,
+    "g3dMark": 1264
+  },
+  {
+    "name": "Intel Infoshock HD",
+    "g2dMark": 393,
+    "g3dMark": 193
+  },
+  {
+    "name": "Intel Iris 5100",
+    "g2dMark": 557,
+    "g3dMark": 745
+  },
+  {
+    "name": "Intel Iris 540",
+    "g2dMark": 545,
+    "g3dMark": 1345
+  },
+  {
+    "name": "Intel Iris 550",
+    "g2dMark": 594,
+    "g3dMark": 1607
+  },
+  {
+    "name": "Intel Iris 6100",
+    "g2dMark": 637,
+    "g3dMark": 975
+  },
+  {
+    "name": "Intel Iris Plus 640",
+    "g2dMark": 629,
+    "g3dMark": 1399
+  },
+  {
+    "name": "Intel Iris Plus 650",
+    "g2dMark": 773,
+    "g3dMark": 1560
+  },
+  {
+    "name": "Intel Iris Plus 655",
+    "g2dMark": 712,
+    "g3dMark": 1987
+  },
+  {
+    "name": "Intel Iris Pro 5200",
+    "g2dMark": 701,
+    "g3dMark": 1171
+  },
+  {
+    "name": "Intel Iris Pro 580",
+    "g2dMark": 696,
+    "g3dMark": 1856
+  },
+  {
+    "name": "Intel Iris Pro Graphics 6200",
+    "g2dMark": 856,
+    "g3dMark": 1535
+  },
+  {
+    "name": "Intel Iris Pro P580",
+    "g2dMark": 702,
+    "g3dMark": 2080
+  },
+  {
+    "name": "Intel Media Accelerator",
+    "g2dMark": 78,
+    "g3dMark": 32
+  },
+  {
+    "name": "Intel Media Accelerator 3150",
+    "g2dMark": 86,
+    "g3dMark": 3
+  },
+  {
+    "name": "Intel Media Accelerator 500",
+    "g2dMark": 70,
+    "g3dMark": 3
+  },
+  {
+    "name": "Intel Media Accelerator 600",
+    "g2dMark": 58,
+    "g3dMark": 6
+  },
+  {
+    "name": "Intel Media Accelerator HD",
+    "g2dMark": 312,
+    "g3dMark": 116
+  },
+  {
+    "name": "Intel Q33 Express",
+    "g2dMark": 338,
+    "g3dMark": 11
+  },
+  {
+    "name": "Intel Q35 Express",
+    "g2dMark": 318,
+    "g3dMark": 10
+  },
+  {
+    "name": "Intel Q45/Q43 Express Chipset",
+    "g2dMark": 339,
+    "g3dMark": 66
+  },
+  {
+    "name": "Intel Q45/Q43 Express-Chipsatz",
+    "g2dMark": 351,
+    "g3dMark": 59
+  },
+  {
+    "name": "Intel Q965/Q963 Express",
+    "g2dMark": 238,
+    "g3dMark": 6
+  },
+  {
+    "name": "Intel Skylake HD DT GT2",
+    "g2dMark": 402,
+    "g3dMark": 576
+  },
+  {
+    "name": "Intel UHD 600",
+    "g2dMark": 327,
+    "g3dMark": 317
+  },
+  {
+    "name": "Intel UHD 605",
+    "g2dMark": 353,
+    "g3dMark": 430
+  },
+  {
+    "name": "Intel UHD 610",
+    "g2dMark": 697,
+    "g3dMark": 756
+  },
+  {
+    "name": "Intel UHD 615",
+    "g2dMark": 350,
+    "g3dMark": 663
+  },
+  {
+    "name": "Intel UHD 630",
+    "g2dMark": 841,
+    "g3dMark": 1164
+  },
+  {
+    "name": "Intel UHD Graphics 620",
+    "g2dMark": 614,
+    "g3dMark": 1012
+  },
+  {
+    "name": "Intel UHD P630",
+    "g2dMark": 719,
+    "g3dMark": 1146
+  },
+  {
+    "name": "Intel US15 Embedded Media and Controller",
+    "g2dMark": 66,
+    "g3dMark": 7
+  },
+  {
+    "name": "ION",
+    "g2dMark": 115,
+    "g3dMark": 97
+  },
+  {
+    "name": "ION LE",
+    "g2dMark": 100,
+    "g3dMark": 104
+  },
+  {
+    "name": "KB 2C",
+    "g2dMark": 115,
+    "g3dMark": 235
+  },
+  {
+    "name": "M860G with Mobility Radeon 4100",
+    "g2dMark": 199,
+    "g3dMark": 75
+  },
+  {
+    "name": "M880G with Mobility Radeon HD 4200",
+    "g2dMark": 259,
+    "g3dMark": 92
+  },
+  {
+    "name": "M880G with Mobility Radeon HD 4225",
+    "g2dMark": 183,
+    "g3dMark": 71
+  },
+  {
+    "name": "M880G with Mobility Radeon HD 4250",
+    "g2dMark": 269,
+    "g3dMark": 104
+  },
+  {
+    "name": "Matrox C420 LP PCIe x16",
+    "g2dMark": 740,
+    "g3dMark": 635
+  },
+  {
+    "name": "Matrox C680 PCIe x16",
+    "g2dMark": 908,
+    "g3dMark": 1951
+  },
+  {
+    "name": "Matrox C900 PCIe x16",
+    "g2dMark": 760,
+    "g3dMark": 1812
+  },
+  {
+    "name": "Matrox G200e WDDM 1.2",
+    "g2dMark": 504,
+    "g3dMark": 59
+  },
+  {
+    "name": "Matrox G200eh",
+    "g2dMark": 449,
+    "g3dMark": 40
+  },
+  {
+    "name": "Matrox G200eh WDDM 1.2",
+    "g2dMark": 448,
+    "g3dMark": 52
+  },
+  {
+    "name": "Matrox G200eR",
+    "g2dMark": 400,
+    "g3dMark": 36
+  },
+  {
+    "name": "Matrox G200eR WDDM 1.2",
+    "g2dMark": 582,
+    "g3dMark": 67
+  },
+  {
+    "name": "Matrox G200eW",
+    "g2dMark": 308,
+    "g3dMark": 42
+  },
+  {
+    "name": "Matrox G200eW WDDM 1.2",
+    "g2dMark": 396,
+    "g3dMark": 50
+  },
+  {
+    "name": "Matrox M9138 LP PCIe x16",
+    "g2dMark": 208,
+    "g3dMark": 27
+  },
+  {
+    "name": "Matrox M9140 LP PCIe x16",
+    "g2dMark": 378,
+    "g3dMark": 21
+  },
+  {
+    "name": "Matrox M9148 LP PCIe x16",
+    "g2dMark": 261,
+    "g3dMark": 11
+  },
+  {
+    "name": "Matrox Millennium P650 PCIe 128",
+    "g2dMark": 286,
+    "g3dMark": 5
+  },
+  {
+    "name": "Matrox Millennium P690 PCIe x16",
+    "g2dMark": 304,
+    "g3dMark": 10
+  },
+  {
+    "name": "Matrox Millennium P690 Plus LP PCIe x16",
+    "g2dMark": 251,
+    "g3dMark": 6
+  },
+  {
+    "name": "Matrox Parhelia APVe",
+    "g2dMark": 274,
+    "g3dMark": 5
+  },
+  {
+    "name": "MEDION RADEON X740XL",
+    "g2dMark": 228,
+    "g3dMark": 94
+  },
+  {
+    "name": "Mobile Intel - famiglia Express Chipset 45",
+    "g2dMark": 269,
+    "g3dMark": 37
+  },
+  {
+    "name": "Mobile Intel - famiglia Express Chipset serie 4",
+    "g2dMark": 222,
+    "g3dMark": 47
+  },
+  {
+    "name": "Mobile Intel 4 Express-Chipsatzfamilie",
+    "g2dMark": 251,
+    "g3dMark": 44
+  },
+  {
+    "name": "Mobile Intel 45 Express",
+    "g2dMark": 228,
+    "g3dMark": 43
+  },
+  {
+    "name": "Mobile Intel 45 Express-Chipsatzfamilie",
+    "g2dMark": 266,
+    "g3dMark": 46
+  },
+  {
+    "name": "Mobile Intel 915GM/GMS/910GML Express",
+    "g2dMark": 203,
+    "g3dMark": 4
+  },
+  {
+    "name": "Mobile Intel 945 Express",
+    "g2dMark": 181,
+    "g3dMark": 4
+  },
+  {
+    "name": "Mobile Intel 945GM Express",
+    "g2dMark": 223,
+    "g3dMark": 5
+  },
+  {
+    "name": "Mobile Intel 945GM/GU Express",
+    "g2dMark": 240,
+    "g3dMark": 5
+  },
+  {
+    "name": "Mobile Intel 965 Express",
+    "g2dMark": 218,
+    "g3dMark": 20
+  },
+  {
+    "name": "Mobile Intel 965 Express-Chipsatzfamilie",
+    "g2dMark": 203,
+    "g3dMark": 24
+  },
+  {
+    "name": "Mobile Intel HD",
+    "g2dMark": 469,
+    "g3dMark": 410
+  },
+  {
+    "name": "Mobile Intel serie 4 Express",
+    "g2dMark": 232,
+    "g3dMark": 44
+  },
+  {
+    "name": "MOBILITY FIREGL T2",
+    "g2dMark": 165,
+    "g3dMark": 39
+  },
+  {
+    "name": "MOBILITY FIREGL T2/T2e",
+    "g2dMark": 171,
+    "g3dMark": 33
+  },
+  {
+    "name": "MOBILITY FireGL V3200",
+    "g2dMark": 236,
+    "g3dMark": 61
+  },
+  {
+    "name": "MOBILITY FireGL V5000",
+    "g2dMark": 223,
+    "g3dMark": 81
+  },
+  {
+    "name": "MOBILITY FireGL V5200",
+    "g2dMark": 248,
+    "g3dMark": 44
+  },
+  {
+    "name": "MOBILITY FireGL V5250",
+    "g2dMark": 251,
+    "g3dMark": 27
+  },
+  {
+    "name": "Mobility FireGL V5725",
+    "g2dMark": 404,
+    "g3dMark": 219
+  },
+  {
+    "name": "Mobility Radeon 4100",
+    "g2dMark": 264,
+    "g3dMark": 81
+  },
+  {
+    "name": "MOBILITY RADEON 7000 IGP",
+    "g2dMark": 151,
+    "g3dMark": 6
+  },
+  {
+    "name": "MOBILITY RADEON 7500",
+    "g2dMark": 103,
+    "g3dMark": 3
+  },
+  {
+    "name": "MOBILITY RADEON 9000",
+    "g2dMark": 110,
+    "g3dMark": 3
+  },
+  {
+    "name": "MOBILITY RADEON 9000 IGP",
+    "g2dMark": 143,
+    "g3dMark": 7
+  },
+  {
+    "name": "MOBILITY RADEON 9000/9100 IGP",
+    "g2dMark": 118,
+    "g3dMark": 5
+  },
+  {
+    "name": "MOBILITY RADEON 9100 IGP",
+    "g2dMark": 128,
+    "g3dMark": 2
+  },
+  {
+    "name": "MOBILITY RADEON 9200",
+    "g2dMark": 144,
+    "g3dMark": 3
+  },
+  {
+    "name": "MOBILITY RADEON 9600 PRO TURBO",
+    "g2dMark": 137,
+    "g3dMark": 24
+  },
+  {
+    "name": "MOBILITY RADEON 9600/9700",
+    "g2dMark": 160,
+    "g3dMark": 39
+  },
+  {
+    "name": "MOBILITY RADEON 9700",
+    "g2dMark": 160,
+    "g3dMark": 27
+  },
+  {
+    "name": "MOBILITY RADEON 9800",
+    "g2dMark": 109,
+    "g3dMark": 46
+  },
+  {
+    "name": "Mobility Radeon HD 2300",
+    "g2dMark": 211,
+    "g3dMark": 50
+  },
+  {
+    "name": "Mobility Radeon HD 2400",
+    "g2dMark": 213,
+    "g3dMark": 90
+  },
+  {
+    "name": "Mobility Radeon HD 2400 XT",
+    "g2dMark": 241,
+    "g3dMark": 103
+  },
+  {
+    "name": "Mobility Radeon HD 2600",
+    "g2dMark": 267,
+    "g3dMark": 169
+  },
+  {
+    "name": "Mobility Radeon HD 2600 XT",
+    "g2dMark": 330,
+    "g3dMark": 190
+  },
+  {
+    "name": "Mobility Radeon HD 3410",
+    "g2dMark": 130,
+    "g3dMark": 62
+  },
+  {
+    "name": "Mobility Radeon HD 3430",
+    "g2dMark": 257,
+    "g3dMark": 97
+  },
+  {
+    "name": "Mobility Radeon HD 3450",
+    "g2dMark": 247,
+    "g3dMark": 91
+  },
+  {
+    "name": "Mobility Radeon HD 3470",
+    "g2dMark": 249,
+    "g3dMark": 93
+  },
+  {
+    "name": "Mobility Radeon HD 3470 Hybrid X2",
+    "g2dMark": 205,
+    "g3dMark": 93
+  },
+  {
+    "name": "Mobility Radeon HD 3650",
+    "g2dMark": 319,
+    "g3dMark": 212
+  },
+  {
+    "name": "Mobility Radeon HD 3670",
+    "g2dMark": 331,
+    "g3dMark": 232
+  },
+  {
+    "name": "Mobility Radeon HD 3850",
+    "g2dMark": 248,
+    "g3dMark": 365
+  },
+  {
+    "name": "Mobility Radeon HD 3870",
+    "g2dMark": 287,
+    "g3dMark": 547
+  },
+  {
+    "name": "Mobility Radeon HD 3870 X2",
+    "g2dMark": 367,
+    "g3dMark": 564
+  },
+  {
+    "name": "Mobility Radeon HD 4200",
+    "g2dMark": 260,
+    "g3dMark": 91
+  },
+  {
+    "name": "Mobility Radeon HD 4225",
+    "g2dMark": 174,
+    "g3dMark": 66
+  },
+  {
+    "name": "Mobility Radeon HD 4250",
+    "g2dMark": 279,
+    "g3dMark": 98
+  },
+  {
+    "name": "Mobility Radeon HD 4270",
+    "g2dMark": 282,
+    "g3dMark": 92
+  },
+  {
+    "name": "Mobility Radeon HD 4330",
+    "g2dMark": 377,
+    "g3dMark": 135
+  },
+  {
+    "name": "Mobility Radeon HD 4350",
+    "g2dMark": 369,
+    "g3dMark": 148
+  },
+  {
+    "name": "Mobility Radeon HD 4550",
+    "g2dMark": 289,
+    "g3dMark": 191
+  },
+  {
+    "name": "Mobility Radeon HD 4570",
+    "g2dMark": 299,
+    "g3dMark": 197
+  },
+  {
+    "name": "Mobility Radeon HD 4650",
+    "g2dMark": 320,
+    "g3dMark": 400
+  },
+  {
+    "name": "Mobility Radeon HD 4670",
+    "g2dMark": 377,
+    "g3dMark": 462
+  },
+  {
+    "name": "Mobility Radeon HD 4830",
+    "g2dMark": 284,
+    "g3dMark": 511
+  },
+  {
+    "name": "Mobility Radeon HD 4850",
+    "g2dMark": 474,
+    "g3dMark": 866
+  },
+  {
+    "name": "Mobility Radeon HD 4870",
+    "g2dMark": 416,
+    "g3dMark": 719
+  },
+  {
+    "name": "Mobility Radeon HD 5000",
+    "g2dMark": 429,
+    "g3dMark": 773
+  },
+  {
+    "name": "Mobility Radeon HD 5000 Serisi",
+    "g2dMark": 304,
+    "g3dMark": 478
+  },
+  {
+    "name": "Mobility Radeon HD 5165",
+    "g2dMark": 362,
+    "g3dMark": 284
+  },
+  {
+    "name": "Mobility Radeon HD 530v",
+    "g2dMark": 353,
+    "g3dMark": 174
+  },
+  {
+    "name": "Mobility Radeon HD 540v",
+    "g2dMark": 382,
+    "g3dMark": 188
+  },
+  {
+    "name": "Mobility Radeon HD 5430",
+    "g2dMark": 329,
+    "g3dMark": 181
+  },
+  {
+    "name": "Mobility Radeon HD 5450",
+    "g2dMark": 319,
+    "g3dMark": 214
+  },
+  {
+    "name": "Mobility Radeon HD 545v",
+    "g2dMark": 270,
+    "g3dMark": 199
+  },
+  {
+    "name": "Mobility Radeon HD 5470",
+    "g2dMark": 362,
+    "g3dMark": 236
+  },
+  {
+    "name": "Mobility Radeon HD 550v",
+    "g2dMark": 398,
+    "g3dMark": 266
+  },
+  {
+    "name": "Mobility Radeon HD 5570",
+    "g2dMark": 491,
+    "g3dMark": 715
+  },
+  {
+    "name": "Mobility Radeon HD 560v",
+    "g2dMark": 370,
+    "g3dMark": 316
+  },
+  {
+    "name": "Mobility Radeon HD 5650",
+    "g2dMark": 374,
+    "g3dMark": 549
+  },
+  {
+    "name": "Mobility Radeon HD 565v",
+    "g2dMark": 354,
+    "g3dMark": 325
+  },
+  {
+    "name": "Mobility Radeon HD 5730",
+    "g2dMark": 399,
+    "g3dMark": 674
+  },
+  {
+    "name": "Mobility Radeon HD 5850",
+    "g2dMark": 403,
+    "g3dMark": 762
+  },
+  {
+    "name": "Mobility Radeon HD 5870",
+    "g2dMark": 411,
+    "g3dMark": 1240
+  },
+  {
+    "name": "Mobility Radeon HD serie 4200",
+    "g2dMark": 226,
+    "g3dMark": 96
+  },
+  {
+    "name": "Mobility Radeon X1300",
+    "g2dMark": 221,
+    "g3dMark": 39
+  },
+  {
+    "name": "Mobility Radeon X1350",
+    "g2dMark": 274,
+    "g3dMark": 39
+  },
+  {
+    "name": "Mobility Radeon X1400",
+    "g2dMark": 226,
+    "g3dMark": 42
+  },
+  {
+    "name": "Mobility Radeon X1450",
+    "g2dMark": 205,
+    "g3dMark": 33
+  },
+  {
+    "name": "Mobility Radeon X1600",
+    "g2dMark": 236,
+    "g3dMark": 92
+  },
+  {
+    "name": "Mobility Radeon X1700",
+    "g2dMark": 231,
+    "g3dMark": 103
+  },
+  {
+    "name": "MOBILITY RADEON X1800",
+    "g2dMark": 247,
+    "g3dMark": 130
+  },
+  {
+    "name": "Mobility Radeon X1900",
+    "g2dMark": 286,
+    "g3dMark": 134
+  },
+  {
+    "name": "Mobility Radeon X2300",
+    "g2dMark": 263,
+    "g3dMark": 48
+  },
+  {
+    "name": "Mobility Radeon X2300 HD",
+    "g2dMark": 243,
+    "g3dMark": 48
+  },
+  {
+    "name": "Mobility Radeon X2500",
+    "g2dMark": 235,
+    "g3dMark": 81
+  },
+  {
+    "name": "MOBILITY RADEON X300",
+    "g2dMark": 204,
+    "g3dMark": 34
+  },
+  {
+    "name": "MOBILITY RADEON X600",
+    "g2dMark": 210,
+    "g3dMark": 49
+  },
+  {
+    "name": "MOBILITY RADEON X600 SE",
+    "g2dMark": 233,
+    "g3dMark": 49
+  },
+  {
+    "name": "MOBILITY RADEON X700",
+    "g2dMark": 199,
+    "g3dMark": 66
+  },
+  {
+    "name": "MOBILITY RADEON XPRESS 200",
+    "g2dMark": 174,
+    "g3dMark": 26
+  },
+  {
+    "name": "Mobility Radeon. HD 5470",
+    "g2dMark": 398,
+    "g3dMark": 215
+  },
+  {
+    "name": "MOBILITY/RADEON 9000",
+    "g2dMark": 153,
+    "g3dMark": 4
+  },
+  {
+    "name": "MxGPU",
+    "g2dMark": 502,
+    "g3dMark": 2021
+  },
+  {
+    "name": "nForce 750a SLI",
+    "g2dMark": 357,
+    "g3dMark": 83
+  },
+  {
+    "name": "nForce 760i SLI",
+    "g2dMark": 379,
+    "g3dMark": 140
+  },
+  {
+    "name": "nForce 780a SLI",
+    "g2dMark": 425,
+    "g3dMark": 92
+  },
+  {
+    "name": "nForce 980a/780a SLI",
+    "g2dMark": 366,
+    "g3dMark": 81
+  },
+  {
+    "name": "NVIDIA TITAN X",
+    "g2dMark": 910,
+    "g3dMark": 13514
+  },
+  {
+    "name": "NVIDIA TITAN Xp",
+    "g2dMark": 965,
+    "g3dMark": 14759
+  },
+  {
+    "name": "NVS 2100M",
+    "g2dMark": 436,
+    "g3dMark": 184
+  },
+  {
+    "name": "NVS 300",
+    "g2dMark": 540,
+    "g3dMark": 184
+  },
+  {
+    "name": "NVS 310",
+    "g2dMark": 625,
+    "g3dMark": 290
+  },
+  {
+    "name": "NVS 3100M",
+    "g2dMark": 422,
+    "g3dMark": 204
+  },
+  {
+    "name": "NVS 315",
+    "g2dMark": 661,
+    "g3dMark": 345
+  },
+  {
+    "name": "NVS 4200M",
+    "g2dMark": 513,
+    "g3dMark": 364
+  },
+  {
+    "name": "NVS 510",
+    "g2dMark": 680,
+    "g3dMark": 764
+  },
+  {
+    "name": "NVS 5100M",
+    "g2dMark": 440,
+    "g3dMark": 356
+  },
+  {
+    "name": "NVS 5200M",
+    "g2dMark": 591,
+    "g3dMark": 658
+  },
+  {
+    "name": "NVS 5400M",
+    "g2dMark": 585,
+    "g3dMark": 774
+  },
+  {
+    "name": "NVS 810",
+    "g2dMark": 650,
+    "g3dMark": 1066
+  },
+  {
+    "name": "OpenXT Display Driver",
+    "g2dMark": 485,
+    "g3dMark": 30
+  },
+  {
+    "name": "PHDGD Ivy 4",
+    "g2dMark": 457,
+    "g3dMark": 394
+  },
+  {
+    "name": "PHDGD Quantic C3",
+    "g2dMark": 356,
+    "g3dMark": 104
+  },
+  {
+    "name": "PHDGD Quebec 4.0 for Intel Q45/Q43 Express Chipset",
+    "g2dMark": 298,
+    "g3dMark": 66
+  },
+  {
+    "name": "PHDGD Sapphire GR for Mobile Intel 965",
+    "g2dMark": 243,
+    "g3dMark": 25
+  },
+  {
+    "name": "PHDGD Solo 1.2.0 x86",
+    "g2dMark": 168,
+    "g3dMark": 11
+  },
+  {
+    "name": "PHDGD Solo 2 x64",
+    "g2dMark": 183,
+    "g3dMark": 20
+  },
+  {
+    "name": "Professional HD Driver",
+    "g2dMark": 554,
+    "g3dMark": 653
+  },
+  {
+    "name": "Quadro 1000M",
+    "g2dMark": 534,
+    "g3dMark": 750
+  },
+  {
+    "name": "Quadro 1100M",
+    "g2dMark": 733,
+    "g3dMark": 755
+  },
+  {
+    "name": "Quadro 2000",
+    "g2dMark": 589,
+    "g3dMark": 1315
+  },
+  {
+    "name": "Quadro 2000 D",
+    "g2dMark": 654,
+    "g3dMark": 1182
+  },
+  {
+    "name": "Quadro 2000D",
+    "g2dMark": 613,
+    "g3dMark": 1280
+  },
+  {
+    "name": "Quadro 2000M",
+    "g2dMark": 535,
+    "g3dMark": 1041
+  },
+  {
+    "name": "Quadro 280 NVS PCIe",
+    "g2dMark": 184,
+    "g3dMark": 5
+  },
+  {
+    "name": "Quadro 3000M",
+    "g2dMark": 537,
+    "g3dMark": 1458
+  },
+  {
+    "name": "Quadro 400",
+    "g2dMark": 563,
+    "g3dMark": 239
+  },
+  {
+    "name": "Quadro 4000",
+    "g2dMark": 590,
+    "g3dMark": 2036
+  },
+  {
+    "name": "Quadro 4000M",
+    "g2dMark": 527,
+    "g3dMark": 1807
+  },
+  {
+    "name": "Quadro 410",
+    "g2dMark": 580,
+    "g3dMark": 409
+  },
+  {
+    "name": "Quadro 5000",
+    "g2dMark": 569,
+    "g3dMark": 2839
+  },
+  {
+    "name": "Quadro 5000M",
+    "g2dMark": 419,
+    "g3dMark": 2039
+  },
+  {
+    "name": "Quadro 500M",
+    "g2dMark": 647,
+    "g3dMark": 672
+  },
+  {
+    "name": "Quadro 5010M",
+    "g2dMark": 569,
+    "g3dMark": 1824
+  },
+  {
+    "name": "Quadro 600",
+    "g2dMark": 590,
+    "g3dMark": 696
+  },
+  {
+    "name": "Quadro 6000",
+    "g2dMark": 608,
+    "g3dMark": 3520
+  },
+  {
+    "name": "Quadro CX",
+    "g2dMark": 454,
+    "g3dMark": 947
+  },
+  {
+    "name": "Quadro FX 1000",
+    "g2dMark": 265,
+    "g3dMark": 34
+  },
+  {
+    "name": "Quadro FX 1100",
+    "g2dMark": 177,
+    "g3dMark": 35
+  },
+  {
+    "name": "Quadro FX 1300",
+    "g2dMark": 288,
+    "g3dMark": 37
+  },
+  {
+    "name": "Quadro FX 1400",
+    "g2dMark": 293,
+    "g3dMark": 102
+  },
+  {
+    "name": "Quadro FX 1500",
+    "g2dMark": 385,
+    "g3dMark": 156
+  },
+  {
+    "name": "Quadro FX 1500M",
+    "g2dMark": 271,
+    "g3dMark": 171
+  },
+  {
+    "name": "Quadro FX 1600M",
+    "g2dMark": 316,
+    "g3dMark": 215
+  },
+  {
+    "name": "Quadro FX 1700",
+    "g2dMark": 428,
+    "g3dMark": 193
+  },
+  {
+    "name": "Quadro FX 1700M",
+    "g2dMark": 332,
+    "g3dMark": 302
+  },
+  {
+    "name": "Quadro FX 1800",
+    "g2dMark": 517,
+    "g3dMark": 581
+  },
+  {
+    "name": "Quadro FX 1800M",
+    "g2dMark": 414,
+    "g3dMark": 479
+  },
+  {
+    "name": "Quadro FX 2500M",
+    "g2dMark": 274,
+    "g3dMark": 214
+  },
+  {
+    "name": "Quadro FX 2700M",
+    "g2dMark": 364,
+    "g3dMark": 528
+  },
+  {
+    "name": "Quadro FX 2800M",
+    "g2dMark": 436,
+    "g3dMark": 662
+  },
+  {
+    "name": "Quadro FX 3000",
+    "g2dMark": 178,
+    "g3dMark": 69
+  },
+  {
+    "name": "Quadro FX 3400/4400",
+    "g2dMark": 238,
+    "g3dMark": 104
+  },
+  {
+    "name": "Quadro FX 3450",
+    "g2dMark": 235,
+    "g3dMark": 148
+  },
+  {
+    "name": "Quadro FX 3450/4000 SDI",
+    "g2dMark": 368,
+    "g3dMark": 133
+  },
+  {
+    "name": "Quadro FX 350",
+    "g2dMark": 377,
+    "g3dMark": 85
+  },
+  {
+    "name": "Quadro FX 3500",
+    "g2dMark": 394,
+    "g3dMark": 207
+  },
+  {
+    "name": "Quadro FX 3500M",
+    "g2dMark": 308,
+    "g3dMark": 306
+  },
+  {
+    "name": "Quadro FX 350M",
+    "g2dMark": 256,
+    "g3dMark": 62
+  },
+  {
+    "name": "Quadro FX 3600M",
+    "g2dMark": 367,
+    "g3dMark": 467
+  },
+  {
+    "name": "Quadro FX 360M",
+    "g2dMark": 306,
+    "g3dMark": 87
+  },
+  {
+    "name": "Quadro FX 370",
+    "g2dMark": 384,
+    "g3dMark": 83
+  },
+  {
+    "name": "Quadro FX 370 LP",
+    "g2dMark": 480,
+    "g3dMark": 108
+  },
+  {
+    "name": "Quadro FX 3700",
+    "g2dMark": 459,
+    "g3dMark": 631
+  },
+  {
+    "name": "Quadro FX 3700M",
+    "g2dMark": 384,
+    "g3dMark": 634
+  },
+  {
+    "name": "Quadro FX 370M",
+    "g2dMark": 333,
+    "g3dMark": 93
+  },
+  {
+    "name": "Quadro FX 380",
+    "g2dMark": 474,
+    "g3dMark": 150
+  },
+  {
+    "name": "Quadro FX 380 LP",
+    "g2dMark": 495,
+    "g3dMark": 191
+  },
+  {
+    "name": "Quadro FX 3800",
+    "g2dMark": 505,
+    "g3dMark": 837
+  },
+  {
+    "name": "Quadro FX 3800M",
+    "g2dMark": 447,
+    "g3dMark": 803
+  },
+  {
+    "name": "Quadro FX 380M",
+    "g2dMark": 434,
+    "g3dMark": 205
+  },
+  {
+    "name": "Quadro FX 4500",
+    "g2dMark": 382,
+    "g3dMark": 207
+  },
+  {
+    "name": "Quadro FX 4600",
+    "g2dMark": 466,
+    "g3dMark": 603
+  },
+  {
+    "name": "Quadro FX 4700 X2",
+    "g2dMark": 505,
+    "g3dMark": 665
+  },
+  {
+    "name": "Quadro FX 4800",
+    "g2dMark": 507,
+    "g3dMark": 1002
+  },
+  {
+    "name": "Quadro FX 500/600 PCI",
+    "g2dMark": 203,
+    "g3dMark": 14
+  },
+  {
+    "name": "Quadro FX 500/FX 600",
+    "g2dMark": 150,
+    "g3dMark": 7
+  },
+  {
+    "name": "Quadro FX 540",
+    "g2dMark": 293,
+    "g3dMark": 80
+  },
+  {
+    "name": "Quadro FX 550",
+    "g2dMark": 324,
+    "g3dMark": 63
+  },
+  {
+    "name": "Quadro FX 5500",
+    "g2dMark": 395,
+    "g3dMark": 240
+  },
+  {
+    "name": "Quadro FX 560",
+    "g2dMark": 359,
+    "g3dMark": 113
+  },
+  {
+    "name": "Quadro FX 5600",
+    "g2dMark": 489,
+    "g3dMark": 681
+  },
+  {
+    "name": "Quadro FX 570",
+    "g2dMark": 401,
+    "g3dMark": 116
+  },
+  {
+    "name": "Quadro FX 570M",
+    "g2dMark": 335,
+    "g3dMark": 186
+  },
+  {
+    "name": "Quadro FX 580",
+    "g2dMark": 485,
+    "g3dMark": 270
+  },
+  {
+    "name": "Quadro FX 5800",
+    "g2dMark": 552,
+    "g3dMark": 1106
+  },
+  {
+    "name": "Quadro FX 770M",
+    "g2dMark": 340,
+    "g3dMark": 298
+  },
+  {
+    "name": "Quadro FX 880M",
+    "g2dMark": 397,
+    "g3dMark": 355
+  },
+  {
+    "name": "Quadro FX Go1400",
+    "g2dMark": 223,
+    "g3dMark": 101
+  },
+  {
+    "name": "Quadro GP100",
+    "g2dMark": 857,
+    "g3dMark": 12843
+  },
+  {
+    "name": "Quadro GV100",
+    "g2dMark": 824,
+    "g3dMark": 12699
+  },
+  {
+    "name": "Quadro K1000M",
+    "g2dMark": 628,
+    "g3dMark": 793
+  },
+  {
+    "name": "Quadro K1100M",
+    "g2dMark": 694,
+    "g3dMark": 1016
+  },
+  {
+    "name": "Quadro K1200",
+    "g2dMark": 772,
+    "g3dMark": 3027
+  },
+  {
+    "name": "Quadro K2000",
+    "g2dMark": 698,
+    "g3dMark": 1717
+  },
+  {
+    "name": "Quadro K2000D",
+    "g2dMark": 754,
+    "g3dMark": 1677
+  },
+  {
+    "name": "Quadro K2000M",
+    "g2dMark": 641,
+    "g3dMark": 1078
+  },
+  {
+    "name": "Quadro K2100M",
+    "g2dMark": 741,
+    "g3dMark": 1325
+  },
+  {
+    "name": "Quadro K2200",
+    "g2dMark": 785,
+    "g3dMark": 3570
+  },
+  {
+    "name": "Quadro K2200M",
+    "g2dMark": 748,
+    "g3dMark": 2572
+  },
+  {
+    "name": "Quadro K3000M",
+    "g2dMark": 654,
+    "g3dMark": 1769
+  },
+  {
+    "name": "Quadro K3100M",
+    "g2dMark": 769,
+    "g3dMark": 2025
+  },
+  {
+    "name": "Quadro K4000",
+    "g2dMark": 657,
+    "g3dMark": 2883
+  },
+  {
+    "name": "Quadro K4000M",
+    "g2dMark": 645,
+    "g3dMark": 2266
+  },
+  {
+    "name": "Quadro K4100M",
+    "g2dMark": 787,
+    "g3dMark": 2557
+  },
+  {
+    "name": "Quadro K420",
+    "g2dMark": 740,
+    "g3dMark": 835
+  },
+  {
+    "name": "Quadro K4200",
+    "g2dMark": 750,
+    "g3dMark": 4470
+  },
+  {
+    "name": "Quadro K5000",
+    "g2dMark": 623,
+    "g3dMark": 4015
+  },
+  {
+    "name": "Quadro K5000M",
+    "g2dMark": 657,
+    "g3dMark": 2593
+  },
+  {
+    "name": "Quadro K5100M",
+    "g2dMark": 822,
+    "g3dMark": 3135
+  },
+  {
+    "name": "Quadro K510M",
+    "g2dMark": 904,
+    "g3dMark": 651
+  },
+  {
+    "name": "Quadro K5200",
+    "g2dMark": 721,
+    "g3dMark": 6106
+  },
+  {
+    "name": "Quadro K600",
+    "g2dMark": 732,
+    "g3dMark": 825
+  },
+  {
+    "name": "Quadro K6000",
+    "g2dMark": 681,
+    "g3dMark": 7604
+  },
+  {
+    "name": "Quadro K610M",
+    "g2dMark": 735,
+    "g3dMark": 758
+  },
+  {
+    "name": "Quadro K620",
+    "g2dMark": 772,
+    "g3dMark": 2324
+  },
+  {
+    "name": "Quadro K620M",
+    "g2dMark": 466,
+    "g3dMark": 879
+  },
+  {
+    "name": "Quadro M1000M",
+    "g2dMark": 605,
+    "g3dMark": 2311
+  },
+  {
+    "name": "Quadro M1200",
+    "g2dMark": 621,
+    "g3dMark": 2967
+  },
+  {
+    "name": "Quadro M2000",
+    "g2dMark": 845,
+    "g3dMark": 4298
+  },
+  {
+    "name": "Quadro M2000M",
+    "g2dMark": 638,
+    "g3dMark": 2816
+  },
+  {
+    "name": "Quadro M2200",
+    "g2dMark": 707,
+    "g3dMark": 3451
+  },
+  {
+    "name": "Quadro M3000M",
+    "g2dMark": 728,
+    "g3dMark": 4458
+  },
+  {
+    "name": "Quadro M4000",
+    "g2dMark": 824,
+    "g3dMark": 6672
+  },
+  {
+    "name": "Quadro M4000M",
+    "g2dMark": 708,
+    "g3dMark": 4567
+  },
+  {
+    "name": "Quadro M5000",
+    "g2dMark": 759,
+    "g3dMark": 8489
+  },
+  {
+    "name": "Quadro M5000M",
+    "g2dMark": 696,
+    "g3dMark": 5488
+  },
+  {
+    "name": "Quadro M500M",
+    "g2dMark": 547,
+    "g3dMark": 1046
+  },
+  {
+    "name": "Quadro M520",
+    "g2dMark": 571,
+    "g3dMark": 1529
+  },
+  {
+    "name": "Quadro M5500",
+    "g2dMark": 751,
+    "g3dMark": 9322
+  },
+  {
+    "name": "Quadro M6000",
+    "g2dMark": 638,
+    "g3dMark": 9286
+  },
+  {
+    "name": "Quadro M6000 24GB",
+    "g2dMark": 769,
+    "g3dMark": 9897
+  },
+  {
+    "name": "Quadro M600M",
+    "g2dMark": 622,
+    "g3dMark": 1887
+  },
+  {
+    "name": "Quadro M620",
+    "g2dMark": 748,
+    "g3dMark": 2803
+  },
+  {
+    "name": "Quadro NVS 110M",
+    "g2dMark": 236,
+    "g3dMark": 47
+  },
+  {
+    "name": "Quadro NVS 120M",
+    "g2dMark": 273,
+    "g3dMark": 47
+  },
+  {
+    "name": "Quadro NVS 130M",
+    "g2dMark": 335,
+    "g3dMark": 59
+  },
+  {
+    "name": "Quadro NVS 135M",
+    "g2dMark": 274,
+    "g3dMark": 57
+  },
+  {
+    "name": "Quadro NVS 140M",
+    "g2dMark": 285,
+    "g3dMark": 90
+  },
+  {
+    "name": "Quadro NVS 150M",
+    "g2dMark": 327,
+    "g3dMark": 94
+  },
+  {
+    "name": "Quadro NVS 160M",
+    "g2dMark": 313,
+    "g3dMark": 92
+  },
+  {
+    "name": "Quadro NVS 210S",
+    "g2dMark": 264,
+    "g3dMark": 23
+  },
+  {
+    "name": "Quadro NVS 210S / GeForce 6150LE",
+    "g2dMark": 272,
+    "g3dMark": 20
+  },
+  {
+    "name": "Quadro NVS 280 SD",
+    "g2dMark": 118,
+    "g3dMark": 2
+  },
+  {
+    "name": "Quadro NVS 285",
+    "g2dMark": 333,
+    "g3dMark": 35
+  },
+  {
+    "name": "Quadro NVS 285 128MB",
+    "g2dMark": 312,
+    "g3dMark": 38
+  },
+  {
+    "name": "Quadro NVS 290",
+    "g2dMark": 399,
+    "g3dMark": 91
+  },
+  {
+    "name": "Quadro NVS 295",
+    "g2dMark": 474,
+    "g3dMark": 97
+  },
+  {
+    "name": "Quadro NVS 320M",
+    "g2dMark": 312,
+    "g3dMark": 206
+  },
+  {
+    "name": "Quadro NVS 420",
+    "g2dMark": 544,
+    "g3dMark": 100
+  },
+  {
+    "name": "Quadro NVS 440",
+    "g2dMark": 369,
+    "g3dMark": 38
+  },
+  {
+    "name": "Quadro NVS 450",
+    "g2dMark": 540,
+    "g3dMark": 91
+  },
+  {
+    "name": "Quadro NVS 55/280 PCI",
+    "g2dMark": 116,
+    "g3dMark": 6
+  },
+  {
+    "name": "Quadro P1000",
+    "g2dMark": 784,
+    "g3dMark": 4463
+  },
+  {
+    "name": "Quadro P2000",
+    "g2dMark": 848,
+    "g3dMark": 7598
+  },
+  {
+    "name": "Quadro P2000 with Max-Q Design",
+    "g2dMark": 582,
+    "g3dMark": 4755
+  },
+  {
+    "name": "Quadro P3000",
+    "g2dMark": 715,
+    "g3dMark": 5639
+  },
+  {
+    "name": "Quadro P3200",
+    "g2dMark": 716,
+    "g3dMark": 7981
+  },
+  {
+    "name": "Quadro P3200 with Max-Q Design",
+    "g2dMark": 771,
+    "g3dMark": 8445
+  },
+  {
+    "name": "Quadro P400",
+    "g2dMark": 801,
+    "g3dMark": 1728
+  },
+  {
+    "name": "Quadro P4000",
+    "g2dMark": 819,
+    "g3dMark": 10408
+  },
+  {
+    "name": "Quadro P4000 with Max-Q Design",
+    "g2dMark": 699,
+    "g3dMark": 9082
+  },
+  {
+    "name": "Quadro P4200",
+    "g2dMark": 833,
+    "g3dMark": 10472
+  },
+  {
+    "name": "Quadro P4200 with Max-Q Design",
+    "g2dMark": 508,
+    "g3dMark": 10708
+  },
+  {
+    "name": "Quadro P500",
+    "g2dMark": 600,
+    "g3dMark": 1649
+  },
+  {
+    "name": "Quadro P5000",
+    "g2dMark": 758,
+    "g3dMark": 10366
+  },
+  {
+    "name": "Quadro P5200",
+    "g2dMark": 772,
+    "g3dMark": 10545
+  },
+  {
+    "name": "Quadro P5200 with Max-Q Design",
+    "g2dMark": 698,
+    "g3dMark": 10489
+  },
+  {
+    "name": "Quadro P600",
+    "g2dMark": 822,
+    "g3dMark": 3048
+  },
+  {
+    "name": "Quadro P6000",
+    "g2dMark": 829,
+    "g3dMark": 13240
+  },
+  {
+    "name": "Quadro P620",
+    "g2dMark": 802,
+    "g3dMark": 3496
+  },
+  {
+    "name": "Quadro RTX 6000",
+    "g2dMark": 1188,
+    "g3dMark": 21366
+  },
+  {
+    "name": "Quadro2 Pro",
+    "g2dMark": 143,
+    "g3dMark": 1
+  },
+  {
+    "name": "Quadro4 380 XGL",
+    "g2dMark": 225,
+    "g3dMark": 6
+  },
+  {
+    "name": "Quadro4 980 XGL",
+    "g2dMark": 180,
+    "g3dMark": 5
+  },
+  {
+    "name": "Radeon 2100",
+    "g2dMark": 289,
+    "g3dMark": 60
+  },
+  {
+    "name": "Radeon 3000",
+    "g2dMark": 415,
+    "g3dMark": 98
+  },
+  {
+    "name": "Radeon 3100",
+    "g2dMark": 227,
+    "g3dMark": 73
+  },
+  {
+    "name": "Radeon 520",
+    "g2dMark": 595,
+    "g3dMark": 811
+  },
+  {
+    "name": "Radeon 530",
+    "g2dMark": 629,
+    "g3dMark": 1222
+  },
+  {
+    "name": "Radeon 540",
+    "g2dMark": 691,
+    "g3dMark": 1618
+  },
+  {
+    "name": "Radeon 6600M",
+    "g2dMark": 484,
+    "g3dMark": 738
+  },
+  {
+    "name": "RADEON 7000 / RADEON VE Family",
+    "g2dMark": 107,
+    "g3dMark": 3
+  },
+  {
+    "name": "RADEON 7500",
+    "g2dMark": 34,
+    "g3dMark": 3
+  },
+  {
+    "name": "RADEON 7500 Family",
+    "g2dMark": 124,
+    "g3dMark": 4
+  },
+  {
+    "name": "RADEON 9000 Family",
+    "g2dMark": 123,
+    "g3dMark": 3
+  },
+  {
+    "name": "RADEON 9100 Family",
+    "g2dMark": 162,
+    "g3dMark": 6
+  },
+  {
+    "name": "RADEON 9100 IGP",
+    "g2dMark": 127,
+    "g3dMark": 5
+  },
+  {
+    "name": "RADEON 9200",
+    "g2dMark": 135,
+    "g3dMark": 3
+  },
+  {
+    "name": "RADEON 9200 LE Family",
+    "g2dMark": 127,
+    "g3dMark": 2
+  },
+  {
+    "name": "RADEON 9200 PRO Family",
+    "g2dMark": 134,
+    "g3dMark": 2
+  },
+  {
+    "name": "RADEON 9200 SE",
+    "g2dMark": 128,
+    "g3dMark": 2
+  },
+  {
+    "name": "RADEON 9250",
+    "g2dMark": 126,
+    "g3dMark": 2
+  },
+  {
+    "name": "RADEON 9500",
+    "g2dMark": 173,
+    "g3dMark": 36
+  },
+  {
+    "name": "RADEON 9500 PRO / 9700",
+    "g2dMark": 157,
+    "g3dMark": 41
+  },
+  {
+    "name": "RADEON 9550",
+    "g2dMark": 144,
+    "g3dMark": 34
+  },
+  {
+    "name": "Radeon 9550 / X1050",
+    "g2dMark": 149,
+    "g3dMark": 29
+  },
+  {
+    "name": "RADEON 9600 Family",
+    "g2dMark": 148,
+    "g3dMark": 26
+  },
+  {
+    "name": "RADEON 9600 PRO Family",
+    "g2dMark": 148,
+    "g3dMark": 26
+  },
+  {
+    "name": "RADEON 9600 TX Family",
+    "g2dMark": 138,
+    "g3dMark": 18
+  },
+  {
+    "name": "RADEON 9600 XT",
+    "g2dMark": 146,
+    "g3dMark": 35
+  },
+  {
+    "name": "RADEON 9600SE",
+    "g2dMark": 142,
+    "g3dMark": 27
+  },
+  {
+    "name": "RADEON 9700 PRO",
+    "g2dMark": 148,
+    "g3dMark": 53
+  },
+  {
+    "name": "RADEON 9800 PRO",
+    "g2dMark": 152,
+    "g3dMark": 59
+  },
+  {
+    "name": "RADEON 9800 SE",
+    "g2dMark": 131,
+    "g3dMark": 23
+  },
+  {
+    "name": "RADEON 9800 XT",
+    "g2dMark": 162,
+    "g3dMark": 53
+  },
+  {
+    "name": "RADEON E4690",
+    "g2dMark": 346,
+    "g3dMark": 405
+  },
+  {
+    "name": "Radeon E6760",
+    "g2dMark": 573,
+    "g3dMark": 973
+  },
+  {
+    "name": "Radeon E8860",
+    "g2dMark": 678,
+    "g3dMark": 1577
+  },
+  {
+    "name": "Radeon HD 2350",
+    "g2dMark": 262,
+    "g3dMark": 76
+  },
+  {
+    "name": "Radeon HD 2400",
+    "g2dMark": 298,
+    "g3dMark": 121
+  },
+  {
+    "name": "Radeon HD 2400 PCI",
+    "g2dMark": 85,
+    "g3dMark": 14
+  },
+  {
+    "name": "Radeon HD 2400 Pro",
+    "g2dMark": 345,
+    "g3dMark": 115
+  },
+  {
+    "name": "Radeon HD 2400 XT",
+    "g2dMark": 357,
+    "g3dMark": 119
+  },
+  {
+    "name": "Radeon HD 2600 PRO",
+    "g2dMark": 337,
+    "g3dMark": 211
+  },
+  {
+    "name": "Radeon HD 2600 Pro AGP",
+    "g2dMark": 137,
+    "g3dMark": 110
+  },
+  {
+    "name": "Radeon HD 2600 XT",
+    "g2dMark": 372,
+    "g3dMark": 283
+  },
+  {
+    "name": "Radeon HD 2900 GT",
+    "g2dMark": 344,
+    "g3dMark": 292
+  },
+  {
+    "name": "Radeon HD 2900 PRO",
+    "g2dMark": 397,
+    "g3dMark": 627
+  },
+  {
+    "name": "Radeon HD 2900 XT",
+    "g2dMark": 402,
+    "g3dMark": 657
+  },
+  {
+    "name": "Radeon HD 3200",
+    "g2dMark": 226,
+    "g3dMark": 82
+  },
+  {
+    "name": "Radeon HD 3300",
+    "g2dMark": 370,
+    "g3dMark": 127
+  },
+  {
+    "name": "Radeon HD 3450",
+    "g2dMark": 351,
+    "g3dMark": 118
+  },
+  {
+    "name": "Radeon HD 3470",
+    "g2dMark": 425,
+    "g3dMark": 146
+  },
+  {
+    "name": "Radeon HD 3650 AGP",
+    "g2dMark": 155,
+    "g3dMark": 150
+  },
+  {
+    "name": "Radeon HD 3670",
+    "g2dMark": 365,
+    "g3dMark": 241
+  },
+  {
+    "name": "Radeon HD 3850",
+    "g2dMark": 374,
+    "g3dMark": 530
+  },
+  {
+    "name": "Radeon HD 3850 AGP",
+    "g2dMark": 183,
+    "g3dMark": 469
+  },
+  {
+    "name": "Radeon HD 3850 X2",
+    "g2dMark": 407,
+    "g3dMark": 792
+  },
+  {
+    "name": "Radeon HD 3870",
+    "g2dMark": 427,
+    "g3dMark": 718
+  },
+  {
+    "name": "Radeon HD 3870 X2",
+    "g2dMark": 444,
+    "g3dMark": 874
+  },
+  {
+    "name": "Radeon HD 4200",
+    "g2dMark": 372,
+    "g3dMark": 112
+  },
+  {
+    "name": "Radeon HD 4250",
+    "g2dMark": 408,
+    "g3dMark": 123
+  },
+  {
+    "name": "Radeon HD 4270",
+    "g2dMark": 304,
+    "g3dMark": 111
+  },
+  {
+    "name": "Radeon HD 4290",
+    "g2dMark": 444,
+    "g3dMark": 142
+  },
+  {
+    "name": "Radeon HD 4300/4500 Serisi",
+    "g2dMark": 346,
+    "g3dMark": 155
+  },
+  {
+    "name": "Radeon HD 4330",
+    "g2dMark": 277,
+    "g3dMark": 160
+  },
+  {
+    "name": "Radeon HD 4350",
+    "g2dMark": 363,
+    "g3dMark": 168
+  },
+  {
+    "name": "Radeon HD 4550",
+    "g2dMark": 428,
+    "g3dMark": 237
+  },
+  {
+    "name": "Radeon HD 4650",
+    "g2dMark": 402,
+    "g3dMark": 336
+  },
+  {
+    "name": "Radeon HD 4650 AGP",
+    "g2dMark": 156,
+    "g3dMark": 207
+  },
+  {
+    "name": "Radeon HD 4670",
+    "g2dMark": 429,
+    "g3dMark": 546
+  },
+  {
+    "name": "Radeon HD 4770",
+    "g2dMark": 483,
+    "g3dMark": 1039
+  },
+  {
+    "name": "Radeon HD 4810",
+    "g2dMark": 440,
+    "g3dMark": 793
+  },
+  {
+    "name": "Radeon HD 4830",
+    "g2dMark": 467,
+    "g3dMark": 950
+  },
+  {
+    "name": "Radeon HD 4850",
+    "g2dMark": 471,
+    "g3dMark": 1024
+  },
+  {
+    "name": "Radeon HD 4850 X2",
+    "g2dMark": 545,
+    "g3dMark": 1147
+  },
+  {
+    "name": "Radeon HD 4870",
+    "g2dMark": 503,
+    "g3dMark": 1381
+  },
+  {
+    "name": "Radeon HD 4870 X2",
+    "g2dMark": 566,
+    "g3dMark": 1310
+  },
+  {
+    "name": "Radeon HD 4890",
+    "g2dMark": 538,
+    "g3dMark": 1539
+  },
+  {
+    "name": "Radeon HD 5450",
+    "g2dMark": 432,
+    "g3dMark": 231
+  },
+  {
+    "name": "Radeon HD 5470",
+    "g2dMark": 297,
+    "g3dMark": 268
+  },
+  {
+    "name": "Radeon HD 5550",
+    "g2dMark": 418,
+    "g3dMark": 548
+  },
+  {
+    "name": "Radeon HD 5570",
+    "g2dMark": 464,
+    "g3dMark": 712
+  },
+  {
+    "name": "Radeon HD 5600/5700",
+    "g2dMark": 467,
+    "g3dMark": 963
+  },
+  {
+    "name": "Radeon HD 5670",
+    "g2dMark": 477,
+    "g3dMark": 1084
+  },
+  {
+    "name": "Radeon HD 5750",
+    "g2dMark": 514,
+    "g3dMark": 1442
+  },
+  {
+    "name": "Radeon HD 5770",
+    "g2dMark": 533,
+    "g3dMark": 1707
+  },
+  {
+    "name": "Radeon HD 5830",
+    "g2dMark": 530,
+    "g3dMark": 2050
+  },
+  {
+    "name": "Radeon HD 5850",
+    "g2dMark": 573,
+    "g3dMark": 2278
+  },
+  {
+    "name": "Radeon HD 5870",
+    "g2dMark": 597,
+    "g3dMark": 2619
+  },
+  {
+    "name": "Radeon HD 5970",
+    "g2dMark": 631,
+    "g3dMark": 2592
+  },
+  {
+    "name": "Radeon HD 6230",
+    "g2dMark": 338,
+    "g3dMark": 211
+  },
+  {
+    "name": "Radeon HD 6250",
+    "g2dMark": 91,
+    "g3dMark": 119
+  },
+  {
+    "name": "Radeon HD 6290",
+    "g2dMark": 99,
+    "g3dMark": 138
+  },
+  {
+    "name": "Radeon HD 6290M",
+    "g2dMark": 92,
+    "g3dMark": 140
+  },
+  {
+    "name": "Radeon HD 6300M",
+    "g2dMark": 387,
+    "g3dMark": 255
+  },
+  {
+    "name": "Radeon HD 6310",
+    "g2dMark": 124,
+    "g3dMark": 170
+  },
+  {
+    "name": "Radeon HD 6320",
+    "g2dMark": 137,
+    "g3dMark": 202
+  },
+  {
+    "name": "Radeon HD 6320 Graphic",
+    "g2dMark": 158,
+    "g3dMark": 216
+  },
+  {
+    "name": "Radeon HD 6320M",
+    "g2dMark": 150,
+    "g3dMark": 198
+  },
+  {
+    "name": "RADEON HD 6350",
+    "g2dMark": 426,
+    "g3dMark": 211
+  },
+  {
+    "name": "Radeon HD 6370D",
+    "g2dMark": 287,
+    "g3dMark": 307
+  },
+  {
+    "name": "Radeon HD 6370M",
+    "g2dMark": 401,
+    "g3dMark": 275
+  },
+  {
+    "name": "Radeon HD 6380G",
+    "g2dMark": 233,
+    "g3dMark": 300
+  },
+  {
+    "name": "Radeon HD 6410D",
+    "g2dMark": 331,
+    "g3dMark": 388
+  },
+  {
+    "name": "Radeon HD 6430M",
+    "g2dMark": 106,
+    "g3dMark": 192
+  },
+  {
+    "name": "Radeon HD 6450",
+    "g2dMark": 460,
+    "g3dMark": 278
+  },
+  {
+    "name": "Radeon HD 6450A",
+    "g2dMark": 207,
+    "g3dMark": 260
+  },
+  {
+    "name": "Radeon HD 6470M",
+    "g2dMark": 450,
+    "g3dMark": 312
+  },
+  {
+    "name": "Radeon HD 6480G",
+    "g2dMark": 259,
+    "g3dMark": 406
+  },
+  {
+    "name": "Radeon HD 6490M",
+    "g2dMark": 513,
+    "g3dMark": 380
+  },
+  {
+    "name": "Radeon HD 6520G",
+    "g2dMark": 247,
+    "g3dMark": 486
+  },
+  {
+    "name": "Radeon HD 6530D",
+    "g2dMark": 339,
+    "g3dMark": 514
+  },
+  {
+    "name": "Radeon HD 6550A",
+    "g2dMark": 609,
+    "g3dMark": 707
+  },
+  {
+    "name": "Radeon HD 6550D",
+    "g2dMark": 397,
+    "g3dMark": 645
+  },
+  {
+    "name": "Radeon HD 6570",
+    "g2dMark": 466,
+    "g3dMark": 760
+  },
+  {
+    "name": "Radeon HD 6610M",
+    "g2dMark": 526,
+    "g3dMark": 565
+  },
+  {
+    "name": "Radeon HD 6620G",
+    "g2dMark": 264,
+    "g3dMark": 557
+  },
+  {
+    "name": "Radeon HD 6630M",
+    "g2dMark": 389,
+    "g3dMark": 684
+  },
+  {
+    "name": "Radeon HD 6650M",
+    "g2dMark": 488,
+    "g3dMark": 718
+  },
+  {
+    "name": "Radeon HD 6670",
+    "g2dMark": 498,
+    "g3dMark": 1059
+  },
+  {
+    "name": "Radeon HD 6670 + 6670 Dual",
+    "g2dMark": 552,
+    "g3dMark": 646
+  },
+  {
+    "name": "Radeon HD 6700M",
+    "g2dMark": 526,
+    "g3dMark": 1011
+  },
+  {
+    "name": "Radeon HD 6750",
+    "g2dMark": 518,
+    "g3dMark": 1319
+  },
+  {
+    "name": "Radeon HD 6750M",
+    "g2dMark": 478,
+    "g3dMark": 939
+  },
+  {
+    "name": "Radeon HD 6770",
+    "g2dMark": 535,
+    "g3dMark": 1681
+  },
+  {
+    "name": "Radeon HD 6770M",
+    "g2dMark": 572,
+    "g3dMark": 964
+  },
+  {
+    "name": "Radeon HD 6790",
+    "g2dMark": 552,
+    "g3dMark": 2045
+  },
+  {
+    "name": "Radeon HD 6800M",
+    "g2dMark": 490,
+    "g3dMark": 987
+  },
+  {
+    "name": "Radeon HD 6850",
+    "g2dMark": 579,
+    "g3dMark": 2285
+  },
+  {
+    "name": "Radeon HD 6870",
+    "g2dMark": 602,
+    "g3dMark": 2611
+  },
+  {
+    "name": "Radeon HD 6900M",
+    "g2dMark": 567,
+    "g3dMark": 1948
+  },
+  {
+    "name": "Radeon HD 6950",
+    "g2dMark": 643,
+    "g3dMark": 3211
+  },
+  {
+    "name": "Radeon HD 6970",
+    "g2dMark": 655,
+    "g3dMark": 3516
+  },
+  {
+    "name": "Radeon HD 6990",
+    "g2dMark": 575,
+    "g3dMark": 2858
+  },
+  {
+    "name": "Radeon HD 7290",
+    "g2dMark": 98,
+    "g3dMark": 140
+  },
+  {
+    "name": "Radeon HD 7290M",
+    "g2dMark": 89,
+    "g3dMark": 123
+  },
+  {
+    "name": "Radeon HD 7310",
+    "g2dMark": 119,
+    "g3dMark": 171
+  },
+  {
+    "name": "Radeon HD 7310G",
+    "g2dMark": 118,
+    "g3dMark": 180
+  },
+  {
+    "name": "Radeon HD 7310M",
+    "g2dMark": 127,
+    "g3dMark": 166
+  },
+  {
+    "name": "Radeon HD 7340",
+    "g2dMark": 142,
+    "g3dMark": 207
+  },
+  {
+    "name": "Radeon HD 7340G",
+    "g2dMark": 146,
+    "g3dMark": 196
+  },
+  {
+    "name": "Radeon HD 7340M",
+    "g2dMark": 159,
+    "g3dMark": 221
+  },
+  {
+    "name": "Radeon HD 7350",
+    "g2dMark": 563,
+    "g3dMark": 278
+  },
+  {
+    "name": "Radeon HD 7400G",
+    "g2dMark": 218,
+    "g3dMark": 323
+  },
+  {
+    "name": "Radeon HD 7420G",
+    "g2dMark": 314,
+    "g3dMark": 434
+  },
+  {
+    "name": "Radeon HD 7450",
+    "g2dMark": 550,
+    "g3dMark": 310
+  },
+  {
+    "name": "Radeon HD 7450A",
+    "g2dMark": 385,
+    "g3dMark": 288
+  },
+  {
+    "name": "Radeon HD 7450M",
+    "g2dMark": 441,
+    "g3dMark": 329
+  },
+  {
+    "name": "Radeon HD 7470",
+    "g2dMark": 697,
+    "g3dMark": 364
+  },
+  {
+    "name": "Radeon HD 7470M",
+    "g2dMark": 393,
+    "g3dMark": 407
+  },
+  {
+    "name": "Radeon HD 7480D",
+    "g2dMark": 392,
+    "g3dMark": 428
+  },
+  {
+    "name": "Radeon HD 7500G",
+    "g2dMark": 255,
+    "g3dMark": 412
+  },
+  {
+    "name": "Radeon HD 7500G + 7500M/7600M Dual",
+    "g2dMark": 307,
+    "g3dMark": 616
+  },
+  {
+    "name": "Radeon HD 7500G + 7550M Dual",
+    "g2dMark": 262,
+    "g3dMark": 497
+  },
+  {
+    "name": "Radeon HD 7500G + HD 7500M/7600M Dual",
+    "g2dMark": 265,
+    "g3dMark": 355
+  },
+  {
+    "name": "Radeon HD 7520G",
+    "g2dMark": 315,
+    "g3dMark": 449
+  },
+  {
+    "name": "Radeon HD 7520G + 7400M Dual",
+    "g2dMark": 280,
+    "g3dMark": 486
+  },
+  {
+    "name": "Radeon HD 7520G + 7600M Dual",
+    "g2dMark": 361,
+    "g3dMark": 591
+  },
+  {
+    "name": "Radeon HD 7520G + 7610M Dual",
+    "g2dMark": 317,
+    "g3dMark": 588
+  },
+  {
+    "name": "Radeon HD 7520G + 7650M Dual",
+    "g2dMark": 345,
+    "g3dMark": 453
+  },
+  {
+    "name": "Radeon HD 7520G + 7670M Dual",
+    "g2dMark": 322,
+    "g3dMark": 522
+  },
+  {
+    "name": "Radeon HD 7520G + 7700M Dual",
+    "g2dMark": 331,
+    "g3dMark": 1060
+  },
+  {
+    "name": "Radeon HD 7520G + 8600/8700M Dual",
+    "g2dMark": 328,
+    "g3dMark": 311
+  },
+  {
+    "name": "Radeon HD 7520G + HD 7400M Dual",
+    "g2dMark": 315,
+    "g3dMark": 544
+  },
+  {
+    "name": "Radeon HD 7520G + HD 7600M Dual",
+    "g2dMark": 289,
+    "g3dMark": 599
+  },
+  {
+    "name": "Radeon HD 7520G + HD 7670M Dual",
+    "g2dMark": 323,
+    "g3dMark": 548
+  },
+  {
+    "name": "Radeon HD 7520G + HD 8600/8700M Dual",
+    "g2dMark": 290,
+    "g3dMark": 623
+  },
+  {
+    "name": "Radeon HD 7520G + HD 8750M Dual",
+    "g2dMark": 288,
+    "g3dMark": 651
+  },
+  {
+    "name": "Radeon HD 7540D",
+    "g2dMark": 432,
+    "g3dMark": 510
+  },
+  {
+    "name": "Radeon HD 7540D + 6570 Dual",
+    "g2dMark": 469,
+    "g3dMark": 719
+  },
+  {
+    "name": "Radeon HD 7550M",
+    "g2dMark": 402,
+    "g3dMark": 473
+  },
+  {
+    "name": "Radeon HD 7550M/7650M",
+    "g2dMark": 526,
+    "g3dMark": 732
+  },
+  {
+    "name": "Radeon HD 7560D",
+    "g2dMark": 462,
+    "g3dMark": 661
+  },
+  {
+    "name": "Radeon HD 7560D + 6570 Dual",
+    "g2dMark": 475,
+    "g3dMark": 833
+  },
+  {
+    "name": "Radeon HD 7560D + 6670 Dual",
+    "g2dMark": 500,
+    "g3dMark": 1130
+  },
+  {
+    "name": "Radeon HD 7560D + 7560D Dual",
+    "g2dMark": 420,
+    "g3dMark": 982
+  },
+  {
+    "name": "Radeon HD 7560D + 7670 Dual",
+    "g2dMark": 444,
+    "g3dMark": 1426
+  },
+  {
+    "name": "Radeon HD 7560D + HD 7000 Dual",
+    "g2dMark": 422,
+    "g3dMark": 534
+  },
+  {
+    "name": "Radeon HD 7560D + HD 7700 Dual",
+    "g2dMark": 496,
+    "g3dMark": 1346
+  },
+  {
+    "name": "Radeon HD 7560D + R5 235 Dual",
+    "g2dMark": 396,
+    "g3dMark": 563
+  },
+  {
+    "name": "Radeon HD 7570",
+    "g2dMark": 706,
+    "g3dMark": 983
+  },
+  {
+    "name": "Radeon HD 7570M",
+    "g2dMark": 605,
+    "g3dMark": 611
+  },
+  {
+    "name": "Radeon HD 7570M/HD 7670M",
+    "g2dMark": 555,
+    "g3dMark": 699
+  },
+  {
+    "name": "Radeon HD 7580D",
+    "g2dMark": 429,
+    "g3dMark": 350
+  },
+  {
+    "name": "Radeon HD 7600G",
+    "g2dMark": 226,
+    "g3dMark": 477
+  },
+  {
+    "name": "Radeon HD 7600G + 7450M Dual",
+    "g2dMark": 220,
+    "g3dMark": 389
+  },
+  {
+    "name": "Radeon HD 7600G + 7500M/7600M Dual",
+    "g2dMark": 210,
+    "g3dMark": 405
+  },
+  {
+    "name": "Radeon HD 7600G + 7550M Dual",
+    "g2dMark": 246,
+    "g3dMark": 423
+  },
+  {
+    "name": "Radeon HD 7600G + 8500M/8700M Dual",
+    "g2dMark": 256,
+    "g3dMark": 469
+  },
+  {
+    "name": "Radeon HD 7600G + HD 7500M/7600M Dual",
+    "g2dMark": 243,
+    "g3dMark": 555
+  },
+  {
+    "name": "Radeon HD 7600G + HD 7550M Dual",
+    "g2dMark": 201,
+    "g3dMark": 509
+  },
+  {
+    "name": "Radeon HD 7600G + HD 8670M Dual",
+    "g2dMark": 240,
+    "g3dMark": 543
+  },
+  {
+    "name": "Radeon HD 7600G + HD Dual",
+    "g2dMark": 219,
+    "g3dMark": 442
+  },
+  {
+    "name": "Radeon HD 7600M + 7600M Dual",
+    "g2dMark": 316,
+    "g3dMark": 773
+  },
+  {
+    "name": "Radeon HD 7610M",
+    "g2dMark": 480,
+    "g3dMark": 630
+  },
+  {
+    "name": "Radeon HD 7620G",
+    "g2dMark": 271,
+    "g3dMark": 482
+  },
+  {
+    "name": "Radeon HD 7620G + 8600M Dual",
+    "g2dMark": 295,
+    "g3dMark": 503
+  },
+  {
+    "name": "Radeon HD 7620G + 8670M Dual",
+    "g2dMark": 321,
+    "g3dMark": 577
+  },
+  {
+    "name": "Radeon HD 7620G + HD 8600M Dual",
+    "g2dMark": 266,
+    "g3dMark": 442
+  },
+  {
+    "name": "Radeon HD 7620G + HD 8670M Dual",
+    "g2dMark": 267,
+    "g3dMark": 507
+  },
+  {
+    "name": "Radeon HD 7640G",
+    "g2dMark": 291,
+    "g3dMark": 614
+  },
+  {
+    "name": "Radeon HD 7640G + 6400M Dual",
+    "g2dMark": 279,
+    "g3dMark": 526
+  },
+  {
+    "name": "Radeon HD 7640G + 7400M Dual",
+    "g2dMark": 286,
+    "g3dMark": 637
+  },
+  {
+    "name": "Radeon HD 7640G + 7470M Dual",
+    "g2dMark": 300,
+    "g3dMark": 598
+  },
+  {
+    "name": "Radeon HD 7640G + 7500/7600 Dual",
+    "g2dMark": 292,
+    "g3dMark": 627
+  },
+  {
+    "name": "Radeon HD 7640G + 7600M Dual",
+    "g2dMark": 295,
+    "g3dMark": 705
+  },
+  {
+    "name": "Radeon HD 7640G + 7610M Dual",
+    "g2dMark": 309,
+    "g3dMark": 510
+  },
+  {
+    "name": "Radeon HD 7640G + 7670M Dual",
+    "g2dMark": 293,
+    "g3dMark": 644
+  },
+  {
+    "name": "Radeon HD 7640G + 7700M Dual",
+    "g2dMark": 324,
+    "g3dMark": 690
+  },
+  {
+    "name": "Radeon HD 7640G + 8500M Dual",
+    "g2dMark": 307,
+    "g3dMark": 585
+  },
+  {
+    "name": "Radeon HD 7640G + 8570M Dual",
+    "g2dMark": 273,
+    "g3dMark": 558
+  },
+  {
+    "name": "Radeon HD 7640G + 8600/8700M Dual",
+    "g2dMark": 308,
+    "g3dMark": 688
+  },
+  {
+    "name": "Radeon HD 7640G + 8670M Dual",
+    "g2dMark": 315,
+    "g3dMark": 558
+  },
+  {
+    "name": "Radeon HD 7640G + 8750M Dual",
+    "g2dMark": 305,
+    "g3dMark": 654
+  },
+  {
+    "name": "Radeon HD 7640G + HD 7400M Dual",
+    "g2dMark": 292,
+    "g3dMark": 615
+  },
+  {
+    "name": "Radeon HD 7640G + HD 7600M Dual",
+    "g2dMark": 276,
+    "g3dMark": 702
+  },
+  {
+    "name": "Radeon HD 7640G + HD 7670M Dual",
+    "g2dMark": 278,
+    "g3dMark": 659
+  },
+  {
+    "name": "Radeon HD 7640G + HD 7700M Dual",
+    "g2dMark": 276,
+    "g3dMark": 589
+  },
+  {
+    "name": "Radeon HD 7640G + HD 8500M Dual",
+    "g2dMark": 304,
+    "g3dMark": 607
+  },
+  {
+    "name": "Radeon HD 7640G + HD 8500M N HD 8500M Dual",
+    "g2dMark": 311,
+    "g3dMark": 665
+  },
+  {
+    "name": "Radeon HD 7640G + HD 8570M Dual",
+    "g2dMark": 292,
+    "g3dMark": 696
+  },
+  {
+    "name": "Radeon HD 7640G + HD 8600/8700M Dual",
+    "g2dMark": 297,
+    "g3dMark": 586
+  },
+  {
+    "name": "Radeon HD 7640G + HD 8750M Dual",
+    "g2dMark": 288,
+    "g3dMark": 992
+  },
+  {
+    "name": "Radeon HD 7640G + R5 M200 Dual",
+    "g2dMark": 239,
+    "g3dMark": 543
+  },
+  {
+    "name": "Radeon HD 7640G N HD 7640G + HD 7600M N HD 7600M D",
+    "g2dMark": 261,
+    "g3dMark": 824
+  },
+  {
+    "name": "Radeon HD 7640G N HD 7640G + HD 7670M Dual",
+    "g2dMark": 305,
+    "g3dMark": 679
+  },
+  {
+    "name": "Radeon HD 7650A",
+    "g2dMark": 745,
+    "g3dMark": 793
+  },
+  {
+    "name": "Radeon HD 7650M",
+    "g2dMark": 531,
+    "g3dMark": 721
+  },
+  {
+    "name": "Radeon HD 7660D",
+    "g2dMark": 504,
+    "g3dMark": 782
+  },
+  {
+    "name": "Radeon HD 7660D + 6570 Dual",
+    "g2dMark": 551,
+    "g3dMark": 1100
+  },
+  {
+    "name": "Radeon HD 7660D + 6670 Dual",
+    "g2dMark": 524,
+    "g3dMark": 1238
+  },
+  {
+    "name": "Radeon HD 7660D + 7470 Dual",
+    "g2dMark": 490,
+    "g3dMark": 465
+  },
+  {
+    "name": "Radeon HD 7660D + 7670 Dual",
+    "g2dMark": 493,
+    "g3dMark": 1061
+  },
+  {
+    "name": "Radeon HD 7660D + HD 6670 Dual",
+    "g2dMark": 515,
+    "g3dMark": 1484
+  },
+  {
+    "name": "Radeon HD 7660D + HD 7000 Dual",
+    "g2dMark": 464,
+    "g3dMark": 633
+  },
+  {
+    "name": "Radeon HD 7660D + HD 7700 Dual",
+    "g2dMark": 494,
+    "g3dMark": 1958
+  },
+  {
+    "name": "Radeon HD 7660D + R7 240 Dual",
+    "g2dMark": 452,
+    "g3dMark": 941
+  },
+  {
+    "name": "Radeon HD 7660G",
+    "g2dMark": 341,
+    "g3dMark": 801
+  },
+  {
+    "name": "Radeon HD 7660G + 7400M Dual",
+    "g2dMark": 325,
+    "g3dMark": 588
+  },
+  {
+    "name": "Radeon HD 7660G + 7470M Dual",
+    "g2dMark": 350,
+    "g3dMark": 630
+  },
+  {
+    "name": "Radeon HD 7660G + 7600M Dual",
+    "g2dMark": 340,
+    "g3dMark": 831
+  },
+  {
+    "name": "Radeon HD 7660G + 7610M Dual",
+    "g2dMark": 322,
+    "g3dMark": 745
+  },
+  {
+    "name": "Radeon HD 7660G + 7670M Dual",
+    "g2dMark": 346,
+    "g3dMark": 743
+  },
+  {
+    "name": "Radeon HD 7660G + 7700M Dual",
+    "g2dMark": 310,
+    "g3dMark": 757
+  },
+  {
+    "name": "Radeon HD 7660G + 7730M Dual",
+    "g2dMark": 391,
+    "g3dMark": 931
+  },
+  {
+    "name": "Radeon HD 7660G + 8600M Dual",
+    "g2dMark": 359,
+    "g3dMark": 445
+  },
+  {
+    "name": "Radeon HD 7660G + 8670M Dual",
+    "g2dMark": 332,
+    "g3dMark": 587
+  },
+  {
+    "name": "Radeon HD 7660G + HD 7500M/7600M Dual",
+    "g2dMark": 322,
+    "g3dMark": 999
+  },
+  {
+    "name": "Radeon HD 7660G + HD 7600M Dual",
+    "g2dMark": 324,
+    "g3dMark": 774
+  },
+  {
+    "name": "Radeon HD 7660G + HD 7670M Dual",
+    "g2dMark": 317,
+    "g3dMark": 706
+  },
+  {
+    "name": "Radeon HD 7660G + HD 7700M Dual",
+    "g2dMark": 326,
+    "g3dMark": 751
+  },
+  {
+    "name": "Radeon HD 7660G + HD 7730M Dual",
+    "g2dMark": 328,
+    "g3dMark": 881
+  },
+  {
+    "name": "Radeon HD 7660G + HD 8670M Dual",
+    "g2dMark": 325,
+    "g3dMark": 711
+  },
+  {
+    "name": "Radeon HD 7660G N HD 7660G + HD 7600M N HD 7600M D",
+    "g2dMark": 292,
+    "g3dMark": 722
+  },
+  {
+    "name": "Radeon HD 7660G N HD 7660G + HD 7670M Dual",
+    "g2dMark": 317,
+    "g3dMark": 704
+  },
+  {
+    "name": "Radeon HD 7660G N HD 7660G + HD 7700M N HD 7700M D",
+    "g2dMark": 350,
+    "g3dMark": 966
+  },
+  {
+    "name": "Radeon HD 7670",
+    "g2dMark": 614,
+    "g3dMark": 1104
+  },
+  {
+    "name": "Radeon HD 7670A",
+    "g2dMark": 699,
+    "g3dMark": 1048
+  },
+  {
+    "name": "Radeon HD 7670M",
+    "g2dMark": 582,
+    "g3dMark": 813
+  },
+  {
+    "name": "Radeon HD 7670M + 7670M Dual",
+    "g2dMark": 294,
+    "g3dMark": 738
+  },
+  {
+    "name": "Radeon HD 7690M",
+    "g2dMark": 579,
+    "g3dMark": 998
+  },
+  {
+    "name": "Radeon HD 7690M XT",
+    "g2dMark": 552,
+    "g3dMark": 1009
+  },
+  {
+    "name": "Radeon HD 7730",
+    "g2dMark": 553,
+    "g3dMark": 1429
+  },
+  {
+    "name": "Radeon HD 7730M",
+    "g2dMark": 574,
+    "g3dMark": 974
+  },
+  {
+    "name": "Radeon HD 7750",
+    "g2dMark": 554,
+    "g3dMark": 1703
+  },
+  {
+    "name": "Radeon HD 7750M",
+    "g2dMark": 693,
+    "g3dMark": 1191
+  },
+  {
+    "name": "Radeon HD 7770",
+    "g2dMark": 579,
+    "g3dMark": 2216
+  },
+  {
+    "name": "Radeon HD 7790",
+    "g2dMark": 577,
+    "g3dMark": 3072
+  },
+  {
+    "name": "Radeon HD 7850",
+    "g2dMark": 626,
+    "g3dMark": 3840
+  },
+  {
+    "name": "Radeon HD 7850M",
+    "g2dMark": 565,
+    "g3dMark": 1372
+  },
+  {
+    "name": "Radeon HD 7870",
+    "g2dMark": 661,
+    "g3dMark": 4372
+  },
+  {
+    "name": "Radeon HD 7870 XT",
+    "g2dMark": 662,
+    "g3dMark": 4462
+  },
+  {
+    "name": "Radeon HD 7870M",
+    "g2dMark": 564,
+    "g3dMark": 1477
+  },
+  {
+    "name": "Radeon HD 7950 / R9 280",
+    "g2dMark": 691,
+    "g3dMark": 4764
+  },
+  {
+    "name": "Radeon HD 7970 / R9 280X",
+    "g2dMark": 729,
+    "g3dMark": 5247
+  },
+  {
+    "name": "Radeon HD 7970M",
+    "g2dMark": 664,
+    "g3dMark": 3799
+  },
+  {
+    "name": "Radeon HD 7990",
+    "g2dMark": 772,
+    "g3dMark": 5547
+  },
+  {
+    "name": "Radeon HD 8180",
+    "g2dMark": 88,
+    "g3dMark": 198
+  },
+  {
+    "name": "Radeon HD 8210",
+    "g2dMark": 94,
+    "g3dMark": 251
+  },
+  {
+    "name": "Radeon HD 8240",
+    "g2dMark": 133,
+    "g3dMark": 279
+  },
+  {
+    "name": "Radeon HD 8250",
+    "g2dMark": 119,
+    "g3dMark": 257
+  },
+  {
+    "name": "Radeon HD 8280",
+    "g2dMark": 142,
+    "g3dMark": 320
+  },
+  {
+    "name": "Radeon HD 8280E",
+    "g2dMark": 174,
+    "g3dMark": 323
+  },
+  {
+    "name": "Radeon HD 8280G",
+    "g2dMark": 129,
+    "g3dMark": 269
+  },
+  {
+    "name": "Radeon HD 8330",
+    "g2dMark": 159,
+    "g3dMark": 336
+  },
+  {
+    "name": "Radeon HD 8330E",
+    "g2dMark": 169,
+    "g3dMark": 323
+  },
+  {
+    "name": "Radeon HD 8350",
+    "g2dMark": 726,
+    "g3dMark": 265
+  },
+  {
+    "name": "Radeon HD 8350G",
+    "g2dMark": 335,
+    "g3dMark": 432
+  },
+  {
+    "name": "Radeon HD 8370D",
+    "g2dMark": 427,
+    "g3dMark": 431
+  },
+  {
+    "name": "Radeon HD 8400",
+    "g2dMark": 209,
+    "g3dMark": 358
+  },
+  {
+    "name": "Radeon HD 8400E",
+    "g2dMark": 203,
+    "g3dMark": 339
+  },
+  {
+    "name": "Radeon HD 8410G",
+    "g2dMark": 263,
+    "g3dMark": 435
+  },
+  {
+    "name": "Radeon HD 8450G",
+    "g2dMark": 345,
+    "g3dMark": 412
+  },
+  {
+    "name": "Radeon HD 8450G + 8600M Dual",
+    "g2dMark": 356,
+    "g3dMark": 545
+  },
+  {
+    "name": "Radeon HD 8450G + 8670M Dual",
+    "g2dMark": 413,
+    "g3dMark": 474
+  },
+  {
+    "name": "Radeon HD 8450G + 8750M Dual",
+    "g2dMark": 299,
+    "g3dMark": 637
+  },
+  {
+    "name": "Radeon HD 8450G + HD 8600M Dual",
+    "g2dMark": 326,
+    "g3dMark": 452
+  },
+  {
+    "name": "Radeon HD 8450G + HD 8750M Dual",
+    "g2dMark": 321,
+    "g3dMark": 483
+  },
+  {
+    "name": "Radeon HD 8470",
+    "g2dMark": 605,
+    "g3dMark": 343
+  },
+  {
+    "name": "Radeon HD 8470D",
+    "g2dMark": 444,
+    "g3dMark": 519
+  },
+  {
+    "name": "Radeon HD 8470D + 6450 Dual",
+    "g2dMark": 557,
+    "g3dMark": 717
+  },
+  {
+    "name": "Radeon HD 8470D + HD 7500 Dual",
+    "g2dMark": 465,
+    "g3dMark": 1545
+  },
+  {
+    "name": "Radeon HD 8490",
+    "g2dMark": 774,
+    "g3dMark": 380
+  },
+  {
+    "name": "Radeon HD 8500M",
+    "g2dMark": 496,
+    "g3dMark": 564
+  },
+  {
+    "name": "Radeon HD 8500M/8700M",
+    "g2dMark": 548,
+    "g3dMark": 874
+  },
+  {
+    "name": "Radeon HD 8510G",
+    "g2dMark": 264,
+    "g3dMark": 506
+  },
+  {
+    "name": "Radeon HD 8510G + 8500M Dual",
+    "g2dMark": 260,
+    "g3dMark": 596
+  },
+  {
+    "name": "Radeon HD 8550D",
+    "g2dMark": 356,
+    "g3dMark": 685
+  },
+  {
+    "name": "Radeon HD 8550G",
+    "g2dMark": 323,
+    "g3dMark": 720
+  },
+  {
+    "name": "Radeon HD 8550G + 8500M Dual",
+    "g2dMark": 304,
+    "g3dMark": 602
+  },
+  {
+    "name": "Radeon HD 8550G + 8570M Dual",
+    "g2dMark": 307,
+    "g3dMark": 532
+  },
+  {
+    "name": "Radeon HD 8550G + 8600/8700M Dual",
+    "g2dMark": 336,
+    "g3dMark": 802
+  },
+  {
+    "name": "Radeon HD 8550G + 8600M Dual",
+    "g2dMark": 321,
+    "g3dMark": 617
+  },
+  {
+    "name": "Radeon HD 8550G + 8670M Dual",
+    "g2dMark": 334,
+    "g3dMark": 579
+  },
+  {
+    "name": "Radeon HD 8550G + 8690M Dual",
+    "g2dMark": 260,
+    "g3dMark": 664
+  },
+  {
+    "name": "Radeon HD 8550G + 8750M Dual",
+    "g2dMark": 321,
+    "g3dMark": 795
+  },
+  {
+    "name": "Radeon HD 8550G + HD 7600M Dual",
+    "g2dMark": 350,
+    "g3dMark": 854
+  },
+  {
+    "name": "Radeon HD 8550G + HD 8570M Dual",
+    "g2dMark": 259,
+    "g3dMark": 529
+  },
+  {
+    "name": "Radeon HD 8550G + HD 8600/8700M Dual",
+    "g2dMark": 329,
+    "g3dMark": 813
+  },
+  {
+    "name": "Radeon HD 8550G + HD 8600M Dual",
+    "g2dMark": 322,
+    "g3dMark": 593
+  },
+  {
+    "name": "Radeon HD 8550G + HD 8670M Dual",
+    "g2dMark": 314,
+    "g3dMark": 546
+  },
+  {
+    "name": "Radeon HD 8550G + HD 8750M Dual",
+    "g2dMark": 335,
+    "g3dMark": 819
+  },
+  {
+    "name": "Radeon HD 8550G + R5 M200 Dual",
+    "g2dMark": 276,
+    "g3dMark": 619
+  },
+  {
+    "name": "Radeon HD 8550G + R5 M230 Dual",
+    "g2dMark": 315,
+    "g3dMark": 667
+  },
+  {
+    "name": "Radeon HD 8570",
+    "g2dMark": 730,
+    "g3dMark": 983
+  },
+  {
+    "name": "Radeon HD 8570 + 8670D Dual",
+    "g2dMark": 495,
+    "g3dMark": 620
+  },
+  {
+    "name": "Radeon HD 8570D",
+    "g2dMark": 492,
+    "g3dMark": 681
+  },
+  {
+    "name": "Radeon HD 8570D + 6570 Dual",
+    "g2dMark": 459,
+    "g3dMark": 1239
+  },
+  {
+    "name": "Radeon HD 8570D + HD 6570 Dual",
+    "g2dMark": 506,
+    "g3dMark": 868
+  },
+  {
+    "name": "Radeon HD 8570D + HD 6670 Dual",
+    "g2dMark": 536,
+    "g3dMark": 1260
+  },
+  {
+    "name": "Radeon HD 8570D + HD 7000 Dual",
+    "g2dMark": 464,
+    "g3dMark": 753
+  },
+  {
+    "name": "Radeon HD 8570D + HD 7700 Dual",
+    "g2dMark": 466,
+    "g3dMark": 1834
+  },
+  {
+    "name": "Radeon HD 8570D + HD 8570 Dual",
+    "g2dMark": 519,
+    "g3dMark": 1032
+  },
+  {
+    "name": "Radeon HD 8570D + R7 200 Dual",
+    "g2dMark": 401,
+    "g3dMark": 999
+  },
+  {
+    "name": "Radeon HD 8570D + R7 240 Dual",
+    "g2dMark": 489,
+    "g3dMark": 963
+  },
+  {
+    "name": "Radeon HD 8570M",
+    "g2dMark": 492,
+    "g3dMark": 534
+  },
+  {
+    "name": "Radeon HD 8600/8700M",
+    "g2dMark": 554,
+    "g3dMark": 1032
+  },
+  {
+    "name": "Radeon HD 8610G",
+    "g2dMark": 284,
+    "g3dMark": 550
+  },
+  {
+    "name": "Radeon HD 8610G + 8500M Dual",
+    "g2dMark": 298,
+    "g3dMark": 610
+  },
+  {
+    "name": "Radeon HD 8610G + 8600M Dual",
+    "g2dMark": 319,
+    "g3dMark": 588
+  },
+  {
+    "name": "Radeon HD 8610G + 8670M Dual",
+    "g2dMark": 356,
+    "g3dMark": 599
+  },
+  {
+    "name": "Radeon HD 8610G + HD 8500M Dual",
+    "g2dMark": 273,
+    "g3dMark": 645
+  },
+  {
+    "name": "Radeon HD 8610G + HD 8600M Dual",
+    "g2dMark": 299,
+    "g3dMark": 579
+  },
+  {
+    "name": "Radeon HD 8610G + HD 8670M Dual",
+    "g2dMark": 281,
+    "g3dMark": 577
+  },
+  {
+    "name": "Radeon HD 8610G + R5 M200 Dual",
+    "g2dMark": 290,
+    "g3dMark": 676
+  },
+  {
+    "name": "Radeon HD 8650D",
+    "g2dMark": 396,
+    "g3dMark": 548
+  },
+  {
+    "name": "Radeon HD 8650G",
+    "g2dMark": 344,
+    "g3dMark": 929
+  },
+  {
+    "name": "Radeon HD 8650G + 7600M Dual",
+    "g2dMark": 403,
+    "g3dMark": 741
+  },
+  {
+    "name": "Radeon HD 8650G + 7670M Dual",
+    "g2dMark": 378,
+    "g3dMark": 883
+  },
+  {
+    "name": "Radeon HD 8650G + 8500M Dual",
+    "g2dMark": 351,
+    "g3dMark": 626
+  },
+  {
+    "name": "Radeon HD 8650G + 8570M Dual",
+    "g2dMark": 282,
+    "g3dMark": 654
+  },
+  {
+    "name": "Radeon HD 8650G + 8600/8700M Dual",
+    "g2dMark": 374,
+    "g3dMark": 831
+  },
+  {
+    "name": "Radeon HD 8650G + 8600M Dual",
+    "g2dMark": 369,
+    "g3dMark": 613
+  },
+  {
+    "name": "Radeon HD 8650G + 8670M Dual",
+    "g2dMark": 354,
+    "g3dMark": 638
+  },
+  {
+    "name": "Radeon HD 8650G + 8750M Dual",
+    "g2dMark": 380,
+    "g3dMark": 787
+  },
+  {
+    "name": "Radeon HD 8650G + HD 7600M Dual",
+    "g2dMark": 346,
+    "g3dMark": 819
+  },
+  {
+    "name": "Radeon HD 8650G + HD 7670M Dual",
+    "g2dMark": 304,
+    "g3dMark": 634
+  },
+  {
+    "name": "Radeon HD 8650G + HD 8570M Dual",
+    "g2dMark": 316,
+    "g3dMark": 716
+  },
+  {
+    "name": "Radeon HD 8650G + HD 8600/8700M Dual",
+    "g2dMark": 360,
+    "g3dMark": 765
+  },
+  {
+    "name": "Radeon HD 8650G + HD 8600M Dual",
+    "g2dMark": 376,
+    "g3dMark": 597
+  },
+  {
+    "name": "Radeon HD 8650G + HD 8670M Dual",
+    "g2dMark": 317,
+    "g3dMark": 589
+  },
+  {
+    "name": "Radeon HD 8650G + HD 8750M Dual",
+    "g2dMark": 344,
+    "g3dMark": 778
+  },
+  {
+    "name": "Radeon HD 8650G + R5 M200 Dual",
+    "g2dMark": 322,
+    "g3dMark": 722
+  },
+  {
+    "name": "Radeon HD 8650G + R5 M230 Dual",
+    "g2dMark": 374,
+    "g3dMark": 686
+  },
+  {
+    "name": "Radeon HD 8650G N HD 8650G + HD 8570M Dual",
+    "g2dMark": 367,
+    "g3dMark": 773
+  },
+  {
+    "name": "Radeon HD 8650G N HD 8650G + HD 8600M N HD 8600M D",
+    "g2dMark": 346,
+    "g3dMark": 679
+  },
+  {
+    "name": "Radeon HD 8670D",
+    "g2dMark": 532,
+    "g3dMark": 782
+  },
+  {
+    "name": "Radeon HD 8670D + 6670 Dual",
+    "g2dMark": 567,
+    "g3dMark": 1361
+  },
+  {
+    "name": "Radeon HD 8670D + 7700 Dual",
+    "g2dMark": 572,
+    "g3dMark": 1788
+  },
+  {
+    "name": "Radeon HD 8670D + HD 6670 Dual",
+    "g2dMark": 540,
+    "g3dMark": 1221
+  },
+  {
+    "name": "Radeon HD 8670D + HD 7000 Dual",
+    "g2dMark": 402,
+    "g3dMark": 718
+  },
+  {
+    "name": "Radeon HD 8670D + R5 235 Dual",
+    "g2dMark": 517,
+    "g3dMark": 836
+  },
+  {
+    "name": "Radeon HD 8670D + R7 200 Dual",
+    "g2dMark": 505,
+    "g3dMark": 949
+  },
+  {
+    "name": "Radeon HD 8670D + R7 240 Dual",
+    "g2dMark": 525,
+    "g3dMark": 1020
+  },
+  {
+    "name": "Radeon HD 8670M",
+    "g2dMark": 487,
+    "g3dMark": 519
+  },
+  {
+    "name": "Radeon HD 8690A",
+    "g2dMark": 767,
+    "g3dMark": 919
+  },
+  {
+    "name": "Radeon HD 8690M",
+    "g2dMark": 768,
+    "g3dMark": 984
+  },
+  {
+    "name": "Radeon HD 8730M",
+    "g2dMark": 536,
+    "g3dMark": 1001
+  },
+  {
+    "name": "Radeon HD 8750M",
+    "g2dMark": 574,
+    "g3dMark": 1055
+  },
+  {
+    "name": "Radeon HD 8790M",
+    "g2dMark": 766,
+    "g3dMark": 1296
+  },
+  {
+    "name": "Radeon HD 8790M / R9 M290X",
+    "g2dMark": 717,
+    "g3dMark": 1236
+  },
+  {
+    "name": "Radeon HD 8850M",
+    "g2dMark": 502,
+    "g3dMark": 973
+  },
+  {
+    "name": "Radeon HD 8850M / R9 M265X",
+    "g2dMark": 740,
+    "g3dMark": 1139
+  },
+  {
+    "name": "Radeon HD 8870M",
+    "g2dMark": 629,
+    "g3dMark": 1638
+  },
+  {
+    "name": "Radeon HD 8870M / R9 M270X / M370X",
+    "g2dMark": 678,
+    "g3dMark": 1799
+  },
+  {
+    "name": "Radeon HD 8950",
+    "g2dMark": 637,
+    "g3dMark": 3041
+  },
+  {
+    "name": "Radeon HD 8970M",
+    "g2dMark": 806,
+    "g3dMark": 3876
+  },
+  {
+    "name": "Radeon HD 8990",
+    "g2dMark": 673,
+    "g3dMark": 4999
+  },
+  {
+    "name": "RADEON HD6370D",
+    "g2dMark": 312,
+    "g3dMark": 320
+  },
+  {
+    "name": "RADEON HD6410D",
+    "g2dMark": 296,
+    "g3dMark": 422
+  },
+  {
+    "name": "RADEON HD6530D",
+    "g2dMark": 327,
+    "g3dMark": 531
+  },
+  {
+    "name": "Radeon HD7570",
+    "g2dMark": 356,
+    "g3dMark": 1028
+  },
+  {
+    "name": "Radeon HD8490",
+    "g2dMark": 678,
+    "g3dMark": 368
+  },
+  {
+    "name": "Radeon HD8530M",
+    "g2dMark": 577,
+    "g3dMark": 498
+  },
+  {
+    "name": "Radeon HD8970M",
+    "g2dMark": 682,
+    "g3dMark": 3131
+  },
+  {
+    "name": "Radeon IGP 320M",
+    "g2dMark": 101,
+    "g3dMark": 3
+  },
+  {
+    "name": "Radeon IGP 340M",
+    "g2dMark": 102,
+    "g3dMark": 2
+  },
+  {
+    "name": "RADEON IGP 345M",
+    "g2dMark": 82,
+    "g3dMark": 2
+  },
+  {
+    "name": "RADEON IGP 350M",
+    "g2dMark": 136,
+    "g3dMark": 6
+  },
+  {
+    "name": "Radeon Pro 450",
+    "g2dMark": 619,
+    "g3dMark": 2722
+  },
+  {
+    "name": "Radeon Pro 460",
+    "g2dMark": 678,
+    "g3dMark": 3452
+  },
+  {
+    "name": "Radeon Pro 555",
+    "g2dMark": 658,
+    "g3dMark": 3140
+  },
+  {
+    "name": "Radeon Pro 560",
+    "g2dMark": 691,
+    "g3dMark": 3553
+  },
+  {
+    "name": "Radeon Pro 580",
+    "g2dMark": 942,
+    "g3dMark": 7753
+  },
+  {
+    "name": "Radeon Pro Duo",
+    "g2dMark": 826,
+    "g3dMark": 9450
+  },
+  {
+    "name": "Radeon Pro SSG",
+    "g2dMark": 486,
+    "g3dMark": 10452
+  },
+  {
+    "name": "Radeon Pro V340 MxGPU",
+    "g2dMark": 118,
+    "g3dMark": 2853
+  },
+  {
+    "name": "Radeon Pro Vega 20",
+    "g2dMark": 752,
+    "g3dMark": 5861
+  },
+  {
+    "name": "Radeon Pro Vega 56",
+    "g2dMark": 716,
+    "g3dMark": 11897
+  },
+  {
+    "name": "Radeon Pro Vega 64",
+    "g2dMark": 655,
+    "g3dMark": 10426
+  },
+  {
+    "name": "Radeon Pro WX 2100",
+    "g2dMark": 751,
+    "g3dMark": 2117
+  },
+  {
+    "name": "Radeon Pro WX 3100",
+    "g2dMark": 743,
+    "g3dMark": 3409
+  },
+  {
+    "name": "Radeon Pro WX 4100",
+    "g2dMark": 793,
+    "g3dMark": 3932
+  },
+  {
+    "name": "Radeon Pro WX 4130",
+    "g2dMark": 673,
+    "g3dMark": 2767
+  },
+  {
+    "name": "Radeon Pro WX 4150",
+    "g2dMark": 711,
+    "g3dMark": 3208
+  },
+  {
+    "name": "Radeon Pro WX 5100",
+    "g2dMark": 763,
+    "g3dMark": 5548
+  },
+  {
+    "name": "Radeon Pro WX 7100",
+    "g2dMark": 802,
+    "g3dMark": 7895
+  },
+  {
+    "name": "Radeon PRO WX 8200",
+    "g2dMark": 809,
+    "g3dMark": 10867
+  },
+  {
+    "name": "Radeon Pro WX 9100",
+    "g2dMark": 768,
+    "g3dMark": 10564
+  },
+  {
+    "name": "Radeon Pro WX4100",
+    "g2dMark": 930,
+    "g3dMark": 3949
+  },
+  {
+    "name": "Radeon R2",
+    "g2dMark": 151,
+    "g3dMark": 303
+  },
+  {
+    "name": "Radeon R2E",
+    "g2dMark": 171,
+    "g3dMark": 257
+  },
+  {
+    "name": "Radeon R3",
+    "g2dMark": 193,
+    "g3dMark": 371
+  },
+  {
+    "name": "Radeon R3E",
+    "g2dMark": 151,
+    "g3dMark": 256
+  },
+  {
+    "name": "Radeon R4",
+    "g2dMark": 233,
+    "g3dMark": 397
+  },
+  {
+    "name": "Radeon R5 220",
+    "g2dMark": 438,
+    "g3dMark": 233
+  },
+  {
+    "name": "Radeon R5 230",
+    "g2dMark": 558,
+    "g3dMark": 235
+  },
+  {
+    "name": "Radeon R5 235",
+    "g2dMark": 579,
+    "g3dMark": 363
+  },
+  {
+    "name": "Radeon R5 235 + HD 7560D Dual",
+    "g2dMark": 440,
+    "g3dMark": 743
+  },
+  {
+    "name": "Radeon R5 235X",
+    "g2dMark": 421,
+    "g3dMark": 367
+  },
+  {
+    "name": "Radeon R5 240",
+    "g2dMark": 689,
+    "g3dMark": 659
+  },
+  {
+    "name": "Radeon R5 310",
+    "g2dMark": 557,
+    "g3dMark": 337
+  },
+  {
+    "name": "Radeon R5 330",
+    "g2dMark": 649,
+    "g3dMark": 636
+  },
+  {
+    "name": "Radeon R5 340",
+    "g2dMark": 596,
+    "g3dMark": 1041
+  },
+  {
+    "name": "Radeon R5 420",
+    "g2dMark": 677,
+    "g3dMark": 757
+  },
+  {
+    "name": "Radeon R5 430",
+    "g2dMark": 817,
+    "g3dMark": 1035
+  },
+  {
+    "name": "Radeon R5 A10-9600P RADEON R5, 10 COMPUTE CORES 4C",
+    "g2dMark": 348,
+    "g3dMark": 808
+  },
+  {
+    "name": "Radeon R5 A10-9620P RADEON R5, 10 COMPUTE CORES 4C",
+    "g2dMark": 353,
+    "g3dMark": 770
+  },
+  {
+    "name": "Radeon R5 A10-9630P RADEON R5, 10 COMPUTE CORES 4C",
+    "g2dMark": 365,
+    "g3dMark": 1463
+  },
+  {
+    "name": "Radeon R5 A6-9500 RADEON R5, 8 COMPUTE CORES 2C+6G",
+    "g2dMark": 495,
+    "g3dMark": 1048
+  },
+  {
+    "name": "Radeon R5 M230",
+    "g2dMark": 544,
+    "g3dMark": 574
+  },
+  {
+    "name": "Radeon R5 M240",
+    "g2dMark": 499,
+    "g3dMark": 556
+  },
+  {
+    "name": "Radeon R5 M255",
+    "g2dMark": 537,
+    "g3dMark": 756
+  },
+  {
+    "name": "Radeon R5 M315",
+    "g2dMark": 569,
+    "g3dMark": 609
+  },
+  {
+    "name": "Radeon R5 M320",
+    "g2dMark": 737,
+    "g3dMark": 598
+  },
+  {
+    "name": "Radeon R5 M330",
+    "g2dMark": 519,
+    "g3dMark": 597
+  },
+  {
+    "name": "Radeon R5 M335",
+    "g2dMark": 578,
+    "g3dMark": 555
+  },
+  {
+    "name": "Radeon R5 M420",
+    "g2dMark": 644,
+    "g3dMark": 545
+  },
+  {
+    "name": "Radeon R5 M430",
+    "g2dMark": 521,
+    "g3dMark": 642
+  },
+  {
+    "name": "Radeon R5 Opteron X3216",
+    "g2dMark": 352,
+    "g3dMark": 438
+  },
+  {
+    "name": "Radeon R5 PRO A10-8730B R5, 10 COMPUTE CORES 4C+6G",
+    "g2dMark": 317,
+    "g3dMark": 839
+  },
+  {
+    "name": "Radeon R5 PRO A6-8530B R5, 6 COMPUTE CORES 2C+4G",
+    "g2dMark": 354,
+    "g3dMark": 689
+  },
+  {
+    "name": "Radeon R5 PRO A6-8570 R5, 8 COMPUTE CORES 2C+6G",
+    "g2dMark": 487,
+    "g3dMark": 1014
+  },
+  {
+    "name": "Radeon R5 PRO A6-8570E R5, 6 COMPUTE CORES 2C+4G",
+    "g2dMark": 410,
+    "g3dMark": 839
+  },
+  {
+    "name": "Radeon R5 PRO A6-9500 R5, 8 COMPUTE CORES 2C+6G",
+    "g2dMark": 472,
+    "g3dMark": 1167
+  },
+  {
+    "name": "Radeon R5 PRO A6-9500B R5, 6 COMPUTE CORES 2C+4G",
+    "g2dMark": 323,
+    "g3dMark": 693
+  },
+  {
+    "name": "Radeon R5 PRO A6-9500E R5, 6 COMPUTE CORES 2C+4G",
+    "g2dMark": 424,
+    "g3dMark": 955
+  },
+  {
+    "name": "Radeon R5 PRO A8-9600B R5, 10 COMPUTE CORES 4C+6G",
+    "g2dMark": 386,
+    "g3dMark": 860
+  },
+  {
+    "name": "Radeon R5E",
+    "g2dMark": 216,
+    "g3dMark": 338
+  },
+  {
+    "name": "Radeon R6",
+    "g2dMark": 292,
+    "g3dMark": 643
+  },
+  {
+    "name": "Radeon R6 + R7 M265DX Dual",
+    "g2dMark": 328,
+    "g3dMark": 570
+  },
+  {
+    "name": "Radeon R6 A10-8700P",
+    "g2dMark": 331,
+    "g3dMark": 690
+  },
+  {
+    "name": "Radeon R6 A8-8600P",
+    "g2dMark": 295,
+    "g3dMark": 501
+  },
+  {
+    "name": "Radeon R6 PRO A10-8700B R6, 10 Compute Cores 4C+6G",
+    "g2dMark": 295,
+    "g3dMark": 562
+  },
+  {
+    "name": "Radeon R6 PRO A8-8600B R6, 10 Compute Cores 4C+6G",
+    "g2dMark": 302,
+    "g3dMark": 604
+  },
+  {
+    "name": "Radeon R7 + HD 7700 Dual",
+    "g2dMark": 498,
+    "g3dMark": 1962
+  },
+  {
+    "name": "Radeon R7 + R5 330 Dual",
+    "g2dMark": 530,
+    "g3dMark": 1028
+  },
+  {
+    "name": "Radeon R7 + R5 435 Dual A10-9700 RADEON",
+    "g2dMark": 479,
+    "g3dMark": 885
+  },
+  {
+    "name": "Radeon R7 + R7 200 Dual",
+    "g2dMark": 475,
+    "g3dMark": 1289
+  },
+  {
+    "name": "Radeon R7 + R7 240 Dual",
+    "g2dMark": 373,
+    "g3dMark": 1045
+  },
+  {
+    "name": "Radeon R7 + R7 350 Dual",
+    "g2dMark": 551,
+    "g3dMark": 1982
+  },
+  {
+    "name": "Radeon R7 240",
+    "g2dMark": 531,
+    "g3dMark": 978
+  },
+  {
+    "name": "Radeon R7 240 + HD 8570D Dual",
+    "g2dMark": 352,
+    "g3dMark": 917
+  },
+  {
+    "name": "Radeon R7 240 + HD 8670D Dual",
+    "g2dMark": 470,
+    "g3dMark": 930
+  },
+  {
+    "name": "Radeon R7 250",
+    "g2dMark": 569,
+    "g3dMark": 1402
+  },
+  {
+    "name": "Radeon R7 250X",
+    "g2dMark": 637,
+    "g3dMark": 2268
+  },
+  {
+    "name": "Radeon R7 260",
+    "g2dMark": 558,
+    "g3dMark": 2891
+  },
+  {
+    "name": "Radeon R7 260X",
+    "g2dMark": 585,
+    "g3dMark": 3163
+  },
+  {
+    "name": "Radeon R7 340",
+    "g2dMark": 523,
+    "g3dMark": 1041
+  },
+  {
+    "name": "Radeon R7 360",
+    "g2dMark": 599,
+    "g3dMark": 3306
+  },
+  {
+    "name": "Radeon R7 370",
+    "g2dMark": 665,
+    "g3dMark": 4647
+  },
+  {
+    "name": "Radeon R7 430",
+    "g2dMark": 731,
+    "g3dMark": 1411
+  },
+  {
+    "name": "Radeon R7 450",
+    "g2dMark": 731,
+    "g3dMark": 2201
+  },
+  {
+    "name": "Radeon R7 A10 Extreme Edition",
+    "g2dMark": 349,
+    "g3dMark": 767
+  },
+  {
+    "name": "Radeon R7 A10 PRO-7800B",
+    "g2dMark": 439,
+    "g3dMark": 724
+  },
+  {
+    "name": "Radeon R7 A10 PRO-7850B",
+    "g2dMark": 497,
+    "g3dMark": 962
+  },
+  {
+    "name": "Radeon R7 A10-7700K",
+    "g2dMark": 474,
+    "g3dMark": 897
+  },
+  {
+    "name": "Radeon R7 A10-7800",
+    "g2dMark": 407,
+    "g3dMark": 884
+  },
+  {
+    "name": "Radeon R7 A10-7850K",
+    "g2dMark": 492,
+    "g3dMark": 1018
+  },
+  {
+    "name": "Radeon R7 A10-7860K",
+    "g2dMark": 508,
+    "g3dMark": 993
+  },
+  {
+    "name": "Radeon R7 A10-7870K",
+    "g2dMark": 504,
+    "g3dMark": 1130
+  },
+  {
+    "name": "Radeon R7 A10-7890K",
+    "g2dMark": 543,
+    "g3dMark": 1160
+  },
+  {
+    "name": "Radeon R7 A10-8750",
+    "g2dMark": 411,
+    "g3dMark": 986
+  },
+  {
+    "name": "Radeon R7 A10-8850",
+    "g2dMark": 532,
+    "g3dMark": 1107
+  },
+  {
+    "name": "Radeon R7 A10-9700 RADEON",
+    "g2dMark": 475,
+    "g3dMark": 1198
+  },
+  {
+    "name": "Radeon R7 A10-9700E RADEON",
+    "g2dMark": 423,
+    "g3dMark": 1105
+  },
+  {
+    "name": "Radeon R7 A12-9700P RADEON",
+    "g2dMark": 358,
+    "g3dMark": 739
+  },
+  {
+    "name": "Radeon R7 A12-9720P RADEON",
+    "g2dMark": 362,
+    "g3dMark": 924
+  },
+  {
+    "name": "Radeon R7 A12-9730P RADEON",
+    "g2dMark": 373,
+    "g3dMark": 948
+  },
+  {
+    "name": "Radeon R7 A12-9800 RADEON",
+    "g2dMark": 485,
+    "g3dMark": 1248
+  },
+  {
+    "name": "Radeon R7 A12-9800E RADEON",
+    "g2dMark": 423,
+    "g3dMark": 1185
+  },
+  {
+    "name": "Radeon R7 A265",
+    "g2dMark": 833,
+    "g3dMark": 987
+  },
+  {
+    "name": "Radeon R7 A370",
+    "g2dMark": 742,
+    "g3dMark": 1281
+  },
+  {
+    "name": "Radeon R7 A8 PRO-7600B",
+    "g2dMark": 419,
+    "g3dMark": 715
+  },
+  {
+    "name": "Radeon R7 A8-7500",
+    "g2dMark": 493,
+    "g3dMark": 1027
+  },
+  {
+    "name": "Radeon R7 A8-7500 Radeon R7, 10 Compute Cores 4C+6",
+    "g2dMark": 389,
+    "g3dMark": 853
+  },
+  {
+    "name": "Radeon R7 A8-7600",
+    "g2dMark": 462,
+    "g3dMark": 929
+  },
+  {
+    "name": "Radeon R7 A8-7650K",
+    "g2dMark": 476,
+    "g3dMark": 864
+  },
+  {
+    "name": "Radeon R7 A8-7670K",
+    "g2dMark": 505,
+    "g3dMark": 844
+  },
+  {
+    "name": "Radeon R7 A8-8650",
+    "g2dMark": 499,
+    "g3dMark": 910
+  },
+  {
+    "name": "Radeon R7 A8-9600 RADEON",
+    "g2dMark": 432,
+    "g3dMark": 1116
+  },
+  {
+    "name": "Radeon R7 FX-8800P",
+    "g2dMark": 373,
+    "g3dMark": 845
+  },
+  {
+    "name": "Radeon R7 FX-9800P RADEON",
+    "g2dMark": 345,
+    "g3dMark": 847
+  },
+  {
+    "name": "Radeon R7 FX-9830P RADEON",
+    "g2dMark": 418,
+    "g3dMark": 1794
+  },
+  {
+    "name": "Radeon R7 M260",
+    "g2dMark": 535,
+    "g3dMark": 672
+  },
+  {
+    "name": "Radeon R7 M260X",
+    "g2dMark": 587,
+    "g3dMark": 1115
+  },
+  {
+    "name": "Radeon R7 M265",
+    "g2dMark": 559,
+    "g3dMark": 817
+  },
+  {
+    "name": "Radeon R7 M270",
+    "g2dMark": 513,
+    "g3dMark": 745
+  },
+  {
+    "name": "Radeon R7 M340",
+    "g2dMark": 621,
+    "g3dMark": 766
+  },
+  {
+    "name": "Radeon R7 M350",
+    "g2dMark": 602,
+    "g3dMark": 1198
+  },
+  {
+    "name": "Radeon R7 M360",
+    "g2dMark": 579,
+    "g3dMark": 710
+  },
+  {
+    "name": "Radeon R7 M365X",
+    "g2dMark": 491,
+    "g3dMark": 904
+  },
+  {
+    "name": "Radeon R7 M370",
+    "g2dMark": 668,
+    "g3dMark": 1410
+  },
+  {
+    "name": "Radeon R7 M440",
+    "g2dMark": 626,
+    "g3dMark": 938
+  },
+  {
+    "name": "Radeon R7 M445",
+    "g2dMark": 607,
+    "g3dMark": 1058
+  },
+  {
+    "name": "Radeon R7 M460",
+    "g2dMark": 610,
+    "g3dMark": 1119
+  },
+  {
+    "name": "Radeon R7 M465",
+    "g2dMark": 779,
+    "g3dMark": 1306
+  },
+  {
+    "name": "Radeon R7 M465X",
+    "g2dMark": 840,
+    "g3dMark": 2057
+  },
+  {
+    "name": "Radeon R7 Opteron X3421",
+    "g2dMark": 345,
+    "g3dMark": 961
+  },
+  {
+    "name": "Radeon R7 PRO A10-8750B",
+    "g2dMark": 512,
+    "g3dMark": 921
+  },
+  {
+    "name": "Radeon R7 PRO A10-8770",
+    "g2dMark": 522,
+    "g3dMark": 1319
+  },
+  {
+    "name": "Radeon R7 PRO A10-8770E",
+    "g2dMark": 456,
+    "g3dMark": 1147
+  },
+  {
+    "name": "Radeon R7 PRO A10-8850B",
+    "g2dMark": 552,
+    "g3dMark": 945
+  },
+  {
+    "name": "Radeon R7 PRO A10-9700",
+    "g2dMark": 508,
+    "g3dMark": 1367
+  },
+  {
+    "name": "Radeon R7 PRO A10-9700B",
+    "g2dMark": 378,
+    "g3dMark": 1082
+  },
+  {
+    "name": "Radeon R7 PRO A10-9700E",
+    "g2dMark": 454,
+    "g3dMark": 1105
+  },
+  {
+    "name": "Radeon R7 PRO A12-8800B",
+    "g2dMark": 331,
+    "g3dMark": 782
+  },
+  {
+    "name": "Radeon R7 PRO A12-8830B",
+    "g2dMark": 373,
+    "g3dMark": 979
+  },
+  {
+    "name": "Radeon R7 PRO A12-8870",
+    "g2dMark": 540,
+    "g3dMark": 1375
+  },
+  {
+    "name": "Radeon R7 PRO A12-8870E",
+    "g2dMark": 469,
+    "g3dMark": 1160
+  },
+  {
+    "name": "Radeon R7 PRO A12-9800",
+    "g2dMark": 578,
+    "g3dMark": 1346
+  },
+  {
+    "name": "Radeon R7 PRO A12-9800B",
+    "g2dMark": 350,
+    "g3dMark": 820
+  },
+  {
+    "name": "Radeon R7 PRO A12-9800E",
+    "g2dMark": 459,
+    "g3dMark": 1042
+  },
+  {
+    "name": "Radeon R7 PRO A8-8650B",
+    "g2dMark": 466,
+    "g3dMark": 843
+  },
+  {
+    "name": "Radeon R7 PRO A8-9600",
+    "g2dMark": 481,
+    "g3dMark": 1049
+  },
+  {
+    "name": "Radeon R9 255",
+    "g2dMark": 623,
+    "g3dMark": 1763
+  },
+  {
+    "name": "Radeon R9 260",
+    "g2dMark": 643,
+    "g3dMark": 3018
+  },
+  {
+    "name": "Radeon R9 270",
+    "g2dMark": 652,
+    "g3dMark": 4212
+  },
+  {
+    "name": "Radeon R9 270 / R7 370",
+    "g2dMark": 646,
+    "g3dMark": 4262
+  },
+  {
+    "name": "Radeon R9 270X",
+    "g2dMark": 658,
+    "g3dMark": 4687
+  },
+  {
+    "name": "Radeon R9 280",
+    "g2dMark": 685,
+    "g3dMark": 5387
+  },
+  {
+    "name": "Radeon R9 280X",
+    "g2dMark": 712,
+    "g3dMark": 5846
+  },
+  {
+    "name": "Radeon R9 285 / 380",
+    "g2dMark": 655,
+    "g3dMark": 5553
+  },
+  {
+    "name": "Radeon R9 290 / 390",
+    "g2dMark": 750,
+    "g3dMark": 7123
+  },
+  {
+    "name": "Radeon R9 290X / 390X",
+    "g2dMark": 765,
+    "g3dMark": 7415
+  },
+  {
+    "name": "Radeon R9 295X2",
+    "g2dMark": 765,
+    "g3dMark": 7695
+  },
+  {
+    "name": "Radeon R9 350",
+    "g2dMark": 832,
+    "g3dMark": 2241
+  },
+  {
+    "name": "Radeon R9 360",
+    "g2dMark": 468,
+    "g3dMark": 3038
+  },
+  {
+    "name": "Radeon R9 370",
+    "g2dMark": 780,
+    "g3dMark": 4722
+  },
+  {
+    "name": "Radeon R9 380",
+    "g2dMark": 684,
+    "g3dMark": 6127
+  },
+  {
+    "name": "Radeon R9 380X",
+    "g2dMark": 685,
+    "g3dMark": 6190
+  },
+  {
+    "name": "Radeon R9 390",
+    "g2dMark": 766,
+    "g3dMark": 8085
+  },
+  {
+    "name": "Radeon R9 390X",
+    "g2dMark": 790,
+    "g3dMark": 8536
+  },
+  {
+    "name": "Radeon R9 Fury",
+    "g2dMark": 819,
+    "g3dMark": 9164
+  },
+  {
+    "name": "Radeon R9 Fury + Fury X",
+    "g2dMark": 766,
+    "g3dMark": 8442
+  },
+  {
+    "name": "Radeon R9 M265X",
+    "g2dMark": 672,
+    "g3dMark": 1271
+  },
+  {
+    "name": "Radeon R9 M270X",
+    "g2dMark": 479,
+    "g3dMark": 1417
+  },
+  {
+    "name": "Radeon R9 M275",
+    "g2dMark": 569,
+    "g3dMark": 1114
+  },
+  {
+    "name": "Radeon R9 M275X / M375",
+    "g2dMark": 626,
+    "g3dMark": 1500
+  },
+  {
+    "name": "Radeon R9 M290X",
+    "g2dMark": 709,
+    "g3dMark": 4000
+  },
+  {
+    "name": "Radeon R9 M295X",
+    "g2dMark": 832,
+    "g3dMark": 5150
+  },
+  {
+    "name": "Radeon R9 M360",
+    "g2dMark": 679,
+    "g3dMark": 1997
+  },
+  {
+    "name": "Radeon R9 M370X",
+    "g2dMark": 663,
+    "g3dMark": 1927
+  },
+  {
+    "name": "Radeon R9 M375",
+    "g2dMark": 578,
+    "g3dMark": 1250
+  },
+  {
+    "name": "Radeon R9 M375X",
+    "g2dMark": 645,
+    "g3dMark": 2095
+  },
+  {
+    "name": "Radeon R9 M380",
+    "g2dMark": 714,
+    "g3dMark": 3085
+  },
+  {
+    "name": "Radeon R9 M390X",
+    "g2dMark": 703,
+    "g3dMark": 4356
+  },
+  {
+    "name": "Radeon R9 M395",
+    "g2dMark": 777,
+    "g3dMark": 5006
+  },
+  {
+    "name": "Radeon R9 M395X",
+    "g2dMark": 811,
+    "g3dMark": 5757
+  },
+  {
+    "name": "Radeon R9 M470",
+    "g2dMark": 593,
+    "g3dMark": 2435
+  },
+  {
+    "name": "Radeon R9 M470X",
+    "g2dMark": 695,
+    "g3dMark": 3563
+  },
+  {
+    "name": "Radeon RX 460",
+    "g2dMark": 667,
+    "g3dMark": 4334
+  },
+  {
+    "name": "Radeon RX 470",
+    "g2dMark": 735,
+    "g3dMark": 7519
+  },
+  {
+    "name": "Radeon RX 480",
+    "g2dMark": 787,
+    "g3dMark": 8114
+  },
+  {
+    "name": "Radeon RX 550",
+    "g2dMark": 613,
+    "g3dMark": 3438
+  },
+  {
+    "name": "Radeon RX 560",
+    "g2dMark": 652,
+    "g3dMark": 4396
+  }
+]
