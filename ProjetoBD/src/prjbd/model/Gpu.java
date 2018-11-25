@@ -1,5 +1,12 @@
 package prjbd.model;
 
+import java.io.IOException;
+
+import com.google.gson.TypeAdapter;
+import com.google.gson.stream.JsonReader;
+import com.google.gson.stream.JsonToken;
+import com.google.gson.stream.JsonWriter;
+
 public class Gpu {
 	private int id;
 	private String name;
@@ -32,4 +39,38 @@ public class Gpu {
 		return this.g2dMark;
 	}
 	
+	public static class GpuAdapter extends TypeAdapter<Gpu> {
+		@Override
+		public Gpu read(JsonReader reader) throws IOException {
+			if(reader.peek() == JsonToken.NULL) {
+				reader.nextNull();
+				return null;
+			}
+			reader.beginObject();
+			
+			String name = "";
+			int g3dMark = -1;
+			int g2dMark = -1;
+			
+			while(reader.hasNext()) {
+				String nameToken = reader.nextName();
+				if(nameToken.equals("name")) {
+					name = reader.nextString();
+				} else if(nameToken.equals("g3dMark")) {
+					g3dMark = reader.nextInt();
+				} else if(nameToken.equals("g2dMark")) {
+					g2dMark = reader.nextInt();
+				}
+			}
+			
+			reader.endObject();
+			
+			return new Gpu(0, name, g3dMark, g2dMark);
+		}
+
+		@Override
+		public void write(JsonWriter out, Gpu value) throws IOException {
+			// TODO Auto-generated method stub
+		}
+	}
 }

@@ -12,10 +12,9 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.Part;
 
-import com.google.gson.JsonArray;
-import com.google.gson.JsonElement;
-import com.google.gson.JsonObject;
-import com.google.gson.JsonParser;
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
+import com.google.gson.stream.JsonReader;
 
 import prjbd.dao.DAO;
 import prjbd.dao.GpuDAO;
@@ -109,23 +108,19 @@ public class GpuController extends HttpServlet {
 		case "/gpus/json":
 			try {
 				DAO<Gpu> dao = new GpuDAO();
-				JsonParser parser = new JsonParser();
 				
 				Part part = request.getPart("json");
-				InputStreamReader isr = new InputStreamReader(part.getInputStream());
+				Gson gson = new GsonBuilder().registerTypeAdapter(Gpu.class, new Gpu.GpuAdapter()).create();
+				JsonReader reader = gson.newJsonReader(new InputStreamReader(part.getInputStream()));
 				
-				JsonArray array = parser.parse(isr).getAsJsonArray();
+				reader.beginArray();
 				
-				for(JsonElement element : array) {
-					JsonObject object = element.getAsJsonObject();
-					
-					String name = object.get("name").getAsString();
-					int g3dMark = object.get("g3dMark").getAsInt();
-					int g2dMark = object.get("g2dMark").getAsInt();
-					
-					Gpu gpu = new Gpu(0, name, g3dMark, g2dMark);
+				while(reader.hasNext()) {
+					Gpu gpu = gson.fromJson(reader, Gpu.class);
 					dao.create(gpu);
 				}
+				
+				reader.endArray();
 				
 				request.getRequestDispatcher("/gpus").forward(request, response);
 			} catch (Exception e) {
