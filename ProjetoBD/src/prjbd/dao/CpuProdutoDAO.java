@@ -39,7 +39,7 @@ public class CpuProdutoDAO extends DAO<CpuProduto> {
 	}
 
 	@Override
-	public List<CpuProduto> all() throws SQLException {
+	public LinkedList<CpuProduto> all() throws SQLException {
 		LinkedList<CpuProduto> cpusProduto = new LinkedList<>();
 		String query = "SELECT p.id, p.nome, p.nomeTratado, p.preco, p.parcelas, p.valorParcela, p.idLoja, p.url, l.nome as nomeLoja " + 
 				"FROM prjbd.produto as p, prjbd.loja as l " + 
@@ -101,6 +101,11 @@ public class CpuProdutoDAO extends DAO<CpuProduto> {
 
 	@Override
 	public void clean() throws SQLException {
+		throw new SQLException("método não implementado");
+	}
+
+	@Override
+	public LinkedList<CpuProduto> search(String pattern) throws SQLException {
 		throw new SQLException("método não implementado");
 	}
 }

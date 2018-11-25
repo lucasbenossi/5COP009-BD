@@ -5,7 +5,6 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.LinkedList;
-import java.util.List;
 
 import prjbd.model.Cpu;
 
@@ -90,7 +89,7 @@ public class CpuDAO extends DAO<Cpu> {
 	}
 
 	@Override
-	public List<Cpu> all() throws SQLException {
+	public LinkedList<Cpu> all() throws SQLException {
 		String query = "SELECT * FROM prjbd.cpu ORDER BY id;";
 		LinkedList<Cpu> cpus = new LinkedList<>();
 		try (PreparedStatement stmt = connection.prepareStatement(query);

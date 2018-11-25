@@ -5,7 +5,6 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.LinkedList;
-import java.util.List;
 
 import prjbd.model.Loja;
 
@@ -66,7 +65,7 @@ public class LojaDAO extends DAO<Loja> {
 	}
 
 	@Override
-	public List<Loja> all() throws SQLException {
+	public LinkedList<Loja> all() throws SQLException {
 		String query = "SELECT * FROM prjbd.loja ORDER BY id;";
 		LinkedList<Loja> lojas = new LinkedList<>();
 		try (PreparedStatement statement = connection.prepareStatement(query);
@@ -85,6 +84,11 @@ public class LojaDAO extends DAO<Loja> {
 		try (PreparedStatement statement = connection.prepareStatement(query);){
 			statement.execute();
 		}
+	}
+
+	@Override
+	public LinkedList<Loja> search(String pattern) throws SQLException {
+		throw new SQLException("método não implementado");
 	}
 
 }

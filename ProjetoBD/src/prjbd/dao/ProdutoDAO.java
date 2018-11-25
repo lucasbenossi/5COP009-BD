@@ -5,7 +5,6 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.LinkedList;
-import java.util.List;
 
 import prjbd.model.Produto;
 
@@ -84,7 +83,7 @@ public class ProdutoDAO extends DAO<Produto> {
 	}
 
 	@Override
-	public List<Produto> all() throws SQLException {
+	public LinkedList<Produto> all() throws SQLException {
 		String query = "SELECT * FROM prjbd.produto ORDER BY id;";
 		LinkedList<Produto> produtos = new LinkedList<>();
 		try (PreparedStatement statement = connection.prepareStatement(query);

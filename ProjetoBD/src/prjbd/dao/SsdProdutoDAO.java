@@ -6,7 +6,6 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.LinkedList;
-import java.util.List;
 
 import prjbd.model.Produto;
 import prjbd.model.SsdProduto;
@@ -38,7 +37,7 @@ public class SsdProdutoDAO extends DAO<SsdProduto> {
 	}
 
 	@Override
-	public List<SsdProduto> all() throws SQLException {
+	public LinkedList<SsdProduto> all() throws SQLException {
 		LinkedList<SsdProduto> ssds = new LinkedList<>();
 		String query = "SELECT p.id, p.nome, p.preco, p.parcelas, p.valorParcela, p.idLoja, p.url, l.nome as nomeLoja " + 
 				"FROM prjbd.produto as p, prjbd.loja as l " + 
@@ -65,6 +64,11 @@ public class SsdProdutoDAO extends DAO<SsdProduto> {
 
 	@Override
 	public void clean() throws SQLException {
+		throw new SQLException("método não implementado");
+	}
+
+	@Override
+	public LinkedList<SsdProduto> search(String pattern) throws SQLException {
 		throw new SQLException("método não implementado");
 	}
 	

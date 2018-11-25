@@ -4,7 +4,7 @@ package prjbd.dao;
 import java.io.IOException;
 import java.sql.Connection;
 import java.sql.SQLException;
-import java.util.List;
+import java.util.LinkedList;
 
 import prjbd.jdbc.ConnectionFactory;
 
@@ -24,7 +24,9 @@ public abstract class DAO<T> {
 
 	public abstract void delete(Integer id) throws SQLException;
 
-	public abstract List<T> all() throws SQLException;
+	public abstract LinkedList<T> all() throws SQLException;
 	
 	public abstract void clean() throws SQLException;
+	
+	public abstract LinkedList<T> search(String pattern) throws SQLException;
 }
