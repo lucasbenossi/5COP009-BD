@@ -36,7 +36,7 @@
 				<tr>
 					<th>Id</th>
 					<th>Nome</th>
-					<th>NomeTratado</th>
+					<th>Nome Tratado</th>
 					<th>Preço</th>
 					<th>Parcelas</th>
 					<th>Valor Parcela</th>
