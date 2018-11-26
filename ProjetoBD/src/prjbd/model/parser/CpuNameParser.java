@@ -1,11 +1,8 @@
-package prjbd.model.tratador;
+package prjbd.model.parser;
 
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
-
-public abstract class CpuNameParser {
+public abstract class CpuNameParser extends NameParser {
 	
-	public static String parseNome(String input) {
+	public static String parseName(String input) {
 		input = input.toLowerCase();
 		
 		String brand = null;
@@ -82,19 +79,5 @@ public abstract class CpuNameParser {
 		return brand + " " + category + " " + model;
 	}
 	
-	private static String parse(String regex, String input, int group) {
-		return parse(new String[] {regex}, input, group);
-	}
-	
-	private static String parse(String[] regexes, String input, int group) {
-		for(String regex : regexes) {
-			Pattern pattern = Pattern.compile(regex);
-			Matcher matcher = pattern.matcher(input);
-			if(matcher.find()) {
-				return matcher.group(group);
-			}
-		}
-		return null;
-	}
 }
 

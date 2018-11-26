@@ -8,7 +8,8 @@ import com.google.gson.TypeAdapter;
 import com.google.gson.stream.JsonReader;
 import com.google.gson.stream.JsonWriter;
 
-import prjbd.model.tratador.CpuNameParser;
+import prjbd.model.parser.CpuNameParser;
+import prjbd.model.parser.GpuNameParser;
 
 public class Produto {
 	private int id;
@@ -67,12 +68,16 @@ public class Produto {
 	}
 	
 	public void tratarNome() throws Exception {
-		if(nome.toLowerCase().contains("processador")) {
-			try {
-				this.nomeTratado = CpuNameParser.parseNome(nome);
-			} catch (Exception e) {
-				throw new Exception("ERRO: " + this.nome, e);
+		String nome = this.nome.toLowerCase();
+		
+		try {
+			if(nome.contains("processador")) {
+				this.nomeTratado = CpuNameParser.parseName(nome);
+			} else if(nome.contains("placa de video") || nome.contains("place de vídeo")) {
+				this.nomeTratado = GpuNameParser.parseName(nome);
 			}
+		} catch (Exception e) {
+			throw new Exception("ERRO: " + this.nome, e);
 		}
 	}
 	

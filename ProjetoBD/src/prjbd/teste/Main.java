@@ -1,13 +1,9 @@
 package prjbd.teste;
 
+import prjbd.model.parser.GpuNameParser;
+
 public class Main {
 	public static void main(String[] args) throws Exception {
-		stringsIt(new String[]{" (fx-)", " (ryzen|athlon) ", "(a(4|6|8|10|12))", "(sempron)"});
-	}
-	
-	private static void stringsIt(String[] strings) {
-		for(String string : strings) {
-			System.out.println(string);
-		}
+		System.out.println("##" + GpuNameParser.parseName("Placa de Video Nvidia 8400GS 1GB Pcyes GDDR2 ") + "##");
 	}
 }

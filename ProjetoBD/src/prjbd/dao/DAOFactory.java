@@ -57,6 +57,10 @@ public class DAOFactory implements AutoCloseable {
 	public CpuProdutoDAO getCpuProdutoDAO() {
 		return new CpuProdutoDAO(this.connection);
 	}
+	
+	public GpuProdutoDAO getGpuProdutoDAO() {
+		return new GpuProdutoDAO(this.connection);
+	}
 
 	public SsdProdutoDAO getSsdProdutoDAO() {
 		return new SsdProdutoDAO(this.connection);
