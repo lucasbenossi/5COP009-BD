@@ -4,7 +4,6 @@ import java.io.IOException;
 
 import com.google.gson.TypeAdapter;
 import com.google.gson.stream.JsonReader;
-import com.google.gson.stream.JsonToken;
 import com.google.gson.stream.JsonWriter;
 
 public class Gpu {
@@ -42,27 +41,27 @@ public class Gpu {
 	public static class GpuAdapter extends TypeAdapter<Gpu> {
 		@Override
 		public Gpu read(JsonReader reader) throws IOException {
-			if(reader.peek() == JsonToken.NULL) {
-				reader.nextNull();
-				return null;
-			}
-			reader.beginObject();
-			
 			String name = "";
 			int g3dMark = -1;
 			int g2dMark = -1;
 			
+			reader.beginObject();
 			while(reader.hasNext()) {
-				String nameToken = reader.nextName();
-				if(nameToken.equals("name")) {
+				String jnome = reader.nextName();
+				switch (jnome) {
+				case "name":
 					name = reader.nextString();
-				} else if(nameToken.equals("g3dMark")) {
-					g3dMark = reader.nextInt();
-				} else if(nameToken.equals("g2dMark")) {
+					break;
+				case "g2dMark":
 					g2dMark = reader.nextInt();
+					break;
+				case "g3dMark":
+					g3dMark = reader.nextInt();
+					break;
+				default:
+					break;
 				}
 			}
-			
 			reader.endObject();
 			
 			return new Gpu(0, name, g3dMark, g2dMark);

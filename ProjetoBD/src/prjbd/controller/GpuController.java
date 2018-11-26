@@ -2,6 +2,7 @@ package prjbd.controller;
 
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.sql.SQLException;
 import java.util.LinkedList;
 
 import javax.servlet.ServletException;
@@ -108,19 +109,26 @@ public class GpuController extends HttpServlet {
 		case "/gpus/json":
 			try (DAOFactory daoFac = new DAOFactory();) {
 				DAO<Gpu> dao = daoFac.getGpuDAO();
-				
 				Part part = request.getPart("json");
+				
 				Gson gson = new GsonBuilder().registerTypeAdapter(Gpu.class, new Gpu.GpuAdapter()).create();
 				JsonReader reader = gson.newJsonReader(new InputStreamReader(part.getInputStream()));
 				
-				reader.beginArray();
-				
-				while(reader.hasNext()) {
-					Gpu gpu = gson.fromJson(reader, Gpu.class);
-					dao.create(gpu);
+				try {
+					daoFac.begin();
+					
+					reader.beginArray();
+					while(reader.hasNext()) {
+						dao.create(gson.fromJson(reader, Gpu.class));
+					}
+					reader.endArray();
+					
+					daoFac.commit();
+					daoFac.end();
+				} catch (SQLException e) {
+					daoFac.rollback();
+					throw e;
 				}
-				
-				reader.endArray();
 				
 				request.getRequestDispatcher("/gpus").forward(request, response);
 			} catch (Exception e) {
