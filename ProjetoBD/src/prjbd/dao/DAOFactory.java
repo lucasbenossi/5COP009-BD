@@ -5,6 +5,9 @@ import java.sql.Connection;
 import java.sql.SQLException;
 
 import prjbd.jdbc.ConnectionFactory;
+import prjbd.model.Cpu;
+import prjbd.model.Gpu;
+import prjbd.model.Loja;
 import prjbd.model.Produto;
 
 public class DAOFactory implements AutoCloseable {
@@ -35,15 +38,15 @@ public class DAOFactory implements AutoCloseable {
 		connection.close();		
 	}
 
-	public CpuDAO getCpuDAO() {
+	public DAO<Cpu> getCpuDAO() {
 		return new CpuDAO(this.connection);
 	}
 	
-	public GpuDAO getGpuDAO() {
+	public DAO<Gpu> getGpuDAO() {
 		return new GpuDAO(this.connection);
 	}
 	
-	public LojaDAO getLojaDAO() {
+	public DAO<Loja> getLojaDAO() {
 		return new LojaDAO(this.connection);
 	}
 

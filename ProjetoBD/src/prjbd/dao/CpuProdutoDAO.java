@@ -46,7 +46,7 @@ public class CpuProdutoDAO extends DAO<CpuProduto> {
 				"WHERE p.idLoja = l.id AND p.nome ILIKE 'processador%';";
 		
 		try (DAOFactory daoFac = new DAOFactory();) {
-			CpuDAO cpuDao = daoFac.getCpuDAO();
+			CpuDAO cpuDao = (CpuDAO) daoFac.getCpuDAO();
 			
 			try (PreparedStatement stmt = connection.prepareStatement(query);
 					ResultSet result = stmt.executeQuery();){
