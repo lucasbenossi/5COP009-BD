@@ -2,6 +2,7 @@ package prjbd.controller;
 
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.sql.SQLException;
 import java.util.List;
 
 import javax.servlet.ServletException;
@@ -12,10 +13,9 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.Part;
 
-import com.google.gson.JsonArray;
-import com.google.gson.JsonElement;
-import com.google.gson.JsonObject;
-import com.google.gson.JsonParser;
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
+import com.google.gson.stream.JsonReader;
 
 import prjbd.dao.DAO;
 import prjbd.dao.DAOFactory;
@@ -109,23 +109,27 @@ public class LojaController extends HttpServlet {
 		case "/lojas/json":
 			try (DAOFactory daoFac = new DAOFactory();) {
 				DAO<Loja> dao = daoFac.getLojaDAO();
-				JsonParser parser = new JsonParser();
-				
 				Part part = request.getPart("json");
-				InputStreamReader isr = new InputStreamReader(part.getInputStream());
 				
-				JsonArray array = parser.parse(isr).getAsJsonArray();
+				Gson gson = new GsonBuilder().registerTypeAdapter(Loja.class, new Loja.LojaAdapter()).create();
+				JsonReader reader = gson.newJsonReader(new InputStreamReader(part.getInputStream()));
 				
-				for(JsonElement element : array) {
-					JsonObject object = element.getAsJsonObject();
+				try {
+					daoFac.begin();
 					
-					int id = object.get("id").getAsInt();
-					String nome = object.get("nome").getAsString();
-					String url = object.get("url").getAsString();
+					reader.beginArray();
+					while(reader.hasNext()) {
+						dao.create(gson.fromJson(reader, Loja.class));
+					}
+					reader.endArray();
 					
-					Loja loja = new Loja(id, nome, url);
-					dao.create(loja);
+					daoFac.commit();
+					daoFac.end();
+				} catch (SQLException e) {
+					daoFac.rollback();
+					throw e;
 				}
+				
 				
 				request.getRequestDispatcher("/lojas").forward(request, response);
 			} catch (Exception e) {

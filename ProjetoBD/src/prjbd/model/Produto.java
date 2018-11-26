@@ -1,6 +1,12 @@
 package prjbd.model;
 
+import java.io.IOException;
 import java.math.BigDecimal;
+
+import com.google.gson.JsonParser;
+import com.google.gson.TypeAdapter;
+import com.google.gson.stream.JsonReader;
+import com.google.gson.stream.JsonWriter;
 
 public class Produto {
 	private int id;
@@ -56,5 +62,55 @@ public class Produto {
 	
 	public String getUrl() {
 		return this.url;
+	}
+	
+	public static class ProdutoAdapter extends TypeAdapter<Produto> {
+
+		@Override
+		public Produto read(JsonReader reader) throws IOException {
+			String nome = "";
+			BigDecimal preco = null;
+			int parcelas = -1;
+			BigDecimal valorParcela = null;
+			int idLoja = -1;
+			String url = "";
+			
+			JsonParser parser = new JsonParser();
+			
+			reader.beginObject();
+			while(reader.hasNext()) {
+				String jname = reader.nextName();
+				switch (jname) {
+				case "nome":
+					nome = reader.nextString();
+					break;
+				case "preco":
+					preco = parser.parse(reader).getAsBigDecimal();
+					break;
+				case "parcelas":
+					parcelas = reader.nextInt();
+					break;
+				case "valorParcela":
+					valorParcela = parser.parse(reader).getAsBigDecimal();
+					break;
+				case "idLoja":
+					idLoja = reader.nextInt();
+					break;
+				case "url":
+					url = reader.nextString();
+					break;
+				default:
+					break;
+				}
+			}
+			reader.endObject();
+			
+			return new Produto(0, nome, "", preco, parcelas, valorParcela, idLoja, url);
+		}
+
+		@Override
+		public void write(JsonWriter out, Produto value) throws IOException {
+		}
+		
 	}
 }

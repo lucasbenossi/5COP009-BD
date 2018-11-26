@@ -13,12 +13,10 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.Part;
 
-import com.google.gson.JsonArray;
-import com.google.gson.JsonElement;
-import com.google.gson.JsonObject;
-import com.google.gson.JsonParser;
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
+import com.google.gson.stream.JsonReader;
 
-import prjbd.controller.tratador.TratarNome;
 import prjbd.dao.DAO;
 import prjbd.dao.DAOFactory;
 import prjbd.model.Produto;
@@ -117,29 +115,26 @@ public class ProdutoController extends HttpServlet {
 			break;
 		case "/produtos/json":
 			try (DAOFactory daoFac = new DAOFactory();) {
-//				daoFac.begin();
-				
 				DAO<Produto> dao = daoFac.getProdutoDAO();
-				JsonParser parser = new JsonParser();
-				
 				Part part = request.getPart("json");
-				InputStreamReader isr = new InputStreamReader(part.getInputStream());
 				
-				JsonArray array = parser.parse(isr).getAsJsonArray();
+				Gson gson = new GsonBuilder().registerTypeAdapter(Produto.class, new Produto.ProdutoAdapter()).create();
+				JsonReader reader = gson.newJsonReader(new InputStreamReader(part.getInputStream()));
 				
-				for(JsonElement element : array) {
-					JsonObject object = element.getAsJsonObject();
+				try {
+					daoFac.begin();
 					
-					String nome = object.get("nome").getAsString();
-					String nomeTratado = TratarNome.tratarNome(nome);
-					BigDecimal preco = object.get("preco").getAsBigDecimal();
-					int parcelas = object.get("parcelas").getAsInt();
-					BigDecimal valorParcela = object.get("valorParcela").getAsBigDecimal();
-					int idLoja = object.get("idLoja").getAsInt();
-					String url = object.get("url").getAsString();
+					reader.beginArray();
+					while(reader.hasNext()) {
+						dao.create(gson.fromJson(reader, Produto.class));
+					}
+					reader.endArray();
 					
-					Produto produto = new Produto(0, nome, nomeTratado, preco, parcelas, valorParcela, idLoja, url);
-					dao.create(produto);
+					daoFac.commit();
+					daoFac.end();
+				} catch (Exception e) {
+					daoFac.rollback();
+					throw e;
 				}
 				
 				request.getRequestDispatcher("/produtos").forward(request, response);
