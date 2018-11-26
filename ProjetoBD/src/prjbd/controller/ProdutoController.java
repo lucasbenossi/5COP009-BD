@@ -126,7 +126,9 @@ public class ProdutoController extends HttpServlet {
 					
 					reader.beginArray();
 					while(reader.hasNext()) {
-						dao.create(gson.fromJson(reader, Produto.class));
+						Produto produto = gson.fromJson(reader, Produto.class);
+						produto.tratarNome();
+						dao.create(produto);
 					}
 					reader.endArray();
 					

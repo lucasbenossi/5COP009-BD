@@ -8,6 +8,8 @@ import com.google.gson.TypeAdapter;
 import com.google.gson.stream.JsonReader;
 import com.google.gson.stream.JsonWriter;
 
+import prjbd.model.tratador.CpuNameParser;
+
 public class Produto {
 	private int id;
 	private String nome;
@@ -62,6 +64,16 @@ public class Produto {
 	
 	public String getUrl() {
 		return this.url;
+	}
+	
+	public void tratarNome() throws Exception {
+		if(nome.toLowerCase().contains("processador")) {
+			try {
+				this.nomeTratado = CpuNameParser.parseNome(nome);
+			} catch (Exception e) {
+				throw new Exception("ERRO: " + this.nome, e);
+			}
+		}
 	}
 	
 	public static class ProdutoAdapter extends TypeAdapter<Produto> {
