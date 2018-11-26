@@ -17,6 +17,7 @@ import javax.servlet.http.HttpServletResponse;
 
 import com.google.gson.JsonArray;
 
+import prjbd.dao.DAOFactory;
 import prjbd.dao.SsdProdutoDAO;
 import prjbd.model.SsdProduto;
 
@@ -29,8 +30,8 @@ public class RelatorioSsdController extends HttpServlet {
     }
 
     protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		try {
-			SsdProdutoDAO dao = new SsdProdutoDAO();
+    	try (DAOFactory daoFac = new DAOFactory();) {
+			SsdProdutoDAO dao = daoFac.getSsdProdutoDAO();
 			List<SsdProduto> ssdsFromDAO = dao.all();
 			LinkedList<SsdProduto> ssds = new LinkedList<>();
 			

@@ -18,7 +18,7 @@ import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 
 import prjbd.dao.DAO;
-import prjbd.dao.LojaDAO;
+import prjbd.dao.DAOFactory;
 import prjbd.model.Loja;
 
 @WebServlet(urlPatterns={"/lojas", 
@@ -40,8 +40,8 @@ public class LojaController extends HttpServlet {
 	protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		switch(request.getServletPath()) {
 		case "/lojas":
-			try {
-				List<Loja> lojas = new LojaDAO().all();
+			try (DAOFactory daoFac = new DAOFactory();) {
+				List<Loja> lojas = daoFac.getLojaDAO().all();
 				request.setAttribute("lojasList", lojas);
 				request.getRequestDispatcher("/lojas/listar.jsp").forward(request, response);
 			} catch (Exception e) {
@@ -56,8 +56,8 @@ public class LojaController extends HttpServlet {
 			}
 			break;
 		case "/lojas/inserir_processa":
-			try {
-				DAO<Loja> dao = new LojaDAO();
+			try (DAOFactory daoFac = new DAOFactory();) {
+				DAO<Loja> dao = daoFac.getLojaDAO();
 				Loja loja = lojaFromRequest(request);
 				dao.create(loja);
 				request.getRequestDispatcher("/lojas").forward(request, response);
@@ -66,8 +66,8 @@ public class LojaController extends HttpServlet {
 			}
 			break;
 		case "/lojas/limpar":
-			try {
-				DAO<Loja> dao = new LojaDAO();
+			try (DAOFactory daoFac = new DAOFactory();) {
+				DAO<Loja> dao = daoFac.getLojaDAO();
 				dao.clean();
 				request.getRequestDispatcher("/lojas").forward(request, response);
 			} catch (Exception e) {
@@ -75,9 +75,9 @@ public class LojaController extends HttpServlet {
 			}
 			break;
 		case "/lojas/alterar":
-			try {
+			try (DAOFactory daoFac = new DAOFactory();) {
 				int id = Integer.parseInt(request.getParameter("id"));
-				DAO<Loja> dao = new LojaDAO();
+				DAO<Loja> dao = daoFac.getLojaDAO();
 				
 				Loja loja = dao.read(id);
 				request.setAttribute("loja", loja);
@@ -88,8 +88,8 @@ public class LojaController extends HttpServlet {
 			}
 			break;
 		case "/lojas/alterar_processa":
-			try {
-				DAO<Loja> dao = new LojaDAO();
+			try (DAOFactory daoFac = new DAOFactory();) {
+				DAO<Loja> dao = daoFac.getLojaDAO();
 				Loja loja = lojaFromRequest(request);
 				dao.update(loja);
 				request.getRequestDispatcher("/lojas").forward(request, response);
@@ -98,17 +98,17 @@ public class LojaController extends HttpServlet {
 			}
 			break;
 		case "/lojas/excluir":
-			try {
+			try (DAOFactory daoFac = new DAOFactory();) {
 				int id = Integer.parseInt(request.getParameter("id"));
-				DAO<Loja> dao = new LojaDAO();
+				DAO<Loja> dao = daoFac.getLojaDAO();
 				dao.delete(id);
 				request.getRequestDispatcher("/lojas").forward(request, response);
 			} catch (Exception e) {
 				ExceptionHandler.processExeption(request, response, e);
 			}
 		case "/lojas/json":
-			try {
-				DAO<Loja> dao = new LojaDAO();
+			try (DAOFactory daoFac = new DAOFactory();) {
+				DAO<Loja> dao = daoFac.getLojaDAO();
 				JsonParser parser = new JsonParser();
 				
 				Part part = request.getPart("json");

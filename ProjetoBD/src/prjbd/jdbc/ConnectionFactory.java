@@ -30,36 +30,21 @@ public class ConnectionFactory {
 	}
 
 	public Connection getConnection() throws ClassNotFoundException, IOException, SQLException {
-		Connection connection = null;
-		try {
-			Class.forName("org.postgresql.Driver");
-			readProperties();
-			String url = "jdbc:postgresql://" + dbHost + ":" + dbPort + "/" + dbName;
-			connection = DriverManager.getConnection(url, dbUser, dbPassword);
-		} catch (ClassNotFoundException ex) {
-			System.err.println(ex.getMessage());
-			throw new ClassNotFoundException("Erro de conexão ao banco de dados.");
-		} catch (SQLException ex) {
-			System.err.println(ex.getMessage());
-			throw new SQLException("Erro de conexão ao banco de dados.");
-		}
-		return connection;
+		Class.forName("org.postgresql.Driver");
+		readProperties();
+		String url = "jdbc:postgresql://" + dbHost + ":" + dbPort + "/" + dbName;
+		return DriverManager.getConnection(url, dbUser, dbPassword);
 	}
 
 	private void readProperties() throws IOException {
 		Properties properties = new Properties();
-		try {
-			String path = "prjbd/jdbc/datasource.properties";
-			InputStream input = this.getClass().getClassLoader().getResourceAsStream(path);
-			properties.load(input);
-			dbHost = properties.getProperty("host");
-			dbPort = properties.getProperty("port");
-			dbName = properties.getProperty("name");
-			dbUser = properties.getProperty("user");
-			dbPassword = properties.getProperty("password");
-		} catch (IOException ex) {
-			System.err.println(ex.getMessage());
-			throw new IOException("Erro ao obter informações do banco de dados.");
-		}
+		String path = "prjbd/jdbc/datasource.properties";
+		InputStream input = this.getClass().getClassLoader().getResourceAsStream(path);
+		properties.load(input);
+		dbHost = properties.getProperty("host");
+		dbPort = properties.getProperty("port");
+		dbName = properties.getProperty("name");
+		dbUser = properties.getProperty("user");
+		dbPassword = properties.getProperty("password");
 	}
 }

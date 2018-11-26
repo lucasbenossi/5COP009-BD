@@ -1,6 +1,6 @@
 package prjbd.dao;
 
-import java.io.IOException;
+import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -10,8 +10,8 @@ import prjbd.model.Cpu;
 
 public class CpuDAO extends DAO<Cpu> {
 
-	public CpuDAO() throws ClassNotFoundException, IOException, SQLException {
-		super();
+	public CpuDAO(Connection connection) {
+		super(connection);
 	}
 
 	@Override

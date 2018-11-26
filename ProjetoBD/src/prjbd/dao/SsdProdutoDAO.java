@@ -1,7 +1,7 @@
 package prjbd.dao;
 
-import java.io.IOException;
 import java.math.BigDecimal;
+import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -12,8 +12,8 @@ import prjbd.model.SsdProduto;
 
 public class SsdProdutoDAO extends DAO<SsdProduto> {
 
-	public SsdProdutoDAO() throws ClassNotFoundException, IOException, SQLException {
-		super();
+	public SsdProdutoDAO(Connection connection) {
+		super(connection);
 	}
 
 	@Override

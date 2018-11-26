@@ -15,6 +15,7 @@ import javax.servlet.http.HttpServletResponse;
 import com.google.gson.JsonArray;
 
 import prjbd.dao.CpuProdutoDAO;
+import prjbd.dao.DAOFactory;
 import prjbd.model.CpuProduto;
 
 @WebServlet("/relatorios/cpu")
@@ -26,8 +27,8 @@ public class RelatorioCpuController extends HttpServlet {
     }
 
 	protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		try {
-			CpuProdutoDAO dao = new CpuProdutoDAO();
+		try (DAOFactory daoFac = new DAOFactory();) {
+			CpuProdutoDAO dao = daoFac.getCpuProdutoDAO();
 			List<CpuProduto> cpus = dao.all();
 			
 			for(CpuProduto cpu : cpus) {

@@ -17,8 +17,8 @@ import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 
-import prjbd.dao.CpuDAO;
 import prjbd.dao.DAO;
+import prjbd.dao.DAOFactory;
 import prjbd.model.Cpu;
 
 @WebServlet(urlPatterns={"/cpus", 
@@ -40,8 +40,8 @@ public class CpuController extends HttpServlet {
 	protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		switch (request.getServletPath()) {
 		case "/cpus":
-			try {
-				List<Cpu> cpus = new CpuDAO().all();
+			try (DAOFactory daoFac = new DAOFactory();) {
+				List<Cpu> cpus = daoFac.getCpuDAO().all();
 				request.setAttribute("cpusList", cpus);
 				request.getRequestDispatcher("/cpus/listar.jsp").forward(request, response);
 			} catch (Exception e) {
@@ -56,8 +56,8 @@ public class CpuController extends HttpServlet {
 			}
 			break;
 		case "/cpus/inserir_processa":
-			try {
-				DAO<Cpu> dao = new CpuDAO();
+			try (DAOFactory daoFac = new DAOFactory();) {
+				DAO<Cpu> dao = daoFac.getCpuDAO();
 				Cpu cpu = cpuFromRequest(request);
 				dao.create(cpu);
 				request.getRequestDispatcher("/cpus").forward(request, response);
@@ -66,8 +66,8 @@ public class CpuController extends HttpServlet {
 			}
 			break;
 		case "/cpus/limpar":
-			try {
-				DAO<Cpu> dao = new CpuDAO();
+			try (DAOFactory daoFac = new DAOFactory();) {
+				DAO<Cpu> dao = daoFac.getCpuDAO();
 				dao.clean();
 				request.getRequestDispatcher("/cpus").forward(request, response);
 			} catch (Exception e) {
@@ -75,9 +75,9 @@ public class CpuController extends HttpServlet {
 			}
 			break;
 		case "/cpus/alterar":
-			try {
+			try (DAOFactory daoFac = new DAOFactory();) {
 				int id = Integer.parseInt(request.getParameter("id"));
-				DAO<Cpu> dao = new CpuDAO();
+				DAO<Cpu> dao = daoFac.getCpuDAO();
 				Cpu cpu = dao.read(id);
 				request.setAttribute("cpu", cpu);
 				request.getRequestDispatcher("/cpus/alterar.jsp").forward(request, response);
@@ -86,8 +86,8 @@ public class CpuController extends HttpServlet {
 			}
 			break;
 		case "/cpus/alterar_processa":
-			try {
-				DAO<Cpu> dao = new CpuDAO();
+			try (DAOFactory daoFac = new DAOFactory();) {
+				DAO<Cpu> dao = daoFac.getCpuDAO();
 				Cpu cpu = cpuFromRequest(request);
 				cpu.id(Integer.parseInt(request.getParameter("id")));
 				dao.update(cpu);
@@ -97,8 +97,8 @@ public class CpuController extends HttpServlet {
 			}
 			break;
 		case "/cpus/excluir":
-			try {
-				DAO<Cpu> dao = new CpuDAO();
+			try (DAOFactory daoFac = new DAOFactory();) {
+				DAO<Cpu> dao = daoFac.getCpuDAO();
 				int id = Integer.parseInt(request.getParameter("id"));
 				dao.delete(id);
 				request.getRequestDispatcher("/cpus").forward(request, response);
@@ -107,8 +107,8 @@ public class CpuController extends HttpServlet {
 			}
 			break;
 		case "/cpus/json":
-			try {
-				DAO<Cpu> dao = new CpuDAO();
+			try (DAOFactory daoFac = new DAOFactory();) {
+				DAO<Cpu> dao = daoFac.getCpuDAO();
 				JsonParser parser = new JsonParser();
 				
 				Part part = request.getPart("json");

@@ -1,6 +1,6 @@
 package prjbd.dao;
 
-import java.io.IOException;
+import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -10,8 +10,8 @@ import prjbd.model.Gpu;
 
 public class GpuDAO extends DAO<Gpu> {
 
-	public GpuDAO() throws ClassNotFoundException, IOException, SQLException {
-		super();
+	public GpuDAO(Connection connection) {
+		super(connection);
 	}
 
 	@Override

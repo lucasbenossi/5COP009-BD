@@ -20,7 +20,7 @@ import com.google.gson.JsonParser;
 
 import prjbd.controller.tratador.TratarNome;
 import prjbd.dao.DAO;
-import prjbd.dao.ProdutoDAO;
+import prjbd.dao.DAOFactory;
 import prjbd.model.Produto;
 
 @WebServlet(urlPatterns={"/produtos", 
@@ -42,8 +42,8 @@ public class ProdutoController extends HttpServlet {
 	protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		switch (request.getServletPath()) {
 		case "/produtos":
-			try {
-				List<Produto> produtos = new ProdutoDAO().all();
+			try (DAOFactory daoFac = new DAOFactory();) {
+				List<Produto> produtos = daoFac.getProdutoDAO().all();
 				request.setAttribute("produtosList", produtos);
 				request.getRequestDispatcher("/produtos/listar.jsp").forward(request, response);
 			} catch (Exception e) {
@@ -58,8 +58,8 @@ public class ProdutoController extends HttpServlet {
 			}
 			break;
 		case "/produtos/inserir_processa":
-			try {
-				DAO<Produto> dao = new ProdutoDAO();
+			try (DAOFactory daoFac = new DAOFactory();) {
+				DAO<Produto> dao = daoFac.getProdutoDAO();
 				
 				Produto produto = productFromRequest(request);
 				
@@ -70,8 +70,8 @@ public class ProdutoController extends HttpServlet {
 			}
 			break;
 		case "/produtos/limpar":
-			try {
-				DAO<Produto> dao = new ProdutoDAO();
+			try (DAOFactory daoFac = new DAOFactory();) {
+				DAO<Produto> dao = daoFac.getProdutoDAO();
 				dao.clean();
 				
 				request.getRequestDispatcher("/produtos").forward(request, response);
@@ -80,9 +80,9 @@ public class ProdutoController extends HttpServlet {
 			}
 			break;
 		case "/produtos/alterar":
-			try {
+			try (DAOFactory daoFac = new DAOFactory();) {
 				int id = Integer.parseInt(request.getParameter("id"));
-				DAO<Produto> dao = new ProdutoDAO();
+				DAO<Produto> dao = daoFac.getProdutoDAO();
 				Produto produto = dao.read(id);
 				
 				request.setAttribute("produto", produto);
@@ -93,8 +93,8 @@ public class ProdutoController extends HttpServlet {
 			}
 			break;
 		case "/produtos/alterar_processa":
-			try {
-				DAO<Produto> dao = new ProdutoDAO();
+			try (DAOFactory daoFac = new DAOFactory();) {
+				DAO<Produto> dao = daoFac.getProdutoDAO();
 				
 				Produto produto = productFromRequest(request);
 				produto.setId(Integer.parseInt(request.getParameter("id")));
@@ -106,8 +106,8 @@ public class ProdutoController extends HttpServlet {
 			}
 			break;
 		case "/produtos/excluir":
-			try {
-				DAO<Produto> dao = new ProdutoDAO();
+			try (DAOFactory daoFac = new DAOFactory();) {
+				DAO<Produto> dao = daoFac.getProdutoDAO();
 				int id = Integer.parseInt(request.getParameter("id"));
 				dao.delete(id);
 				request.getRequestDispatcher("/produtos").forward(request, response);
@@ -116,8 +116,10 @@ public class ProdutoController extends HttpServlet {
 			}
 			break;
 		case "/produtos/json":
-			try {
-				DAO<Produto> dao = new ProdutoDAO();
+			try (DAOFactory daoFac = new DAOFactory();) {
+//				daoFac.begin();
+				
+				DAO<Produto> dao = daoFac.getProdutoDAO();
 				JsonParser parser = new JsonParser();
 				
 				Part part = request.getPart("json");

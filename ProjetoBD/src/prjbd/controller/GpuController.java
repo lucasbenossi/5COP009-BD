@@ -17,7 +17,7 @@ import com.google.gson.GsonBuilder;
 import com.google.gson.stream.JsonReader;
 
 import prjbd.dao.DAO;
-import prjbd.dao.GpuDAO;
+import prjbd.dao.DAOFactory;
 import prjbd.model.Gpu;
 
 @WebServlet(urlPatterns={"/gpus", 
@@ -39,8 +39,8 @@ public class GpuController extends HttpServlet {
 	protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		switch (request.getServletPath()) {
 		case "/gpus":
-			try {
-				LinkedList<Gpu> gpus = new GpuDAO().all();
+			try (DAOFactory daoFac = new DAOFactory();) {
+				LinkedList<Gpu> gpus = daoFac.getGpuDAO().all();
 				request.setAttribute("gpusList", gpus);
 				request.getRequestDispatcher("/gpus/listar.jsp").forward(request, response);
 			} catch (Exception e) {
@@ -55,8 +55,8 @@ public class GpuController extends HttpServlet {
 			}
 			break;
 		case "/gpus/inserir_processa":
-			try {
-				DAO<Gpu> dao = new GpuDAO();
+			try (DAOFactory daoFac = new DAOFactory();) {
+				DAO<Gpu> dao = daoFac.getGpuDAO();
 				Gpu gpu = gpuFromRequest(request);
 				dao.create(gpu);
 				request.getRequestDispatcher("/gpus").forward(request, response);
@@ -65,8 +65,8 @@ public class GpuController extends HttpServlet {
 			}
 			break;
 		case "/gpus/limpar":
-			try {
-				DAO<Gpu> dao = new GpuDAO();
+			try (DAOFactory daoFac = new DAOFactory();) {
+				DAO<Gpu> dao = daoFac.getGpuDAO();
 				dao.clean();
 				request.getRequestDispatcher("/gpus").forward(request, response);
 			} catch (Exception e) {
@@ -74,9 +74,9 @@ public class GpuController extends HttpServlet {
 			}
 			break;
 		case "/gpus/alterar":
-			try {
+			try (DAOFactory daoFac = new DAOFactory();) {
 				int id = Integer.parseInt(request.getParameter("id"));
-				DAO<Gpu> dao = new GpuDAO();
+				DAO<Gpu> dao = daoFac.getGpuDAO();
 				Gpu gpu = dao.read(id);
 				request.setAttribute("gpu", gpu);
 				request.getRequestDispatcher("/gpus/alterar.jsp").forward(request, response);
@@ -85,8 +85,8 @@ public class GpuController extends HttpServlet {
 			}
 			break;
 		case "/gpus/alterar_processa":
-			try {
-				DAO<Gpu> dao = new GpuDAO();
+			try (DAOFactory daoFac = new DAOFactory();) {
+				DAO<Gpu> dao = daoFac.getGpuDAO();
 				Gpu gpu = gpuFromRequest(request);
 				gpu.id(Integer.parseInt(request.getParameter("id")));
 				dao.update(gpu);
@@ -96,8 +96,8 @@ public class GpuController extends HttpServlet {
 			}
 			break;
 		case "/gpus/excluir":
-			try {
-				DAO<Gpu> dao = new GpuDAO();
+			try (DAOFactory daoFac = new DAOFactory();) {
+				DAO<Gpu> dao = daoFac.getGpuDAO();
 				int id = Integer.parseInt(request.getParameter("id"));
 				dao.delete(id);
 				request.getRequestDispatcher("/gpus").forward(request, response);
@@ -106,8 +106,8 @@ public class GpuController extends HttpServlet {
 			}
 			break;
 		case "/gpus/json":
-			try {
-				DAO<Gpu> dao = new GpuDAO();
+			try (DAOFactory daoFac = new DAOFactory();) {
+				DAO<Gpu> dao = daoFac.getGpuDAO();
 				
 				Part part = request.getPart("json");
 				Gson gson = new GsonBuilder().registerTypeAdapter(Gpu.class, new Gpu.GpuAdapter()).create();
