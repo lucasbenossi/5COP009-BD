@@ -7,7 +7,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <link href="${pageContext.request.contextPath}/assets/bootstrap.css" rel="stylesheet">
-<title>CPUs</title>
+<title>GPUs</title>
 </head>
 <body>
 	<nav class="navbar navbar-dark bg-dark navbar-expand-sm">
