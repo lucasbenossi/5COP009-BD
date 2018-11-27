@@ -48,7 +48,7 @@
 					<td>${gpu.id()}</td>
 					<td>${gpu.name()}</td>
 					<td>${gpu.g3dMark()}</td>
-					<td>${gpu.g3dMark()}</td>
+					<td>${gpu.g2dMark()}</td>
 					<td><a href="${pageContext.request.contextPath}/gpus/alterar?id=${gpu.id()}">Alterar</a></td>
 					<td><a href="${pageContext.request.contextPath}/gpus/excluir?id=${gpu.id()}">Excluir</a></td>
 				</tr>
