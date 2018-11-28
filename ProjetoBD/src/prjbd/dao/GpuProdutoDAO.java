@@ -42,9 +42,9 @@ public class GpuProdutoDAO extends DAO<GpuProduto> {
 	@Override
 	public LinkedList<GpuProduto> all() throws SQLException {
 		LinkedList<GpuProduto> gpusProduto = new LinkedList<>();
-		String query = "SELECT p.id, p.nome, p.nomeTratado, p.preco, p.parcelas, p.valorParcela, p.idLoja, p.url, l.nome as nomeLoja " + 
+		String query = "SELECT p.id, p.nome, p.preco, p.parcelas, p.valorParcela, p.idLoja, p.url, l.nome as nomeLoja " + 
 				"FROM prjbd.produto as p, prjbd.loja as l " + 
-				"WHERE p.idLoja = l.id AND p.nome ILIKE 'placa%de%video%';";
+				"WHERE p.idLoja = l.id AND ( p.nome ILIKE 'placa%de%vídeo%' OR p.nome ILIKE 'placa%de%video%');";
 		
 		try (DAOFactory daoFac = new DAOFactory();) {
 			DAO<Gpu> gpuDao = daoFac.getGpuDAO();

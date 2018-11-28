@@ -73,7 +73,7 @@ public class Produto {
 		try {
 			if(nome.contains("processador")) {
 				this.nomeTratado = CpuNameParser.parseName(nome);
-			} else if(nome.contains("placa de video") || nome.contains("place de vídeo")) {
+			} else if(nome.contains("placa de video") || nome.contains("placa de vídeo")) {
 				this.nomeTratado = GpuNameParser.parseName(nome);
 			}
 		} catch (Exception e) {
