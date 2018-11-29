@@ -53,10 +53,6 @@ public class DAOFactory implements AutoCloseable {
 	public DAO<Produto> getProdutoDAO() {
 		return new ProdutoDAO(this.connection);
 	}
-	
-	public GpuProdutoDAO getGpuProdutoDAO() {
-		return new GpuProdutoDAO(this.connection);
-	}
 
 	public SsdProdutoDAO getSsdProdutoDAO() {
 		return new SsdProdutoDAO(this.connection);
@@ -64,5 +60,9 @@ public class DAOFactory implements AutoCloseable {
 	
 	public CpuPrecoPorPerformanceDAO getCpuPrecoPorPerformanceDAO() {
 		return new CpuPrecoPorPerformanceDAO(this.connection);
+	}
+	
+	public GpuPrecoPorPerformanceDAO getGpuPrecoPorPerformanceDAO() {
+		return new GpuPrecoPorPerformanceDAO(this.connection);
 	}
 }

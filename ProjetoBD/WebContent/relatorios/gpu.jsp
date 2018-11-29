@@ -52,10 +52,10 @@
 			<tbody>
 				<c:forEach var="gpu" items="${requestScope['gpusList']}">
 				<tr>
-					<td>${gpu.getProduto().getId()}</td>
-					<td><a href="${gpu.getProduto().getUrl()}" target="_blank">${gpu.getGpu().name()}</a></td>
-					<td>${gpu.getProduto().getPreco()}</td>
-					<td>${gpu.getGpu().g3dMark()}</td>
+					<td>${gpu.getId()}</td>
+					<td><a href="${gpu.getUrl()}" target="_blank">${gpu.getName()}</a></td>
+					<td>${gpu.getPreco()}</td>
+					<td>${gpu.getScore()}</td>
 					<td>${gpu.getNomeLoja()}</td>
 					<td>${gpu.getPrecoPorPerformance()}</td>
 				</tr>
