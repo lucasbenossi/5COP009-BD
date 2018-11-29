@@ -1,7 +1,6 @@
 package prjbd.dao;
 
 import java.math.BigDecimal;
-import java.math.MathContext;
 import java.math.RoundingMode;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -52,7 +51,7 @@ public class GpuPrecoPorPerformanceDAO extends DAO<PrecoPorPerformance> {
 				BigDecimal preco = result.getBigDecimal("preco");
 				int scoreMultiCore = result.getInt("g3dMark");
 				String nomeLoja = result.getString("nomeLoja");
-				BigDecimal precoPorPerformance = result.getBigDecimal("precoPorPerformance").round(new MathContext(2, RoundingMode.CEILING));
+				BigDecimal precoPorPerformance = result.getBigDecimal("precoPorPerformance").setScale(2, RoundingMode.UP);
 				
 				cpus.add(new PrecoPorPerformance(id, name, url, preco, scoreMultiCore, nomeLoja, precoPorPerformance));
 			}
