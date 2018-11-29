@@ -1,9 +1,15 @@
 package prjbd.teste;
 
-import prjbd.model.parser.GpuNameParser;
+import prjbd.dao.CpuPrecoPorPerformanceDAO;
+import prjbd.jdbc.ConnectionFactory;
+import prjbd.model.PrecoPorPerformance;
 
 public class Main {
 	public static void main(String[] args) throws Exception {
-		System.out.println("##" + GpuNameParser.parseName("Placa de Video Nvidia 8400GS 1GB Pcyes GDDR2 ") + "##");
+		CpuPrecoPorPerformanceDAO dao = new CpuPrecoPorPerformanceDAO(ConnectionFactory.getInstance().getConnection());
+		
+		for(PrecoPorPerformance cpu : dao.all()) {
+			System.out.println(cpu.getId() + "  " + cpu.getName());
+		}
 	}
 }

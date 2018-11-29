@@ -52,10 +52,10 @@
 			<tbody>
 				<c:forEach var="cpu" items="${requestScope['cpusList']}">
 				<tr>
-					<td>${cpu.getProduto().getId()}</td>
-					<td><a href="${cpu.getProduto().getUrl()}" target="_blank">${cpu.getCpu().name()}</a></td>
-					<td>${cpu.getProduto().getPreco()}</td>
-					<td>${cpu.getCpu().scoreMultiCore()}</td>
+					<td>${cpu.getId()}</td>
+					<td><a href="${cpu.getUrl()}" target="_blank">${cpu.getName()}</a></td>
+					<td>${cpu.getPreco()}</td>
+					<td>${cpu.getScore()}</td>
 					<td>${cpu.getNomeLoja()}</td>
 					<td>${cpu.getPrecoPorPerformance()}</td>
 				</tr>

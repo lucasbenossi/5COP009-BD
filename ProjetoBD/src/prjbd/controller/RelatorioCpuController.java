@@ -1,10 +1,7 @@
 package prjbd.controller;
 
 import java.io.IOException;
-import java.math.BigDecimal;
-import java.math.RoundingMode;
-import java.util.Comparator;
-import java.util.List;
+import java.util.LinkedList;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -14,9 +11,9 @@ import javax.servlet.http.HttpServletResponse;
 
 import com.google.gson.JsonArray;
 
-import prjbd.dao.CpuProdutoDAO;
+import prjbd.dao.CpuPrecoPorPerformanceDAO;
 import prjbd.dao.DAOFactory;
-import prjbd.model.CpuProduto;
+import prjbd.model.PrecoPorPerformance;
 
 @WebServlet("/relatorios/cpu")
 public class RelatorioCpuController extends HttpServlet {
@@ -28,30 +25,18 @@ public class RelatorioCpuController extends HttpServlet {
 
 	protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		try (DAOFactory daoFac = new DAOFactory();) {
-			CpuProdutoDAO dao = daoFac.getCpuProdutoDAO();
-			List<CpuProduto> cpus = dao.all();
-			
-			for(CpuProduto cpu : cpus) {
-				try {
-					BigDecimal precoPorPerformance = new BigDecimal(cpu.getCpu().scoreMultiCore()).divide(cpu.getProduto().getPreco(), 2, RoundingMode.UP);
-					
-					cpu.setPrecoPorPerformance(precoPorPerformance);
-				} catch (Exception e) {
-					e.printStackTrace();
-				}
-			}
-			
-			cpus.sort(new ComparatorCpuProduto());
+			CpuPrecoPorPerformanceDAO dao = daoFac.getCpuPrecoPorPerformanceDAO();
+			LinkedList<PrecoPorPerformance> cpus = dao.all();
 			
 			JsonArray x = new JsonArray();
 			JsonArray y = new JsonArray();
 			JsonArray text = new JsonArray();
 			
 			int i = 1;
-			for(CpuProduto cpu : cpus) {
-				x.add(i++ + ". " + cpu.getCpu().name());
+			for(PrecoPorPerformance cpu : cpus) {
+				x.add(i++ + ". " + cpu.getName());
 				y.add(cpu.getPrecoPorPerformance().doubleValue());
-				text.add("R$ " + cpu.getProduto().getPreco());
+				text.add("R$ " + cpu.getPreco());
 			}
 			
 			request.setAttribute("x", x.toString());
@@ -63,15 +48,6 @@ public class RelatorioCpuController extends HttpServlet {
 			
 		} catch (Exception e) {
 			ExceptionHandler.processExeption(request, response, e);
-		}
-	}
-
-	private class ComparatorCpuProduto implements Comparator<CpuProduto> {
-		@Override
-		public int compare(CpuProduto o1, CpuProduto o2) {
-			BigDecimal valor1 = o1.getPrecoPorPerformance().multiply(BigDecimal.valueOf(10000));
-			BigDecimal valor2 = o2.getPrecoPorPerformance().multiply(BigDecimal.valueOf(10000));
-			return valor1.subtract(valor2).intValue();
 		}
 	}
 }
